@@ -1,34 +1,32 @@
 package blockchain;
-import java.util.Date;
+
 import java.util.Random;
+import java.util.UUID;
 public class Miner {
 	
-	public String hash; //Miner ID
+	private String uniqueID; //Miner unique ID
 	private Random r;
-	private long timeStamp;
-	private double lambda;
 	
-	Miner(long seed, double difficulty)
+	Miner(long seed)
 	{
-		timeStamp =  new Date().getTime();
+		this.uniqueID = UUID.randomUUID().toString();
 		r = new Random(seed);
-		lambda = 1/difficulty;
-		hash = Hash_SHA256.applySha256(Long.toString(timeStamp) + r.nextDouble());
 	}
 	
-	public void mineBlock(int blockNum, String transaction) throws InterruptedException
+	public double mineBlock()
 	{
-		System.out.println("Trying to Mine block " + blockNum + "... ");
-//		Thread.sleep((long) (1000*getExpRandom())); // EVENT!!! - insertEvent in main sim
-//		Block newBlock = new Block(transaction,Blockchain.getLastHash(), r.nextInt());
-//		Blockchain.addBlock(newBlock); // EVENT
-//		Blockchain.broadcastMiners(this); //EVENT
-		System.out.println("Block Mined!!!");
+		return this.getExpRandom();
 	}
 	
-	public void changeDifficulty(double difficulty) // EVENT?
+	public String getID()
 	{
-		lambda = 1/difficulty;
+		return this.uniqueID;
 	}
+	
+	private double getExpRandom() 
+	{ 
+		double difficulty = Blockchain.getDifficulty();
+        return -(Math.log(r.nextDouble()) / difficulty); 
+    } 
 	
 }

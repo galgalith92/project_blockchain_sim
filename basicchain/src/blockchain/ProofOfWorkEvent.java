@@ -1,28 +1,28 @@
 package blockchain;
 
-import java.util.Random;
+public class ProofOfWorkEvent extends Event {
+	String blockData;
 
-public class ProofOfWorkEvent extends Event
-{
-	private Random r;
-	private double lambda;
-	
-	ProofOfWorkEvent(long time,long seed, double difficulty)
-	{
+	ProofOfWorkEvent(long time, String blockData) {
 		super(time);
-		r = new Random(seed);
-		lambda = 1/difficulty;
+		this.blockData = blockData;
 	}
+
 	@Override
-	public void processEvent() throws InterruptedException 
-	{
-		Thread.sleep((long) (1000*getExpRandom()));
-		// Create a broadcastEvent
+	public void processEvent() throws InterruptedException {
+		double minMiningTime = Double.MAX_VALUE;
+		Miner winnerMiner = null;
+		double currMiningTime;
+		for (Miner miner : Blockchain.minersArray) {
+			currMiningTime = miner.mineBlock();
+			if (currMiningTime < minMiningTime) {
+				minMiningTime = currMiningTime;
+				winnerMiner = miner;
+			}
+		}
+		
+		Event insertBlockEvent = new InsertBlockEvent(this.blockData, this.time + 1, winnerMiner.getID());
+		Blockchain.Sim.scheduleEvent(insertBlockEvent);
 	}
-	
-	private double getExpRandom() 
-	{ 
-        return -(Math.log(r.nextDouble()) / lambda); 
-    } 
-	
+
 }

@@ -1,33 +1,42 @@
 package blockchain;
 
-import java.util.Date;
-
 public class Block {
-	
-	public String hash;
-	public String previousHash; 
+
+	private Block previousBlock; // pointer to previous block
 	private String data;
-	private long timeStamp;
-	private int challengeSol;
-	
+	private long timeStamp; // creation simulation time
+	private String creatorID;
+
 	// Block Constructor
-	public Block(String data,String previousHash ,int challengeSol) {
+	public Block(String data, Block previousBlock, long time, String creatorID) {
 		this.data = data;
-		this.previousHash = previousHash;
-		this.timeStamp = new Date().getTime();
-		this.hash = calculateHash(); 
-		this.challengeSol = challengeSol;
+		this.previousBlock = previousBlock;
+		this.timeStamp = time;
+		this.creatorID = creatorID;
 	}
 	
-	//Calculate new hash based on blocks contents
-	public String calculateHash() {
-		String calculatedhash = Hash_SHA256.applySha256( 
-				previousHash +
-				Long.toString(timeStamp) +
-				Integer.toString(challengeSol) + 
-				data 
-				);
-		return calculatedhash;
+	// Copy constructor
+	public Block(Block block) {
+		this.data = block.data;
+		this.previousBlock = block.previousBlock;
+		this.timeStamp = block.timeStamp;
+		this.creatorID = block.creatorID;
 	}
 	
+	public Block getPrevBlock() {
+		return new Block(this.previousBlock);
+	}
+	
+	public long getCreationTime() {
+		return this.timeStamp;
+	}
+	
+	public String getData() {
+		return this.data;
+	}
+	
+	public String getCreatorID() {
+		return this.creatorID;
+	}
+
 }
