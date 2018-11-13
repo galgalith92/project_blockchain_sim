@@ -1,5 +1,7 @@
 package blockchain;
 
+import java.util.Collection;
+
 public class ProofOfWorkEvent extends Event {
 	String blockData;
 
@@ -10,10 +12,11 @@ public class ProofOfWorkEvent extends Event {
 
 	@Override
 	public void processEvent() throws InterruptedException {
+		Collection<Miner> minersCollection = Blockchain.getMinersCollection();
 		double minMiningTime = Double.MAX_VALUE;
 		Miner winnerMiner = null;
 		double currMiningTime;
-		for (Miner miner : Blockchain.minersArray) {
+		for (Miner miner : minersCollection) {
 			currMiningTime = miner.mineBlock();
 			if (currMiningTime < minMiningTime) {
 				minMiningTime = currMiningTime;
@@ -22,7 +25,7 @@ public class ProofOfWorkEvent extends Event {
 		}
 		
 		Event insertBlockEvent = new InsertBlockEvent(this.blockData, this.time + 1, winnerMiner.getID());
-		Blockchain.Sim.scheduleEvent(insertBlockEvent);
+		Blockchain.scheduleEvent(insertBlockEvent);
 	}
 
 }
