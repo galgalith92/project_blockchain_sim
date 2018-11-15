@@ -2,8 +2,8 @@ package blockchain;
 
 public abstract class Event  implements Comparable<Event>
 {
-	public final long time;
-	public Event(long time)
+	public final double time;
+	public Event(double time)
 	{
 		this.time = time;
 	}
@@ -14,7 +14,7 @@ public abstract class Event  implements Comparable<Event>
 
 	public int compareTo(Event event) 
 	{
-	  return Long.compare(this.time,event.time);
+	  return Double.compare(this.time,event.time);
 	}
 }
 

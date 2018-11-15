@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 
 class Simulation {
-	public long time;
+	public double time;
 	private Queue<Event> eventsQueue;
 
 	Simulation() {
@@ -32,5 +32,9 @@ class Simulation {
 			nextEvent.processEvent();
 		}
 	}
-
+	
+	public double getCurrentTime()
+	{
+		return this.time;
+	}
 };

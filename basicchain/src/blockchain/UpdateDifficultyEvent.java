@@ -1,9 +1,5 @@
 package blockchain;
-/**
- * 
- * @author eitan102
- *
- */
+
 public class UpdateDifficultyEvent extends Event
 {
 	double difficulty;

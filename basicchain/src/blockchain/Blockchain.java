@@ -1,5 +1,5 @@
 package blockchain;
-//import com.google.gson.GsonBuilder;
+import com.google.gson.GsonBuilder;
 
 import java.util.List;
 import java.util.Map;
@@ -10,12 +10,17 @@ import java.util.HashMap;
 
 public class Blockchain {
 	private static List<Block> blockchain = new ArrayList<Block>();
-	private static Map<String,Miner> minersMap = new HashMap<String,Miner>();
+	private static Map<String, Miner> minersMap = new HashMap<String, Miner>();
 	private static Simulation Sim = new Simulation();
 	private static int minerNum = 10;
-	private static double difficulty = 5;
+	private static double lambda = (1.0/10)/minerNum; //  lambda in exponential distribution of one miner
+	private static double blocksWindowSize = 5;
+	private static double simulationDuration = 10;
+	private static final double MAX_FIX_RATE = 0.5;
+	private static final double OPTIMAL_BLOCKS_LAMBDA = (1.0/10);
 
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws InterruptedException 
+	{
 		// Create the first block in the blockchain
 		String firstBlockData = "first block";
 		long firstBlockTimeStamp = 0;
@@ -23,71 +28,92 @@ public class Blockchain {
 
 		// Create miners
 		long seed = 1;
-		for (int i = 0; i < minerNum; i++) {
-			Miner newMiner =new Miner(seed);
+		for (int i = 0; i < minerNum; i++) 
+		{
+			Miner newMiner = new Miner(seed);
 			minersMap.put(newMiner.getID(), newMiner);
 			seed++;
 		}
-
-		String transaction = "Transaction " + blockchain.size();
-		Sim.scheduleEvent(new ProofOfWorkEvent(1, transaction));
-		Sim.run();
+		
+		int deltaBlocks = 0;
+		double deltaTime = 0;
+		double windowStartTime = Sim.getCurrentTime();
+		double windowEndTime;
+		double fixRate = -1;
+		// Sim.getCurrentTime() < Blockchain.simulationDuration 
+		while (Math.abs(fixRate)>0.001) 
+		{
+			String transaction = "Transaction Number " + blockchain.size();
+			Blockchain.scheduleEvent(new ProofOfWorkEvent(Sim.getCurrentTime(), transaction));
+			deltaBlocks++;
+			Sim.run();
+			if(deltaBlocks == blocksWindowSize)
+			{
+				windowEndTime = Sim.getCurrentTime();
+				deltaTime = windowEndTime - windowStartTime;
+				fixRate = calcFixRate(deltaTime, deltaBlocks);
+				lambda += (lambda * fixRate);
+				deltaTime = 0;
+				deltaBlocks =0;
+				windowStartTime = Sim.getCurrentTime();
+			}
+		}
+//		String blockchainJson = new GsonBuilder().setPrettyPrinting().create().toJson(blockchain);
+//		System.out.println("\nThe block chain: ");
+//		System.out.println(blockchainJson);
+		return;
 	}
 
-	public static boolean addBlock(String data, long timeStamp, String creatorID) {
+	public static boolean addBlock(String data, double timeStamp, String creatorID) {
 		Block previousBlock;
-		if (blockchain.size()>0)
-		{
-			if (blockchain.get(blockchain.size() - 1).getCreationTime() >= timeStamp) {
+		if (blockchain.size() > 0) {
+			if (blockchain.get(blockchain.size() - 1).getCreationTime() > timeStamp) {
 				System.out.println("The block has a non valid creation time!");
 				return false;
 			}
-			if (!minersMap.containsKey(creatorID))
-			{
+			if (!minersMap.containsKey(creatorID)) {
 				System.out.println("The miner ID is not valid!");
 				return false;
 			}
-			previousBlock = blockchain.get(blockchain.size()-1);
-		}
-		else {
+			previousBlock = blockchain.get(blockchain.size() - 1);
+		} else {
 			previousBlock = null;
 		}
-		
+
 		Block block = new Block(data, previousBlock, timeStamp, creatorID);
 		blockchain.add(block);
 		return true;
 	}
 
 	public static double getDifficulty() {
-		return Blockchain.difficulty;
+		return Blockchain.lambda;
 	}
 
-	public static Collection<Miner> getMinersCollection()
-	{
+	public static Collection<Miner> getMinersCollection() {
 		return Blockchain.minersMap.values();
 	}
-	
-	public static void scheduleEvent(Event event)
-	{
+
+	public static void scheduleEvent(Event event) {
 		Blockchain.Sim.scheduleEvent(event);
 	}
-	/*
-	 * public static Boolean isChainValid() { Block currentBlock; Block
-	 * previousBlock; String hashTarget = new String(new
-	 * char[difficulty]).replace('\0', '0');
-	 * 
-	 * //loop through blockchain to check hashes: for(int i=1; i <
-	 * blockchain.size(); i++) { currentBlock = blockchain.get(i); previousBlock =
-	 * blockchain.get(i-1); //compare registered hash and calculated hash:
-	 * if(!currentBlock.hash.equals(currentBlock.calculateHash()) ){
-	 * System.out.println("Current Hashes not equal"); return false; } //compare
-	 * previous hash and registered previous hash
-	 * if(!previousBlock.hash.equals(currentBlock.previousHash) ) {
-	 * System.out.println("Previous Hashes not equal"); return false; } //check if
-	 * hash is solved if(!currentBlock.hash.substring( 0,
-	 * difficulty).equals(hashTarget)) {
-	 * System.out.println("This block hasn't been mined"); return false; } } return
-	 * true; }
-	 */
 
+	private static double calcFixRate(double windowDuration, int numberOfblocksInWindow)
+	{
+		double estimatedWindowLambde = numberOfblocksInWindow/windowDuration;
+		if(estimatedWindowLambde == OPTIMAL_BLOCKS_LAMBDA)
+		{
+			return 0;
+		}
+		double blocksRateDiffRatio = Math.abs(estimatedWindowLambde - OPTIMAL_BLOCKS_LAMBDA)/estimatedWindowLambde;
+		double fixRate = (blocksRateDiffRatio > MAX_FIX_RATE)? MAX_FIX_RATE : blocksRateDiffRatio;
+		if(estimatedWindowLambde > OPTIMAL_BLOCKS_LAMBDA) // lambda is too high 
+		{
+			fixRate *= (-1);
+		}
+		else if(estimatedWindowLambde < OPTIMAL_BLOCKS_LAMBDA) // lambda is too low
+		{
+			fixRate *= (+1);
+		}
+		return fixRate/minerNum;
+	}
 }

@@ -6,7 +6,7 @@ public class InsertBlockEvent extends Event {
 	private String creatorID;
 	Block previousBlock;
 
-	InsertBlockEvent(String data, long time, String creatorID) {
+	InsertBlockEvent(String data, double time, String creatorID) {
 		super(time);
 		this.data = data;
 		this.creatorID = creatorID;
@@ -15,7 +15,7 @@ public class InsertBlockEvent extends Event {
 
 	@Override
 	public void processEvent() throws InterruptedException {
-		long timeStamp = this.time + 1;
+		double timeStamp = this.time ;
 		Blockchain.addBlock(this.data, timeStamp, this.creatorID);
 	}
 

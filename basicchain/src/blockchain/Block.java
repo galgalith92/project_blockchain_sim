@@ -4,11 +4,11 @@ public class Block {
 
 	private Block previousBlock; // pointer to previous block
 	private String data;
-	private long timeStamp; // creation simulation time
+	private double timeStamp; // creation simulation time
 	private String creatorID;
 
 	// Block Constructor
-	public Block(String data, Block previousBlock, long time, String creatorID) {
+	public Block(String data, Block previousBlock, double time, String creatorID) {
 		this.data = data;
 		this.previousBlock = previousBlock;
 		this.timeStamp = time;
@@ -27,7 +27,7 @@ public class Block {
 		return new Block(this.previousBlock);
 	}
 	
-	public long getCreationTime() {
+	public double getCreationTime() {
 		return this.timeStamp;
 	}
 	

@@ -5,7 +5,7 @@ import java.util.Collection;
 public class ProofOfWorkEvent extends Event {
 	String blockData;
 
-	ProofOfWorkEvent(long time, String blockData) {
+	ProofOfWorkEvent(double time, String blockData) {
 		super(time);
 		this.blockData = blockData;
 	}
@@ -23,8 +23,8 @@ public class ProofOfWorkEvent extends Event {
 				winnerMiner = miner;
 			}
 		}
-		
-		Event insertBlockEvent = new InsertBlockEvent(this.blockData, this.time + 1, winnerMiner.getID());
+		Event insertBlockEvent = new InsertBlockEvent(this.blockData, (this.time + minMiningTime), 
+													  winnerMiner.getID());
 		Blockchain.scheduleEvent(insertBlockEvent);
 	}
 
