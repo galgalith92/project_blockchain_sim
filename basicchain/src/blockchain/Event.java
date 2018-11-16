@@ -1,21 +1,38 @@
+
 package blockchain;
 
-public abstract class Event  implements Comparable<Event>
-{
+/*
+ * Event is an abstract class that represents event, records the time 
+ * at which the event will take place, contains an abstract function 
+ * named processEvent that is invoked to execute the event. 
+ * This class is comparable
+ */
+public abstract class Event implements Comparable<Event> {
 	public final double time;
-	public Event(double time)
-	{
+
+	/*
+	 * @requires none
+	 * @modifies this
+	 * @effects Creates and initializes a new Event object
+	 */
+	public Event(double time) {
 		this.time = time;
 	}
-	
-	
-	// Execute event by invoking this method.
+
+	/*
+	 * @requires none
+	 * @modifies none
+	 * @effects Executes the event (abstract function)
+	 * @throws InterruptedException
+	 */
 	public abstract void processEvent() throws InterruptedException;
 
-	public int compareTo(Event event) 
-	{
-	  return Double.compare(this.time,event.time);
+	/*
+	 * @requires event is not null
+	 * @modifies none
+	 * @effects Compares this Event object with other Event object 
+	 */
+	public int compareTo(Event event) {
+		return Double.compare(this.time, event.time);
 	}
 }
-
-

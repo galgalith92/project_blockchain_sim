@@ -15,7 +15,7 @@ public class Blockchain {
 	private static int minerNum = 10;
 	private static double lambda = (1.0/10)/minerNum; //  lambda in exponential distribution of one miner
 	private static double blocksWindowSize = 5;
-	private static double simulationDuration = 10;
+	//private static double simulationDuration = 10;
 	private static final double MAX_FIX_RATE = 0.5;
 	private static final double OPTIMAL_BLOCKS_LAMBDA = (1.0/10);
 
@@ -27,12 +27,10 @@ public class Blockchain {
 		Blockchain.addBlock(firstBlockData, firstBlockTimeStamp, null);
 
 		// Create miners
-		long seed = 1;
-		for (int i = 0; i < minerNum; i++) 
+		for (long seed = 1; seed <= minerNum; seed++) 
 		{
 			Miner newMiner = new Miner(seed);
 			minersMap.put(newMiner.getID(), newMiner);
-			seed++;
 		}
 		
 		int deltaBlocks = 0;
@@ -40,7 +38,6 @@ public class Blockchain {
 		double windowStartTime = Sim.getCurrentTime();
 		double windowEndTime;
 		double fixRate = -1;
-		// Sim.getCurrentTime() < Blockchain.simulationDuration 
 		while (Math.abs(fixRate)>0.001) 
 		{
 			String transaction = "Transaction Number " + blockchain.size();
@@ -51,7 +48,7 @@ public class Blockchain {
 			{
 				windowEndTime = Sim.getCurrentTime();
 				deltaTime = windowEndTime - windowStartTime;
-				fixRate = calcFixRate(deltaTime, deltaBlocks);
+				fixRate = calculateFixRate(deltaTime, deltaBlocks);
 				lambda += (lambda * fixRate);
 				deltaTime = 0;
 				deltaBlocks =0;
@@ -97,7 +94,7 @@ public class Blockchain {
 		Blockchain.Sim.scheduleEvent(event);
 	}
 
-	private static double calcFixRate(double windowDuration, int numberOfblocksInWindow)
+	private static double calculateFixRate(double windowDuration, int numberOfblocksInWindow)
 	{
 		double estimatedWindowLambde = numberOfblocksInWindow/windowDuration;
 		if(estimatedWindowLambde == OPTIMAL_BLOCKS_LAMBDA)
@@ -106,14 +103,7 @@ public class Blockchain {
 		}
 		double blocksRateDiffRatio = Math.abs(estimatedWindowLambde - OPTIMAL_BLOCKS_LAMBDA)/estimatedWindowLambde;
 		double fixRate = (blocksRateDiffRatio > MAX_FIX_RATE)? MAX_FIX_RATE : blocksRateDiffRatio;
-		if(estimatedWindowLambde > OPTIMAL_BLOCKS_LAMBDA) // lambda is too high 
-		{
-			fixRate *= (-1);
-		}
-		else if(estimatedWindowLambde < OPTIMAL_BLOCKS_LAMBDA) // lambda is too low
-		{
-			fixRate *= (+1);
-		}
+		fixRate = (estimatedWindowLambde > OPTIMAL_BLOCKS_LAMBDA) ? (-fixRate) : fixRate;
 		return fixRate/minerNum;
 	}
 }
