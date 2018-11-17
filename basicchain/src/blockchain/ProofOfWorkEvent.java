@@ -14,7 +14,7 @@ public class ProofOfWorkEvent extends Event {
 	 * @modifies this
 	 * @effects Creates and initializes a new ProofOfWorkEvent object
 	 */
-	ProofOfWorkEvent(double time, String blockData) {
+	public ProofOfWorkEvent(double time, String blockData) {
 		super(time);
 		this.blockData = blockData;
 	}

@@ -9,17 +9,17 @@ import java.util.UUID;
 public class Miner {
 	
 	private String uniqueID; //Miner unique ID
-	private Random r;
+	private Random rand;
 	
 	/*
 	 * @requires none
 	 * @modifies this
 	 * @effects Create and initiate a new Miner object
 	 */
-	Miner(long seed)
+	public Miner(long seed)
 	{
 		this.uniqueID = UUID.randomUUID().toString();
-		r = new Random(seed);
+		this.rand = new Random(seed);
 	}
 	
 	/*
@@ -30,7 +30,7 @@ public class Miner {
 	public double mineBlock()
 	{
 		double difficulty = Blockchain.getDifficulty();
-        return -(Math.log(r.nextDouble()) / difficulty);
+        return -(Math.log(this.rand.nextDouble()) / difficulty);
 	}
 	
 	/*

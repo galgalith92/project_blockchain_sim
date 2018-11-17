@@ -14,7 +14,7 @@ public class InsertBlockEvent extends Event {
 	 * @modifies noBlockchainne
 	 * @effects Creates and initiate a new InsertBlockEvent object
 	 */
-	InsertBlockEvent(String data, double time, String creatorID) {
+	public InsertBlockEvent(String data, double time, String creatorID) {
 		super(time);
 		this.data = data;
 		this.creatorID = creatorID;

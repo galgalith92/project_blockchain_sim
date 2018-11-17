@@ -15,7 +15,7 @@ class Simulation {
 		@Override
 		public int compare(Event e1, Event e2) {
 			// The event with the lower time has higher priority
-			return -e1.compareTo(e2);
+			return e1.compareTo(e2);
 		}
 	};
 
@@ -24,7 +24,7 @@ class Simulation {
 	 * @modifies this
 	 * @effects Creates and initializes a new Simulation object
 	 */
-	Simulation() {
+	public Simulation() {
 		this.time = 0;
 		this.eventsQueue = new PriorityQueue<Event>(MAXIMAL_NUMBER_OF_EVENTS_IN_QUEUE, eventComparator);
 	}
@@ -35,7 +35,7 @@ class Simulation {
 	 * @effects Insert a new event into the queue
 	 */
 	public void scheduleEvent(Event newEvent) { // Exposure? 
-		eventsQueue.add(newEvent);
+		this.eventsQueue.add(newEvent);
 	}
 
 	/*
@@ -44,8 +44,8 @@ class Simulation {
 	 * @effects Runs the simulation - execute the events in the queue
 	 */
 	public void run() throws InterruptedException {
-		while (!eventsQueue.isEmpty()) {
-			Event nextEvent = eventsQueue.poll();
+		while (!this.eventsQueue.isEmpty()) {
+			Event nextEvent = this.eventsQueue.poll();
 			time = nextEvent.time;
 			nextEvent.processEvent();
 		}

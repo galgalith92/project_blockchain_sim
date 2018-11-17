@@ -1,26 +1,38 @@
 package blockchain;
-import com.google.gson.GsonBuilder;
 
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
+import java.awt.Color;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.HashMap;
+//import com.google.gson.GsonBuilder;
 
 public class Blockchain {
 	private static List<Block> blockchain = new ArrayList<Block>();
 	private static Map<String, Miner> minersMap = new HashMap<String, Miner>();
 	private static Simulation Sim = new Simulation();
 	private static int minerNum = 10;
-	private static double lambda = (1.0/10)/minerNum; //  lambda in exponential distribution of one miner
-	private static double blocksWindowSize = 5;
+	private static double minerLambda = (5.05/100); //lambda in exponential distribution of one miner
+	private static int blocksWindowSize = 10000;
+	private static List<SimulationWindow> simulationWindows = new ArrayList<SimulationWindow>();
 	//private static double simulationDuration = 10;
 	private static final double MAX_FIX_RATE = 0.5;
 	private static final double OPTIMAL_BLOCKS_LAMBDA = (1.0/10);
 
-	public static void main(String[] args) throws InterruptedException 
+	public static void main(String[] args) throws InterruptedException, IOException 
 	{
+		/// debug 
+		BufferedWriter logFile = new BufferedWriter(new FileWriter("simulation_log.txt"));
+		logFile.write(Blockchain.getSimulationDetails());
+		logFile.newLine();
+		List<Double> createdBlocksNumber = new ArrayList<Double>();
+		List<Double> actualLambdaList = new ArrayList<Double>();
+		
 		// Create the first block in the blockchain
 		String firstBlockData = "first block";
 		long firstBlockTimeStamp = 0;
@@ -34,11 +46,9 @@ public class Blockchain {
 		}
 		
 		int deltaBlocks = 0;
-		double deltaTime = 0;
 		double windowStartTime = Sim.getCurrentTime();
-		double windowEndTime;
-		double fixRate = -1;
-		while (Math.abs(fixRate)>0.001) 
+		double estimatedWindowLambda = Double.MAX_VALUE;
+		while (Math.abs(estimatedWindowLambda - OPTIMAL_BLOCKS_LAMBDA)>0.001 && blockchain.size() < 1000000) 
 		{
 			String transaction = "Transaction Number " + blockchain.size();
 			Blockchain.scheduleEvent(new ProofOfWorkEvent(Sim.getCurrentTime(), transaction));
@@ -46,18 +56,48 @@ public class Blockchain {
 			Sim.run();
 			if(deltaBlocks == blocksWindowSize)
 			{
-				windowEndTime = Sim.getCurrentTime();
-				deltaTime = windowEndTime - windowStartTime;
-				fixRate = calculateFixRate(deltaTime, deltaBlocks);
-				lambda += (lambda * fixRate);
+				double windowEndTime = Sim.getCurrentTime();
+				double deltaTime = windowEndTime - windowStartTime;
+				estimatedWindowLambda = deltaBlocks/deltaTime;
+				double fixRate = calculateFixRate(estimatedWindowLambda);
+				minerLambda += (minerLambda * fixRate);
+				double actualLambda = minerLambda * minerNum;
+				SimulationWindow currWindow = new SimulationWindow(simulationWindows.size() + 1,
+						windowStartTime, windowEndTime, deltaTime, deltaBlocks, actualLambda, 
+						estimatedWindowLambda, fixRate);
+				simulationWindows.add(currWindow);
 				deltaTime = 0;
 				deltaBlocks =0;
 				windowStartTime = Sim.getCurrentTime();
+				createdBlocksNumber.add((double)blockchain.size());
+				actualLambdaList.add(actualLambda);
 			}
 		}
+		
+		for(SimulationWindow window : simulationWindows)
+		{
+			logFile.write(window.toString());
+			logFile.newLine();
+			System.out.println(window.toString());
+		}
+		logFile.close();
 //		String blockchainJson = new GsonBuilder().setPrettyPrinting().create().toJson(blockchain);
 //		System.out.println("\nThe block chain: ");
 //		System.out.println(blockchainJson);
+		
+		Plot plot = Plot.plot(Plot.plotOpts().
+		        title("Estimated Lambda vs Number of Blocks").
+		        legend(Plot.LegendFormat.BOTTOM)).
+		    xAxis("Blocks", Plot.axisOpts().
+		        range(0, Blockchain.blockchain.size())).
+		    yAxis("Estimated Lambda", Plot.axisOpts().
+		        range(0, Collections.max(actualLambdaList))).
+		    series("Data", Plot.data().xy(createdBlocksNumber,actualLambdaList),
+		        Plot.seriesOpts().
+		            marker(Plot.Marker.CIRCLE).
+		            markerColor(Color.BLUE).
+		            color(Color.BLACK));
+		plot.save("blocks_graph", "png");
 		return;
 	}
 
@@ -83,7 +123,7 @@ public class Blockchain {
 	}
 
 	public static double getDifficulty() {
-		return Blockchain.lambda;
+		return Blockchain.minerLambda;
 	}
 
 	public static Collection<Miner> getMinersCollection() {
@@ -94,16 +134,27 @@ public class Blockchain {
 		Blockchain.Sim.scheduleEvent(event);
 	}
 
-	private static double calculateFixRate(double windowDuration, int numberOfblocksInWindow)
+	private static double calculateFixRate(double estimatedWindowLambda)
 	{
-		double estimatedWindowLambde = numberOfblocksInWindow/windowDuration;
-		if(estimatedWindowLambde == OPTIMAL_BLOCKS_LAMBDA)
+		if(estimatedWindowLambda == OPTIMAL_BLOCKS_LAMBDA)
 		{
 			return 0;
 		}
-		double blocksRateDiffRatio = Math.abs(estimatedWindowLambde - OPTIMAL_BLOCKS_LAMBDA)/estimatedWindowLambde;
+		double blocksRateDiffRatio = Math.abs(estimatedWindowLambda - OPTIMAL_BLOCKS_LAMBDA)/estimatedWindowLambda;
 		double fixRate = (blocksRateDiffRatio > MAX_FIX_RATE)? MAX_FIX_RATE : blocksRateDiffRatio;
-		fixRate = (estimatedWindowLambde > OPTIMAL_BLOCKS_LAMBDA) ? (-fixRate) : fixRate;
+		fixRate = (estimatedWindowLambda > OPTIMAL_BLOCKS_LAMBDA) ? (-fixRate) : fixRate;
 		return fixRate/minerNum;
+	}
+	
+	public static String getSimulationDetails()
+	{
+		String res = "***** SIMULATION DETAILS *****" + "\n" +
+				"Exponential distribution is specified by a single parameter Lambda" + "\n" +
+				"Number of Miners : " + Blockchain.minerNum + "\n" +
+				"Initial Lambda of one Miner : " + String.format("%.4f", Blockchain.minerLambda) + "\n" +
+				"Number of Blocks in one Window : " + Blockchain.blocksWindowSize + "\n" +
+				"Maximal Fix Rate : " + String.format("%.4f",Blockchain.MAX_FIX_RATE) + "\n" +
+				"Optimal Lambda of the System : " + String.format("%.4f",Blockchain.OPTIMAL_BLOCKS_LAMBDA) + "\n";
+		return res;
 	}
 }
