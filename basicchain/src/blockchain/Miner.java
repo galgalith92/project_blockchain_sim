@@ -10,6 +10,7 @@ public class Miner {
 	
 	private String uniqueID; //Miner unique ID
 	private Random rand;
+	private int computationalPower;
 	
 	/*
 	 * @requires none
@@ -20,6 +21,19 @@ public class Miner {
 	{
 		this.uniqueID = UUID.randomUUID().toString();
 		this.rand = new Random(seed);
+		this.computationalPower = 1;
+	}
+	
+	/*
+	 * @requires none
+	 * @modifies this
+	 * @effects Create and initiate a new Miner object
+	 */
+	public Miner(long seed, int computationalPower)
+	{
+		this.uniqueID = UUID.randomUUID().toString();
+		this.rand = new Random(seed);
+		this.computationalPower = computationalPower;
 	}
 	
 	/*
@@ -29,7 +43,7 @@ public class Miner {
 	 */
 	public double mineBlock()
 	{
-		double difficulty = Blockchain.getDifficulty();
+		double difficulty = Blockchain.getDifficulty() * this.computationalPower;
         return -(Math.log(this.rand.nextDouble()) / difficulty);
 	}
 	
@@ -43,4 +57,8 @@ public class Miner {
 		return this.uniqueID;
 	}
 	
+	public int getComputationalPower()
+	{
+		return this.computationalPower;
+	}
 }

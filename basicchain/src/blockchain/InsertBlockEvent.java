@@ -29,6 +29,13 @@ public class InsertBlockEvent extends Event {
 	public void processEvent() throws InterruptedException {
 		double timeStamp = this.time ;
 		Blockchain.addBlock(this.data, timeStamp, this.creatorID);
+		String transaction = "Transaction Number " + Blockchain.getBlockchainSize();
+		Blockchain.scheduleEvent(new ProofOfWorkEvent(this.time, transaction));
+	}
+	
+	public String getCreatorID()
+	{
+		return this.creatorID;
 	}
 
 }
