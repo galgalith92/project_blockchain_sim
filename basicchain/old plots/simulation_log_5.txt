@@ -1,0 +1,9008 @@
+***** SIMULATION DETAILS *****
+Exponential distribution is specified by a single parameter Lambda
+Number of Miners : 100
+Initial Lambda of one Miner : 0.0005
+Number of Blocks in one Window : 1000
+Maximal Fix Rate : 0.5000
+Optimal Lambda of the System : 0.1000
+
+*** Window Number 1 ***
+Start Time : 0.0000
+End Time : 25555.0530
+Delta Time : 25555.0530
+Delta Blocks : 1000
+Actual Lambda : 0.0500
+Estimated Lambda : 0.0391
+Fix Rate : 0.0050
+
+*** Window Number 2 ***
+Start Time : 25555.0530
+End Time : 55999.9224
+Delta Time : 30444.8695
+Delta Blocks : 1000
+Actual Lambda : 0.0503
+Estimated Lambda : 0.0328
+Fix Rate : 0.0050
+
+*** Window Number 3 ***
+Start Time : 55999.9224
+End Time : 92888.5444
+Delta Time : 36888.6219
+Delta Blocks : 1000
+Actual Lambda : 0.0505
+Estimated Lambda : 0.0271
+Fix Rate : 0.0050
+
+*** Window Number 4 ***
+Start Time : 92888.5444
+End Time : 117881.0480
+Delta Time : 24992.5036
+Delta Blocks : 1000
+Actual Lambda : 0.0508
+Estimated Lambda : 0.0400
+Fix Rate : 0.0050
+
+*** Window Number 5 ***
+Start Time : 117881.0480
+End Time : 154966.9672
+Delta Time : 37085.9192
+Delta Blocks : 1000
+Actual Lambda : 0.0510
+Estimated Lambda : 0.0270
+Fix Rate : 0.0050
+
+*** Window Number 6 ***
+Start Time : 154966.9672
+End Time : 189341.4018
+Delta Time : 34374.4346
+Delta Blocks : 1000
+Actual Lambda : 0.0513
+Estimated Lambda : 0.0291
+Fix Rate : 0.0050
+
+*** Window Number 7 ***
+Start Time : 189341.4018
+End Time : 212869.6583
+Delta Time : 23528.2565
+Delta Blocks : 1000
+Actual Lambda : 0.0515
+Estimated Lambda : 0.0425
+Fix Rate : 0.0050
+
+*** Window Number 8 ***
+Start Time : 212869.6583
+End Time : 245824.6961
+Delta Time : 32955.0378
+Delta Blocks : 1000
+Actual Lambda : 0.0518
+Estimated Lambda : 0.0303
+Fix Rate : 0.0050
+
+*** Window Number 9 ***
+Start Time : 245824.6961
+End Time : 258735.1765
+Delta Time : 12910.4804
+Delta Blocks : 1000
+Actual Lambda : 0.1041
+Estimated Lambda : 0.0775
+Fix Rate : 0.0015
+
+*** Window Number 10 ***
+Start Time : 258735.1765
+End Time : 267234.7477
+Delta Time : 8499.5712
+Delta Blocks : 1000
+Actual Lambda : 0.1042
+Estimated Lambda : 0.1177
+Fix Rate : -0.0008
+
+*** Window Number 11 ***
+Start Time : 267234.7477
+End Time : 276109.7621
+Delta Time : 8875.0145
+Delta Blocks : 1000
+Actual Lambda : 0.1041
+Estimated Lambda : 0.1127
+Fix Rate : -0.0006
+
+*** Window Number 12 ***
+Start Time : 276109.7621
+End Time : 285289.1365
+Delta Time : 9179.3743
+Delta Blocks : 1000
+Actual Lambda : 0.1041
+Estimated Lambda : 0.1089
+Fix Rate : -0.0004
+
+*** Window Number 13 ***
+Start Time : 285289.1365
+End Time : 294431.1410
+Delta Time : 9142.0046
+Delta Blocks : 1000
+Actual Lambda : 0.1040
+Estimated Lambda : 0.1094
+Fix Rate : -0.0004
+
+*** Window Number 14 ***
+Start Time : 294431.1410
+End Time : 303333.1425
+Delta Time : 8902.0014
+Delta Blocks : 1000
+Actual Lambda : 0.1040
+Estimated Lambda : 0.1123
+Fix Rate : -0.0005
+
+*** Window Number 15 ***
+Start Time : 303333.1425
+End Time : 312298.7203
+Delta Time : 8965.5779
+Delta Blocks : 1000
+Actual Lambda : 0.1039
+Estimated Lambda : 0.1115
+Fix Rate : -0.0005
+
+*** Window Number 16 ***
+Start Time : 312298.7203
+End Time : 321665.9848
+Delta Time : 9367.2645
+Delta Blocks : 1000
+Actual Lambda : 0.1039
+Estimated Lambda : 0.1068
+Fix Rate : -0.0003
+
+*** Window Number 17 ***
+Start Time : 321665.9848
+End Time : 330383.6526
+Delta Time : 8717.6678
+Delta Blocks : 1000
+Actual Lambda : 0.1039
+Estimated Lambda : 0.1147
+Fix Rate : -0.0006
+
+*** Window Number 18 ***
+Start Time : 330383.6526
+End Time : 339112.0187
+Delta Time : 8728.3661
+Delta Blocks : 1000
+Actual Lambda : 0.1038
+Estimated Lambda : 0.1146
+Fix Rate : -0.0006
+
+*** Window Number 19 ***
+Start Time : 339112.0187
+End Time : 348141.9002
+Delta Time : 9029.8815
+Delta Blocks : 1000
+Actual Lambda : 0.1037
+Estimated Lambda : 0.1107
+Fix Rate : -0.0005
+
+*** Window Number 20 ***
+Start Time : 348141.9002
+End Time : 356985.2740
+Delta Time : 8843.3739
+Delta Blocks : 1000
+Actual Lambda : 0.1037
+Estimated Lambda : 0.1131
+Fix Rate : -0.0006
+
+*** Window Number 21 ***
+Start Time : 356985.2740
+End Time : 365950.5673
+Delta Time : 8965.2932
+Delta Blocks : 1000
+Actual Lambda : 0.1036
+Estimated Lambda : 0.1115
+Fix Rate : -0.0005
+
+*** Window Number 22 ***
+Start Time : 365950.5673
+End Time : 375058.9544
+Delta Time : 9108.3871
+Delta Blocks : 1000
+Actual Lambda : 0.1036
+Estimated Lambda : 0.1098
+Fix Rate : -0.0004
+
+*** Window Number 23 ***
+Start Time : 375058.9544
+End Time : 384218.8965
+Delta Time : 9159.9421
+Delta Blocks : 1000
+Actual Lambda : 0.1035
+Estimated Lambda : 0.1092
+Fix Rate : -0.0004
+
+*** Window Number 24 ***
+Start Time : 384218.8965
+End Time : 393085.5481
+Delta Time : 8866.6516
+Delta Blocks : 1000
+Actual Lambda : 0.1035
+Estimated Lambda : 0.1128
+Fix Rate : -0.0006
+
+*** Window Number 25 ***
+Start Time : 393085.5481
+End Time : 402927.0926
+Delta Time : 9841.5445
+Delta Blocks : 1000
+Actual Lambda : 0.1034
+Estimated Lambda : 0.1016
+Fix Rate : -0.0001
+
+*** Window Number 26 ***
+Start Time : 402927.0926
+End Time : 411519.4569
+Delta Time : 8592.3643
+Delta Blocks : 1000
+Actual Lambda : 0.1034
+Estimated Lambda : 0.1164
+Fix Rate : -0.0007
+
+*** Window Number 27 ***
+Start Time : 411519.4569
+End Time : 420647.1307
+Delta Time : 9127.6738
+Delta Blocks : 1000
+Actual Lambda : 0.1033
+Estimated Lambda : 0.1096
+Fix Rate : -0.0004
+
+*** Window Number 28 ***
+Start Time : 420647.1307
+End Time : 429844.3988
+Delta Time : 9197.2681
+Delta Blocks : 1000
+Actual Lambda : 0.1033
+Estimated Lambda : 0.1087
+Fix Rate : -0.0004
+
+*** Window Number 29 ***
+Start Time : 429844.3988
+End Time : 439534.7837
+Delta Time : 9690.3849
+Delta Blocks : 1000
+Actual Lambda : 0.1032
+Estimated Lambda : 0.1032
+Fix Rate : -0.0002
+
+*** Window Number 30 ***
+Start Time : 439534.7837
+End Time : 448350.4798
+Delta Time : 8815.6961
+Delta Blocks : 1000
+Actual Lambda : 0.1032
+Estimated Lambda : 0.1134
+Fix Rate : -0.0006
+
+*** Window Number 31 ***
+Start Time : 448350.4798
+End Time : 457386.4046
+Delta Time : 9035.9249
+Delta Blocks : 1000
+Actual Lambda : 0.1032
+Estimated Lambda : 0.1107
+Fix Rate : -0.0005
+
+*** Window Number 32 ***
+Start Time : 457386.4046
+End Time : 466800.6067
+Delta Time : 9414.2020
+Delta Blocks : 1000
+Actual Lambda : 0.1031
+Estimated Lambda : 0.1062
+Fix Rate : -0.0003
+
+*** Window Number 33 ***
+Start Time : 466800.6067
+End Time : 475839.3088
+Delta Time : 9038.7021
+Delta Blocks : 1000
+Actual Lambda : 0.1031
+Estimated Lambda : 0.1106
+Fix Rate : -0.0005
+
+*** Window Number 34 ***
+Start Time : 475839.3088
+End Time : 485438.0696
+Delta Time : 9598.7608
+Delta Blocks : 1000
+Actual Lambda : 0.1030
+Estimated Lambda : 0.1042
+Fix Rate : -0.0002
+
+*** Window Number 35 ***
+Start Time : 485438.0696
+End Time : 494258.4158
+Delta Time : 8820.3462
+Delta Blocks : 1000
+Actual Lambda : 0.1030
+Estimated Lambda : 0.1134
+Fix Rate : -0.0006
+
+*** Window Number 36 ***
+Start Time : 494258.4158
+End Time : 501942.9149
+Delta Time : 7684.4991
+Delta Blocks : 1000
+Actual Lambda : 0.1802
+Estimated Lambda : 0.1301
+Fix Rate : -0.0007
+
+*** Window Number 37 ***
+Start Time : 501942.9149
+End Time : 507215.0091
+Delta Time : 5272.0943
+Delta Blocks : 1000
+Actual Lambda : 0.1801
+Estimated Lambda : 0.1897
+Fix Rate : -0.0014
+
+*** Window Number 38 ***
+Start Time : 507215.0091
+End Time : 512502.3760
+Delta Time : 5287.3669
+Delta Blocks : 1000
+Actual Lambda : 0.1798
+Estimated Lambda : 0.1891
+Fix Rate : -0.0013
+
+*** Window Number 39 ***
+Start Time : 512502.3760
+End Time : 517843.7387
+Delta Time : 5341.3627
+Delta Blocks : 1000
+Actual Lambda : 0.1796
+Estimated Lambda : 0.1872
+Fix Rate : -0.0013
+
+*** Window Number 40 ***
+Start Time : 517843.7387
+End Time : 523102.9923
+Delta Time : 5259.2536
+Delta Blocks : 1000
+Actual Lambda : 0.1793
+Estimated Lambda : 0.1901
+Fix Rate : -0.0014
+
+*** Window Number 41 ***
+Start Time : 523102.9923
+End Time : 528445.7592
+Delta Time : 5342.7669
+Delta Blocks : 1000
+Actual Lambda : 0.1791
+Estimated Lambda : 0.1872
+Fix Rate : -0.0013
+
+*** Window Number 42 ***
+Start Time : 528445.7592
+End Time : 533554.0355
+Delta Time : 5108.2763
+Delta Blocks : 1000
+Actual Lambda : 0.1788
+Estimated Lambda : 0.1958
+Fix Rate : -0.0014
+
+*** Window Number 43 ***
+Start Time : 533554.0355
+End Time : 538741.8186
+Delta Time : 5187.7831
+Delta Blocks : 1000
+Actual Lambda : 0.1786
+Estimated Lambda : 0.1928
+Fix Rate : -0.0014
+
+*** Window Number 44 ***
+Start Time : 538741.8186
+End Time : 544013.5442
+Delta Time : 5271.7256
+Delta Blocks : 1000
+Actual Lambda : 0.1783
+Estimated Lambda : 0.1897
+Fix Rate : -0.0014
+
+*** Window Number 45 ***
+Start Time : 544013.5442
+End Time : 549451.2413
+Delta Time : 5437.6971
+Delta Blocks : 1000
+Actual Lambda : 0.1781
+Estimated Lambda : 0.1839
+Fix Rate : -0.0013
+
+*** Window Number 46 ***
+Start Time : 549451.2413
+End Time : 554717.1462
+Delta Time : 5265.9049
+Delta Blocks : 1000
+Actual Lambda : 0.1779
+Estimated Lambda : 0.1899
+Fix Rate : -0.0014
+
+*** Window Number 47 ***
+Start Time : 554717.1462
+End Time : 559737.7259
+Delta Time : 5020.5797
+Delta Blocks : 1000
+Actual Lambda : 0.1776
+Estimated Lambda : 0.1992
+Fix Rate : -0.0014
+
+*** Window Number 48 ***
+Start Time : 559737.7259
+End Time : 564906.4092
+Delta Time : 5168.6832
+Delta Blocks : 1000
+Actual Lambda : 0.1774
+Estimated Lambda : 0.1935
+Fix Rate : -0.0014
+
+*** Window Number 49 ***
+Start Time : 564906.4092
+End Time : 570143.1979
+Delta Time : 5236.7887
+Delta Blocks : 1000
+Actual Lambda : 0.1771
+Estimated Lambda : 0.1910
+Fix Rate : -0.0014
+
+*** Window Number 50 ***
+Start Time : 570143.1979
+End Time : 575608.5154
+Delta Time : 5465.3175
+Delta Blocks : 1000
+Actual Lambda : 0.1769
+Estimated Lambda : 0.1830
+Fix Rate : -0.0013
+
+*** Window Number 51 ***
+Start Time : 575608.5154
+End Time : 580886.9140
+Delta Time : 5278.3986
+Delta Blocks : 1000
+Actual Lambda : 0.1767
+Estimated Lambda : 0.1895
+Fix Rate : -0.0013
+
+*** Window Number 52 ***
+Start Time : 580886.9140
+End Time : 586406.5463
+Delta Time : 5519.6323
+Delta Blocks : 1000
+Actual Lambda : 0.1764
+Estimated Lambda : 0.1812
+Fix Rate : -0.0013
+
+*** Window Number 53 ***
+Start Time : 586406.5463
+End Time : 591898.7308
+Delta Time : 5492.1845
+Delta Blocks : 1000
+Actual Lambda : 0.1762
+Estimated Lambda : 0.1821
+Fix Rate : -0.0013
+
+*** Window Number 54 ***
+Start Time : 591898.7308
+End Time : 596750.8994
+Delta Time : 4852.1687
+Delta Blocks : 1000
+Actual Lambda : 0.1760
+Estimated Lambda : 0.2061
+Fix Rate : -0.0014
+
+*** Window Number 55 ***
+Start Time : 596750.8994
+End Time : 602029.9339
+Delta Time : 5279.0345
+Delta Blocks : 1000
+Actual Lambda : 0.1757
+Estimated Lambda : 0.1894
+Fix Rate : -0.0013
+
+*** Window Number 56 ***
+Start Time : 602029.9339
+End Time : 607256.1003
+Delta Time : 5226.1663
+Delta Blocks : 1000
+Actual Lambda : 0.1755
+Estimated Lambda : 0.1913
+Fix Rate : -0.0014
+
+*** Window Number 57 ***
+Start Time : 607256.1003
+End Time : 612536.5455
+Delta Time : 5280.4453
+Delta Blocks : 1000
+Actual Lambda : 0.1752
+Estimated Lambda : 0.1894
+Fix Rate : -0.0013
+
+*** Window Number 58 ***
+Start Time : 612536.5455
+End Time : 618045.9079
+Delta Time : 5509.3624
+Delta Blocks : 1000
+Actual Lambda : 0.1750
+Estimated Lambda : 0.1815
+Fix Rate : -0.0013
+
+*** Window Number 59 ***
+Start Time : 618045.9079
+End Time : 623420.7156
+Delta Time : 5374.8077
+Delta Blocks : 1000
+Actual Lambda : 0.1748
+Estimated Lambda : 0.1861
+Fix Rate : -0.0013
+
+*** Window Number 60 ***
+Start Time : 623420.7156
+End Time : 628746.5871
+Delta Time : 5325.8714
+Delta Blocks : 1000
+Actual Lambda : 0.1746
+Estimated Lambda : 0.1878
+Fix Rate : -0.0013
+
+*** Window Number 61 ***
+Start Time : 628746.5871
+End Time : 634078.1831
+Delta Time : 5331.5960
+Delta Blocks : 1000
+Actual Lambda : 0.1743
+Estimated Lambda : 0.1876
+Fix Rate : -0.0013
+
+*** Window Number 62 ***
+Start Time : 634078.1831
+End Time : 639612.2723
+Delta Time : 5534.0892
+Delta Blocks : 1000
+Actual Lambda : 0.1741
+Estimated Lambda : 0.1807
+Fix Rate : -0.0013
+
+*** Window Number 63 ***
+Start Time : 639612.2723
+End Time : 644873.7383
+Delta Time : 5261.4660
+Delta Blocks : 1000
+Actual Lambda : 0.1739
+Estimated Lambda : 0.1901
+Fix Rate : -0.0014
+
+*** Window Number 64 ***
+Start Time : 644873.7383
+End Time : 650458.5949
+Delta Time : 5584.8566
+Delta Blocks : 1000
+Actual Lambda : 0.1736
+Estimated Lambda : 0.1791
+Fix Rate : -0.0013
+
+*** Window Number 65 ***
+Start Time : 650458.5949
+End Time : 655853.4876
+Delta Time : 5394.8927
+Delta Blocks : 1000
+Actual Lambda : 0.1734
+Estimated Lambda : 0.1854
+Fix Rate : -0.0013
+
+*** Window Number 66 ***
+Start Time : 655853.4876
+End Time : 661330.2898
+Delta Time : 5476.8022
+Delta Blocks : 1000
+Actual Lambda : 0.1732
+Estimated Lambda : 0.1826
+Fix Rate : -0.0013
+
+*** Window Number 67 ***
+Start Time : 661330.2898
+End Time : 666734.5547
+Delta Time : 5404.2649
+Delta Blocks : 1000
+Actual Lambda : 0.1730
+Estimated Lambda : 0.1850
+Fix Rate : -0.0013
+
+*** Window Number 68 ***
+Start Time : 666734.5547
+End Time : 672248.6299
+Delta Time : 5514.0752
+Delta Blocks : 1000
+Actual Lambda : 0.1727
+Estimated Lambda : 0.1814
+Fix Rate : -0.0013
+
+*** Window Number 69 ***
+Start Time : 672248.6299
+End Time : 677716.5872
+Delta Time : 5467.9574
+Delta Blocks : 1000
+Actual Lambda : 0.1725
+Estimated Lambda : 0.1829
+Fix Rate : -0.0013
+
+*** Window Number 70 ***
+Start Time : 677716.5872
+End Time : 683172.9687
+Delta Time : 5456.3815
+Delta Blocks : 1000
+Actual Lambda : 0.1723
+Estimated Lambda : 0.1833
+Fix Rate : -0.0013
+
+*** Window Number 71 ***
+Start Time : 683172.9687
+End Time : 688762.4083
+Delta Time : 5589.4396
+Delta Blocks : 1000
+Actual Lambda : 0.1721
+Estimated Lambda : 0.1789
+Fix Rate : -0.0013
+
+*** Window Number 72 ***
+Start Time : 688762.4083
+End Time : 694139.6904
+Delta Time : 5377.2821
+Delta Blocks : 1000
+Actual Lambda : 0.1719
+Estimated Lambda : 0.1860
+Fix Rate : -0.0013
+
+*** Window Number 73 ***
+Start Time : 694139.6904
+End Time : 699563.6825
+Delta Time : 5423.9921
+Delta Blocks : 1000
+Actual Lambda : 0.1716
+Estimated Lambda : 0.1844
+Fix Rate : -0.0013
+
+*** Window Number 74 ***
+Start Time : 699563.6825
+End Time : 705058.3875
+Delta Time : 5494.7050
+Delta Blocks : 1000
+Actual Lambda : 0.1714
+Estimated Lambda : 0.1820
+Fix Rate : -0.0013
+
+*** Window Number 75 ***
+Start Time : 705058.3875
+End Time : 710711.9295
+Delta Time : 5653.5420
+Delta Blocks : 1000
+Actual Lambda : 0.1712
+Estimated Lambda : 0.1769
+Fix Rate : -0.0012
+
+*** Window Number 76 ***
+Start Time : 710711.9295
+End Time : 716431.3847
+Delta Time : 5719.4552
+Delta Blocks : 1000
+Actual Lambda : 0.1710
+Estimated Lambda : 0.1748
+Fix Rate : -0.0012
+
+*** Window Number 77 ***
+Start Time : 716431.3847
+End Time : 721971.5198
+Delta Time : 5540.1351
+Delta Blocks : 1000
+Actual Lambda : 0.1708
+Estimated Lambda : 0.1805
+Fix Rate : -0.0013
+
+*** Window Number 78 ***
+Start Time : 721971.5198
+End Time : 727321.3156
+Delta Time : 5349.7958
+Delta Blocks : 1000
+Actual Lambda : 0.1705
+Estimated Lambda : 0.1869
+Fix Rate : -0.0013
+
+*** Window Number 79 ***
+Start Time : 727321.3156
+End Time : 732971.0110
+Delta Time : 5649.6954
+Delta Blocks : 1000
+Actual Lambda : 0.1703
+Estimated Lambda : 0.1770
+Fix Rate : -0.0012
+
+*** Window Number 80 ***
+Start Time : 732971.0110
+End Time : 738519.4126
+Delta Time : 5548.4016
+Delta Blocks : 1000
+Actual Lambda : 0.1701
+Estimated Lambda : 0.1802
+Fix Rate : -0.0013
+
+*** Window Number 81 ***
+Start Time : 738519.4126
+End Time : 744278.7472
+Delta Time : 5759.3345
+Delta Blocks : 1000
+Actual Lambda : 0.1699
+Estimated Lambda : 0.1736
+Fix Rate : -0.0012
+
+*** Window Number 82 ***
+Start Time : 744278.7472
+End Time : 749768.2434
+Delta Time : 5489.4962
+Delta Blocks : 1000
+Actual Lambda : 0.1697
+Estimated Lambda : 0.1822
+Fix Rate : -0.0013
+
+*** Window Number 83 ***
+Start Time : 749768.2434
+End Time : 755182.6426
+Delta Time : 5414.3993
+Delta Blocks : 1000
+Actual Lambda : 0.1695
+Estimated Lambda : 0.1847
+Fix Rate : -0.0013
+
+*** Window Number 84 ***
+Start Time : 755182.6426
+End Time : 760814.9378
+Delta Time : 5632.2952
+Delta Blocks : 1000
+Actual Lambda : 0.1692
+Estimated Lambda : 0.1775
+Fix Rate : -0.0012
+
+*** Window Number 85 ***
+Start Time : 760814.9378
+End Time : 766716.1764
+Delta Time : 5901.2385
+Delta Blocks : 1000
+Actual Lambda : 0.1690
+Estimated Lambda : 0.1695
+Fix Rate : -0.0012
+
+*** Window Number 86 ***
+Start Time : 766716.1764
+End Time : 772558.4251
+Delta Time : 5842.2487
+Delta Blocks : 1000
+Actual Lambda : 0.1688
+Estimated Lambda : 0.1712
+Fix Rate : -0.0012
+
+*** Window Number 87 ***
+Start Time : 772558.4251
+End Time : 778299.4380
+Delta Time : 5741.0129
+Delta Blocks : 1000
+Actual Lambda : 0.1686
+Estimated Lambda : 0.1742
+Fix Rate : -0.0012
+
+*** Window Number 88 ***
+Start Time : 778299.4380
+End Time : 783813.5996
+Delta Time : 5514.1616
+Delta Blocks : 1000
+Actual Lambda : 0.1684
+Estimated Lambda : 0.1814
+Fix Rate : -0.0013
+
+*** Window Number 89 ***
+Start Time : 783813.5996
+End Time : 789347.0350
+Delta Time : 5533.4354
+Delta Blocks : 1000
+Actual Lambda : 0.1682
+Estimated Lambda : 0.1807
+Fix Rate : -0.0013
+
+*** Window Number 90 ***
+Start Time : 789347.0350
+End Time : 795012.8233
+Delta Time : 5665.7883
+Delta Blocks : 1000
+Actual Lambda : 0.1680
+Estimated Lambda : 0.1765
+Fix Rate : -0.0012
+
+*** Window Number 91 ***
+Start Time : 795012.8233
+End Time : 800587.3532
+Delta Time : 5574.5300
+Delta Blocks : 1000
+Actual Lambda : 0.1678
+Estimated Lambda : 0.1794
+Fix Rate : -0.0013
+
+*** Window Number 92 ***
+Start Time : 800587.3532
+End Time : 806058.5670
+Delta Time : 5471.2138
+Delta Blocks : 1000
+Actual Lambda : 0.1676
+Estimated Lambda : 0.1828
+Fix Rate : -0.0013
+
+*** Window Number 93 ***
+Start Time : 806058.5670
+End Time : 812021.0396
+Delta Time : 5962.4726
+Delta Blocks : 1000
+Actual Lambda : 0.1674
+Estimated Lambda : 0.1677
+Fix Rate : -0.0012
+
+*** Window Number 94 ***
+Start Time : 812021.0396
+End Time : 817704.4621
+Delta Time : 5683.4225
+Delta Blocks : 1000
+Actual Lambda : 0.1672
+Estimated Lambda : 0.1760
+Fix Rate : -0.0012
+
+*** Window Number 95 ***
+Start Time : 817704.4621
+End Time : 822924.0862
+Delta Time : 5219.6241
+Delta Blocks : 1000
+Actual Lambda : 0.1670
+Estimated Lambda : 0.1916
+Fix Rate : -0.0014
+
+*** Window Number 96 ***
+Start Time : 822924.0862
+End Time : 828633.3821
+Delta Time : 5709.2958
+Delta Blocks : 1000
+Actual Lambda : 0.1667
+Estimated Lambda : 0.1752
+Fix Rate : -0.0012
+
+*** Window Number 97 ***
+Start Time : 828633.3821
+End Time : 834494.8453
+Delta Time : 5861.4632
+Delta Blocks : 1000
+Actual Lambda : 0.1665
+Estimated Lambda : 0.1706
+Fix Rate : -0.0012
+
+*** Window Number 98 ***
+Start Time : 834494.8453
+End Time : 839832.5786
+Delta Time : 5337.7333
+Delta Blocks : 1000
+Actual Lambda : 0.1663
+Estimated Lambda : 0.1873
+Fix Rate : -0.0013
+
+*** Window Number 99 ***
+Start Time : 839832.5786
+End Time : 845647.6851
+Delta Time : 5815.1065
+Delta Blocks : 1000
+Actual Lambda : 0.1661
+Estimated Lambda : 0.1720
+Fix Rate : -0.0012
+
+*** Window Number 100 ***
+Start Time : 845647.6851
+End Time : 851356.4081
+Delta Time : 5708.7230
+Delta Blocks : 1000
+Actual Lambda : 0.1659
+Estimated Lambda : 0.1752
+Fix Rate : -0.0012
+
+*** Window Number 101 ***
+Start Time : 851356.4081
+End Time : 857012.1677
+Delta Time : 5655.7595
+Delta Blocks : 1000
+Actual Lambda : 0.1657
+Estimated Lambda : 0.1768
+Fix Rate : -0.0012
+
+*** Window Number 102 ***
+Start Time : 857012.1677
+End Time : 862709.7304
+Delta Time : 5697.5627
+Delta Blocks : 1000
+Actual Lambda : 0.1655
+Estimated Lambda : 0.1755
+Fix Rate : -0.0012
+
+*** Window Number 103 ***
+Start Time : 862709.7304
+End Time : 868354.1666
+Delta Time : 5644.4363
+Delta Blocks : 1000
+Actual Lambda : 0.1653
+Estimated Lambda : 0.1772
+Fix Rate : -0.0012
+
+*** Window Number 104 ***
+Start Time : 868354.1666
+End Time : 874030.9826
+Delta Time : 5676.8160
+Delta Blocks : 1000
+Actual Lambda : 0.1651
+Estimated Lambda : 0.1762
+Fix Rate : -0.0012
+
+*** Window Number 105 ***
+Start Time : 874030.9826
+End Time : 879381.4802
+Delta Time : 5350.4976
+Delta Blocks : 1000
+Actual Lambda : 0.1649
+Estimated Lambda : 0.1869
+Fix Rate : -0.0013
+
+*** Window Number 106 ***
+Start Time : 879381.4802
+End Time : 884836.7129
+Delta Time : 5455.2327
+Delta Blocks : 1000
+Actual Lambda : 0.1647
+Estimated Lambda : 0.1833
+Fix Rate : -0.0013
+
+*** Window Number 107 ***
+Start Time : 884836.7129
+End Time : 890617.9111
+Delta Time : 5781.1982
+Delta Blocks : 1000
+Actual Lambda : 0.1645
+Estimated Lambda : 0.1730
+Fix Rate : -0.0012
+
+*** Window Number 108 ***
+Start Time : 890617.9111
+End Time : 896144.5070
+Delta Time : 5526.5959
+Delta Blocks : 1000
+Actual Lambda : 0.1643
+Estimated Lambda : 0.1809
+Fix Rate : -0.0013
+
+*** Window Number 109 ***
+Start Time : 896144.5070
+End Time : 901786.0109
+Delta Time : 5641.5040
+Delta Blocks : 1000
+Actual Lambda : 0.1640
+Estimated Lambda : 0.1773
+Fix Rate : -0.0012
+
+*** Window Number 110 ***
+Start Time : 901786.0109
+End Time : 907751.6953
+Delta Time : 5965.6843
+Delta Blocks : 1000
+Actual Lambda : 0.1638
+Estimated Lambda : 0.1676
+Fix Rate : -0.0012
+
+*** Window Number 111 ***
+Start Time : 907751.6953
+End Time : 913386.6983
+Delta Time : 5635.0030
+Delta Blocks : 1000
+Actual Lambda : 0.1637
+Estimated Lambda : 0.1775
+Fix Rate : -0.0012
+
+*** Window Number 112 ***
+Start Time : 913386.6983
+End Time : 919306.1265
+Delta Time : 5919.4282
+Delta Blocks : 1000
+Actual Lambda : 0.1634
+Estimated Lambda : 0.1689
+Fix Rate : -0.0012
+
+*** Window Number 113 ***
+Start Time : 919306.1265
+End Time : 924819.4854
+Delta Time : 5513.3589
+Delta Blocks : 1000
+Actual Lambda : 0.1633
+Estimated Lambda : 0.1814
+Fix Rate : -0.0013
+
+*** Window Number 114 ***
+Start Time : 924819.4854
+End Time : 930898.0376
+Delta Time : 6078.5522
+Delta Blocks : 1000
+Actual Lambda : 0.1630
+Estimated Lambda : 0.1645
+Fix Rate : -0.0011
+
+*** Window Number 115 ***
+Start Time : 930898.0376
+End Time : 936640.5933
+Delta Time : 5742.5557
+Delta Blocks : 1000
+Actual Lambda : 0.1629
+Estimated Lambda : 0.1741
+Fix Rate : -0.0012
+
+*** Window Number 116 ***
+Start Time : 936640.5933
+End Time : 942381.6337
+Delta Time : 5741.0404
+Delta Blocks : 1000
+Actual Lambda : 0.1627
+Estimated Lambda : 0.1742
+Fix Rate : -0.0012
+
+*** Window Number 117 ***
+Start Time : 942381.6337
+End Time : 948011.0075
+Delta Time : 5629.3738
+Delta Blocks : 1000
+Actual Lambda : 0.1625
+Estimated Lambda : 0.1776
+Fix Rate : -0.0012
+
+*** Window Number 118 ***
+Start Time : 948011.0075
+End Time : 953953.7774
+Delta Time : 5942.7699
+Delta Blocks : 1000
+Actual Lambda : 0.1623
+Estimated Lambda : 0.1683
+Fix Rate : -0.0012
+
+*** Window Number 119 ***
+Start Time : 953953.7774
+End Time : 959730.7112
+Delta Time : 5776.9338
+Delta Blocks : 1000
+Actual Lambda : 0.1621
+Estimated Lambda : 0.1731
+Fix Rate : -0.0012
+
+*** Window Number 120 ***
+Start Time : 959730.7112
+End Time : 965416.8812
+Delta Time : 5686.1700
+Delta Blocks : 1000
+Actual Lambda : 0.1619
+Estimated Lambda : 0.1759
+Fix Rate : -0.0012
+
+*** Window Number 121 ***
+Start Time : 965416.8812
+End Time : 971318.7085
+Delta Time : 5901.8272
+Delta Blocks : 1000
+Actual Lambda : 0.1617
+Estimated Lambda : 0.1694
+Fix Rate : -0.0012
+
+*** Window Number 122 ***
+Start Time : 971318.7085
+End Time : 977106.7623
+Delta Time : 5788.0539
+Delta Blocks : 1000
+Actual Lambda : 0.1615
+Estimated Lambda : 0.1728
+Fix Rate : -0.0012
+
+*** Window Number 123 ***
+Start Time : 977106.7623
+End Time : 983288.2727
+Delta Time : 6181.5104
+Delta Blocks : 1000
+Actual Lambda : 0.1613
+Estimated Lambda : 0.1618
+Fix Rate : -0.0011
+
+*** Window Number 124 ***
+Start Time : 983288.2727
+End Time : 989266.4433
+Delta Time : 5978.1705
+Delta Blocks : 1000
+Actual Lambda : 0.1611
+Estimated Lambda : 0.1673
+Fix Rate : -0.0011
+
+*** Window Number 125 ***
+Start Time : 989266.4433
+End Time : 995040.1100
+Delta Time : 5773.6668
+Delta Blocks : 1000
+Actual Lambda : 0.1609
+Estimated Lambda : 0.1732
+Fix Rate : -0.0012
+
+*** Window Number 126 ***
+Start Time : 995040.1100
+End Time : 1001817.3550
+Delta Time : 6777.2449
+Delta Blocks : 1000
+Actual Lambda : 0.0689
+Estimated Lambda : 0.1476
+Fix Rate : -0.0021
+
+*** Window Number 127 ***
+Start Time : 1001817.3550
+End Time : 1015635.6311
+Delta Time : 13818.2762
+Delta Blocks : 1000
+Actual Lambda : 0.0687
+Estimated Lambda : 0.0724
+Fix Rate : 0.0025
+
+*** Window Number 128 ***
+Start Time : 1015635.6311
+End Time : 1029408.1408
+Delta Time : 13772.5097
+Delta Blocks : 1000
+Actual Lambda : 0.0689
+Estimated Lambda : 0.0726
+Fix Rate : 0.0025
+
+*** Window Number 129 ***
+Start Time : 1029408.1408
+End Time : 1043068.8893
+Delta Time : 13660.7485
+Delta Blocks : 1000
+Actual Lambda : 0.0691
+Estimated Lambda : 0.0732
+Fix Rate : 0.0024
+
+*** Window Number 130 ***
+Start Time : 1043068.8893
+End Time : 1057103.8010
+Delta Time : 14034.9118
+Delta Blocks : 1000
+Actual Lambda : 0.0693
+Estimated Lambda : 0.0713
+Fix Rate : 0.0027
+
+*** Window Number 131 ***
+Start Time : 1057103.8010
+End Time : 1070941.9160
+Delta Time : 13838.1150
+Delta Blocks : 1000
+Actual Lambda : 0.0694
+Estimated Lambda : 0.0723
+Fix Rate : 0.0026
+
+*** Window Number 132 ***
+Start Time : 1070941.9160
+End Time : 1084962.2071
+Delta Time : 14020.2910
+Delta Blocks : 1000
+Actual Lambda : 0.0696
+Estimated Lambda : 0.0713
+Fix Rate : 0.0027
+
+*** Window Number 133 ***
+Start Time : 1084962.2071
+End Time : 1098999.9719
+Delta Time : 14037.7648
+Delta Blocks : 1000
+Actual Lambda : 0.0698
+Estimated Lambda : 0.0712
+Fix Rate : 0.0027
+
+*** Window Number 134 ***
+Start Time : 1098999.9719
+End Time : 1112974.8937
+Delta Time : 13974.9218
+Delta Blocks : 1000
+Actual Lambda : 0.0700
+Estimated Lambda : 0.0716
+Fix Rate : 0.0026
+
+*** Window Number 135 ***
+Start Time : 1112974.8937
+End Time : 1127220.1958
+Delta Time : 14245.3021
+Delta Blocks : 1000
+Actual Lambda : 0.0702
+Estimated Lambda : 0.0702
+Fix Rate : 0.0028
+
+*** Window Number 136 ***
+Start Time : 1127220.1958
+End Time : 1141059.1831
+Delta Time : 13838.9873
+Delta Blocks : 1000
+Actual Lambda : 0.0704
+Estimated Lambda : 0.0723
+Fix Rate : 0.0026
+
+*** Window Number 137 ***
+Start Time : 1141059.1831
+End Time : 1155570.8078
+Delta Time : 14511.6247
+Delta Blocks : 1000
+Actual Lambda : 0.0706
+Estimated Lambda : 0.0689
+Fix Rate : 0.0030
+
+*** Window Number 138 ***
+Start Time : 1155570.8078
+End Time : 1169152.7961
+Delta Time : 13581.9883
+Delta Blocks : 1000
+Actual Lambda : 0.0708
+Estimated Lambda : 0.0736
+Fix Rate : 0.0024
+
+*** Window Number 139 ***
+Start Time : 1169152.7961
+End Time : 1182618.3057
+Delta Time : 13465.5096
+Delta Blocks : 1000
+Actual Lambda : 0.0709
+Estimated Lambda : 0.0743
+Fix Rate : 0.0023
+
+*** Window Number 140 ***
+Start Time : 1182618.3057
+End Time : 1196882.7029
+Delta Time : 14264.3972
+Delta Blocks : 1000
+Actual Lambda : 0.0711
+Estimated Lambda : 0.0701
+Fix Rate : 0.0028
+
+*** Window Number 141 ***
+Start Time : 1196882.7029
+End Time : 1210616.9120
+Delta Time : 13734.2090
+Delta Blocks : 1000
+Actual Lambda : 0.0713
+Estimated Lambda : 0.0728
+Fix Rate : 0.0025
+
+*** Window Number 142 ***
+Start Time : 1210616.9120
+End Time : 1224186.2906
+Delta Time : 13569.3787
+Delta Blocks : 1000
+Actual Lambda : 0.0715
+Estimated Lambda : 0.0737
+Fix Rate : 0.0024
+
+*** Window Number 143 ***
+Start Time : 1224186.2906
+End Time : 1237759.8946
+Delta Time : 13573.6040
+Delta Blocks : 1000
+Actual Lambda : 0.0717
+Estimated Lambda : 0.0737
+Fix Rate : 0.0024
+
+*** Window Number 144 ***
+Start Time : 1237759.8946
+End Time : 1250928.7201
+Delta Time : 13168.8255
+Delta Blocks : 1000
+Actual Lambda : 0.0718
+Estimated Lambda : 0.0759
+Fix Rate : 0.0021
+
+*** Window Number 145 ***
+Start Time : 1250928.7201
+End Time : 1264807.0920
+Delta Time : 13878.3719
+Delta Blocks : 1000
+Actual Lambda : 0.0720
+Estimated Lambda : 0.0721
+Fix Rate : 0.0026
+
+*** Window Number 146 ***
+Start Time : 1264807.0920
+End Time : 1277451.8542
+Delta Time : 12644.7622
+Delta Blocks : 1000
+Actual Lambda : 0.0722
+Estimated Lambda : 0.0791
+Fix Rate : 0.0018
+
+*** Window Number 147 ***
+Start Time : 1277451.8542
+End Time : 1291035.6601
+Delta Time : 13583.8058
+Delta Blocks : 1000
+Actual Lambda : 0.0723
+Estimated Lambda : 0.0736
+Fix Rate : 0.0024
+
+*** Window Number 148 ***
+Start Time : 1291035.6601
+End Time : 1304963.2513
+Delta Time : 13927.5912
+Delta Blocks : 1000
+Actual Lambda : 0.0725
+Estimated Lambda : 0.0718
+Fix Rate : 0.0026
+
+*** Window Number 149 ***
+Start Time : 1304963.2513
+End Time : 1317935.6422
+Delta Time : 12972.3909
+Delta Blocks : 1000
+Actual Lambda : 0.0727
+Estimated Lambda : 0.0771
+Fix Rate : 0.0020
+
+*** Window Number 150 ***
+Start Time : 1317935.6422
+End Time : 1331299.7405
+Delta Time : 13364.0983
+Delta Blocks : 1000
+Actual Lambda : 0.0728
+Estimated Lambda : 0.0748
+Fix Rate : 0.0022
+
+*** Window Number 151 ***
+Start Time : 1331299.7405
+End Time : 1345520.6833
+Delta Time : 14220.9428
+Delta Blocks : 1000
+Actual Lambda : 0.0730
+Estimated Lambda : 0.0703
+Fix Rate : 0.0028
+
+*** Window Number 152 ***
+Start Time : 1345520.6833
+End Time : 1358869.6026
+Delta Time : 13348.9193
+Delta Blocks : 1000
+Actual Lambda : 0.0732
+Estimated Lambda : 0.0749
+Fix Rate : 0.0022
+
+*** Window Number 153 ***
+Start Time : 1358869.6026
+End Time : 1371878.5040
+Delta Time : 13008.9015
+Delta Blocks : 1000
+Actual Lambda : 0.0733
+Estimated Lambda : 0.0769
+Fix Rate : 0.0020
+
+*** Window Number 154 ***
+Start Time : 1371878.5040
+End Time : 1384656.6999
+Delta Time : 12778.1959
+Delta Blocks : 1000
+Actual Lambda : 0.0735
+Estimated Lambda : 0.0783
+Fix Rate : 0.0019
+
+*** Window Number 155 ***
+Start Time : 1384656.6999
+End Time : 1398230.4152
+Delta Time : 13573.7153
+Delta Blocks : 1000
+Actual Lambda : 0.0736
+Estimated Lambda : 0.0737
+Fix Rate : 0.0024
+
+*** Window Number 156 ***
+Start Time : 1398230.4152
+End Time : 1411079.5120
+Delta Time : 12849.0967
+Delta Blocks : 1000
+Actual Lambda : 0.0738
+Estimated Lambda : 0.0778
+Fix Rate : 0.0019
+
+*** Window Number 157 ***
+Start Time : 1411079.5120
+End Time : 1424009.8743
+Delta Time : 12930.3623
+Delta Blocks : 1000
+Actual Lambda : 0.0739
+Estimated Lambda : 0.0773
+Fix Rate : 0.0020
+
+*** Window Number 158 ***
+Start Time : 1424009.8743
+End Time : 1437738.6556
+Delta Time : 13728.7813
+Delta Blocks : 1000
+Actual Lambda : 0.0741
+Estimated Lambda : 0.0728
+Fix Rate : 0.0025
+
+*** Window Number 159 ***
+Start Time : 1437738.6556
+End Time : 1450900.6501
+Delta Time : 13161.9945
+Delta Blocks : 1000
+Actual Lambda : 0.0743
+Estimated Lambda : 0.0760
+Fix Rate : 0.0021
+
+*** Window Number 160 ***
+Start Time : 1450900.6501
+End Time : 1463779.6598
+Delta Time : 12879.0097
+Delta Blocks : 1000
+Actual Lambda : 0.0744
+Estimated Lambda : 0.0776
+Fix Rate : 0.0019
+
+*** Window Number 161 ***
+Start Time : 1463779.6598
+End Time : 1476778.7242
+Delta Time : 12999.0644
+Delta Blocks : 1000
+Actual Lambda : 0.0746
+Estimated Lambda : 0.0769
+Fix Rate : 0.0020
+
+*** Window Number 162 ***
+Start Time : 1476778.7242
+End Time : 1489846.3557
+Delta Time : 13067.6315
+Delta Blocks : 1000
+Actual Lambda : 0.0747
+Estimated Lambda : 0.0765
+Fix Rate : 0.0020
+
+*** Window Number 163 ***
+Start Time : 1489846.3557
+End Time : 1503013.0223
+Delta Time : 13166.6666
+Delta Blocks : 1000
+Actual Lambda : 0.0749
+Estimated Lambda : 0.0759
+Fix Rate : 0.0021
+
+*** Window Number 164 ***
+Start Time : 1503013.0223
+End Time : 1516639.7911
+Delta Time : 13626.7689
+Delta Blocks : 1000
+Actual Lambda : 0.0750
+Estimated Lambda : 0.0734
+Fix Rate : 0.0024
+
+*** Window Number 165 ***
+Start Time : 1516639.7911
+End Time : 1529531.5409
+Delta Time : 12891.7497
+Delta Blocks : 1000
+Actual Lambda : 0.0752
+Estimated Lambda : 0.0776
+Fix Rate : 0.0019
+
+*** Window Number 166 ***
+Start Time : 1529531.5409
+End Time : 1542247.1326
+Delta Time : 12715.5917
+Delta Blocks : 1000
+Actual Lambda : 0.0753
+Estimated Lambda : 0.0786
+Fix Rate : 0.0018
+
+*** Window Number 167 ***
+Start Time : 1542247.1326
+End Time : 1556408.6740
+Delta Time : 14161.5415
+Delta Blocks : 1000
+Actual Lambda : 0.0755
+Estimated Lambda : 0.0706
+Fix Rate : 0.0028
+
+*** Window Number 168 ***
+Start Time : 1556408.6740
+End Time : 1568649.6915
+Delta Time : 12241.0175
+Delta Blocks : 1000
+Actual Lambda : 0.0757
+Estimated Lambda : 0.0817
+Fix Rate : 0.0015
+
+*** Window Number 169 ***
+Start Time : 1568649.6915
+End Time : 1581010.0650
+Delta Time : 12360.3734
+Delta Blocks : 1000
+Actual Lambda : 0.0758
+Estimated Lambda : 0.0809
+Fix Rate : 0.0016
+
+*** Window Number 170 ***
+Start Time : 1581010.0650
+End Time : 1594695.2425
+Delta Time : 13685.1775
+Delta Blocks : 1000
+Actual Lambda : 0.0759
+Estimated Lambda : 0.0731
+Fix Rate : 0.0025
+
+*** Window Number 171 ***
+Start Time : 1594695.2425
+End Time : 1607521.9309
+Delta Time : 12826.6884
+Delta Blocks : 1000
+Actual Lambda : 0.0761
+Estimated Lambda : 0.0780
+Fix Rate : 0.0019
+
+*** Window Number 172 ***
+Start Time : 1607521.9309
+End Time : 1620622.5277
+Delta Time : 13100.5968
+Delta Blocks : 1000
+Actual Lambda : 0.0763
+Estimated Lambda : 0.0763
+Fix Rate : 0.0021
+
+*** Window Number 173 ***
+Start Time : 1620622.5277
+End Time : 1633186.8776
+Delta Time : 12564.3499
+Delta Blocks : 1000
+Actual Lambda : 0.0764
+Estimated Lambda : 0.0796
+Fix Rate : 0.0017
+
+*** Window Number 174 ***
+Start Time : 1633186.8776
+End Time : 1645996.1938
+Delta Time : 12809.3162
+Delta Blocks : 1000
+Actual Lambda : 0.0765
+Estimated Lambda : 0.0781
+Fix Rate : 0.0019
+
+*** Window Number 175 ***
+Start Time : 1645996.1938
+End Time : 1659035.4383
+Delta Time : 13039.2445
+Delta Blocks : 1000
+Actual Lambda : 0.0767
+Estimated Lambda : 0.0767
+Fix Rate : 0.0020
+
+*** Window Number 176 ***
+Start Time : 1659035.4383
+End Time : 1671884.0820
+Delta Time : 12848.6437
+Delta Blocks : 1000
+Actual Lambda : 0.0768
+Estimated Lambda : 0.0778
+Fix Rate : 0.0019
+
+*** Window Number 177 ***
+Start Time : 1671884.0820
+End Time : 1684680.2958
+Delta Time : 12796.2137
+Delta Blocks : 1000
+Actual Lambda : 0.0770
+Estimated Lambda : 0.0781
+Fix Rate : 0.0019
+
+*** Window Number 178 ***
+Start Time : 1684680.2958
+End Time : 1696908.4780
+Delta Time : 12228.1822
+Delta Blocks : 1000
+Actual Lambda : 0.0771
+Estimated Lambda : 0.0818
+Fix Rate : 0.0015
+
+*** Window Number 179 ***
+Start Time : 1696908.4780
+End Time : 1709618.2381
+Delta Time : 12709.7601
+Delta Blocks : 1000
+Actual Lambda : 0.0772
+Estimated Lambda : 0.0787
+Fix Rate : 0.0018
+
+*** Window Number 180 ***
+Start Time : 1709618.2381
+End Time : 1722450.4561
+Delta Time : 12832.2180
+Delta Blocks : 1000
+Actual Lambda : 0.0774
+Estimated Lambda : 0.0779
+Fix Rate : 0.0019
+
+*** Window Number 181 ***
+Start Time : 1722450.4561
+End Time : 1734583.7210
+Delta Time : 12133.2649
+Delta Blocks : 1000
+Actual Lambda : 0.0775
+Estimated Lambda : 0.0824
+Fix Rate : 0.0014
+
+*** Window Number 182 ***
+Start Time : 1734583.7210
+End Time : 1747266.0057
+Delta Time : 12682.2847
+Delta Blocks : 1000
+Actual Lambda : 0.0776
+Estimated Lambda : 0.0789
+Fix Rate : 0.0018
+
+*** Window Number 183 ***
+Start Time : 1747266.0057
+End Time : 1759879.2335
+Delta Time : 12613.2278
+Delta Blocks : 1000
+Actual Lambda : 0.0778
+Estimated Lambda : 0.0793
+Fix Rate : 0.0017
+
+*** Window Number 184 ***
+Start Time : 1759879.2335
+End Time : 1772129.7389
+Delta Time : 12250.5055
+Delta Blocks : 1000
+Actual Lambda : 0.0779
+Estimated Lambda : 0.0816
+Fix Rate : 0.0015
+
+*** Window Number 185 ***
+Start Time : 1772129.7389
+End Time : 1785622.6760
+Delta Time : 13492.9370
+Delta Blocks : 1000
+Actual Lambda : 0.0780
+Estimated Lambda : 0.0741
+Fix Rate : 0.0023
+
+*** Window Number 186 ***
+Start Time : 1785622.6760
+End Time : 1797780.2760
+Delta Time : 12157.6000
+Delta Blocks : 1000
+Actual Lambda : 0.0782
+Estimated Lambda : 0.0823
+Fix Rate : 0.0014
+
+*** Window Number 187 ***
+Start Time : 1797780.2760
+End Time : 1810373.9778
+Delta Time : 12593.7018
+Delta Blocks : 1000
+Actual Lambda : 0.0783
+Estimated Lambda : 0.0794
+Fix Rate : 0.0017
+
+*** Window Number 188 ***
+Start Time : 1810373.9778
+End Time : 1822739.9577
+Delta Time : 12365.9798
+Delta Blocks : 1000
+Actual Lambda : 0.0785
+Estimated Lambda : 0.0809
+Fix Rate : 0.0016
+
+*** Window Number 189 ***
+Start Time : 1822739.9577
+End Time : 1834721.1198
+Delta Time : 11981.1622
+Delta Blocks : 1000
+Actual Lambda : 0.0786
+Estimated Lambda : 0.0835
+Fix Rate : 0.0013
+
+*** Window Number 190 ***
+Start Time : 1834721.1198
+End Time : 1846886.9245
+Delta Time : 12165.8046
+Delta Blocks : 1000
+Actual Lambda : 0.0787
+Estimated Lambda : 0.0822
+Fix Rate : 0.0014
+
+*** Window Number 191 ***
+Start Time : 1846886.9245
+End Time : 1859417.6663
+Delta Time : 12530.7419
+Delta Blocks : 1000
+Actual Lambda : 0.0788
+Estimated Lambda : 0.0798
+Fix Rate : 0.0017
+
+*** Window Number 192 ***
+Start Time : 1859417.6663
+End Time : 1872231.3606
+Delta Time : 12813.6943
+Delta Blocks : 1000
+Actual Lambda : 0.0789
+Estimated Lambda : 0.0780
+Fix Rate : 0.0019
+
+*** Window Number 193 ***
+Start Time : 1872231.3606
+End Time : 1884237.2196
+Delta Time : 12005.8589
+Delta Blocks : 1000
+Actual Lambda : 0.0791
+Estimated Lambda : 0.0833
+Fix Rate : 0.0013
+
+*** Window Number 194 ***
+Start Time : 1884237.2196
+End Time : 1896096.2477
+Delta Time : 11859.0282
+Delta Blocks : 1000
+Actual Lambda : 0.0792
+Estimated Lambda : 0.0843
+Fix Rate : 0.0012
+
+*** Window Number 195 ***
+Start Time : 1896096.2477
+End Time : 1907384.0543
+Delta Time : 11287.8066
+Delta Blocks : 1000
+Actual Lambda : 0.0793
+Estimated Lambda : 0.0886
+Fix Rate : 0.0009
+
+*** Window Number 196 ***
+Start Time : 1907384.0543
+End Time : 1920063.4735
+Delta Time : 12679.4192
+Delta Blocks : 1000
+Actual Lambda : 0.0794
+Estimated Lambda : 0.0789
+Fix Rate : 0.0018
+
+*** Window Number 197 ***
+Start Time : 1920063.4735
+End Time : 1932502.5830
+Delta Time : 12439.1095
+Delta Blocks : 1000
+Actual Lambda : 0.0795
+Estimated Lambda : 0.0804
+Fix Rate : 0.0016
+
+*** Window Number 198 ***
+Start Time : 1932502.5830
+End Time : 1944294.8527
+Delta Time : 11792.2697
+Delta Blocks : 1000
+Actual Lambda : 0.0796
+Estimated Lambda : 0.0848
+Fix Rate : 0.0012
+
+*** Window Number 199 ***
+Start Time : 1944294.8527
+End Time : 1956720.3549
+Delta Time : 12425.5022
+Delta Blocks : 1000
+Actual Lambda : 0.0797
+Estimated Lambda : 0.0805
+Fix Rate : 0.0016
+
+*** Window Number 200 ***
+Start Time : 1956720.3549
+End Time : 1969238.2098
+Delta Time : 12517.8549
+Delta Blocks : 1000
+Actual Lambda : 0.0798
+Estimated Lambda : 0.0799
+Fix Rate : 0.0017
+
+*** Window Number 201 ***
+Start Time : 1969238.2098
+End Time : 1982018.8736
+Delta Time : 12780.6638
+Delta Blocks : 1000
+Actual Lambda : 0.0800
+Estimated Lambda : 0.0782
+Fix Rate : 0.0019
+
+*** Window Number 202 ***
+Start Time : 1982018.8736
+End Time : 1993701.3802
+Delta Time : 11682.5066
+Delta Blocks : 1000
+Actual Lambda : 0.0801
+Estimated Lambda : 0.0856
+Fix Rate : 0.0011
+
+*** Window Number 203 ***
+Start Time : 1993701.3802
+End Time : 2005950.4622
+Delta Time : 12249.0821
+Delta Blocks : 1000
+Actual Lambda : 0.0802
+Estimated Lambda : 0.0816
+Fix Rate : 0.0015
+
+*** Window Number 204 ***
+Start Time : 2005950.4622
+End Time : 2018106.4971
+Delta Time : 12156.0348
+Delta Blocks : 1000
+Actual Lambda : 0.0803
+Estimated Lambda : 0.0823
+Fix Rate : 0.0014
+
+*** Window Number 205 ***
+Start Time : 2018106.4971
+End Time : 2029861.5090
+Delta Time : 11755.0119
+Delta Blocks : 1000
+Actual Lambda : 0.0805
+Estimated Lambda : 0.0851
+Fix Rate : 0.0012
+
+*** Window Number 206 ***
+Start Time : 2029861.5090
+End Time : 2042247.4339
+Delta Time : 12385.9249
+Delta Blocks : 1000
+Actual Lambda : 0.0806
+Estimated Lambda : 0.0807
+Fix Rate : 0.0016
+
+*** Window Number 207 ***
+Start Time : 2042247.4339
+End Time : 2053715.2496
+Delta Time : 11467.8157
+Delta Blocks : 1000
+Actual Lambda : 0.0807
+Estimated Lambda : 0.0872
+Fix Rate : 0.0010
+
+*** Window Number 208 ***
+Start Time : 2053715.2496
+End Time : 2065590.1670
+Delta Time : 11874.9173
+Delta Blocks : 1000
+Actual Lambda : 0.0808
+Estimated Lambda : 0.0842
+Fix Rate : 0.0012
+
+*** Window Number 209 ***
+Start Time : 2065590.1670
+End Time : 2077685.8089
+Delta Time : 12095.6419
+Delta Blocks : 1000
+Actual Lambda : 0.0809
+Estimated Lambda : 0.0827
+Fix Rate : 0.0014
+
+*** Window Number 210 ***
+Start Time : 2077685.8089
+End Time : 2089874.1226
+Delta Time : 12188.3138
+Delta Blocks : 1000
+Actual Lambda : 0.0810
+Estimated Lambda : 0.0820
+Fix Rate : 0.0015
+
+*** Window Number 211 ***
+Start Time : 2089874.1226
+End Time : 2101895.8223
+Delta Time : 12021.6997
+Delta Blocks : 1000
+Actual Lambda : 0.0811
+Estimated Lambda : 0.0832
+Fix Rate : 0.0013
+
+*** Window Number 212 ***
+Start Time : 2101895.8223
+End Time : 2113534.6070
+Delta Time : 11638.7847
+Delta Blocks : 1000
+Actual Lambda : 0.0812
+Estimated Lambda : 0.0859
+Fix Rate : 0.0011
+
+*** Window Number 213 ***
+Start Time : 2113534.6070
+End Time : 2124870.4018
+Delta Time : 11335.7948
+Delta Blocks : 1000
+Actual Lambda : 0.0813
+Estimated Lambda : 0.0882
+Fix Rate : 0.0009
+
+*** Window Number 214 ***
+Start Time : 2124870.4018
+End Time : 2136569.1132
+Delta Time : 11698.7113
+Delta Blocks : 1000
+Actual Lambda : 0.0814
+Estimated Lambda : 0.0855
+Fix Rate : 0.0011
+
+*** Window Number 215 ***
+Start Time : 2136569.1132
+End Time : 2149336.4452
+Delta Time : 12767.3320
+Delta Blocks : 1000
+Actual Lambda : 0.0815
+Estimated Lambda : 0.0783
+Fix Rate : 0.0018
+
+*** Window Number 216 ***
+Start Time : 2149336.4452
+End Time : 2160990.1369
+Delta Time : 11653.6916
+Delta Blocks : 1000
+Actual Lambda : 0.0816
+Estimated Lambda : 0.0858
+Fix Rate : 0.0011
+
+*** Window Number 217 ***
+Start Time : 2160990.1369
+End Time : 2172466.4444
+Delta Time : 11476.3075
+Delta Blocks : 1000
+Actual Lambda : 0.0817
+Estimated Lambda : 0.0871
+Fix Rate : 0.0010
+
+*** Window Number 218 ***
+Start Time : 2172466.4444
+End Time : 2184198.4062
+Delta Time : 11731.9618
+Delta Blocks : 1000
+Actual Lambda : 0.0818
+Estimated Lambda : 0.0852
+Fix Rate : 0.0012
+
+*** Window Number 219 ***
+Start Time : 2184198.4062
+End Time : 2195983.1630
+Delta Time : 11784.7568
+Delta Blocks : 1000
+Actual Lambda : 0.0819
+Estimated Lambda : 0.0849
+Fix Rate : 0.0012
+
+*** Window Number 220 ***
+Start Time : 2195983.1630
+End Time : 2208277.8130
+Delta Time : 12294.6500
+Delta Blocks : 1000
+Actual Lambda : 0.0820
+Estimated Lambda : 0.0813
+Fix Rate : 0.0015
+
+*** Window Number 221 ***
+Start Time : 2208277.8130
+End Time : 2220342.8370
+Delta Time : 12065.0240
+Delta Blocks : 1000
+Actual Lambda : 0.0821
+Estimated Lambda : 0.0829
+Fix Rate : 0.0014
+
+*** Window Number 222 ***
+Start Time : 2220342.8370
+End Time : 2232151.6501
+Delta Time : 11808.8131
+Delta Blocks : 1000
+Actual Lambda : 0.0822
+Estimated Lambda : 0.0847
+Fix Rate : 0.0012
+
+*** Window Number 223 ***
+Start Time : 2232151.6501
+End Time : 2243077.1869
+Delta Time : 10925.5368
+Delta Blocks : 1000
+Actual Lambda : 0.0823
+Estimated Lambda : 0.0915
+Fix Rate : 0.0006
+
+*** Window Number 224 ***
+Start Time : 2243077.1869
+End Time : 2255321.7512
+Delta Time : 12244.5642
+Delta Blocks : 1000
+Actual Lambda : 0.0824
+Estimated Lambda : 0.0817
+Fix Rate : 0.0015
+
+*** Window Number 225 ***
+Start Time : 2255321.7512
+End Time : 2267210.3823
+Delta Time : 11888.6312
+Delta Blocks : 1000
+Actual Lambda : 0.0825
+Estimated Lambda : 0.0841
+Fix Rate : 0.0013
+
+*** Window Number 226 ***
+Start Time : 2267210.3823
+End Time : 2279298.3867
+Delta Time : 12088.0043
+Delta Blocks : 1000
+Actual Lambda : 0.0826
+Estimated Lambda : 0.0827
+Fix Rate : 0.0014
+
+*** Window Number 227 ***
+Start Time : 2279298.3867
+End Time : 2291011.8351
+Delta Time : 11713.4485
+Delta Blocks : 1000
+Actual Lambda : 0.0827
+Estimated Lambda : 0.0854
+Fix Rate : 0.0011
+
+*** Window Number 228 ***
+Start Time : 2291011.8351
+End Time : 2302235.4778
+Delta Time : 11223.6426
+Delta Blocks : 1000
+Actual Lambda : 0.0828
+Estimated Lambda : 0.0891
+Fix Rate : 0.0008
+
+*** Window Number 229 ***
+Start Time : 2302235.4778
+End Time : 2313697.1711
+Delta Time : 11461.6933
+Delta Blocks : 1000
+Actual Lambda : 0.0829
+Estimated Lambda : 0.0872
+Fix Rate : 0.0010
+
+*** Window Number 230 ***
+Start Time : 2313697.1711
+End Time : 2325558.6217
+Delta Time : 11861.4506
+Delta Blocks : 1000
+Actual Lambda : 0.0829
+Estimated Lambda : 0.0843
+Fix Rate : 0.0012
+
+*** Window Number 231 ***
+Start Time : 2325558.6217
+End Time : 2337509.7103
+Delta Time : 11951.0885
+Delta Blocks : 1000
+Actual Lambda : 0.0830
+Estimated Lambda : 0.0837
+Fix Rate : 0.0013
+
+*** Window Number 232 ***
+Start Time : 2337509.7103
+End Time : 2348838.0477
+Delta Time : 11328.3375
+Delta Blocks : 1000
+Actual Lambda : 0.0831
+Estimated Lambda : 0.0883
+Fix Rate : 0.0009
+
+*** Window Number 233 ***
+Start Time : 2348838.0477
+End Time : 2360183.6377
+Delta Time : 11345.5900
+Delta Blocks : 1000
+Actual Lambda : 0.0832
+Estimated Lambda : 0.0881
+Fix Rate : 0.0009
+
+*** Window Number 234 ***
+Start Time : 2360183.6377
+End Time : 2371943.7257
+Delta Time : 11760.0880
+Delta Blocks : 1000
+Actual Lambda : 0.0833
+Estimated Lambda : 0.0850
+Fix Rate : 0.0012
+
+*** Window Number 235 ***
+Start Time : 2371943.7257
+End Time : 2384115.1176
+Delta Time : 12171.3919
+Delta Blocks : 1000
+Actual Lambda : 0.0834
+Estimated Lambda : 0.0822
+Fix Rate : 0.0014
+
+*** Window Number 236 ***
+Start Time : 2384115.1176
+End Time : 2396060.8685
+Delta Time : 11945.7509
+Delta Blocks : 1000
+Actual Lambda : 0.0835
+Estimated Lambda : 0.0837
+Fix Rate : 0.0013
+
+*** Window Number 237 ***
+Start Time : 2396060.8685
+End Time : 2407177.2472
+Delta Time : 11116.3786
+Delta Blocks : 1000
+Actual Lambda : 0.0836
+Estimated Lambda : 0.0900
+Fix Rate : 0.0007
+
+*** Window Number 238 ***
+Start Time : 2407177.2472
+End Time : 2418989.9013
+Delta Time : 11812.6541
+Delta Blocks : 1000
+Actual Lambda : 0.0837
+Estimated Lambda : 0.0847
+Fix Rate : 0.0012
+
+*** Window Number 239 ***
+Start Time : 2418989.9013
+End Time : 2430234.9783
+Delta Time : 11245.0771
+Delta Blocks : 1000
+Actual Lambda : 0.0838
+Estimated Lambda : 0.0889
+Fix Rate : 0.0008
+
+*** Window Number 240 ***
+Start Time : 2430234.9783
+End Time : 2442875.1438
+Delta Time : 12640.1655
+Delta Blocks : 1000
+Actual Lambda : 0.0839
+Estimated Lambda : 0.0791
+Fix Rate : 0.0018
+
+*** Window Number 241 ***
+Start Time : 2442875.1438
+End Time : 2455482.9002
+Delta Time : 12607.7564
+Delta Blocks : 1000
+Actual Lambda : 0.0840
+Estimated Lambda : 0.0793
+Fix Rate : 0.0017
+
+*** Window Number 242 ***
+Start Time : 2455482.9002
+End Time : 2467066.6730
+Delta Time : 11583.7728
+Delta Blocks : 1000
+Actual Lambda : 0.0842
+Estimated Lambda : 0.0863
+Fix Rate : 0.0011
+
+*** Window Number 243 ***
+Start Time : 2467066.6730
+End Time : 2478964.4309
+Delta Time : 11897.7579
+Delta Blocks : 1000
+Actual Lambda : 0.0842
+Estimated Lambda : 0.0840
+Fix Rate : 0.0013
+
+*** Window Number 244 ***
+Start Time : 2478964.4309
+End Time : 2490704.1441
+Delta Time : 11739.7133
+Delta Blocks : 1000
+Actual Lambda : 0.0843
+Estimated Lambda : 0.0852
+Fix Rate : 0.0012
+
+*** Window Number 245 ***
+Start Time : 2490704.1441
+End Time : 2502149.0347
+Delta Time : 11444.8906
+Delta Blocks : 1000
+Actual Lambda : 0.0844
+Estimated Lambda : 0.0874
+Fix Rate : 0.0010
+
+*** Window Number 246 ***
+Start Time : 2502149.0347
+End Time : 2514233.3899
+Delta Time : 12084.3552
+Delta Blocks : 1000
+Actual Lambda : 0.0845
+Estimated Lambda : 0.0828
+Fix Rate : 0.0014
+
+*** Window Number 247 ***
+Start Time : 2514233.3899
+End Time : 2525809.9034
+Delta Time : 11576.5135
+Delta Blocks : 1000
+Actual Lambda : 0.0846
+Estimated Lambda : 0.0864
+Fix Rate : 0.0011
+
+*** Window Number 248 ***
+Start Time : 2525809.9034
+End Time : 2537899.4936
+Delta Time : 12089.5902
+Delta Blocks : 1000
+Actual Lambda : 0.0847
+Estimated Lambda : 0.0827
+Fix Rate : 0.0014
+
+*** Window Number 249 ***
+Start Time : 2537899.4936
+End Time : 2549640.7474
+Delta Time : 11741.2538
+Delta Blocks : 1000
+Actual Lambda : 0.0848
+Estimated Lambda : 0.0852
+Fix Rate : 0.0012
+
+*** Window Number 250 ***
+Start Time : 2549640.7474
+End Time : 2561105.7537
+Delta Time : 11465.0063
+Delta Blocks : 1000
+Actual Lambda : 0.0849
+Estimated Lambda : 0.0872
+Fix Rate : 0.0010
+
+*** Window Number 251 ***
+Start Time : 2561105.7537
+End Time : 2572818.0245
+Delta Time : 11712.2709
+Delta Blocks : 1000
+Actual Lambda : 0.0850
+Estimated Lambda : 0.0854
+Fix Rate : 0.0011
+
+*** Window Number 252 ***
+Start Time : 2572818.0245
+End Time : 2584466.8843
+Delta Time : 11648.8598
+Delta Blocks : 1000
+Actual Lambda : 0.0851
+Estimated Lambda : 0.0858
+Fix Rate : 0.0011
+
+*** Window Number 253 ***
+Start Time : 2584466.8843
+End Time : 2596002.1236
+Delta Time : 11535.2393
+Delta Blocks : 1000
+Actual Lambda : 0.0852
+Estimated Lambda : 0.0867
+Fix Rate : 0.0010
+
+*** Window Number 254 ***
+Start Time : 2596002.1236
+End Time : 2606880.6741
+Delta Time : 10878.5505
+Delta Blocks : 1000
+Actual Lambda : 0.0853
+Estimated Lambda : 0.0919
+Fix Rate : 0.0006
+
+*** Window Number 255 ***
+Start Time : 2606880.6741
+End Time : 2618789.8024
+Delta Time : 11909.1282
+Delta Blocks : 1000
+Actual Lambda : 0.0854
+Estimated Lambda : 0.0840
+Fix Rate : 0.0013
+
+*** Window Number 256 ***
+Start Time : 2618789.8024
+End Time : 2629852.1981
+Delta Time : 11062.3957
+Delta Blocks : 1000
+Actual Lambda : 0.0855
+Estimated Lambda : 0.0904
+Fix Rate : 0.0007
+
+*** Window Number 257 ***
+Start Time : 2629852.1981
+End Time : 2640655.9163
+Delta Time : 10803.7183
+Delta Blocks : 1000
+Actual Lambda : 0.0855
+Estimated Lambda : 0.0926
+Fix Rate : 0.0005
+
+*** Window Number 258 ***
+Start Time : 2640655.9163
+End Time : 2652240.4264
+Delta Time : 11584.5100
+Delta Blocks : 1000
+Actual Lambda : 0.0856
+Estimated Lambda : 0.0863
+Fix Rate : 0.0011
+
+*** Window Number 259 ***
+Start Time : 2652240.4264
+End Time : 2663529.3690
+Delta Time : 11288.9427
+Delta Blocks : 1000
+Actual Lambda : 0.0857
+Estimated Lambda : 0.0886
+Fix Rate : 0.0009
+
+*** Window Number 260 ***
+Start Time : 2663529.3690
+End Time : 2674935.1382
+Delta Time : 11405.7692
+Delta Blocks : 1000
+Actual Lambda : 0.0857
+Estimated Lambda : 0.0877
+Fix Rate : 0.0009
+
+*** Window Number 261 ***
+Start Time : 2674935.1382
+End Time : 2685434.2863
+Delta Time : 10499.1481
+Delta Blocks : 1000
+Actual Lambda : 0.0858
+Estimated Lambda : 0.0952
+Fix Rate : 0.0003
+
+*** Window Number 262 ***
+Start Time : 2685434.2863
+End Time : 2696024.7426
+Delta Time : 10590.4563
+Delta Blocks : 1000
+Actual Lambda : 0.0858
+Estimated Lambda : 0.0944
+Fix Rate : 0.0004
+
+*** Window Number 263 ***
+Start Time : 2696024.7426
+End Time : 2707558.1043
+Delta Time : 11533.3617
+Delta Blocks : 1000
+Actual Lambda : 0.0859
+Estimated Lambda : 0.0867
+Fix Rate : 0.0010
+
+*** Window Number 264 ***
+Start Time : 2707558.1043
+End Time : 2719028.5561
+Delta Time : 11470.4517
+Delta Blocks : 1000
+Actual Lambda : 0.0860
+Estimated Lambda : 0.0872
+Fix Rate : 0.0010
+
+*** Window Number 265 ***
+Start Time : 2719028.5561
+End Time : 2730510.5944
+Delta Time : 11482.0384
+Delta Blocks : 1000
+Actual Lambda : 0.0861
+Estimated Lambda : 0.0871
+Fix Rate : 0.0010
+
+*** Window Number 266 ***
+Start Time : 2730510.5944
+End Time : 2741935.7459
+Delta Time : 11425.1515
+Delta Blocks : 1000
+Actual Lambda : 0.0861
+Estimated Lambda : 0.0875
+Fix Rate : 0.0010
+
+*** Window Number 267 ***
+Start Time : 2741935.7459
+End Time : 2752650.1671
+Delta Time : 10714.4212
+Delta Blocks : 1000
+Actual Lambda : 0.0862
+Estimated Lambda : 0.0933
+Fix Rate : 0.0005
+
+*** Window Number 268 ***
+Start Time : 2752650.1671
+End Time : 2763536.8711
+Delta Time : 10886.7040
+Delta Blocks : 1000
+Actual Lambda : 0.0863
+Estimated Lambda : 0.0919
+Fix Rate : 0.0006
+
+*** Window Number 269 ***
+Start Time : 2763536.8711
+End Time : 2774858.4014
+Delta Time : 11321.5303
+Delta Blocks : 1000
+Actual Lambda : 0.0863
+Estimated Lambda : 0.0883
+Fix Rate : 0.0009
+
+*** Window Number 270 ***
+Start Time : 2774858.4014
+End Time : 2786450.8696
+Delta Time : 11592.4682
+Delta Blocks : 1000
+Actual Lambda : 0.0864
+Estimated Lambda : 0.0863
+Fix Rate : 0.0011
+
+*** Window Number 271 ***
+Start Time : 2786450.8696
+End Time : 2797091.1426
+Delta Time : 10640.2729
+Delta Blocks : 1000
+Actual Lambda : 0.0865
+Estimated Lambda : 0.0940
+Fix Rate : 0.0004
+
+*** Window Number 272 ***
+Start Time : 2797091.1426
+End Time : 2808290.9950
+Delta Time : 11199.8525
+Delta Blocks : 1000
+Actual Lambda : 0.0865
+Estimated Lambda : 0.0893
+Fix Rate : 0.0008
+
+*** Window Number 273 ***
+Start Time : 2808290.9950
+End Time : 2819442.2824
+Delta Time : 11151.2873
+Delta Blocks : 1000
+Actual Lambda : 0.0866
+Estimated Lambda : 0.0897
+Fix Rate : 0.0008
+
+*** Window Number 274 ***
+Start Time : 2819442.2824
+End Time : 2830613.5190
+Delta Time : 11171.2366
+Delta Blocks : 1000
+Actual Lambda : 0.0867
+Estimated Lambda : 0.0895
+Fix Rate : 0.0008
+
+*** Window Number 275 ***
+Start Time : 2830613.5190
+End Time : 2842125.5185
+Delta Time : 11511.9995
+Delta Blocks : 1000
+Actual Lambda : 0.0867
+Estimated Lambda : 0.0869
+Fix Rate : 0.0010
+
+*** Window Number 276 ***
+Start Time : 2842125.5185
+End Time : 2853848.0873
+Delta Time : 11722.5689
+Delta Blocks : 1000
+Actual Lambda : 0.0868
+Estimated Lambda : 0.0853
+Fix Rate : 0.0011
+
+*** Window Number 277 ***
+Start Time : 2853848.0873
+End Time : 2865481.0283
+Delta Time : 11632.9410
+Delta Blocks : 1000
+Actual Lambda : 0.0869
+Estimated Lambda : 0.0860
+Fix Rate : 0.0011
+
+*** Window Number 278 ***
+Start Time : 2865481.0283
+End Time : 2876186.8518
+Delta Time : 10705.8235
+Delta Blocks : 1000
+Actual Lambda : 0.0870
+Estimated Lambda : 0.0934
+Fix Rate : 0.0005
+
+*** Window Number 279 ***
+Start Time : 2876186.8518
+End Time : 2887426.8624
+Delta Time : 11240.0106
+Delta Blocks : 1000
+Actual Lambda : 0.0870
+Estimated Lambda : 0.0890
+Fix Rate : 0.0008
+
+*** Window Number 280 ***
+Start Time : 2887426.8624
+End Time : 2899325.1984
+Delta Time : 11898.3359
+Delta Blocks : 1000
+Actual Lambda : 0.0871
+Estimated Lambda : 0.0840
+Fix Rate : 0.0013
+
+*** Window Number 281 ***
+Start Time : 2899325.1984
+End Time : 2910122.9040
+Delta Time : 10797.7056
+Delta Blocks : 1000
+Actual Lambda : 0.0872
+Estimated Lambda : 0.0926
+Fix Rate : 0.0005
+
+*** Window Number 282 ***
+Start Time : 2910122.9040
+End Time : 2921292.2566
+Delta Time : 11169.3526
+Delta Blocks : 1000
+Actual Lambda : 0.0873
+Estimated Lambda : 0.0895
+Fix Rate : 0.0008
+
+*** Window Number 283 ***
+Start Time : 2921292.2566
+End Time : 2932731.9656
+Delta Time : 11439.7091
+Delta Blocks : 1000
+Actual Lambda : 0.0873
+Estimated Lambda : 0.0874
+Fix Rate : 0.0010
+
+*** Window Number 284 ***
+Start Time : 2932731.9656
+End Time : 2943744.7862
+Delta Time : 11012.8206
+Delta Blocks : 1000
+Actual Lambda : 0.0874
+Estimated Lambda : 0.0908
+Fix Rate : 0.0007
+
+*** Window Number 285 ***
+Start Time : 2943744.7862
+End Time : 2954679.7924
+Delta Time : 10935.0062
+Delta Blocks : 1000
+Actual Lambda : 0.0875
+Estimated Lambda : 0.0914
+Fix Rate : 0.0006
+
+*** Window Number 286 ***
+Start Time : 2954679.7924
+End Time : 2965673.1944
+Delta Time : 10993.4020
+Delta Blocks : 1000
+Actual Lambda : 0.0875
+Estimated Lambda : 0.0910
+Fix Rate : 0.0007
+
+*** Window Number 287 ***
+Start Time : 2965673.1944
+End Time : 2976549.1052
+Delta Time : 10875.9108
+Delta Blocks : 1000
+Actual Lambda : 0.0876
+Estimated Lambda : 0.0919
+Fix Rate : 0.0006
+
+*** Window Number 288 ***
+Start Time : 2976549.1052
+End Time : 2987834.6377
+Delta Time : 11285.5324
+Delta Blocks : 1000
+Actual Lambda : 0.0876
+Estimated Lambda : 0.0886
+Fix Rate : 0.0009
+
+*** Window Number 289 ***
+Start Time : 2987834.6377
+End Time : 2999013.3545
+Delta Time : 11178.7168
+Delta Blocks : 1000
+Actual Lambda : 0.0877
+Estimated Lambda : 0.0895
+Fix Rate : 0.0008
+
+*** Window Number 290 ***
+Start Time : 2999013.3545
+End Time : 3010069.8563
+Delta Time : 11056.5018
+Delta Blocks : 1000
+Actual Lambda : 0.0878
+Estimated Lambda : 0.0904
+Fix Rate : 0.0007
+
+*** Window Number 291 ***
+Start Time : 3010069.8563
+End Time : 3020905.7757
+Delta Time : 10835.9194
+Delta Blocks : 1000
+Actual Lambda : 0.0879
+Estimated Lambda : 0.0923
+Fix Rate : 0.0006
+
+*** Window Number 292 ***
+Start Time : 3020905.7757
+End Time : 3031846.5810
+Delta Time : 10940.8053
+Delta Blocks : 1000
+Actual Lambda : 0.0879
+Estimated Lambda : 0.0914
+Fix Rate : 0.0006
+
+*** Window Number 293 ***
+Start Time : 3031846.5810
+End Time : 3042957.6446
+Delta Time : 11111.0635
+Delta Blocks : 1000
+Actual Lambda : 0.0880
+Estimated Lambda : 0.0900
+Fix Rate : 0.0007
+
+*** Window Number 294 ***
+Start Time : 3042957.6446
+End Time : 3053538.8116
+Delta Time : 10581.1671
+Delta Blocks : 1000
+Actual Lambda : 0.0880
+Estimated Lambda : 0.0945
+Fix Rate : 0.0004
+
+*** Window Number 295 ***
+Start Time : 3053538.8116
+End Time : 3064786.9427
+Delta Time : 11248.1311
+Delta Blocks : 1000
+Actual Lambda : 0.0881
+Estimated Lambda : 0.0889
+Fix Rate : 0.0008
+
+*** Window Number 296 ***
+Start Time : 3064786.9427
+End Time : 3075664.2516
+Delta Time : 10877.3089
+Delta Blocks : 1000
+Actual Lambda : 0.0881
+Estimated Lambda : 0.0919
+Fix Rate : 0.0006
+
+*** Window Number 297 ***
+Start Time : 3075664.2516
+End Time : 3086235.3443
+Delta Time : 10571.0927
+Delta Blocks : 1000
+Actual Lambda : 0.0882
+Estimated Lambda : 0.0946
+Fix Rate : 0.0004
+
+*** Window Number 298 ***
+Start Time : 3086235.3443
+End Time : 3097164.6158
+Delta Time : 10929.2715
+Delta Blocks : 1000
+Actual Lambda : 0.0882
+Estimated Lambda : 0.0915
+Fix Rate : 0.0006
+
+*** Window Number 299 ***
+Start Time : 3097164.6158
+End Time : 3107355.3211
+Delta Time : 10190.7053
+Delta Blocks : 1000
+Actual Lambda : 0.0883
+Estimated Lambda : 0.0981
+Fix Rate : 0.0001
+
+*** Window Number 300 ***
+Start Time : 3107355.3211
+End Time : 3118753.1573
+Delta Time : 11397.8362
+Delta Blocks : 1000
+Actual Lambda : 0.0883
+Estimated Lambda : 0.0877
+Fix Rate : 0.0009
+
+*** Window Number 301 ***
+Start Time : 3118753.1573
+End Time : 3129253.8029
+Delta Time : 10500.6456
+Delta Blocks : 1000
+Actual Lambda : 0.0884
+Estimated Lambda : 0.0952
+Fix Rate : 0.0003
+
+*** Window Number 302 ***
+Start Time : 3129253.8029
+End Time : 3140610.1717
+Delta Time : 11356.3689
+Delta Blocks : 1000
+Actual Lambda : 0.0884
+Estimated Lambda : 0.0881
+Fix Rate : 0.0009
+
+*** Window Number 303 ***
+Start Time : 3140610.1717
+End Time : 3151494.5176
+Delta Time : 10884.3459
+Delta Blocks : 1000
+Actual Lambda : 0.0885
+Estimated Lambda : 0.0919
+Fix Rate : 0.0006
+
+*** Window Number 304 ***
+Start Time : 3151494.5176
+End Time : 3162428.3339
+Delta Time : 10933.8163
+Delta Blocks : 1000
+Actual Lambda : 0.0885
+Estimated Lambda : 0.0915
+Fix Rate : 0.0006
+
+*** Window Number 305 ***
+Start Time : 3162428.3339
+End Time : 3173592.7818
+Delta Time : 11164.4478
+Delta Blocks : 1000
+Actual Lambda : 0.0886
+Estimated Lambda : 0.0896
+Fix Rate : 0.0008
+
+*** Window Number 306 ***
+Start Time : 3173592.7818
+End Time : 3184491.8847
+Delta Time : 10899.1030
+Delta Blocks : 1000
+Actual Lambda : 0.0886
+Estimated Lambda : 0.0918
+Fix Rate : 0.0006
+
+*** Window Number 307 ***
+Start Time : 3184491.8847
+End Time : 3195264.7695
+Delta Time : 10772.8848
+Delta Blocks : 1000
+Actual Lambda : 0.0887
+Estimated Lambda : 0.0928
+Fix Rate : 0.0005
+
+*** Window Number 308 ***
+Start Time : 3195264.7695
+End Time : 3206830.8838
+Delta Time : 11566.1143
+Delta Blocks : 1000
+Actual Lambda : 0.0887
+Estimated Lambda : 0.0865
+Fix Rate : 0.0010
+
+*** Window Number 309 ***
+Start Time : 3206830.8838
+End Time : 3217502.7567
+Delta Time : 10671.8730
+Delta Blocks : 1000
+Actual Lambda : 0.0888
+Estimated Lambda : 0.0937
+Fix Rate : 0.0004
+
+*** Window Number 310 ***
+Start Time : 3217502.7567
+End Time : 3228876.9353
+Delta Time : 11374.1786
+Delta Blocks : 1000
+Actual Lambda : 0.0889
+Estimated Lambda : 0.0879
+Fix Rate : 0.0009
+
+*** Window Number 311 ***
+Start Time : 3228876.9353
+End Time : 3239953.8643
+Delta Time : 11076.9290
+Delta Blocks : 1000
+Actual Lambda : 0.0890
+Estimated Lambda : 0.0903
+Fix Rate : 0.0007
+
+*** Window Number 312 ***
+Start Time : 3239953.8643
+End Time : 3250815.2707
+Delta Time : 10861.4064
+Delta Blocks : 1000
+Actual Lambda : 0.0890
+Estimated Lambda : 0.0921
+Fix Rate : 0.0006
+
+*** Window Number 313 ***
+Start Time : 3250815.2707
+End Time : 3262065.0547
+Delta Time : 11249.7840
+Delta Blocks : 1000
+Actual Lambda : 0.0891
+Estimated Lambda : 0.0889
+Fix Rate : 0.0008
+
+*** Window Number 314 ***
+Start Time : 3262065.0547
+End Time : 3272975.5350
+Delta Time : 10910.4803
+Delta Blocks : 1000
+Actual Lambda : 0.0891
+Estimated Lambda : 0.0917
+Fix Rate : 0.0006
+
+*** Window Number 315 ***
+Start Time : 3272975.5350
+End Time : 3283861.9479
+Delta Time : 10886.4129
+Delta Blocks : 1000
+Actual Lambda : 0.0892
+Estimated Lambda : 0.0919
+Fix Rate : 0.0006
+
+*** Window Number 316 ***
+Start Time : 3283861.9479
+End Time : 3294784.8083
+Delta Time : 10922.8604
+Delta Blocks : 1000
+Actual Lambda : 0.0893
+Estimated Lambda : 0.0916
+Fix Rate : 0.0006
+
+*** Window Number 317 ***
+Start Time : 3294784.8083
+End Time : 3305499.1987
+Delta Time : 10714.3904
+Delta Blocks : 1000
+Actual Lambda : 0.0893
+Estimated Lambda : 0.0933
+Fix Rate : 0.0005
+
+*** Window Number 318 ***
+Start Time : 3305499.1987
+End Time : 3316137.2075
+Delta Time : 10638.0087
+Delta Blocks : 1000
+Actual Lambda : 0.0894
+Estimated Lambda : 0.0940
+Fix Rate : 0.0004
+
+*** Window Number 319 ***
+Start Time : 3316137.2075
+End Time : 3327250.2694
+Delta Time : 11113.0619
+Delta Blocks : 1000
+Actual Lambda : 0.0894
+Estimated Lambda : 0.0900
+Fix Rate : 0.0007
+
+*** Window Number 320 ***
+Start Time : 3327250.2694
+End Time : 3337816.5520
+Delta Time : 10566.2826
+Delta Blocks : 1000
+Actual Lambda : 0.0895
+Estimated Lambda : 0.0946
+Fix Rate : 0.0004
+
+*** Window Number 321 ***
+Start Time : 3337816.5520
+End Time : 3349523.0682
+Delta Time : 11706.5162
+Delta Blocks : 1000
+Actual Lambda : 0.0895
+Estimated Lambda : 0.0854
+Fix Rate : 0.0011
+
+*** Window Number 322 ***
+Start Time : 3349523.0682
+End Time : 3360667.1894
+Delta Time : 11144.1212
+Delta Blocks : 1000
+Actual Lambda : 0.0896
+Estimated Lambda : 0.0897
+Fix Rate : 0.0008
+
+*** Window Number 323 ***
+Start Time : 3360667.1894
+End Time : 3371459.6788
+Delta Time : 10792.4894
+Delta Blocks : 1000
+Actual Lambda : 0.0897
+Estimated Lambda : 0.0927
+Fix Rate : 0.0005
+
+*** Window Number 324 ***
+Start Time : 3371459.6788
+End Time : 3382550.5781
+Delta Time : 11090.8994
+Delta Blocks : 1000
+Actual Lambda : 0.0897
+Estimated Lambda : 0.0902
+Fix Rate : 0.0007
+
+*** Window Number 325 ***
+Start Time : 3382550.5781
+End Time : 3393594.5907
+Delta Time : 11044.0125
+Delta Blocks : 1000
+Actual Lambda : 0.0898
+Estimated Lambda : 0.0905
+Fix Rate : 0.0007
+
+*** Window Number 326 ***
+Start Time : 3393594.5907
+End Time : 3404302.1204
+Delta Time : 10707.5297
+Delta Blocks : 1000
+Actual Lambda : 0.0898
+Estimated Lambda : 0.0934
+Fix Rate : 0.0005
+
+*** Window Number 327 ***
+Start Time : 3404302.1204
+End Time : 3414734.6883
+Delta Time : 10432.5680
+Delta Blocks : 1000
+Actual Lambda : 0.0899
+Estimated Lambda : 0.0959
+Fix Rate : 0.0003
+
+*** Window Number 328 ***
+Start Time : 3414734.6883
+End Time : 3425739.5883
+Delta Time : 11004.9000
+Delta Blocks : 1000
+Actual Lambda : 0.0899
+Estimated Lambda : 0.0909
+Fix Rate : 0.0007
+
+*** Window Number 329 ***
+Start Time : 3425739.5883
+End Time : 3436818.6101
+Delta Time : 11079.0217
+Delta Blocks : 1000
+Actual Lambda : 0.0900
+Estimated Lambda : 0.0903
+Fix Rate : 0.0007
+
+*** Window Number 330 ***
+Start Time : 3436818.6101
+End Time : 3447052.7089
+Delta Time : 10234.0989
+Delta Blocks : 1000
+Actual Lambda : 0.0900
+Estimated Lambda : 0.0977
+Fix Rate : 0.0002
+
+*** Window Number 331 ***
+Start Time : 3447052.7089
+End Time : 3457523.1925
+Delta Time : 10470.4835
+Delta Blocks : 1000
+Actual Lambda : 0.0900
+Estimated Lambda : 0.0955
+Fix Rate : 0.0003
+
+*** Window Number 332 ***
+Start Time : 3457523.1925
+End Time : 3467652.5282
+Delta Time : 10129.3357
+Delta Blocks : 1000
+Actual Lambda : 0.0901
+Estimated Lambda : 0.0987
+Fix Rate : 0.0001
+
+*** Window Number 333 ***
+Start Time : 3467652.5282
+End Time : 3478524.7108
+Delta Time : 10872.1826
+Delta Blocks : 1000
+Actual Lambda : 0.0901
+Estimated Lambda : 0.0920
+Fix Rate : 0.0006
+
+*** Window Number 334 ***
+Start Time : 3478524.7108
+End Time : 3489214.3852
+Delta Time : 10689.6744
+Delta Blocks : 1000
+Actual Lambda : 0.0901
+Estimated Lambda : 0.0935
+Fix Rate : 0.0005
+
+*** Window Number 335 ***
+Start Time : 3489214.3852
+End Time : 3500102.6734
+Delta Time : 10888.2882
+Delta Blocks : 1000
+Actual Lambda : 0.0902
+Estimated Lambda : 0.0918
+Fix Rate : 0.0006
+
+*** Window Number 336 ***
+Start Time : 3500102.6734
+End Time : 3510829.2317
+Delta Time : 10726.5583
+Delta Blocks : 1000
+Actual Lambda : 0.0902
+Estimated Lambda : 0.0932
+Fix Rate : 0.0005
+
+*** Window Number 337 ***
+Start Time : 3510829.2317
+End Time : 3521440.1036
+Delta Time : 10610.8719
+Delta Blocks : 1000
+Actual Lambda : 0.0903
+Estimated Lambda : 0.0942
+Fix Rate : 0.0004
+
+*** Window Number 338 ***
+Start Time : 3521440.1036
+End Time : 3532557.6884
+Delta Time : 11117.5848
+Delta Blocks : 1000
+Actual Lambda : 0.0903
+Estimated Lambda : 0.0899
+Fix Rate : 0.0007
+
+*** Window Number 339 ***
+Start Time : 3532557.6884
+End Time : 3543248.1732
+Delta Time : 10690.4848
+Delta Blocks : 1000
+Actual Lambda : 0.0904
+Estimated Lambda : 0.0935
+Fix Rate : 0.0005
+
+*** Window Number 340 ***
+Start Time : 3543248.1732
+End Time : 3554586.2095
+Delta Time : 11338.0362
+Delta Blocks : 1000
+Actual Lambda : 0.0904
+Estimated Lambda : 0.0882
+Fix Rate : 0.0009
+
+*** Window Number 341 ***
+Start Time : 3554586.2095
+End Time : 3564976.9405
+Delta Time : 10390.7310
+Delta Blocks : 1000
+Actual Lambda : 0.0905
+Estimated Lambda : 0.0962
+Fix Rate : 0.0003
+
+*** Window Number 342 ***
+Start Time : 3564976.9405
+End Time : 3576077.0248
+Delta Time : 11100.0843
+Delta Blocks : 1000
+Actual Lambda : 0.0905
+Estimated Lambda : 0.0901
+Fix Rate : 0.0007
+
+*** Window Number 343 ***
+Start Time : 3576077.0248
+End Time : 3586507.4616
+Delta Time : 10430.4368
+Delta Blocks : 1000
+Actual Lambda : 0.0906
+Estimated Lambda : 0.0959
+Fix Rate : 0.0003
+
+*** Window Number 344 ***
+Start Time : 3586507.4616
+End Time : 3597143.1539
+Delta Time : 10635.6923
+Delta Blocks : 1000
+Actual Lambda : 0.0906
+Estimated Lambda : 0.0940
+Fix Rate : 0.0004
+
+*** Window Number 345 ***
+Start Time : 3597143.1539
+End Time : 3607936.6985
+Delta Time : 10793.5445
+Delta Blocks : 1000
+Actual Lambda : 0.0907
+Estimated Lambda : 0.0926
+Fix Rate : 0.0005
+
+*** Window Number 346 ***
+Start Time : 3607936.6985
+End Time : 3618914.1505
+Delta Time : 10977.4520
+Delta Blocks : 1000
+Actual Lambda : 0.0907
+Estimated Lambda : 0.0911
+Fix Rate : 0.0007
+
+*** Window Number 347 ***
+Start Time : 3618914.1505
+End Time : 3630155.6181
+Delta Time : 11241.4675
+Delta Blocks : 1000
+Actual Lambda : 0.0908
+Estimated Lambda : 0.0890
+Fix Rate : 0.0008
+
+*** Window Number 348 ***
+Start Time : 3630155.6181
+End Time : 3640567.1398
+Delta Time : 10411.5217
+Delta Blocks : 1000
+Actual Lambda : 0.0908
+Estimated Lambda : 0.0960
+Fix Rate : 0.0003
+
+*** Window Number 349 ***
+Start Time : 3640567.1398
+End Time : 3651577.0136
+Delta Time : 11009.8739
+Delta Blocks : 1000
+Actual Lambda : 0.0909
+Estimated Lambda : 0.0908
+Fix Rate : 0.0007
+
+*** Window Number 350 ***
+Start Time : 3651577.0136
+End Time : 3662293.6212
+Delta Time : 10716.6076
+Delta Blocks : 1000
+Actual Lambda : 0.0909
+Estimated Lambda : 0.0933
+Fix Rate : 0.0005
+
+*** Window Number 351 ***
+Start Time : 3662293.6212
+End Time : 3673269.2265
+Delta Time : 10975.6053
+Delta Blocks : 1000
+Actual Lambda : 0.0910
+Estimated Lambda : 0.0911
+Fix Rate : 0.0007
+
+*** Window Number 352 ***
+Start Time : 3673269.2265
+End Time : 3683716.4844
+Delta Time : 10447.2579
+Delta Blocks : 1000
+Actual Lambda : 0.0910
+Estimated Lambda : 0.0957
+Fix Rate : 0.0003
+
+*** Window Number 353 ***
+Start Time : 3683716.4844
+End Time : 3694314.1639
+Delta Time : 10597.6795
+Delta Blocks : 1000
+Actual Lambda : 0.0910
+Estimated Lambda : 0.0944
+Fix Rate : 0.0004
+
+*** Window Number 354 ***
+Start Time : 3694314.1639
+End Time : 3704653.9224
+Delta Time : 10339.7585
+Delta Blocks : 1000
+Actual Lambda : 0.0911
+Estimated Lambda : 0.0967
+Fix Rate : 0.0002
+
+*** Window Number 355 ***
+Start Time : 3704653.9224
+End Time : 3714938.3859
+Delta Time : 10284.4635
+Delta Blocks : 1000
+Actual Lambda : 0.0911
+Estimated Lambda : 0.0972
+Fix Rate : 0.0002
+
+*** Window Number 356 ***
+Start Time : 3714938.3859
+End Time : 3724752.4521
+Delta Time : 9814.0662
+Delta Blocks : 1000
+Actual Lambda : 0.0911
+Estimated Lambda : 0.1019
+Fix Rate : -0.0001
+
+*** Window Number 357 ***
+Start Time : 3724752.4521
+End Time : 3735421.6061
+Delta Time : 10669.1540
+Delta Blocks : 1000
+Actual Lambda : 0.0911
+Estimated Lambda : 0.0937
+Fix Rate : 0.0004
+
+*** Window Number 358 ***
+Start Time : 3735421.6061
+End Time : 3746476.8617
+Delta Time : 11055.2556
+Delta Blocks : 1000
+Actual Lambda : 0.0912
+Estimated Lambda : 0.0905
+Fix Rate : 0.0007
+
+*** Window Number 359 ***
+Start Time : 3746476.8617
+End Time : 3757066.8693
+Delta Time : 10590.0076
+Delta Blocks : 1000
+Actual Lambda : 0.0912
+Estimated Lambda : 0.0944
+Fix Rate : 0.0004
+
+*** Window Number 360 ***
+Start Time : 3757066.8693
+End Time : 3767579.3105
+Delta Time : 10512.4412
+Delta Blocks : 1000
+Actual Lambda : 0.0913
+Estimated Lambda : 0.0951
+Fix Rate : 0.0003
+
+*** Window Number 361 ***
+Start Time : 3767579.3105
+End Time : 3778025.0999
+Delta Time : 10445.7894
+Delta Blocks : 1000
+Actual Lambda : 0.0913
+Estimated Lambda : 0.0957
+Fix Rate : 0.0003
+
+*** Window Number 362 ***
+Start Time : 3778025.0999
+End Time : 3788813.4281
+Delta Time : 10788.3282
+Delta Blocks : 1000
+Actual Lambda : 0.0913
+Estimated Lambda : 0.0927
+Fix Rate : 0.0005
+
+*** Window Number 363 ***
+Start Time : 3788813.4281
+End Time : 3799468.3771
+Delta Time : 10654.9490
+Delta Blocks : 1000
+Actual Lambda : 0.0914
+Estimated Lambda : 0.0939
+Fix Rate : 0.0004
+
+*** Window Number 364 ***
+Start Time : 3799468.3771
+End Time : 3809720.0597
+Delta Time : 10251.6826
+Delta Blocks : 1000
+Actual Lambda : 0.0914
+Estimated Lambda : 0.0975
+Fix Rate : 0.0002
+
+*** Window Number 365 ***
+Start Time : 3809720.0597
+End Time : 3819962.5038
+Delta Time : 10242.4442
+Delta Blocks : 1000
+Actual Lambda : 0.0914
+Estimated Lambda : 0.0976
+Fix Rate : 0.0002
+
+*** Window Number 366 ***
+Start Time : 3819962.5038
+End Time : 3830801.0231
+Delta Time : 10838.5193
+Delta Blocks : 1000
+Actual Lambda : 0.0914
+Estimated Lambda : 0.0923
+Fix Rate : 0.0006
+
+*** Window Number 367 ***
+Start Time : 3830801.0231
+End Time : 3841560.7454
+Delta Time : 10759.7223
+Delta Blocks : 1000
+Actual Lambda : 0.0915
+Estimated Lambda : 0.0929
+Fix Rate : 0.0005
+
+*** Window Number 368 ***
+Start Time : 3841560.7454
+End Time : 3852403.0933
+Delta Time : 10842.3478
+Delta Blocks : 1000
+Actual Lambda : 0.0915
+Estimated Lambda : 0.0922
+Fix Rate : 0.0006
+
+*** Window Number 369 ***
+Start Time : 3852403.0933
+End Time : 3863073.7608
+Delta Time : 10670.6676
+Delta Blocks : 1000
+Actual Lambda : 0.0916
+Estimated Lambda : 0.0937
+Fix Rate : 0.0004
+
+*** Window Number 370 ***
+Start Time : 3863073.7608
+End Time : 3873382.5392
+Delta Time : 10308.7784
+Delta Blocks : 1000
+Actual Lambda : 0.0916
+Estimated Lambda : 0.0970
+Fix Rate : 0.0002
+
+*** Window Number 371 ***
+Start Time : 3873382.5392
+End Time : 3884141.1443
+Delta Time : 10758.6051
+Delta Blocks : 1000
+Actual Lambda : 0.0916
+Estimated Lambda : 0.0929
+Fix Rate : 0.0005
+
+*** Window Number 372 ***
+Start Time : 3884141.1443
+End Time : 3894729.2577
+Delta Time : 10588.1133
+Delta Blocks : 1000
+Actual Lambda : 0.0917
+Estimated Lambda : 0.0944
+Fix Rate : 0.0004
+
+*** Window Number 373 ***
+Start Time : 3894729.2577
+End Time : 3905039.1288
+Delta Time : 10309.8711
+Delta Blocks : 1000
+Actual Lambda : 0.0917
+Estimated Lambda : 0.0970
+Fix Rate : 0.0002
+
+*** Window Number 374 ***
+Start Time : 3905039.1288
+End Time : 3916424.2822
+Delta Time : 11385.1534
+Delta Blocks : 1000
+Actual Lambda : 0.0917
+Estimated Lambda : 0.0878
+Fix Rate : 0.0009
+
+*** Window Number 375 ***
+Start Time : 3916424.2822
+End Time : 3927769.2616
+Delta Time : 11344.9794
+Delta Blocks : 1000
+Actual Lambda : 0.0918
+Estimated Lambda : 0.0881
+Fix Rate : 0.0009
+
+*** Window Number 376 ***
+Start Time : 3927769.2616
+End Time : 3938150.0909
+Delta Time : 10380.8293
+Delta Blocks : 1000
+Actual Lambda : 0.0919
+Estimated Lambda : 0.0963
+Fix Rate : 0.0003
+
+*** Window Number 377 ***
+Start Time : 3938150.0909
+End Time : 3948730.3418
+Delta Time : 10580.2509
+Delta Blocks : 1000
+Actual Lambda : 0.0919
+Estimated Lambda : 0.0945
+Fix Rate : 0.0004
+
+*** Window Number 378 ***
+Start Time : 3948730.3418
+End Time : 3959688.0062
+Delta Time : 10957.6644
+Delta Blocks : 1000
+Actual Lambda : 0.0920
+Estimated Lambda : 0.0913
+Fix Rate : 0.0006
+
+*** Window Number 379 ***
+Start Time : 3959688.0062
+End Time : 3970251.5467
+Delta Time : 10563.5404
+Delta Blocks : 1000
+Actual Lambda : 0.0920
+Estimated Lambda : 0.0947
+Fix Rate : 0.0004
+
+*** Window Number 380 ***
+Start Time : 3970251.5467
+End Time : 3981289.4938
+Delta Time : 11037.9472
+Delta Blocks : 1000
+Actual Lambda : 0.0921
+Estimated Lambda : 0.0906
+Fix Rate : 0.0007
+
+*** Window Number 381 ***
+Start Time : 3981289.4938
+End Time : 3991641.8672
+Delta Time : 10352.3733
+Delta Blocks : 1000
+Actual Lambda : 0.0921
+Estimated Lambda : 0.0966
+Fix Rate : 0.0002
+
+*** Window Number 382 ***
+Start Time : 3991641.8672
+End Time : 4002151.0968
+Delta Time : 10509.2296
+Delta Blocks : 1000
+Actual Lambda : 0.0921
+Estimated Lambda : 0.0952
+Fix Rate : 0.0003
+
+*** Window Number 383 ***
+Start Time : 4002151.0968
+End Time : 4013021.9481
+Delta Time : 10870.8513
+Delta Blocks : 1000
+Actual Lambda : 0.0922
+Estimated Lambda : 0.0920
+Fix Rate : 0.0006
+
+*** Window Number 384 ***
+Start Time : 4013021.9481
+End Time : 4023313.7327
+Delta Time : 10291.7846
+Delta Blocks : 1000
+Actual Lambda : 0.0922
+Estimated Lambda : 0.0972
+Fix Rate : 0.0002
+
+*** Window Number 385 ***
+Start Time : 4023313.7327
+End Time : 4033547.0791
+Delta Time : 10233.3464
+Delta Blocks : 1000
+Actual Lambda : 0.0922
+Estimated Lambda : 0.0977
+Fix Rate : 0.0002
+
+*** Window Number 386 ***
+Start Time : 4033547.0791
+End Time : 4044487.9372
+Delta Time : 10940.8581
+Delta Blocks : 1000
+Actual Lambda : 0.0923
+Estimated Lambda : 0.0914
+Fix Rate : 0.0006
+
+*** Window Number 387 ***
+Start Time : 4044487.9372
+End Time : 4054769.4426
+Delta Time : 10281.5055
+Delta Blocks : 1000
+Actual Lambda : 0.0923
+Estimated Lambda : 0.0973
+Fix Rate : 0.0002
+
+*** Window Number 388 ***
+Start Time : 4054769.4426
+End Time : 4065636.9544
+Delta Time : 10867.5117
+Delta Blocks : 1000
+Actual Lambda : 0.0923
+Estimated Lambda : 0.0920
+Fix Rate : 0.0006
+
+*** Window Number 389 ***
+Start Time : 4065636.9544
+End Time : 4076631.8979
+Delta Time : 10994.9436
+Delta Blocks : 1000
+Actual Lambda : 0.0924
+Estimated Lambda : 0.0910
+Fix Rate : 0.0007
+
+*** Window Number 390 ***
+Start Time : 4076631.8979
+End Time : 4086549.6031
+Delta Time : 9917.7051
+Delta Blocks : 1000
+Actual Lambda : 0.0924
+Estimated Lambda : 0.1008
+Fix Rate : -0.0001
+
+*** Window Number 391 ***
+Start Time : 4086549.6031
+End Time : 4096541.0713
+Delta Time : 9991.4682
+Delta Blocks : 1000
+Actual Lambda : 0.0924
+Estimated Lambda : 0.1001
+Fix Rate : -0.0000
+
+*** Window Number 392 ***
+Start Time : 4096541.0713
+End Time : 4106854.8303
+Delta Time : 10313.7589
+Delta Blocks : 1000
+Actual Lambda : 0.0924
+Estimated Lambda : 0.0970
+Fix Rate : 0.0002
+
+*** Window Number 393 ***
+Start Time : 4106854.8303
+End Time : 4117058.4666
+Delta Time : 10203.6363
+Delta Blocks : 1000
+Actual Lambda : 0.0925
+Estimated Lambda : 0.0980
+Fix Rate : 0.0001
+
+*** Window Number 394 ***
+Start Time : 4117058.4666
+End Time : 4127793.7954
+Delta Time : 10735.3288
+Delta Blocks : 1000
+Actual Lambda : 0.0925
+Estimated Lambda : 0.0932
+Fix Rate : 0.0005
+
+*** Window Number 395 ***
+Start Time : 4127793.7954
+End Time : 4138347.5748
+Delta Time : 10553.7795
+Delta Blocks : 1000
+Actual Lambda : 0.0925
+Estimated Lambda : 0.0948
+Fix Rate : 0.0004
+
+*** Window Number 396 ***
+Start Time : 4138347.5748
+End Time : 4148517.5631
+Delta Time : 10169.9883
+Delta Blocks : 1000
+Actual Lambda : 0.0926
+Estimated Lambda : 0.0983
+Fix Rate : 0.0001
+
+*** Window Number 397 ***
+Start Time : 4148517.5631
+End Time : 4158704.6751
+Delta Time : 10187.1120
+Delta Blocks : 1000
+Actual Lambda : 0.0926
+Estimated Lambda : 0.0982
+Fix Rate : 0.0001
+
+*** Window Number 398 ***
+Start Time : 4158704.6751
+End Time : 4169641.6963
+Delta Time : 10937.0212
+Delta Blocks : 1000
+Actual Lambda : 0.0926
+Estimated Lambda : 0.0914
+Fix Rate : 0.0006
+
+*** Window Number 399 ***
+Start Time : 4169641.6963
+End Time : 4180213.0165
+Delta Time : 10571.3202
+Delta Blocks : 1000
+Actual Lambda : 0.0926
+Estimated Lambda : 0.0946
+Fix Rate : 0.0004
+
+*** Window Number 400 ***
+Start Time : 4180213.0165
+End Time : 4190367.4151
+Delta Time : 10154.3987
+Delta Blocks : 1000
+Actual Lambda : 0.0927
+Estimated Lambda : 0.0985
+Fix Rate : 0.0001
+
+*** Window Number 401 ***
+Start Time : 4190367.4151
+End Time : 4201151.7014
+Delta Time : 10784.2863
+Delta Blocks : 1000
+Actual Lambda : 0.0927
+Estimated Lambda : 0.0927
+Fix Rate : 0.0005
+
+*** Window Number 402 ***
+Start Time : 4201151.7014
+End Time : 4211556.0468
+Delta Time : 10404.3454
+Delta Blocks : 1000
+Actual Lambda : 0.0927
+Estimated Lambda : 0.0961
+Fix Rate : 0.0003
+
+*** Window Number 403 ***
+Start Time : 4211556.0468
+End Time : 4221935.5463
+Delta Time : 10379.4995
+Delta Blocks : 1000
+Actual Lambda : 0.0928
+Estimated Lambda : 0.0963
+Fix Rate : 0.0003
+
+*** Window Number 404 ***
+Start Time : 4221935.5463
+End Time : 4232628.8257
+Delta Time : 10693.2794
+Delta Blocks : 1000
+Actual Lambda : 0.0928
+Estimated Lambda : 0.0935
+Fix Rate : 0.0005
+
+*** Window Number 405 ***
+Start Time : 4232628.8257
+End Time : 4243194.0040
+Delta Time : 10565.1783
+Delta Blocks : 1000
+Actual Lambda : 0.0928
+Estimated Lambda : 0.0947
+Fix Rate : 0.0004
+
+*** Window Number 406 ***
+Start Time : 4243194.0040
+End Time : 4253471.0134
+Delta Time : 10277.0094
+Delta Blocks : 1000
+Actual Lambda : 0.0929
+Estimated Lambda : 0.0973
+Fix Rate : 0.0002
+
+*** Window Number 407 ***
+Start Time : 4253471.0134
+End Time : 4263605.0821
+Delta Time : 10134.0687
+Delta Blocks : 1000
+Actual Lambda : 0.0929
+Estimated Lambda : 0.0987
+Fix Rate : 0.0001
+
+*** Window Number 408 ***
+Start Time : 4263605.0821
+End Time : 4273927.9879
+Delta Time : 10322.9058
+Delta Blocks : 1000
+Actual Lambda : 0.0929
+Estimated Lambda : 0.0969
+Fix Rate : 0.0002
+
+*** Window Number 409 ***
+Start Time : 4273927.9879
+End Time : 4284334.9735
+Delta Time : 10406.9856
+Delta Blocks : 1000
+Actual Lambda : 0.0929
+Estimated Lambda : 0.0961
+Fix Rate : 0.0003
+
+*** Window Number 410 ***
+Start Time : 4284334.9735
+End Time : 4294979.9654
+Delta Time : 10644.9919
+Delta Blocks : 1000
+Actual Lambda : 0.0929
+Estimated Lambda : 0.0939
+Fix Rate : 0.0004
+
+*** Window Number 411 ***
+Start Time : 4294979.9654
+End Time : 4306031.4315
+Delta Time : 11051.4661
+Delta Blocks : 1000
+Actual Lambda : 0.0930
+Estimated Lambda : 0.0905
+Fix Rate : 0.0007
+
+*** Window Number 412 ***
+Start Time : 4306031.4315
+End Time : 4316763.4507
+Delta Time : 10732.0192
+Delta Blocks : 1000
+Actual Lambda : 0.0930
+Estimated Lambda : 0.0932
+Fix Rate : 0.0005
+
+*** Window Number 413 ***
+Start Time : 4316763.4507
+End Time : 4327612.3372
+Delta Time : 10848.8865
+Delta Blocks : 1000
+Actual Lambda : 0.0931
+Estimated Lambda : 0.0922
+Fix Rate : 0.0006
+
+*** Window Number 414 ***
+Start Time : 4327612.3372
+End Time : 4338517.8305
+Delta Time : 10905.4933
+Delta Blocks : 1000
+Actual Lambda : 0.0931
+Estimated Lambda : 0.0917
+Fix Rate : 0.0006
+
+*** Window Number 415 ***
+Start Time : 4338517.8305
+End Time : 4349405.3015
+Delta Time : 10887.4711
+Delta Blocks : 1000
+Actual Lambda : 0.0932
+Estimated Lambda : 0.0918
+Fix Rate : 0.0006
+
+*** Window Number 416 ***
+Start Time : 4349405.3015
+End Time : 4360272.2122
+Delta Time : 10866.9106
+Delta Blocks : 1000
+Actual Lambda : 0.0932
+Estimated Lambda : 0.0920
+Fix Rate : 0.0006
+
+*** Window Number 417 ***
+Start Time : 4360272.2122
+End Time : 4370483.2369
+Delta Time : 10211.0248
+Delta Blocks : 1000
+Actual Lambda : 0.0933
+Estimated Lambda : 0.0979
+Fix Rate : 0.0001
+
+*** Window Number 418 ***
+Start Time : 4370483.2369
+End Time : 4380728.5000
+Delta Time : 10245.2630
+Delta Blocks : 1000
+Actual Lambda : 0.0933
+Estimated Lambda : 0.0976
+Fix Rate : 0.0002
+
+*** Window Number 419 ***
+Start Time : 4380728.5000
+End Time : 4391390.7317
+Delta Time : 10662.2318
+Delta Blocks : 1000
+Actual Lambda : 0.0933
+Estimated Lambda : 0.0938
+Fix Rate : 0.0004
+
+*** Window Number 420 ***
+Start Time : 4391390.7317
+End Time : 4401971.3492
+Delta Time : 10580.6175
+Delta Blocks : 1000
+Actual Lambda : 0.0934
+Estimated Lambda : 0.0945
+Fix Rate : 0.0004
+
+*** Window Number 421 ***
+Start Time : 4401971.3492
+End Time : 4411951.9634
+Delta Time : 9980.6142
+Delta Blocks : 1000
+Actual Lambda : 0.0934
+Estimated Lambda : 0.1002
+Fix Rate : -0.0000
+
+*** Window Number 422 ***
+Start Time : 4411951.9634
+End Time : 4422039.8893
+Delta Time : 10087.9258
+Delta Blocks : 1000
+Actual Lambda : 0.0934
+Estimated Lambda : 0.0991
+Fix Rate : 0.0001
+
+*** Window Number 423 ***
+Start Time : 4422039.8893
+End Time : 4432194.1195
+Delta Time : 10154.2302
+Delta Blocks : 1000
+Actual Lambda : 0.0934
+Estimated Lambda : 0.0985
+Fix Rate : 0.0001
+
+*** Window Number 424 ***
+Start Time : 4432194.1195
+End Time : 4442126.2267
+Delta Time : 9932.1072
+Delta Blocks : 1000
+Actual Lambda : 0.0934
+Estimated Lambda : 0.1007
+Fix Rate : -0.0000
+
+*** Window Number 425 ***
+Start Time : 4442126.2267
+End Time : 4452422.0308
+Delta Time : 10295.8042
+Delta Blocks : 1000
+Actual Lambda : 0.0934
+Estimated Lambda : 0.0971
+Fix Rate : 0.0002
+
+*** Window Number 426 ***
+Start Time : 4452422.0308
+End Time : 4462313.9570
+Delta Time : 9891.9261
+Delta Blocks : 1000
+Actual Lambda : 0.0934
+Estimated Lambda : 0.1011
+Fix Rate : -0.0001
+
+*** Window Number 427 ***
+Start Time : 4462313.9570
+End Time : 4472553.5499
+Delta Time : 10239.5929
+Delta Blocks : 1000
+Actual Lambda : 0.0934
+Estimated Lambda : 0.0977
+Fix Rate : 0.0002
+
+*** Window Number 428 ***
+Start Time : 4472553.5499
+End Time : 4483251.3100
+Delta Time : 10697.7601
+Delta Blocks : 1000
+Actual Lambda : 0.0934
+Estimated Lambda : 0.0935
+Fix Rate : 0.0005
+
+*** Window Number 429 ***
+Start Time : 4483251.3100
+End Time : 4493913.6621
+Delta Time : 10662.3521
+Delta Blocks : 1000
+Actual Lambda : 0.0935
+Estimated Lambda : 0.0938
+Fix Rate : 0.0004
+
+*** Window Number 430 ***
+Start Time : 4493913.6621
+End Time : 4504073.9937
+Delta Time : 10160.3315
+Delta Blocks : 1000
+Actual Lambda : 0.0935
+Estimated Lambda : 0.0984
+Fix Rate : 0.0001
+
+*** Window Number 431 ***
+Start Time : 4504073.9937
+End Time : 4514249.3757
+Delta Time : 10175.3820
+Delta Blocks : 1000
+Actual Lambda : 0.0935
+Estimated Lambda : 0.0983
+Fix Rate : 0.0001
+
+*** Window Number 432 ***
+Start Time : 4514249.3757
+End Time : 4524754.8133
+Delta Time : 10505.4376
+Delta Blocks : 1000
+Actual Lambda : 0.0935
+Estimated Lambda : 0.0952
+Fix Rate : 0.0003
+
+*** Window Number 433 ***
+Start Time : 4524754.8133
+End Time : 4535480.2688
+Delta Time : 10725.4555
+Delta Blocks : 1000
+Actual Lambda : 0.0936
+Estimated Lambda : 0.0932
+Fix Rate : 0.0005
+
+*** Window Number 434 ***
+Start Time : 4535480.2688
+End Time : 4545791.3038
+Delta Time : 10311.0350
+Delta Blocks : 1000
+Actual Lambda : 0.0936
+Estimated Lambda : 0.0970
+Fix Rate : 0.0002
+
+*** Window Number 435 ***
+Start Time : 4545791.3038
+End Time : 4555949.0261
+Delta Time : 10157.7223
+Delta Blocks : 1000
+Actual Lambda : 0.0936
+Estimated Lambda : 0.0984
+Fix Rate : 0.0001
+
+*** Window Number 436 ***
+Start Time : 4555949.0261
+End Time : 4566275.3088
+Delta Time : 10326.2827
+Delta Blocks : 1000
+Actual Lambda : 0.0936
+Estimated Lambda : 0.0968
+Fix Rate : 0.0002
+
+*** Window Number 437 ***
+Start Time : 4566275.3088
+End Time : 4576603.0640
+Delta Time : 10327.7551
+Delta Blocks : 1000
+Actual Lambda : 0.0937
+Estimated Lambda : 0.0968
+Fix Rate : 0.0002
+
+*** Window Number 438 ***
+Start Time : 4576603.0640
+End Time : 4586634.8181
+Delta Time : 10031.7541
+Delta Blocks : 1000
+Actual Lambda : 0.0937
+Estimated Lambda : 0.0997
+Fix Rate : 0.0000
+
+*** Window Number 439 ***
+Start Time : 4586634.8181
+End Time : 4597096.5847
+Delta Time : 10461.7666
+Delta Blocks : 1000
+Actual Lambda : 0.0937
+Estimated Lambda : 0.0956
+Fix Rate : 0.0003
+
+*** Window Number 440 ***
+Start Time : 4597096.5847
+End Time : 4607402.1394
+Delta Time : 10305.5548
+Delta Blocks : 1000
+Actual Lambda : 0.0937
+Estimated Lambda : 0.0970
+Fix Rate : 0.0002
+
+*** Window Number 441 ***
+Start Time : 4607402.1394
+End Time : 4617973.9712
+Delta Time : 10571.8317
+Delta Blocks : 1000
+Actual Lambda : 0.0937
+Estimated Lambda : 0.0946
+Fix Rate : 0.0004
+
+*** Window Number 442 ***
+Start Time : 4617973.9712
+End Time : 4628018.0756
+Delta Time : 10044.1044
+Delta Blocks : 1000
+Actual Lambda : 0.0938
+Estimated Lambda : 0.0996
+Fix Rate : 0.0000
+
+*** Window Number 443 ***
+Start Time : 4628018.0756
+End Time : 4638558.9422
+Delta Time : 10540.8666
+Delta Blocks : 1000
+Actual Lambda : 0.0938
+Estimated Lambda : 0.0949
+Fix Rate : 0.0004
+
+*** Window Number 444 ***
+Start Time : 4638558.9422
+End Time : 4649160.8850
+Delta Time : 10601.9427
+Delta Blocks : 1000
+Actual Lambda : 0.0938
+Estimated Lambda : 0.0943
+Fix Rate : 0.0004
+
+*** Window Number 445 ***
+Start Time : 4649160.8850
+End Time : 4659117.1298
+Delta Time : 9956.2448
+Delta Blocks : 1000
+Actual Lambda : 0.0938
+Estimated Lambda : 0.1004
+Fix Rate : -0.0000
+
+*** Window Number 446 ***
+Start Time : 4659117.1298
+End Time : 4669588.7017
+Delta Time : 10471.5719
+Delta Blocks : 1000
+Actual Lambda : 0.0938
+Estimated Lambda : 0.0955
+Fix Rate : 0.0003
+
+*** Window Number 447 ***
+Start Time : 4669588.7017
+End Time : 4679953.9205
+Delta Time : 10365.2188
+Delta Blocks : 1000
+Actual Lambda : 0.0939
+Estimated Lambda : 0.0965
+Fix Rate : 0.0002
+
+*** Window Number 448 ***
+Start Time : 4679953.9205
+End Time : 4690729.5195
+Delta Time : 10775.5990
+Delta Blocks : 1000
+Actual Lambda : 0.0939
+Estimated Lambda : 0.0928
+Fix Rate : 0.0005
+
+*** Window Number 449 ***
+Start Time : 4690729.5195
+End Time : 4701537.5123
+Delta Time : 10807.9928
+Delta Blocks : 1000
+Actual Lambda : 0.0939
+Estimated Lambda : 0.0925
+Fix Rate : 0.0005
+
+*** Window Number 450 ***
+Start Time : 4701537.5123
+End Time : 4711887.6868
+Delta Time : 10350.1746
+Delta Blocks : 1000
+Actual Lambda : 0.0940
+Estimated Lambda : 0.0966
+Fix Rate : 0.0002
+
+*** Window Number 451 ***
+Start Time : 4711887.6868
+End Time : 4721577.7366
+Delta Time : 9690.0497
+Delta Blocks : 1000
+Actual Lambda : 0.0940
+Estimated Lambda : 0.1032
+Fix Rate : -0.0002
+
+*** Window Number 452 ***
+Start Time : 4721577.7366
+End Time : 4731758.7595
+Delta Time : 10181.0230
+Delta Blocks : 1000
+Actual Lambda : 0.0940
+Estimated Lambda : 0.0982
+Fix Rate : 0.0001
+
+*** Window Number 453 ***
+Start Time : 4731758.7595
+End Time : 4741926.9933
+Delta Time : 10168.2338
+Delta Blocks : 1000
+Actual Lambda : 0.0940
+Estimated Lambda : 0.0983
+Fix Rate : 0.0001
+
+*** Window Number 454 ***
+Start Time : 4741926.9933
+End Time : 4752271.3158
+Delta Time : 10344.3225
+Delta Blocks : 1000
+Actual Lambda : 0.0940
+Estimated Lambda : 0.0967
+Fix Rate : 0.0002
+
+*** Window Number 455 ***
+Start Time : 4752271.3158
+End Time : 4762948.9966
+Delta Time : 10677.6808
+Delta Blocks : 1000
+Actual Lambda : 0.0940
+Estimated Lambda : 0.0937
+Fix Rate : 0.0005
+
+*** Window Number 456 ***
+Start Time : 4762948.9966
+End Time : 4772821.8439
+Delta Time : 9872.8473
+Delta Blocks : 1000
+Actual Lambda : 0.0941
+Estimated Lambda : 0.1013
+Fix Rate : -0.0001
+
+*** Window Number 457 ***
+Start Time : 4772821.8439
+End Time : 4783276.5937
+Delta Time : 10454.7498
+Delta Blocks : 1000
+Actual Lambda : 0.0941
+Estimated Lambda : 0.0957
+Fix Rate : 0.0003
+
+*** Window Number 458 ***
+Start Time : 4783276.5937
+End Time : 4793688.7030
+Delta Time : 10412.1093
+Delta Blocks : 1000
+Actual Lambda : 0.0941
+Estimated Lambda : 0.0960
+Fix Rate : 0.0003
+
+*** Window Number 459 ***
+Start Time : 4793688.7030
+End Time : 4803940.6808
+Delta Time : 10251.9778
+Delta Blocks : 1000
+Actual Lambda : 0.0941
+Estimated Lambda : 0.0975
+Fix Rate : 0.0002
+
+*** Window Number 460 ***
+Start Time : 4803940.6808
+End Time : 4814653.8153
+Delta Time : 10713.1345
+Delta Blocks : 1000
+Actual Lambda : 0.0941
+Estimated Lambda : 0.0933
+Fix Rate : 0.0005
+
+*** Window Number 461 ***
+Start Time : 4814653.8153
+End Time : 4824528.5063
+Delta Time : 9874.6910
+Delta Blocks : 1000
+Actual Lambda : 0.0942
+Estimated Lambda : 0.1013
+Fix Rate : -0.0001
+
+*** Window Number 462 ***
+Start Time : 4824528.5063
+End Time : 4834588.7162
+Delta Time : 10060.2100
+Delta Blocks : 1000
+Actual Lambda : 0.0942
+Estimated Lambda : 0.0994
+Fix Rate : 0.0000
+
+*** Window Number 463 ***
+Start Time : 4834588.7162
+End Time : 4845025.1607
+Delta Time : 10436.4444
+Delta Blocks : 1000
+Actual Lambda : 0.0942
+Estimated Lambda : 0.0958
+Fix Rate : 0.0003
+
+*** Window Number 464 ***
+Start Time : 4845025.1607
+End Time : 4855193.4875
+Delta Time : 10168.3268
+Delta Blocks : 1000
+Actual Lambda : 0.0942
+Estimated Lambda : 0.0983
+Fix Rate : 0.0001
+
+*** Window Number 465 ***
+Start Time : 4855193.4875
+End Time : 4865893.6840
+Delta Time : 10700.1966
+Delta Blocks : 1000
+Actual Lambda : 0.0942
+Estimated Lambda : 0.0935
+Fix Rate : 0.0005
+
+*** Window Number 466 ***
+Start Time : 4865893.6840
+End Time : 4875999.2135
+Delta Time : 10105.5295
+Delta Blocks : 1000
+Actual Lambda : 0.0943
+Estimated Lambda : 0.0990
+Fix Rate : 0.0001
+
+*** Window Number 467 ***
+Start Time : 4875999.2135
+End Time : 4885996.1523
+Delta Time : 9996.9388
+Delta Blocks : 1000
+Actual Lambda : 0.0943
+Estimated Lambda : 0.1000
+Fix Rate : -0.0000
+
+*** Window Number 468 ***
+Start Time : 4885996.1523
+End Time : 4896152.5112
+Delta Time : 10156.3589
+Delta Blocks : 1000
+Actual Lambda : 0.0943
+Estimated Lambda : 0.0985
+Fix Rate : 0.0001
+
+*** Window Number 469 ***
+Start Time : 4896152.5112
+End Time : 4906473.7982
+Delta Time : 10321.2871
+Delta Blocks : 1000
+Actual Lambda : 0.0943
+Estimated Lambda : 0.0969
+Fix Rate : 0.0002
+
+*** Window Number 470 ***
+Start Time : 4906473.7982
+End Time : 4917066.6788
+Delta Time : 10592.8806
+Delta Blocks : 1000
+Actual Lambda : 0.0943
+Estimated Lambda : 0.0944
+Fix Rate : 0.0004
+
+*** Window Number 471 ***
+Start Time : 4917066.6788
+End Time : 4927694.1705
+Delta Time : 10627.4917
+Delta Blocks : 1000
+Actual Lambda : 0.0943
+Estimated Lambda : 0.0941
+Fix Rate : 0.0004
+
+*** Window Number 472 ***
+Start Time : 4927694.1705
+End Time : 4937455.9676
+Delta Time : 9761.7971
+Delta Blocks : 1000
+Actual Lambda : 0.0944
+Estimated Lambda : 0.1024
+Fix Rate : -0.0002
+
+*** Window Number 473 ***
+Start Time : 4937455.9676
+End Time : 4948291.1914
+Delta Time : 10835.2237
+Delta Blocks : 1000
+Actual Lambda : 0.0944
+Estimated Lambda : 0.0923
+Fix Rate : 0.0006
+
+*** Window Number 474 ***
+Start Time : 4948291.1914
+End Time : 4958364.9571
+Delta Time : 10073.7658
+Delta Blocks : 1000
+Actual Lambda : 0.0944
+Estimated Lambda : 0.0993
+Fix Rate : 0.0000
+
+*** Window Number 475 ***
+Start Time : 4958364.9571
+End Time : 4968681.9677
+Delta Time : 10317.0106
+Delta Blocks : 1000
+Actual Lambda : 0.0944
+Estimated Lambda : 0.0969
+Fix Rate : 0.0002
+
+*** Window Number 476 ***
+Start Time : 4968681.9677
+End Time : 4978477.2113
+Delta Time : 9795.2435
+Delta Blocks : 1000
+Actual Lambda : 0.0944
+Estimated Lambda : 0.1021
+Fix Rate : -0.0001
+
+*** Window Number 477 ***
+Start Time : 4978477.2113
+End Time : 4988860.5952
+Delta Time : 10383.3839
+Delta Blocks : 1000
+Actual Lambda : 0.0944
+Estimated Lambda : 0.0963
+Fix Rate : 0.0003
+
+*** Window Number 478 ***
+Start Time : 4988860.5952
+End Time : 4999357.3278
+Delta Time : 10496.7326
+Delta Blocks : 1000
+Actual Lambda : 0.0945
+Estimated Lambda : 0.0953
+Fix Rate : 0.0003
+
+*** Window Number 479 ***
+Start Time : 4999357.3278
+End Time : 5009586.7444
+Delta Time : 10229.4166
+Delta Blocks : 1000
+Actual Lambda : 0.0945
+Estimated Lambda : 0.0978
+Fix Rate : 0.0002
+
+*** Window Number 480 ***
+Start Time : 5009586.7444
+End Time : 5019900.1741
+Delta Time : 10313.4297
+Delta Blocks : 1000
+Actual Lambda : 0.0945
+Estimated Lambda : 0.0970
+Fix Rate : 0.0002
+
+*** Window Number 481 ***
+Start Time : 5019900.1741
+End Time : 5030245.2207
+Delta Time : 10345.0466
+Delta Blocks : 1000
+Actual Lambda : 0.0945
+Estimated Lambda : 0.0967
+Fix Rate : 0.0002
+
+*** Window Number 482 ***
+Start Time : 5030245.2207
+End Time : 5040947.8776
+Delta Time : 10702.6569
+Delta Blocks : 1000
+Actual Lambda : 0.0945
+Estimated Lambda : 0.0934
+Fix Rate : 0.0005
+
+*** Window Number 483 ***
+Start Time : 5040947.8776
+End Time : 5050922.7358
+Delta Time : 9974.8582
+Delta Blocks : 1000
+Actual Lambda : 0.0946
+Estimated Lambda : 0.1003
+Fix Rate : -0.0000
+
+*** Window Number 484 ***
+Start Time : 5050922.7358
+End Time : 5061265.5407
+Delta Time : 10342.8050
+Delta Blocks : 1000
+Actual Lambda : 0.0946
+Estimated Lambda : 0.0967
+Fix Rate : 0.0002
+
+*** Window Number 485 ***
+Start Time : 5061265.5407
+End Time : 5071482.5924
+Delta Time : 10217.0517
+Delta Blocks : 1000
+Actual Lambda : 0.0946
+Estimated Lambda : 0.0979
+Fix Rate : 0.0001
+
+*** Window Number 486 ***
+Start Time : 5071482.5924
+End Time : 5081407.3811
+Delta Time : 9924.7887
+Delta Blocks : 1000
+Actual Lambda : 0.0946
+Estimated Lambda : 0.1008
+Fix Rate : -0.0001
+
+*** Window Number 487 ***
+Start Time : 5081407.3811
+End Time : 5091676.8855
+Delta Time : 10269.5044
+Delta Blocks : 1000
+Actual Lambda : 0.0946
+Estimated Lambda : 0.0974
+Fix Rate : 0.0002
+
+*** Window Number 488 ***
+Start Time : 5091676.8855
+End Time : 5101872.8092
+Delta Time : 10195.9238
+Delta Blocks : 1000
+Actual Lambda : 0.0946
+Estimated Lambda : 0.0981
+Fix Rate : 0.0001
+
+*** Window Number 489 ***
+Start Time : 5101872.8092
+End Time : 5112592.4259
+Delta Time : 10719.6167
+Delta Blocks : 1000
+Actual Lambda : 0.0946
+Estimated Lambda : 0.0933
+Fix Rate : 0.0005
+
+*** Window Number 490 ***
+Start Time : 5112592.4259
+End Time : 5123051.3159
+Delta Time : 10458.8900
+Delta Blocks : 1000
+Actual Lambda : 0.0947
+Estimated Lambda : 0.0956
+Fix Rate : 0.0003
+
+*** Window Number 491 ***
+Start Time : 5123051.3159
+End Time : 5133104.1872
+Delta Time : 10052.8713
+Delta Blocks : 1000
+Actual Lambda : 0.0947
+Estimated Lambda : 0.0995
+Fix Rate : 0.0000
+
+*** Window Number 492 ***
+Start Time : 5133104.1872
+End Time : 5143236.9213
+Delta Time : 10132.7341
+Delta Blocks : 1000
+Actual Lambda : 0.0947
+Estimated Lambda : 0.0987
+Fix Rate : 0.0001
+
+*** Window Number 493 ***
+Start Time : 5143236.9213
+End Time : 5153202.8334
+Delta Time : 9965.9121
+Delta Blocks : 1000
+Actual Lambda : 0.0947
+Estimated Lambda : 0.1003
+Fix Rate : -0.0000
+
+*** Window Number 494 ***
+Start Time : 5153202.8334
+End Time : 5162970.9347
+Delta Time : 9768.1013
+Delta Blocks : 1000
+Actual Lambda : 0.0947
+Estimated Lambda : 0.1024
+Fix Rate : -0.0002
+
+*** Window Number 495 ***
+Start Time : 5162970.9347
+End Time : 5173531.7344
+Delta Time : 10560.7996
+Delta Blocks : 1000
+Actual Lambda : 0.0947
+Estimated Lambda : 0.0947
+Fix Rate : 0.0004
+
+*** Window Number 496 ***
+Start Time : 5173531.7344
+End Time : 5183239.6351
+Delta Time : 9707.9008
+Delta Blocks : 1000
+Actual Lambda : 0.0948
+Estimated Lambda : 0.1030
+Fix Rate : -0.0002
+
+*** Window Number 497 ***
+Start Time : 5183239.6351
+End Time : 5193439.2329
+Delta Time : 10199.5978
+Delta Blocks : 1000
+Actual Lambda : 0.0947
+Estimated Lambda : 0.0980
+Fix Rate : 0.0001
+
+*** Window Number 498 ***
+Start Time : 5193439.2329
+End Time : 5202811.1446
+Delta Time : 9371.9117
+Delta Blocks : 1000
+Actual Lambda : 0.0947
+Estimated Lambda : 0.1067
+Fix Rate : -0.0004
+
+*** Window Number 499 ***
+Start Time : 5202811.1446
+End Time : 5212966.5757
+Delta Time : 10155.4311
+Delta Blocks : 1000
+Actual Lambda : 0.0947
+Estimated Lambda : 0.0985
+Fix Rate : 0.0001
+
+*** Window Number 500 ***
+Start Time : 5212966.5757
+End Time : 5223532.5898
+Delta Time : 10566.0141
+Delta Blocks : 1000
+Actual Lambda : 0.0947
+Estimated Lambda : 0.0946
+Fix Rate : 0.0004
+
+*** Window Number 501 ***
+Start Time : 5223532.5898
+End Time : 5233588.9328
+Delta Time : 10056.3430
+Delta Blocks : 1000
+Actual Lambda : 0.0948
+Estimated Lambda : 0.0994
+Fix Rate : 0.0000
+
+*** Window Number 502 ***
+Start Time : 5233588.9328
+End Time : 5244141.0911
+Delta Time : 10552.1584
+Delta Blocks : 1000
+Actual Lambda : 0.0948
+Estimated Lambda : 0.0948
+Fix Rate : 0.0004
+
+*** Window Number 503 ***
+Start Time : 5244141.0911
+End Time : 5254999.8452
+Delta Time : 10858.7541
+Delta Blocks : 1000
+Actual Lambda : 0.0948
+Estimated Lambda : 0.0921
+Fix Rate : 0.0006
+
+*** Window Number 504 ***
+Start Time : 5254999.8452
+End Time : 5265178.6372
+Delta Time : 10178.7919
+Delta Blocks : 1000
+Actual Lambda : 0.0948
+Estimated Lambda : 0.0982
+Fix Rate : 0.0001
+
+*** Window Number 505 ***
+Start Time : 5265178.6372
+End Time : 5275497.6837
+Delta Time : 10319.0466
+Delta Blocks : 1000
+Actual Lambda : 0.0949
+Estimated Lambda : 0.0969
+Fix Rate : 0.0002
+
+*** Window Number 506 ***
+Start Time : 5275497.6837
+End Time : 5285859.4593
+Delta Time : 10361.7756
+Delta Blocks : 1000
+Actual Lambda : 0.0949
+Estimated Lambda : 0.0965
+Fix Rate : 0.0002
+
+*** Window Number 507 ***
+Start Time : 5285859.4593
+End Time : 5296054.8728
+Delta Time : 10195.4135
+Delta Blocks : 1000
+Actual Lambda : 0.0949
+Estimated Lambda : 0.0981
+Fix Rate : 0.0001
+
+*** Window Number 508 ***
+Start Time : 5296054.8728
+End Time : 5306263.9085
+Delta Time : 10209.0357
+Delta Blocks : 1000
+Actual Lambda : 0.0949
+Estimated Lambda : 0.0980
+Fix Rate : 0.0001
+
+*** Window Number 509 ***
+Start Time : 5306263.9085
+End Time : 5316078.0150
+Delta Time : 9814.1065
+Delta Blocks : 1000
+Actual Lambda : 0.0949
+Estimated Lambda : 0.1019
+Fix Rate : -0.0001
+
+*** Window Number 510 ***
+Start Time : 5316078.0150
+End Time : 5325888.1912
+Delta Time : 9810.1762
+Delta Blocks : 1000
+Actual Lambda : 0.0949
+Estimated Lambda : 0.1019
+Fix Rate : -0.0001
+
+*** Window Number 511 ***
+Start Time : 5325888.1912
+End Time : 5335952.9275
+Delta Time : 10064.7363
+Delta Blocks : 1000
+Actual Lambda : 0.0949
+Estimated Lambda : 0.0994
+Fix Rate : 0.0000
+
+*** Window Number 512 ***
+Start Time : 5335952.9275
+End Time : 5346688.7446
+Delta Time : 10735.8171
+Delta Blocks : 1000
+Actual Lambda : 0.0949
+Estimated Lambda : 0.0931
+Fix Rate : 0.0005
+
+*** Window Number 513 ***
+Start Time : 5346688.7446
+End Time : 5356467.7650
+Delta Time : 9779.0204
+Delta Blocks : 1000
+Actual Lambda : 0.0950
+Estimated Lambda : 0.1023
+Fix Rate : -0.0001
+
+*** Window Number 514 ***
+Start Time : 5356467.7650
+End Time : 5367165.3857
+Delta Time : 10697.6208
+Delta Blocks : 1000
+Actual Lambda : 0.0949
+Estimated Lambda : 0.0935
+Fix Rate : 0.0005
+
+*** Window Number 515 ***
+Start Time : 5367165.3857
+End Time : 5377296.6585
+Delta Time : 10131.2728
+Delta Blocks : 1000
+Actual Lambda : 0.0950
+Estimated Lambda : 0.0987
+Fix Rate : 0.0001
+
+*** Window Number 516 ***
+Start Time : 5377296.6585
+End Time : 5387386.3561
+Delta Time : 10089.6976
+Delta Blocks : 1000
+Actual Lambda : 0.0950
+Estimated Lambda : 0.0991
+Fix Rate : 0.0001
+
+*** Window Number 517 ***
+Start Time : 5387386.3561
+End Time : 5397972.7424
+Delta Time : 10586.3864
+Delta Blocks : 1000
+Actual Lambda : 0.0950
+Estimated Lambda : 0.0945
+Fix Rate : 0.0004
+
+*** Window Number 518 ***
+Start Time : 5397972.7424
+End Time : 5408800.6011
+Delta Time : 10827.8587
+Delta Blocks : 1000
+Actual Lambda : 0.0950
+Estimated Lambda : 0.0924
+Fix Rate : 0.0006
+
+*** Window Number 519 ***
+Start Time : 5408800.6011
+End Time : 5418860.2193
+Delta Time : 10059.6182
+Delta Blocks : 1000
+Actual Lambda : 0.0951
+Estimated Lambda : 0.0994
+Fix Rate : 0.0000
+
+*** Window Number 520 ***
+Start Time : 5418860.2193
+End Time : 5429028.9887
+Delta Time : 10168.7694
+Delta Blocks : 1000
+Actual Lambda : 0.0951
+Estimated Lambda : 0.0983
+Fix Rate : 0.0001
+
+*** Window Number 521 ***
+Start Time : 5429028.9887
+End Time : 5439350.5680
+Delta Time : 10321.5793
+Delta Blocks : 1000
+Actual Lambda : 0.0951
+Estimated Lambda : 0.0969
+Fix Rate : 0.0002
+
+*** Window Number 522 ***
+Start Time : 5439350.5680
+End Time : 5449574.6474
+Delta Time : 10224.0794
+Delta Blocks : 1000
+Actual Lambda : 0.0951
+Estimated Lambda : 0.0978
+Fix Rate : 0.0001
+
+*** Window Number 523 ***
+Start Time : 5449574.6474
+End Time : 5459558.6301
+Delta Time : 9983.9827
+Delta Blocks : 1000
+Actual Lambda : 0.0951
+Estimated Lambda : 0.1002
+Fix Rate : -0.0000
+
+*** Window Number 524 ***
+Start Time : 5459558.6301
+End Time : 5470289.1347
+Delta Time : 10730.5046
+Delta Blocks : 1000
+Actual Lambda : 0.0951
+Estimated Lambda : 0.0932
+Fix Rate : 0.0005
+
+*** Window Number 525 ***
+Start Time : 5470289.1347
+End Time : 5479745.4658
+Delta Time : 9456.3311
+Delta Blocks : 1000
+Actual Lambda : 0.0952
+Estimated Lambda : 0.1057
+Fix Rate : -0.0004
+
+*** Window Number 526 ***
+Start Time : 5479745.4658
+End Time : 5489691.2841
+Delta Time : 9945.8184
+Delta Blocks : 1000
+Actual Lambda : 0.0951
+Estimated Lambda : 0.1005
+Fix Rate : -0.0000
+
+*** Window Number 527 ***
+Start Time : 5489691.2841
+End Time : 5500306.4905
+Delta Time : 10615.2064
+Delta Blocks : 1000
+Actual Lambda : 0.0951
+Estimated Lambda : 0.0942
+Fix Rate : 0.0004
+
+*** Window Number 528 ***
+Start Time : 5500306.4905
+End Time : 5510231.2902
+Delta Time : 9924.7997
+Delta Blocks : 1000
+Actual Lambda : 0.0952
+Estimated Lambda : 0.1008
+Fix Rate : -0.0001
+
+*** Window Number 529 ***
+Start Time : 5510231.2902
+End Time : 5520562.9518
+Delta Time : 10331.6616
+Delta Blocks : 1000
+Actual Lambda : 0.0952
+Estimated Lambda : 0.0968
+Fix Rate : 0.0002
+
+*** Window Number 530 ***
+Start Time : 5520562.9518
+End Time : 5530916.9224
+Delta Time : 10353.9706
+Delta Blocks : 1000
+Actual Lambda : 0.0952
+Estimated Lambda : 0.0966
+Fix Rate : 0.0002
+
+*** Window Number 531 ***
+Start Time : 5530916.9224
+End Time : 5540808.1710
+Delta Time : 9891.2487
+Delta Blocks : 1000
+Actual Lambda : 0.0952
+Estimated Lambda : 0.1011
+Fix Rate : -0.0001
+
+*** Window Number 532 ***
+Start Time : 5540808.1710
+End Time : 5551396.7303
+Delta Time : 10588.5592
+Delta Blocks : 1000
+Actual Lambda : 0.0952
+Estimated Lambda : 0.0944
+Fix Rate : 0.0004
+
+*** Window Number 533 ***
+Start Time : 5551396.7303
+End Time : 5561264.6543
+Delta Time : 9867.9240
+Delta Blocks : 1000
+Actual Lambda : 0.0952
+Estimated Lambda : 0.1013
+Fix Rate : -0.0001
+
+*** Window Number 534 ***
+Start Time : 5561264.6543
+End Time : 5570918.8126
+Delta Time : 9654.1584
+Delta Blocks : 1000
+Actual Lambda : 0.0952
+Estimated Lambda : 0.1036
+Fix Rate : -0.0002
+
+*** Window Number 535 ***
+Start Time : 5570918.8126
+End Time : 5580926.0884
+Delta Time : 10007.2757
+Delta Blocks : 1000
+Actual Lambda : 0.0952
+Estimated Lambda : 0.0999
+Fix Rate : 0.0000
+
+*** Window Number 536 ***
+Start Time : 5580926.0884
+End Time : 5591386.7502
+Delta Time : 10460.6618
+Delta Blocks : 1000
+Actual Lambda : 0.0952
+Estimated Lambda : 0.0956
+Fix Rate : 0.0003
+
+*** Window Number 537 ***
+Start Time : 5591386.7502
+End Time : 5601315.4278
+Delta Time : 9928.6776
+Delta Blocks : 1000
+Actual Lambda : 0.0952
+Estimated Lambda : 0.1007
+Fix Rate : -0.0000
+
+*** Window Number 538 ***
+Start Time : 5601315.4278
+End Time : 5611212.0263
+Delta Time : 9896.5986
+Delta Blocks : 1000
+Actual Lambda : 0.0952
+Estimated Lambda : 0.1010
+Fix Rate : -0.0001
+
+*** Window Number 539 ***
+Start Time : 5611212.0263
+End Time : 5621655.4381
+Delta Time : 10443.4118
+Delta Blocks : 1000
+Actual Lambda : 0.0952
+Estimated Lambda : 0.0958
+Fix Rate : 0.0003
+
+*** Window Number 540 ***
+Start Time : 5621655.4381
+End Time : 5631852.3379
+Delta Time : 10196.8997
+Delta Blocks : 1000
+Actual Lambda : 0.0953
+Estimated Lambda : 0.0981
+Fix Rate : 0.0001
+
+*** Window Number 541 ***
+Start Time : 5631852.3379
+End Time : 5641843.6704
+Delta Time : 9991.3325
+Delta Blocks : 1000
+Actual Lambda : 0.0953
+Estimated Lambda : 0.1001
+Fix Rate : -0.0000
+
+*** Window Number 542 ***
+Start Time : 5641843.6704
+End Time : 5652313.9982
+Delta Time : 10470.3278
+Delta Blocks : 1000
+Actual Lambda : 0.0953
+Estimated Lambda : 0.0955
+Fix Rate : 0.0003
+
+*** Window Number 543 ***
+Start Time : 5652313.9982
+End Time : 5662042.2503
+Delta Time : 9728.2522
+Delta Blocks : 1000
+Actual Lambda : 0.0953
+Estimated Lambda : 0.1028
+Fix Rate : -0.0002
+
+*** Window Number 544 ***
+Start Time : 5662042.2503
+End Time : 5671932.7346
+Delta Time : 9890.4843
+Delta Blocks : 1000
+Actual Lambda : 0.0953
+Estimated Lambda : 0.1011
+Fix Rate : -0.0001
+
+*** Window Number 545 ***
+Start Time : 5671932.7346
+End Time : 5682308.7576
+Delta Time : 10376.0230
+Delta Blocks : 1000
+Actual Lambda : 0.0953
+Estimated Lambda : 0.0964
+Fix Rate : 0.0003
+
+*** Window Number 546 ***
+Start Time : 5682308.7576
+End Time : 5691782.3633
+Delta Time : 9473.6057
+Delta Blocks : 1000
+Actual Lambda : 0.0953
+Estimated Lambda : 0.1056
+Fix Rate : -0.0004
+
+*** Window Number 547 ***
+Start Time : 5691782.3633
+End Time : 5701837.1811
+Delta Time : 10054.8179
+Delta Blocks : 1000
+Actual Lambda : 0.0953
+Estimated Lambda : 0.0995
+Fix Rate : 0.0000
+
+*** Window Number 548 ***
+Start Time : 5701837.1811
+End Time : 5711827.4969
+Delta Time : 9990.3158
+Delta Blocks : 1000
+Actual Lambda : 0.0953
+Estimated Lambda : 0.1001
+Fix Rate : -0.0000
+
+*** Window Number 549 ***
+Start Time : 5711827.4969
+End Time : 5721431.9437
+Delta Time : 9604.4467
+Delta Blocks : 1000
+Actual Lambda : 0.0953
+Estimated Lambda : 0.1041
+Fix Rate : -0.0003
+
+*** Window Number 550 ***
+Start Time : 5721431.9437
+End Time : 5731886.1686
+Delta Time : 10454.2250
+Delta Blocks : 1000
+Actual Lambda : 0.0953
+Estimated Lambda : 0.0957
+Fix Rate : 0.0003
+
+*** Window Number 551 ***
+Start Time : 5731886.1686
+End Time : 5741802.5272
+Delta Time : 9916.3585
+Delta Blocks : 1000
+Actual Lambda : 0.0953
+Estimated Lambda : 0.1008
+Fix Rate : -0.0001
+
+*** Window Number 552 ***
+Start Time : 5741802.5272
+End Time : 5751956.4961
+Delta Time : 10153.9689
+Delta Blocks : 1000
+Actual Lambda : 0.0953
+Estimated Lambda : 0.0985
+Fix Rate : 0.0001
+
+*** Window Number 553 ***
+Start Time : 5751956.4961
+End Time : 5762024.7288
+Delta Time : 10068.2327
+Delta Blocks : 1000
+Actual Lambda : 0.0953
+Estimated Lambda : 0.0993
+Fix Rate : 0.0000
+
+*** Window Number 554 ***
+Start Time : 5762024.7288
+End Time : 5772293.6337
+Delta Time : 10268.9049
+Delta Blocks : 1000
+Actual Lambda : 0.0953
+Estimated Lambda : 0.0974
+Fix Rate : 0.0002
+
+*** Window Number 555 ***
+Start Time : 5772293.6337
+End Time : 5783143.4767
+Delta Time : 10849.8430
+Delta Blocks : 1000
+Actual Lambda : 0.0953
+Estimated Lambda : 0.0922
+Fix Rate : 0.0006
+
+*** Window Number 556 ***
+Start Time : 5783143.4767
+End Time : 5793357.8663
+Delta Time : 10214.3896
+Delta Blocks : 1000
+Actual Lambda : 0.0954
+Estimated Lambda : 0.0979
+Fix Rate : 0.0001
+
+*** Window Number 557 ***
+Start Time : 5793357.8663
+End Time : 5803317.0546
+Delta Time : 9959.1883
+Delta Blocks : 1000
+Actual Lambda : 0.0954
+Estimated Lambda : 0.1004
+Fix Rate : -0.0000
+
+*** Window Number 558 ***
+Start Time : 5803317.0546
+End Time : 5813361.2081
+Delta Time : 10044.1535
+Delta Blocks : 1000
+Actual Lambda : 0.0954
+Estimated Lambda : 0.0996
+Fix Rate : 0.0000
+
+*** Window Number 559 ***
+Start Time : 5813361.2081
+End Time : 5823513.4596
+Delta Time : 10152.2515
+Delta Blocks : 1000
+Actual Lambda : 0.0954
+Estimated Lambda : 0.0985
+Fix Rate : 0.0001
+
+*** Window Number 560 ***
+Start Time : 5823513.4596
+End Time : 5833715.0722
+Delta Time : 10201.6127
+Delta Blocks : 1000
+Actual Lambda : 0.0954
+Estimated Lambda : 0.0980
+Fix Rate : 0.0001
+
+*** Window Number 561 ***
+Start Time : 5833715.0722
+End Time : 5843691.0761
+Delta Time : 9976.0039
+Delta Blocks : 1000
+Actual Lambda : 0.0954
+Estimated Lambda : 0.1002
+Fix Rate : -0.0000
+
+*** Window Number 562 ***
+Start Time : 5843691.0761
+End Time : 5853548.6978
+Delta Time : 9857.6217
+Delta Blocks : 1000
+Actual Lambda : 0.0954
+Estimated Lambda : 0.1014
+Fix Rate : -0.0001
+
+*** Window Number 563 ***
+Start Time : 5853548.6978
+End Time : 5863897.5475
+Delta Time : 10348.8496
+Delta Blocks : 1000
+Actual Lambda : 0.0954
+Estimated Lambda : 0.0966
+Fix Rate : 0.0002
+
+*** Window Number 564 ***
+Start Time : 5863897.5475
+End Time : 5874063.7805
+Delta Time : 10166.2331
+Delta Blocks : 1000
+Actual Lambda : 0.0954
+Estimated Lambda : 0.0984
+Fix Rate : 0.0001
+
+*** Window Number 565 ***
+Start Time : 5874063.7805
+End Time : 5884181.3552
+Delta Time : 10117.5747
+Delta Blocks : 1000
+Actual Lambda : 0.0954
+Estimated Lambda : 0.0988
+Fix Rate : 0.0001
+
+*** Window Number 566 ***
+Start Time : 5884181.3552
+End Time : 5894084.6092
+Delta Time : 9903.2540
+Delta Blocks : 1000
+Actual Lambda : 0.0954
+Estimated Lambda : 0.1010
+Fix Rate : -0.0001
+
+*** Window Number 567 ***
+Start Time : 5894084.6092
+End Time : 5904407.3067
+Delta Time : 10322.6975
+Delta Blocks : 1000
+Actual Lambda : 0.0954
+Estimated Lambda : 0.0969
+Fix Rate : 0.0002
+
+*** Window Number 568 ***
+Start Time : 5904407.3067
+End Time : 5914282.6514
+Delta Time : 9875.3447
+Delta Blocks : 1000
+Actual Lambda : 0.0954
+Estimated Lambda : 0.1013
+Fix Rate : -0.0001
+
+*** Window Number 569 ***
+Start Time : 5914282.6514
+End Time : 5924682.2440
+Delta Time : 10399.5926
+Delta Blocks : 1000
+Actual Lambda : 0.0954
+Estimated Lambda : 0.0962
+Fix Rate : 0.0003
+
+*** Window Number 570 ***
+Start Time : 5924682.2440
+End Time : 5934776.9106
+Delta Time : 10094.6665
+Delta Blocks : 1000
+Actual Lambda : 0.0955
+Estimated Lambda : 0.0991
+Fix Rate : 0.0001
+
+*** Window Number 571 ***
+Start Time : 5934776.9106
+End Time : 5945292.6883
+Delta Time : 10515.7777
+Delta Blocks : 1000
+Actual Lambda : 0.0955
+Estimated Lambda : 0.0951
+Fix Rate : 0.0003
+
+*** Window Number 572 ***
+Start Time : 5945292.6883
+End Time : 5955435.5562
+Delta Time : 10142.8679
+Delta Blocks : 1000
+Actual Lambda : 0.0955
+Estimated Lambda : 0.0986
+Fix Rate : 0.0001
+
+*** Window Number 573 ***
+Start Time : 5955435.5562
+End Time : 5965399.5572
+Delta Time : 9964.0010
+Delta Blocks : 1000
+Actual Lambda : 0.0955
+Estimated Lambda : 0.1004
+Fix Rate : -0.0000
+
+*** Window Number 574 ***
+Start Time : 5965399.5572
+End Time : 5975646.9934
+Delta Time : 10247.4362
+Delta Blocks : 1000
+Actual Lambda : 0.0955
+Estimated Lambda : 0.0976
+Fix Rate : 0.0002
+
+*** Window Number 575 ***
+Start Time : 5975646.9934
+End Time : 5986053.0407
+Delta Time : 10406.0472
+Delta Blocks : 1000
+Actual Lambda : 0.0955
+Estimated Lambda : 0.0961
+Fix Rate : 0.0003
+
+*** Window Number 576 ***
+Start Time : 5986053.0407
+End Time : 5995854.7378
+Delta Time : 9801.6972
+Delta Blocks : 1000
+Actual Lambda : 0.0955
+Estimated Lambda : 0.1020
+Fix Rate : -0.0001
+
+*** Window Number 577 ***
+Start Time : 5995854.7378
+End Time : 6005979.0751
+Delta Time : 10124.3372
+Delta Blocks : 1000
+Actual Lambda : 0.0955
+Estimated Lambda : 0.0988
+Fix Rate : 0.0001
+
+*** Window Number 578 ***
+Start Time : 6005979.0751
+End Time : 6015971.6769
+Delta Time : 9992.6018
+Delta Blocks : 1000
+Actual Lambda : 0.0955
+Estimated Lambda : 0.1001
+Fix Rate : -0.0000
+
+*** Window Number 579 ***
+Start Time : 6015971.6769
+End Time : 6026620.5034
+Delta Time : 10648.8264
+Delta Blocks : 1000
+Actual Lambda : 0.0955
+Estimated Lambda : 0.0939
+Fix Rate : 0.0004
+
+*** Window Number 580 ***
+Start Time : 6026620.5034
+End Time : 6036903.6377
+Delta Time : 10283.1344
+Delta Blocks : 1000
+Actual Lambda : 0.0956
+Estimated Lambda : 0.0972
+Fix Rate : 0.0002
+
+*** Window Number 581 ***
+Start Time : 6036903.6377
+End Time : 6047040.9406
+Delta Time : 10137.3029
+Delta Blocks : 1000
+Actual Lambda : 0.0956
+Estimated Lambda : 0.0986
+Fix Rate : 0.0001
+
+*** Window Number 582 ***
+Start Time : 6047040.9406
+End Time : 6057183.1097
+Delta Time : 10142.1691
+Delta Blocks : 1000
+Actual Lambda : 0.0956
+Estimated Lambda : 0.0986
+Fix Rate : 0.0001
+
+*** Window Number 583 ***
+Start Time : 6057183.1097
+End Time : 6067016.3479
+Delta Time : 9833.2382
+Delta Blocks : 1000
+Actual Lambda : 0.0956
+Estimated Lambda : 0.1017
+Fix Rate : -0.0001
+
+*** Window Number 584 ***
+Start Time : 6067016.3479
+End Time : 6076803.8517
+Delta Time : 9787.5038
+Delta Blocks : 1000
+Actual Lambda : 0.0956
+Estimated Lambda : 0.1022
+Fix Rate : -0.0001
+
+*** Window Number 585 ***
+Start Time : 6076803.8517
+End Time : 6086861.8110
+Delta Time : 10057.9593
+Delta Blocks : 1000
+Actual Lambda : 0.0956
+Estimated Lambda : 0.0994
+Fix Rate : 0.0000
+
+*** Window Number 586 ***
+Start Time : 6086861.8110
+End Time : 6096914.5407
+Delta Time : 10052.7296
+Delta Blocks : 1000
+Actual Lambda : 0.0956
+Estimated Lambda : 0.0995
+Fix Rate : 0.0000
+
+*** Window Number 587 ***
+Start Time : 6096914.5407
+End Time : 6106822.4967
+Delta Time : 9907.9561
+Delta Blocks : 1000
+Actual Lambda : 0.0956
+Estimated Lambda : 0.1009
+Fix Rate : -0.0001
+
+*** Window Number 588 ***
+Start Time : 6106822.4967
+End Time : 6117358.2712
+Delta Time : 10535.7745
+Delta Blocks : 1000
+Actual Lambda : 0.0956
+Estimated Lambda : 0.0949
+Fix Rate : 0.0004
+
+*** Window Number 589 ***
+Start Time : 6117358.2712
+End Time : 6127861.9967
+Delta Time : 10503.7255
+Delta Blocks : 1000
+Actual Lambda : 0.0956
+Estimated Lambda : 0.0952
+Fix Rate : 0.0003
+
+*** Window Number 590 ***
+Start Time : 6127861.9967
+End Time : 6137578.4506
+Delta Time : 9716.4539
+Delta Blocks : 1000
+Actual Lambda : 0.0957
+Estimated Lambda : 0.1029
+Fix Rate : -0.0002
+
+*** Window Number 591 ***
+Start Time : 6137578.4506
+End Time : 6147455.7099
+Delta Time : 9877.2593
+Delta Blocks : 1000
+Actual Lambda : 0.0956
+Estimated Lambda : 0.1012
+Fix Rate : -0.0001
+
+*** Window Number 592 ***
+Start Time : 6147455.7099
+End Time : 6158450.0416
+Delta Time : 10994.3318
+Delta Blocks : 1000
+Actual Lambda : 0.0956
+Estimated Lambda : 0.0910
+Fix Rate : 0.0007
+
+*** Window Number 593 ***
+Start Time : 6158450.0416
+End Time : 6169100.2920
+Delta Time : 10650.2503
+Delta Blocks : 1000
+Actual Lambda : 0.0957
+Estimated Lambda : 0.0939
+Fix Rate : 0.0004
+
+*** Window Number 594 ***
+Start Time : 6169100.2920
+End Time : 6179477.5023
+Delta Time : 10377.2104
+Delta Blocks : 1000
+Actual Lambda : 0.0957
+Estimated Lambda : 0.0964
+Fix Rate : 0.0003
+
+*** Window Number 595 ***
+Start Time : 6179477.5023
+End Time : 6189748.2386
+Delta Time : 10270.7363
+Delta Blocks : 1000
+Actual Lambda : 0.0958
+Estimated Lambda : 0.0974
+Fix Rate : 0.0002
+
+*** Window Number 596 ***
+Start Time : 6189748.2386
+End Time : 6200280.3867
+Delta Time : 10532.1480
+Delta Blocks : 1000
+Actual Lambda : 0.0958
+Estimated Lambda : 0.0949
+Fix Rate : 0.0004
+
+*** Window Number 597 ***
+Start Time : 6200280.3867
+End Time : 6210305.3161
+Delta Time : 10024.9295
+Delta Blocks : 1000
+Actual Lambda : 0.0958
+Estimated Lambda : 0.0998
+Fix Rate : 0.0000
+
+*** Window Number 598 ***
+Start Time : 6210305.3161
+End Time : 6219864.2774
+Delta Time : 9558.9612
+Delta Blocks : 1000
+Actual Lambda : 0.0958
+Estimated Lambda : 0.1046
+Fix Rate : -0.0003
+
+*** Window Number 599 ***
+Start Time : 6219864.2774
+End Time : 6230847.6212
+Delta Time : 10983.3438
+Delta Blocks : 1000
+Actual Lambda : 0.0958
+Estimated Lambda : 0.0910
+Fix Rate : 0.0007
+
+*** Window Number 600 ***
+Start Time : 6230847.6212
+End Time : 6240864.9176
+Delta Time : 10017.2964
+Delta Blocks : 1000
+Actual Lambda : 0.0959
+Estimated Lambda : 0.0998
+Fix Rate : 0.0000
+
+*** Window Number 601 ***
+Start Time : 6240864.9176
+End Time : 6251153.9163
+Delta Time : 10288.9987
+Delta Blocks : 1000
+Actual Lambda : 0.0959
+Estimated Lambda : 0.0972
+Fix Rate : 0.0002
+
+*** Window Number 602 ***
+Start Time : 6251153.9163
+End Time : 6261926.8113
+Delta Time : 10772.8950
+Delta Blocks : 1000
+Actual Lambda : 0.0959
+Estimated Lambda : 0.0928
+Fix Rate : 0.0005
+
+*** Window Number 603 ***
+Start Time : 6261926.8113
+End Time : 6271725.0078
+Delta Time : 9798.1965
+Delta Blocks : 1000
+Actual Lambda : 0.0959
+Estimated Lambda : 0.1021
+Fix Rate : -0.0001
+
+*** Window Number 604 ***
+Start Time : 6271725.0078
+End Time : 6281599.2454
+Delta Time : 9874.2376
+Delta Blocks : 1000
+Actual Lambda : 0.0959
+Estimated Lambda : 0.1013
+Fix Rate : -0.0001
+
+*** Window Number 605 ***
+Start Time : 6281599.2454
+End Time : 6291646.8037
+Delta Time : 10047.5583
+Delta Blocks : 1000
+Actual Lambda : 0.0959
+Estimated Lambda : 0.0995
+Fix Rate : 0.0000
+
+*** Window Number 606 ***
+Start Time : 6291646.8037
+End Time : 6301793.7769
+Delta Time : 10146.9732
+Delta Blocks : 1000
+Actual Lambda : 0.0959
+Estimated Lambda : 0.0986
+Fix Rate : 0.0001
+
+*** Window Number 607 ***
+Start Time : 6301793.7769
+End Time : 6311291.3450
+Delta Time : 9497.5681
+Delta Blocks : 1000
+Actual Lambda : 0.0959
+Estimated Lambda : 0.1053
+Fix Rate : -0.0003
+
+*** Window Number 608 ***
+Start Time : 6311291.3450
+End Time : 6321541.7991
+Delta Time : 10250.4541
+Delta Blocks : 1000
+Actual Lambda : 0.0959
+Estimated Lambda : 0.0976
+Fix Rate : 0.0002
+
+*** Window Number 609 ***
+Start Time : 6321541.7991
+End Time : 6331417.0162
+Delta Time : 9875.2170
+Delta Blocks : 1000
+Actual Lambda : 0.0959
+Estimated Lambda : 0.1013
+Fix Rate : -0.0001
+
+*** Window Number 610 ***
+Start Time : 6331417.0162
+End Time : 6341874.3532
+Delta Time : 10457.3371
+Delta Blocks : 1000
+Actual Lambda : 0.0959
+Estimated Lambda : 0.0956
+Fix Rate : 0.0003
+
+*** Window Number 611 ***
+Start Time : 6341874.3532
+End Time : 6352121.2884
+Delta Time : 10246.9352
+Delta Blocks : 1000
+Actual Lambda : 0.0959
+Estimated Lambda : 0.0976
+Fix Rate : 0.0002
+
+*** Window Number 612 ***
+Start Time : 6352121.2884
+End Time : 6362023.2659
+Delta Time : 9901.9774
+Delta Blocks : 1000
+Actual Lambda : 0.0959
+Estimated Lambda : 0.1010
+Fix Rate : -0.0001
+
+*** Window Number 613 ***
+Start Time : 6362023.2659
+End Time : 6372031.6999
+Delta Time : 10008.4340
+Delta Blocks : 1000
+Actual Lambda : 0.0959
+Estimated Lambda : 0.0999
+Fix Rate : 0.0000
+
+*** Window Number 614 ***
+Start Time : 6372031.6999
+End Time : 6382413.3760
+Delta Time : 10381.6761
+Delta Blocks : 1000
+Actual Lambda : 0.0959
+Estimated Lambda : 0.0963
+Fix Rate : 0.0003
+
+*** Window Number 615 ***
+Start Time : 6382413.3760
+End Time : 6392890.9522
+Delta Time : 10477.5763
+Delta Blocks : 1000
+Actual Lambda : 0.0960
+Estimated Lambda : 0.0954
+Fix Rate : 0.0003
+
+*** Window Number 616 ***
+Start Time : 6392890.9522
+End Time : 6403361.7110
+Delta Time : 10470.7588
+Delta Blocks : 1000
+Actual Lambda : 0.0960
+Estimated Lambda : 0.0955
+Fix Rate : 0.0003
+
+*** Window Number 617 ***
+Start Time : 6403361.7110
+End Time : 6413039.9860
+Delta Time : 9678.2750
+Delta Blocks : 1000
+Actual Lambda : 0.0960
+Estimated Lambda : 0.1033
+Fix Rate : -0.0002
+
+*** Window Number 618 ***
+Start Time : 6413039.9860
+End Time : 6423012.3940
+Delta Time : 9972.4080
+Delta Blocks : 1000
+Actual Lambda : 0.0960
+Estimated Lambda : 0.1003
+Fix Rate : -0.0000
+
+*** Window Number 619 ***
+Start Time : 6423012.3940
+End Time : 6433701.5941
+Delta Time : 10689.2001
+Delta Blocks : 1000
+Actual Lambda : 0.0960
+Estimated Lambda : 0.0936
+Fix Rate : 0.0005
+
+*** Window Number 620 ***
+Start Time : 6433701.5941
+End Time : 6443903.8928
+Delta Time : 10202.2987
+Delta Blocks : 1000
+Actual Lambda : 0.0960
+Estimated Lambda : 0.0980
+Fix Rate : 0.0001
+
+*** Window Number 621 ***
+Start Time : 6443903.8928
+End Time : 6454289.6538
+Delta Time : 10385.7610
+Delta Blocks : 1000
+Actual Lambda : 0.0960
+Estimated Lambda : 0.0963
+Fix Rate : 0.0003
+
+*** Window Number 622 ***
+Start Time : 6454289.6538
+End Time : 6464430.2867
+Delta Time : 10140.6329
+Delta Blocks : 1000
+Actual Lambda : 0.0961
+Estimated Lambda : 0.0986
+Fix Rate : 0.0001
+
+*** Window Number 623 ***
+Start Time : 6464430.2867
+End Time : 6474738.4700
+Delta Time : 10308.1833
+Delta Blocks : 1000
+Actual Lambda : 0.0961
+Estimated Lambda : 0.0970
+Fix Rate : 0.0002
+
+*** Window Number 624 ***
+Start Time : 6474738.4700
+End Time : 6484450.8761
+Delta Time : 9712.4061
+Delta Blocks : 1000
+Actual Lambda : 0.0961
+Estimated Lambda : 0.1030
+Fix Rate : -0.0002
+
+*** Window Number 625 ***
+Start Time : 6484450.8761
+End Time : 6494744.0259
+Delta Time : 10293.1498
+Delta Blocks : 1000
+Actual Lambda : 0.0961
+Estimated Lambda : 0.0972
+Fix Rate : 0.0002
+
+*** Window Number 626 ***
+Start Time : 6494744.0259
+End Time : 6504297.8057
+Delta Time : 9553.7798
+Delta Blocks : 1000
+Actual Lambda : 0.0961
+Estimated Lambda : 0.1047
+Fix Rate : -0.0003
+
+*** Window Number 627 ***
+Start Time : 6504297.8057
+End Time : 6514863.1211
+Delta Time : 10565.3154
+Delta Blocks : 1000
+Actual Lambda : 0.0961
+Estimated Lambda : 0.0946
+Fix Rate : 0.0004
+
+*** Window Number 628 ***
+Start Time : 6514863.1211
+End Time : 6525336.6159
+Delta Time : 10473.4948
+Delta Blocks : 1000
+Actual Lambda : 0.0961
+Estimated Lambda : 0.0955
+Fix Rate : 0.0003
+
+*** Window Number 629 ***
+Start Time : 6525336.6159
+End Time : 6535445.6611
+Delta Time : 10109.0452
+Delta Blocks : 1000
+Actual Lambda : 0.0961
+Estimated Lambda : 0.0989
+Fix Rate : 0.0001
+
+*** Window Number 630 ***
+Start Time : 6535445.6611
+End Time : 6545802.4042
+Delta Time : 10356.7431
+Delta Blocks : 1000
+Actual Lambda : 0.0961
+Estimated Lambda : 0.0966
+Fix Rate : 0.0002
+
+*** Window Number 631 ***
+Start Time : 6545802.4042
+End Time : 6555932.6221
+Delta Time : 10130.2179
+Delta Blocks : 1000
+Actual Lambda : 0.0962
+Estimated Lambda : 0.0987
+Fix Rate : 0.0001
+
+*** Window Number 632 ***
+Start Time : 6555932.6221
+End Time : 6566777.8944
+Delta Time : 10845.2724
+Delta Blocks : 1000
+Actual Lambda : 0.0962
+Estimated Lambda : 0.0922
+Fix Rate : 0.0006
+
+*** Window Number 633 ***
+Start Time : 6566777.8944
+End Time : 6576849.1153
+Delta Time : 10071.2209
+Delta Blocks : 1000
+Actual Lambda : 0.0962
+Estimated Lambda : 0.0993
+Fix Rate : 0.0000
+
+*** Window Number 634 ***
+Start Time : 6576849.1153
+End Time : 6587132.9417
+Delta Time : 10283.8263
+Delta Blocks : 1000
+Actual Lambda : 0.0962
+Estimated Lambda : 0.0972
+Fix Rate : 0.0002
+
+*** Window Number 635 ***
+Start Time : 6587132.9417
+End Time : 6597110.9551
+Delta Time : 9978.0134
+Delta Blocks : 1000
+Actual Lambda : 0.0963
+Estimated Lambda : 0.1002
+Fix Rate : -0.0000
+
+*** Window Number 636 ***
+Start Time : 6597110.9551
+End Time : 6607080.5855
+Delta Time : 9969.6304
+Delta Blocks : 1000
+Actual Lambda : 0.0963
+Estimated Lambda : 0.1003
+Fix Rate : -0.0000
+
+*** Window Number 637 ***
+Start Time : 6607080.5855
+End Time : 6616827.5540
+Delta Time : 9746.9685
+Delta Blocks : 1000
+Actual Lambda : 0.0963
+Estimated Lambda : 0.1026
+Fix Rate : -0.0002
+
+*** Window Number 638 ***
+Start Time : 6616827.5540
+End Time : 6627002.0102
+Delta Time : 10174.4562
+Delta Blocks : 1000
+Actual Lambda : 0.0962
+Estimated Lambda : 0.0983
+Fix Rate : 0.0001
+
+*** Window Number 639 ***
+Start Time : 6627002.0102
+End Time : 6637281.5219
+Delta Time : 10279.5117
+Delta Blocks : 1000
+Actual Lambda : 0.0962
+Estimated Lambda : 0.0973
+Fix Rate : 0.0002
+
+*** Window Number 640 ***
+Start Time : 6637281.5219
+End Time : 6647671.7996
+Delta Time : 10390.2778
+Delta Blocks : 1000
+Actual Lambda : 0.0963
+Estimated Lambda : 0.0962
+Fix Rate : 0.0003
+
+*** Window Number 641 ***
+Start Time : 6647671.7996
+End Time : 6657775.6477
+Delta Time : 10103.8481
+Delta Blocks : 1000
+Actual Lambda : 0.0963
+Estimated Lambda : 0.0990
+Fix Rate : 0.0001
+
+*** Window Number 642 ***
+Start Time : 6657775.6477
+End Time : 6668273.0412
+Delta Time : 10497.3934
+Delta Blocks : 1000
+Actual Lambda : 0.0963
+Estimated Lambda : 0.0953
+Fix Rate : 0.0003
+
+*** Window Number 643 ***
+Start Time : 6668273.0412
+End Time : 6678421.1264
+Delta Time : 10148.0852
+Delta Blocks : 1000
+Actual Lambda : 0.0963
+Estimated Lambda : 0.0985
+Fix Rate : 0.0001
+
+*** Window Number 644 ***
+Start Time : 6678421.1264
+End Time : 6688509.2432
+Delta Time : 10088.1168
+Delta Blocks : 1000
+Actual Lambda : 0.0963
+Estimated Lambda : 0.0991
+Fix Rate : 0.0001
+
+*** Window Number 645 ***
+Start Time : 6688509.2432
+End Time : 6698304.2875
+Delta Time : 9795.0443
+Delta Blocks : 1000
+Actual Lambda : 0.0963
+Estimated Lambda : 0.1021
+Fix Rate : -0.0001
+
+*** Window Number 646 ***
+Start Time : 6698304.2875
+End Time : 6708361.8323
+Delta Time : 10057.5447
+Delta Blocks : 1000
+Actual Lambda : 0.0963
+Estimated Lambda : 0.0994
+Fix Rate : 0.0000
+
+*** Window Number 647 ***
+Start Time : 6708361.8323
+End Time : 6718483.9490
+Delta Time : 10122.1168
+Delta Blocks : 1000
+Actual Lambda : 0.0963
+Estimated Lambda : 0.0988
+Fix Rate : 0.0001
+
+*** Window Number 648 ***
+Start Time : 6718483.9490
+End Time : 6728607.8000
+Delta Time : 10123.8510
+Delta Blocks : 1000
+Actual Lambda : 0.0963
+Estimated Lambda : 0.0988
+Fix Rate : 0.0001
+
+*** Window Number 649 ***
+Start Time : 6728607.8000
+End Time : 6739206.0370
+Delta Time : 10598.2370
+Delta Blocks : 1000
+Actual Lambda : 0.0963
+Estimated Lambda : 0.0944
+Fix Rate : 0.0004
+
+*** Window Number 650 ***
+Start Time : 6739206.0370
+End Time : 6749709.8146
+Delta Time : 10503.7776
+Delta Blocks : 1000
+Actual Lambda : 0.0964
+Estimated Lambda : 0.0952
+Fix Rate : 0.0003
+
+*** Window Number 651 ***
+Start Time : 6749709.8146
+End Time : 6759855.1659
+Delta Time : 10145.3513
+Delta Blocks : 1000
+Actual Lambda : 0.0964
+Estimated Lambda : 0.0986
+Fix Rate : 0.0001
+
+*** Window Number 652 ***
+Start Time : 6759855.1659
+End Time : 6769288.2836
+Delta Time : 9433.1176
+Delta Blocks : 1000
+Actual Lambda : 0.0964
+Estimated Lambda : 0.1060
+Fix Rate : -0.0004
+
+*** Window Number 653 ***
+Start Time : 6769288.2836
+End Time : 6779785.4728
+Delta Time : 10497.1892
+Delta Blocks : 1000
+Actual Lambda : 0.0964
+Estimated Lambda : 0.0953
+Fix Rate : 0.0003
+
+*** Window Number 654 ***
+Start Time : 6779785.4728
+End Time : 6789558.7045
+Delta Time : 9773.2317
+Delta Blocks : 1000
+Actual Lambda : 0.0964
+Estimated Lambda : 0.1023
+Fix Rate : -0.0002
+
+*** Window Number 655 ***
+Start Time : 6789558.7045
+End Time : 6800256.0470
+Delta Time : 10697.3425
+Delta Blocks : 1000
+Actual Lambda : 0.0964
+Estimated Lambda : 0.0935
+Fix Rate : 0.0005
+
+*** Window Number 656 ***
+Start Time : 6800256.0470
+End Time : 6810265.4071
+Delta Time : 10009.3601
+Delta Blocks : 1000
+Actual Lambda : 0.0965
+Estimated Lambda : 0.0999
+Fix Rate : 0.0000
+
+*** Window Number 657 ***
+Start Time : 6810265.4071
+End Time : 6820980.1574
+Delta Time : 10714.7504
+Delta Blocks : 1000
+Actual Lambda : 0.0965
+Estimated Lambda : 0.0933
+Fix Rate : 0.0005
+
+*** Window Number 658 ***
+Start Time : 6820980.1574
+End Time : 6830560.2902
+Delta Time : 9580.1328
+Delta Blocks : 1000
+Actual Lambda : 0.0965
+Estimated Lambda : 0.1044
+Fix Rate : -0.0003
+
+*** Window Number 659 ***
+Start Time : 6830560.2902
+End Time : 6840246.6001
+Delta Time : 9686.3099
+Delta Blocks : 1000
+Actual Lambda : 0.0965
+Estimated Lambda : 0.1032
+Fix Rate : -0.0002
+
+*** Window Number 660 ***
+Start Time : 6840246.6001
+End Time : 6850295.2984
+Delta Time : 10048.6983
+Delta Blocks : 1000
+Actual Lambda : 0.0965
+Estimated Lambda : 0.0995
+Fix Rate : 0.0000
+
+*** Window Number 661 ***
+Start Time : 6850295.2984
+End Time : 6860212.4333
+Delta Time : 9917.1350
+Delta Blocks : 1000
+Actual Lambda : 0.0965
+Estimated Lambda : 0.1008
+Fix Rate : -0.0001
+
+*** Window Number 662 ***
+Start Time : 6860212.4333
+End Time : 6870343.4420
+Delta Time : 10131.0087
+Delta Blocks : 1000
+Actual Lambda : 0.0965
+Estimated Lambda : 0.0987
+Fix Rate : 0.0001
+
+*** Window Number 663 ***
+Start Time : 6870343.4420
+End Time : 6879987.7664
+Delta Time : 9644.3244
+Delta Blocks : 1000
+Actual Lambda : 0.0965
+Estimated Lambda : 0.1037
+Fix Rate : -0.0002
+
+*** Window Number 664 ***
+Start Time : 6879987.7664
+End Time : 6889705.5344
+Delta Time : 9717.7680
+Delta Blocks : 1000
+Actual Lambda : 0.0964
+Estimated Lambda : 0.1029
+Fix Rate : -0.0002
+
+*** Window Number 665 ***
+Start Time : 6889705.5344
+End Time : 6900075.8401
+Delta Time : 10370.3057
+Delta Blocks : 1000
+Actual Lambda : 0.0964
+Estimated Lambda : 0.0964
+Fix Rate : 0.0002
+
+*** Window Number 666 ***
+Start Time : 6900075.8401
+End Time : 6910505.7393
+Delta Time : 10429.8992
+Delta Blocks : 1000
+Actual Lambda : 0.0964
+Estimated Lambda : 0.0959
+Fix Rate : 0.0003
+
+*** Window Number 667 ***
+Start Time : 6910505.7393
+End Time : 6920603.7810
+Delta Time : 10098.0417
+Delta Blocks : 1000
+Actual Lambda : 0.0965
+Estimated Lambda : 0.0990
+Fix Rate : 0.0001
+
+*** Window Number 668 ***
+Start Time : 6920603.7810
+End Time : 6930226.5782
+Delta Time : 9622.7972
+Delta Blocks : 1000
+Actual Lambda : 0.0965
+Estimated Lambda : 0.1039
+Fix Rate : -0.0003
+
+*** Window Number 669 ***
+Start Time : 6930226.5782
+End Time : 6940225.8993
+Delta Time : 9999.3211
+Delta Blocks : 1000
+Actual Lambda : 0.0965
+Estimated Lambda : 0.1000
+Fix Rate : -0.0000
+
+*** Window Number 670 ***
+Start Time : 6940225.8993
+End Time : 6950202.7401
+Delta Time : 9976.8408
+Delta Blocks : 1000
+Actual Lambda : 0.0965
+Estimated Lambda : 0.1002
+Fix Rate : -0.0000
+
+*** Window Number 671 ***
+Start Time : 6950202.7401
+End Time : 6959808.1313
+Delta Time : 9605.3912
+Delta Blocks : 1000
+Actual Lambda : 0.0965
+Estimated Lambda : 0.1041
+Fix Rate : -0.0003
+
+*** Window Number 672 ***
+Start Time : 6959808.1313
+End Time : 6969999.8264
+Delta Time : 10191.6951
+Delta Blocks : 1000
+Actual Lambda : 0.0964
+Estimated Lambda : 0.0981
+Fix Rate : 0.0001
+
+*** Window Number 673 ***
+Start Time : 6969999.8264
+End Time : 6980190.2108
+Delta Time : 10190.3843
+Delta Blocks : 1000
+Actual Lambda : 0.0964
+Estimated Lambda : 0.0981
+Fix Rate : 0.0001
+
+*** Window Number 674 ***
+Start Time : 6980190.2108
+End Time : 6990431.2522
+Delta Time : 10241.0415
+Delta Blocks : 1000
+Actual Lambda : 0.0965
+Estimated Lambda : 0.0976
+Fix Rate : 0.0002
+
+*** Window Number 675 ***
+Start Time : 6990431.2522
+End Time : 7000403.9421
+Delta Time : 9972.6899
+Delta Blocks : 1000
+Actual Lambda : 0.0965
+Estimated Lambda : 0.1003
+Fix Rate : -0.0000
+
+*** Window Number 676 ***
+Start Time : 7000403.9421
+End Time : 7010725.3295
+Delta Time : 10321.3874
+Delta Blocks : 1000
+Actual Lambda : 0.0965
+Estimated Lambda : 0.0969
+Fix Rate : 0.0002
+
+*** Window Number 677 ***
+Start Time : 7010725.3295
+End Time : 7020874.1959
+Delta Time : 10148.8665
+Delta Blocks : 1000
+Actual Lambda : 0.0965
+Estimated Lambda : 0.0985
+Fix Rate : 0.0001
+
+*** Window Number 678 ***
+Start Time : 7020874.1959
+End Time : 7030982.6154
+Delta Time : 10108.4195
+Delta Blocks : 1000
+Actual Lambda : 0.0965
+Estimated Lambda : 0.0989
+Fix Rate : 0.0001
+
+*** Window Number 679 ***
+Start Time : 7030982.6154
+End Time : 7041409.3239
+Delta Time : 10426.7085
+Delta Blocks : 1000
+Actual Lambda : 0.0965
+Estimated Lambda : 0.0959
+Fix Rate : 0.0003
+
+*** Window Number 680 ***
+Start Time : 7041409.3239
+End Time : 7051494.2935
+Delta Time : 10084.9696
+Delta Blocks : 1000
+Actual Lambda : 0.0965
+Estimated Lambda : 0.0992
+Fix Rate : 0.0001
+
+*** Window Number 681 ***
+Start Time : 7051494.2935
+End Time : 7061655.2718
+Delta Time : 10160.9783
+Delta Blocks : 1000
+Actual Lambda : 0.0965
+Estimated Lambda : 0.0984
+Fix Rate : 0.0001
+
+*** Window Number 682 ***
+Start Time : 7061655.2718
+End Time : 7072071.5310
+Delta Time : 10416.2592
+Delta Blocks : 1000
+Actual Lambda : 0.0965
+Estimated Lambda : 0.0960
+Fix Rate : 0.0003
+
+*** Window Number 683 ***
+Start Time : 7072071.5310
+End Time : 7081864.4306
+Delta Time : 9792.8996
+Delta Blocks : 1000
+Actual Lambda : 0.0966
+Estimated Lambda : 0.1021
+Fix Rate : -0.0001
+
+*** Window Number 684 ***
+Start Time : 7081864.4306
+End Time : 7092274.2986
+Delta Time : 10409.8679
+Delta Blocks : 1000
+Actual Lambda : 0.0966
+Estimated Lambda : 0.0961
+Fix Rate : 0.0003
+
+*** Window Number 685 ***
+Start Time : 7092274.2986
+End Time : 7102594.5585
+Delta Time : 10320.2599
+Delta Blocks : 1000
+Actual Lambda : 0.0966
+Estimated Lambda : 0.0969
+Fix Rate : 0.0002
+
+*** Window Number 686 ***
+Start Time : 7102594.5585
+End Time : 7112718.2066
+Delta Time : 10123.6481
+Delta Blocks : 1000
+Actual Lambda : 0.0966
+Estimated Lambda : 0.0988
+Fix Rate : 0.0001
+
+*** Window Number 687 ***
+Start Time : 7112718.2066
+End Time : 7123007.3001
+Delta Time : 10289.0935
+Delta Blocks : 1000
+Actual Lambda : 0.0966
+Estimated Lambda : 0.0972
+Fix Rate : 0.0002
+
+*** Window Number 688 ***
+Start Time : 7123007.3001
+End Time : 7133281.4557
+Delta Time : 10274.1557
+Delta Blocks : 1000
+Actual Lambda : 0.0966
+Estimated Lambda : 0.0973
+Fix Rate : 0.0002
+
+*** Window Number 689 ***
+Start Time : 7133281.4557
+End Time : 7144077.2196
+Delta Time : 10795.7638
+Delta Blocks : 1000
+Actual Lambda : 0.0966
+Estimated Lambda : 0.0926
+Fix Rate : 0.0005
+
+*** Window Number 690 ***
+Start Time : 7144077.2196
+End Time : 7154434.0666
+Delta Time : 10356.8470
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.0966
+Fix Rate : 0.0002
+
+*** Window Number 691 ***
+Start Time : 7154434.0666
+End Time : 7165206.1950
+Delta Time : 10772.1284
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.0928
+Fix Rate : 0.0005
+
+*** Window Number 692 ***
+Start Time : 7165206.1950
+End Time : 7174725.1473
+Delta Time : 9518.9523
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.1051
+Fix Rate : -0.0003
+
+*** Window Number 693 ***
+Start Time : 7174725.1473
+End Time : 7184060.4449
+Delta Time : 9335.2977
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.1071
+Fix Rate : -0.0004
+
+*** Window Number 694 ***
+Start Time : 7184060.4449
+End Time : 7194614.4159
+Delta Time : 10553.9709
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.0948
+Fix Rate : 0.0004
+
+*** Window Number 695 ***
+Start Time : 7194614.4159
+End Time : 7204799.0885
+Delta Time : 10184.6727
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.0982
+Fix Rate : 0.0001
+
+*** Window Number 696 ***
+Start Time : 7204799.0885
+End Time : 7214213.4021
+Delta Time : 9414.3135
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.1062
+Fix Rate : -0.0004
+
+*** Window Number 697 ***
+Start Time : 7214213.4021
+End Time : 7224177.1331
+Delta Time : 9963.7310
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.1004
+Fix Rate : -0.0000
+
+*** Window Number 698 ***
+Start Time : 7224177.1331
+End Time : 7234466.5699
+Delta Time : 10289.4368
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.0972
+Fix Rate : 0.0002
+
+*** Window Number 699 ***
+Start Time : 7234466.5699
+End Time : 7244051.0543
+Delta Time : 9584.4844
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.1043
+Fix Rate : -0.0003
+
+*** Window Number 700 ***
+Start Time : 7244051.0543
+End Time : 7254328.7452
+Delta Time : 10277.6909
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.0973
+Fix Rate : 0.0002
+
+*** Window Number 701 ***
+Start Time : 7254328.7452
+End Time : 7263990.6575
+Delta Time : 9661.9123
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.1035
+Fix Rate : -0.0002
+
+*** Window Number 702 ***
+Start Time : 7263990.6575
+End Time : 7274330.9990
+Delta Time : 10340.3414
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.0967
+Fix Rate : 0.0002
+
+*** Window Number 703 ***
+Start Time : 7274330.9990
+End Time : 7284615.5568
+Delta Time : 10284.5578
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.0972
+Fix Rate : 0.0002
+
+*** Window Number 704 ***
+Start Time : 7284615.5568
+End Time : 7294368.1824
+Delta Time : 9752.6256
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.1025
+Fix Rate : -0.0002
+
+*** Window Number 705 ***
+Start Time : 7294368.1824
+End Time : 7304612.6205
+Delta Time : 10244.4382
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.0976
+Fix Rate : 0.0002
+
+*** Window Number 706 ***
+Start Time : 7304612.6205
+End Time : 7314631.2809
+Delta Time : 10018.6604
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.0998
+Fix Rate : 0.0000
+
+*** Window Number 707 ***
+Start Time : 7314631.2809
+End Time : 7324606.1180
+Delta Time : 9974.8371
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.1003
+Fix Rate : -0.0000
+
+*** Window Number 708 ***
+Start Time : 7324606.1180
+End Time : 7334448.0007
+Delta Time : 9841.8826
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.1016
+Fix Rate : -0.0001
+
+*** Window Number 709 ***
+Start Time : 7334448.0007
+End Time : 7343506.5029
+Delta Time : 9058.5022
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.1104
+Fix Rate : -0.0006
+
+*** Window Number 710 ***
+Start Time : 7343506.5029
+End Time : 7353538.9673
+Delta Time : 10032.4644
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.0997
+Fix Rate : 0.0000
+
+*** Window Number 711 ***
+Start Time : 7353538.9673
+End Time : 7363481.0895
+Delta Time : 9942.1222
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.1006
+Fix Rate : -0.0000
+
+*** Window Number 712 ***
+Start Time : 7363481.0895
+End Time : 7373326.3500
+Delta Time : 9845.2605
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.1016
+Fix Rate : -0.0001
+
+*** Window Number 713 ***
+Start Time : 7373326.3500
+End Time : 7383176.4666
+Delta Time : 9850.1166
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.1015
+Fix Rate : -0.0001
+
+*** Window Number 714 ***
+Start Time : 7383176.4666
+End Time : 7393178.5784
+Delta Time : 10002.1118
+Delta Blocks : 1000
+Actual Lambda : 0.0966
+Estimated Lambda : 0.1000
+Fix Rate : 0.0000
+
+*** Window Number 715 ***
+Start Time : 7393178.5784
+End Time : 7403249.8049
+Delta Time : 10071.2265
+Delta Blocks : 1000
+Actual Lambda : 0.0966
+Estimated Lambda : 0.0993
+Fix Rate : 0.0000
+
+*** Window Number 716 ***
+Start Time : 7403249.8049
+End Time : 7413003.9447
+Delta Time : 9754.1398
+Delta Blocks : 1000
+Actual Lambda : 0.0966
+Estimated Lambda : 0.1025
+Fix Rate : -0.0002
+
+*** Window Number 717 ***
+Start Time : 7413003.9447
+End Time : 7423210.6797
+Delta Time : 10206.7351
+Delta Blocks : 1000
+Actual Lambda : 0.0966
+Estimated Lambda : 0.0980
+Fix Rate : 0.0001
+
+*** Window Number 718 ***
+Start Time : 7423210.6797
+End Time : 7433260.6490
+Delta Time : 10049.9693
+Delta Blocks : 1000
+Actual Lambda : 0.0966
+Estimated Lambda : 0.0995
+Fix Rate : 0.0000
+
+*** Window Number 719 ***
+Start Time : 7433260.6490
+End Time : 7442934.0867
+Delta Time : 9673.4377
+Delta Blocks : 1000
+Actual Lambda : 0.0966
+Estimated Lambda : 0.1034
+Fix Rate : -0.0002
+
+*** Window Number 720 ***
+Start Time : 7442934.0867
+End Time : 7453246.3240
+Delta Time : 10312.2373
+Delta Blocks : 1000
+Actual Lambda : 0.0966
+Estimated Lambda : 0.0970
+Fix Rate : 0.0002
+
+*** Window Number 721 ***
+Start Time : 7453246.3240
+End Time : 7463610.5385
+Delta Time : 10364.2146
+Delta Blocks : 1000
+Actual Lambda : 0.0966
+Estimated Lambda : 0.0965
+Fix Rate : 0.0002
+
+*** Window Number 722 ***
+Start Time : 7463610.5385
+End Time : 7473381.2003
+Delta Time : 9770.6617
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.1023
+Fix Rate : -0.0002
+
+*** Window Number 723 ***
+Start Time : 7473381.2003
+End Time : 7483551.1785
+Delta Time : 10169.9782
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.0983
+Fix Rate : 0.0001
+
+*** Window Number 724 ***
+Start Time : 7483551.1785
+End Time : 7494105.9620
+Delta Time : 10554.7836
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.0947
+Fix Rate : 0.0004
+
+*** Window Number 725 ***
+Start Time : 7494105.9620
+End Time : 7503916.4177
+Delta Time : 9810.4556
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.1019
+Fix Rate : -0.0001
+
+*** Window Number 726 ***
+Start Time : 7503916.4177
+End Time : 7514844.9161
+Delta Time : 10928.4984
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.0915
+Fix Rate : 0.0006
+
+*** Window Number 727 ***
+Start Time : 7514844.9161
+End Time : 7524959.6292
+Delta Time : 10114.7131
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.0989
+Fix Rate : 0.0001
+
+*** Window Number 728 ***
+Start Time : 7524959.6292
+End Time : 7534656.8023
+Delta Time : 9697.1731
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.1031
+Fix Rate : -0.0002
+
+*** Window Number 729 ***
+Start Time : 7534656.8023
+End Time : 7544777.5195
+Delta Time : 10120.7172
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.0988
+Fix Rate : 0.0001
+
+*** Window Number 730 ***
+Start Time : 7544777.5195
+End Time : 7554147.4289
+Delta Time : 9369.9094
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.1067
+Fix Rate : -0.0004
+
+*** Window Number 731 ***
+Start Time : 7554147.4289
+End Time : 7563899.1613
+Delta Time : 9751.7324
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.1025
+Fix Rate : -0.0002
+
+*** Window Number 732 ***
+Start Time : 7563899.1613
+End Time : 7573799.6923
+Delta Time : 9900.5310
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.1010
+Fix Rate : -0.0001
+
+*** Window Number 733 ***
+Start Time : 7573799.6923
+End Time : 7583893.5134
+Delta Time : 10093.8212
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.0991
+Fix Rate : 0.0001
+
+*** Window Number 734 ***
+Start Time : 7583893.5134
+End Time : 7594588.3029
+Delta Time : 10694.7894
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.0935
+Fix Rate : 0.0005
+
+*** Window Number 735 ***
+Start Time : 7594588.3029
+End Time : 7604849.1829
+Delta Time : 10260.8800
+Delta Blocks : 1000
+Actual Lambda : 0.0967
+Estimated Lambda : 0.0975
+Fix Rate : 0.0002
+
+*** Window Number 736 ***
+Start Time : 7604849.1829
+End Time : 7615356.6607
+Delta Time : 10507.4779
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.0952
+Fix Rate : 0.0003
+
+*** Window Number 737 ***
+Start Time : 7615356.6607
+End Time : 7625639.8437
+Delta Time : 10283.1830
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.0972
+Fix Rate : 0.0002
+
+*** Window Number 738 ***
+Start Time : 7625639.8437
+End Time : 7635374.7491
+Delta Time : 9734.9054
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.1027
+Fix Rate : -0.0002
+
+*** Window Number 739 ***
+Start Time : 7635374.7491
+End Time : 7645281.0511
+Delta Time : 9906.3019
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.1009
+Fix Rate : -0.0001
+
+*** Window Number 740 ***
+Start Time : 7645281.0511
+End Time : 7655278.0240
+Delta Time : 9996.9729
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.1000
+Fix Rate : -0.0000
+
+*** Window Number 741 ***
+Start Time : 7655278.0240
+End Time : 7664950.4913
+Delta Time : 9672.4673
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.1034
+Fix Rate : -0.0002
+
+*** Window Number 742 ***
+Start Time : 7664950.4913
+End Time : 7674906.2767
+Delta Time : 9955.7854
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.1004
+Fix Rate : -0.0000
+
+*** Window Number 743 ***
+Start Time : 7674906.2767
+End Time : 7685103.1409
+Delta Time : 10196.8642
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.0981
+Fix Rate : 0.0001
+
+*** Window Number 744 ***
+Start Time : 7685103.1409
+End Time : 7695437.7748
+Delta Time : 10334.6339
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.0968
+Fix Rate : 0.0002
+
+*** Window Number 745 ***
+Start Time : 7695437.7748
+End Time : 7705408.4201
+Delta Time : 9970.6453
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.1003
+Fix Rate : -0.0000
+
+*** Window Number 746 ***
+Start Time : 7705408.4201
+End Time : 7715197.1787
+Delta Time : 9788.7587
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.1022
+Fix Rate : -0.0001
+
+*** Window Number 747 ***
+Start Time : 7715197.1787
+End Time : 7725064.1017
+Delta Time : 9866.9230
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.1013
+Fix Rate : -0.0001
+
+*** Window Number 748 ***
+Start Time : 7725064.1017
+End Time : 7735205.0613
+Delta Time : 10140.9596
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.0986
+Fix Rate : 0.0001
+
+*** Window Number 749 ***
+Start Time : 7735205.0613
+End Time : 7745870.8837
+Delta Time : 10665.8224
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.0938
+Fix Rate : 0.0004
+
+*** Window Number 750 ***
+Start Time : 7745870.8837
+End Time : 7755713.7277
+Delta Time : 9842.8441
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.1016
+Fix Rate : -0.0001
+
+*** Window Number 751 ***
+Start Time : 7755713.7277
+End Time : 7765606.8015
+Delta Time : 9893.0738
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.1011
+Fix Rate : -0.0001
+
+*** Window Number 752 ***
+Start Time : 7765606.8015
+End Time : 7776318.6718
+Delta Time : 10711.8703
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.0934
+Fix Rate : 0.0005
+
+*** Window Number 753 ***
+Start Time : 7776318.6718
+End Time : 7786108.0525
+Delta Time : 9789.3807
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.1022
+Fix Rate : -0.0001
+
+*** Window Number 754 ***
+Start Time : 7786108.0525
+End Time : 7796288.4294
+Delta Time : 10180.3769
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.0982
+Fix Rate : 0.0001
+
+*** Window Number 755 ***
+Start Time : 7796288.4294
+End Time : 7806392.7842
+Delta Time : 10104.3548
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.0990
+Fix Rate : 0.0001
+
+*** Window Number 756 ***
+Start Time : 7806392.7842
+End Time : 7816847.8481
+Delta Time : 10455.0639
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.0956
+Fix Rate : 0.0003
+
+*** Window Number 757 ***
+Start Time : 7816847.8481
+End Time : 7827485.4095
+Delta Time : 10637.5615
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.0940
+Fix Rate : 0.0004
+
+*** Window Number 758 ***
+Start Time : 7827485.4095
+End Time : 7837842.7771
+Delta Time : 10357.3676
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.0965
+Fix Rate : 0.0002
+
+*** Window Number 759 ***
+Start Time : 7837842.7771
+End Time : 7848110.2766
+Delta Time : 10267.4995
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.0974
+Fix Rate : 0.0002
+
+*** Window Number 760 ***
+Start Time : 7848110.2766
+End Time : 7858257.1706
+Delta Time : 10146.8940
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0986
+Fix Rate : 0.0001
+
+*** Window Number 761 ***
+Start Time : 7858257.1706
+End Time : 7868209.9176
+Delta Time : 9952.7470
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1005
+Fix Rate : -0.0000
+
+*** Window Number 762 ***
+Start Time : 7868209.9176
+End Time : 7877951.7420
+Delta Time : 9741.8244
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1027
+Fix Rate : -0.0002
+
+*** Window Number 763 ***
+Start Time : 7877951.7420
+End Time : 7888251.8946
+Delta Time : 10300.1527
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0971
+Fix Rate : 0.0002
+
+*** Window Number 764 ***
+Start Time : 7888251.8946
+End Time : 7898349.8041
+Delta Time : 10097.9095
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0990
+Fix Rate : 0.0001
+
+*** Window Number 765 ***
+Start Time : 7898349.8041
+End Time : 7908971.8581
+Delta Time : 10622.0539
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0941
+Fix Rate : 0.0004
+
+*** Window Number 766 ***
+Start Time : 7908971.8581
+End Time : 7919253.0695
+Delta Time : 10281.2114
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0973
+Fix Rate : 0.0002
+
+*** Window Number 767 ***
+Start Time : 7919253.0695
+End Time : 7928970.0882
+Delta Time : 9717.0188
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1029
+Fix Rate : -0.0002
+
+*** Window Number 768 ***
+Start Time : 7928970.0882
+End Time : 7938763.6757
+Delta Time : 9793.5875
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1021
+Fix Rate : -0.0001
+
+*** Window Number 769 ***
+Start Time : 7938763.6757
+End Time : 7948485.3399
+Delta Time : 9721.6642
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1029
+Fix Rate : -0.0002
+
+*** Window Number 770 ***
+Start Time : 7948485.3399
+End Time : 7958151.0711
+Delta Time : 9665.7312
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1035
+Fix Rate : -0.0002
+
+*** Window Number 771 ***
+Start Time : 7958151.0711
+End Time : 7968099.3683
+Delta Time : 9948.2972
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1005
+Fix Rate : -0.0000
+
+*** Window Number 772 ***
+Start Time : 7968099.3683
+End Time : 7978167.4728
+Delta Time : 10068.1045
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0993
+Fix Rate : 0.0000
+
+*** Window Number 773 ***
+Start Time : 7978167.4728
+End Time : 7988094.4598
+Delta Time : 9926.9871
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1007
+Fix Rate : -0.0000
+
+*** Window Number 774 ***
+Start Time : 7988094.4598
+End Time : 7998416.3564
+Delta Time : 10321.8965
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0969
+Fix Rate : 0.0002
+
+*** Window Number 775 ***
+Start Time : 7998416.3564
+End Time : 8008901.1747
+Delta Time : 10484.8183
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0954
+Fix Rate : 0.0003
+
+*** Window Number 776 ***
+Start Time : 8008901.1747
+End Time : 8018717.9526
+Delta Time : 9816.7779
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1019
+Fix Rate : -0.0001
+
+*** Window Number 777 ***
+Start Time : 8018717.9526
+End Time : 8028744.8531
+Delta Time : 10026.9005
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0997
+Fix Rate : 0.0000
+
+*** Window Number 778 ***
+Start Time : 8028744.8531
+End Time : 8038296.3214
+Delta Time : 9551.4683
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1047
+Fix Rate : -0.0003
+
+*** Window Number 779 ***
+Start Time : 8038296.3214
+End Time : 8048767.3244
+Delta Time : 10471.0030
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0955
+Fix Rate : 0.0003
+
+*** Window Number 780 ***
+Start Time : 8048767.3244
+End Time : 8058845.5642
+Delta Time : 10078.2399
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0992
+Fix Rate : 0.0001
+
+*** Window Number 781 ***
+Start Time : 8058845.5642
+End Time : 8068774.5958
+Delta Time : 9929.0316
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1007
+Fix Rate : -0.0000
+
+*** Window Number 782 ***
+Start Time : 8068774.5958
+End Time : 8079023.2118
+Delta Time : 10248.6160
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0976
+Fix Rate : 0.0002
+
+*** Window Number 783 ***
+Start Time : 8079023.2118
+End Time : 8088606.5577
+Delta Time : 9583.3459
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1043
+Fix Rate : -0.0003
+
+*** Window Number 784 ***
+Start Time : 8088606.5577
+End Time : 8097973.3209
+Delta Time : 9366.7632
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1068
+Fix Rate : -0.0004
+
+*** Window Number 785 ***
+Start Time : 8097973.3209
+End Time : 8108530.2287
+Delta Time : 10556.9077
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0947
+Fix Rate : 0.0004
+
+*** Window Number 786 ***
+Start Time : 8108530.2287
+End Time : 8118157.5178
+Delta Time : 9627.2891
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1039
+Fix Rate : -0.0002
+
+*** Window Number 787 ***
+Start Time : 8118157.5178
+End Time : 8127832.6255
+Delta Time : 9675.1077
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1034
+Fix Rate : -0.0002
+
+*** Window Number 788 ***
+Start Time : 8127832.6255
+End Time : 8137779.3220
+Delta Time : 9946.6965
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.1005
+Fix Rate : -0.0000
+
+*** Window Number 789 ***
+Start Time : 8137779.3220
+End Time : 8147434.2694
+Delta Time : 9654.9474
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.1036
+Fix Rate : -0.0002
+
+*** Window Number 790 ***
+Start Time : 8147434.2694
+End Time : 8157174.8667
+Delta Time : 9740.5973
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.1027
+Fix Rate : -0.0002
+
+*** Window Number 791 ***
+Start Time : 8157174.8667
+End Time : 8167891.0950
+Delta Time : 10716.2284
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.0933
+Fix Rate : 0.0005
+
+*** Window Number 792 ***
+Start Time : 8167891.0950
+End Time : 8178208.3750
+Delta Time : 10317.2800
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.0969
+Fix Rate : 0.0002
+
+*** Window Number 793 ***
+Start Time : 8178208.3750
+End Time : 8188429.8962
+Delta Time : 10221.5212
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0978
+Fix Rate : 0.0001
+
+*** Window Number 794 ***
+Start Time : 8188429.8962
+End Time : 8198022.6875
+Delta Time : 9592.7913
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1042
+Fix Rate : -0.0003
+
+*** Window Number 795 ***
+Start Time : 8198022.6875
+End Time : 8208561.0565
+Delta Time : 10538.3690
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0949
+Fix Rate : 0.0004
+
+*** Window Number 796 ***
+Start Time : 8208561.0565
+End Time : 8218662.9550
+Delta Time : 10101.8985
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0990
+Fix Rate : 0.0001
+
+*** Window Number 797 ***
+Start Time : 8218662.9550
+End Time : 8228585.2498
+Delta Time : 9922.2948
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1008
+Fix Rate : -0.0001
+
+*** Window Number 798 ***
+Start Time : 8228585.2498
+End Time : 8238294.7204
+Delta Time : 9709.4706
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1030
+Fix Rate : -0.0002
+
+*** Window Number 799 ***
+Start Time : 8238294.7204
+End Time : 8248768.9618
+Delta Time : 10474.2414
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0955
+Fix Rate : 0.0003
+
+*** Window Number 800 ***
+Start Time : 8248768.9618
+End Time : 8258962.7887
+Delta Time : 10193.8269
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0981
+Fix Rate : 0.0001
+
+*** Window Number 801 ***
+Start Time : 8258962.7887
+End Time : 8268440.8829
+Delta Time : 9478.0942
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1055
+Fix Rate : -0.0003
+
+*** Window Number 802 ***
+Start Time : 8268440.8829
+End Time : 8278214.9291
+Delta Time : 9774.0462
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1023
+Fix Rate : -0.0002
+
+*** Window Number 803 ***
+Start Time : 8278214.9291
+End Time : 8288608.0038
+Delta Time : 10393.0747
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0962
+Fix Rate : 0.0003
+
+*** Window Number 804 ***
+Start Time : 8288608.0038
+End Time : 8298496.0228
+Delta Time : 9888.0190
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1011
+Fix Rate : -0.0001
+
+*** Window Number 805 ***
+Start Time : 8298496.0228
+End Time : 8308246.8750
+Delta Time : 9750.8523
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1026
+Fix Rate : -0.0002
+
+*** Window Number 806 ***
+Start Time : 8308246.8750
+End Time : 8318306.4535
+Delta Time : 10059.5785
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0994
+Fix Rate : 0.0000
+
+*** Window Number 807 ***
+Start Time : 8318306.4535
+End Time : 8328714.0357
+Delta Time : 10407.5822
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0961
+Fix Rate : 0.0003
+
+*** Window Number 808 ***
+Start Time : 8328714.0357
+End Time : 8338558.4872
+Delta Time : 9844.4515
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1016
+Fix Rate : -0.0001
+
+*** Window Number 809 ***
+Start Time : 8338558.4872
+End Time : 8348307.8226
+Delta Time : 9749.3354
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1026
+Fix Rate : -0.0002
+
+*** Window Number 810 ***
+Start Time : 8348307.8226
+End Time : 8358064.7541
+Delta Time : 9756.9315
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1025
+Fix Rate : -0.0002
+
+*** Window Number 811 ***
+Start Time : 8358064.7541
+End Time : 8368021.9925
+Delta Time : 9957.2384
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1004
+Fix Rate : -0.0000
+
+*** Window Number 812 ***
+Start Time : 8368021.9925
+End Time : 8378123.7587
+Delta Time : 10101.7662
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0990
+Fix Rate : 0.0001
+
+*** Window Number 813 ***
+Start Time : 8378123.7587
+End Time : 8387861.0280
+Delta Time : 9737.2694
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1027
+Fix Rate : -0.0002
+
+*** Window Number 814 ***
+Start Time : 8387861.0280
+End Time : 8397472.0796
+Delta Time : 9611.0516
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.1040
+Fix Rate : -0.0003
+
+*** Window Number 815 ***
+Start Time : 8397472.0796
+End Time : 8407688.6539
+Delta Time : 10216.5742
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.0979
+Fix Rate : 0.0001
+
+*** Window Number 816 ***
+Start Time : 8407688.6539
+End Time : 8418493.6558
+Delta Time : 10805.0020
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.0925
+Fix Rate : 0.0005
+
+*** Window Number 817 ***
+Start Time : 8418493.6558
+End Time : 8428606.1908
+Delta Time : 10112.5350
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0989
+Fix Rate : 0.0001
+
+*** Window Number 818 ***
+Start Time : 8428606.1908
+End Time : 8438665.0211
+Delta Time : 10058.8302
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0994
+Fix Rate : 0.0000
+
+*** Window Number 819 ***
+Start Time : 8438665.0211
+End Time : 8448812.2297
+Delta Time : 10147.2087
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0985
+Fix Rate : 0.0001
+
+*** Window Number 820 ***
+Start Time : 8448812.2297
+End Time : 8459117.1029
+Delta Time : 10304.8732
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0970
+Fix Rate : 0.0002
+
+*** Window Number 821 ***
+Start Time : 8459117.1029
+End Time : 8469594.9653
+Delta Time : 10477.8624
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0954
+Fix Rate : 0.0003
+
+*** Window Number 822 ***
+Start Time : 8469594.9653
+End Time : 8479218.2768
+Delta Time : 9623.3115
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1039
+Fix Rate : -0.0003
+
+*** Window Number 823 ***
+Start Time : 8479218.2768
+End Time : 8488771.3926
+Delta Time : 9553.1158
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1047
+Fix Rate : -0.0003
+
+*** Window Number 824 ***
+Start Time : 8488771.3926
+End Time : 8499077.1790
+Delta Time : 10305.7864
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0970
+Fix Rate : 0.0002
+
+*** Window Number 825 ***
+Start Time : 8499077.1790
+End Time : 8509636.0876
+Delta Time : 10558.9086
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0947
+Fix Rate : 0.0004
+
+*** Window Number 826 ***
+Start Time : 8509636.0876
+End Time : 8519806.7369
+Delta Time : 10170.6492
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0983
+Fix Rate : 0.0001
+
+*** Window Number 827 ***
+Start Time : 8519806.7369
+End Time : 8530040.9797
+Delta Time : 10234.2429
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0977
+Fix Rate : 0.0002
+
+*** Window Number 828 ***
+Start Time : 8530040.9797
+End Time : 8540665.4755
+Delta Time : 10624.4958
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0941
+Fix Rate : 0.0004
+
+*** Window Number 829 ***
+Start Time : 8540665.4755
+End Time : 8550383.4490
+Delta Time : 9717.9735
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1029
+Fix Rate : -0.0002
+
+*** Window Number 830 ***
+Start Time : 8550383.4490
+End Time : 8560147.2129
+Delta Time : 9763.7639
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1024
+Fix Rate : -0.0002
+
+*** Window Number 831 ***
+Start Time : 8560147.2129
+End Time : 8569943.2159
+Delta Time : 9796.0029
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1021
+Fix Rate : -0.0001
+
+*** Window Number 832 ***
+Start Time : 8569943.2159
+End Time : 8580505.5976
+Delta Time : 10562.3818
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0947
+Fix Rate : 0.0004
+
+*** Window Number 833 ***
+Start Time : 8580505.5976
+End Time : 8590265.8165
+Delta Time : 9760.2189
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1025
+Fix Rate : -0.0002
+
+*** Window Number 834 ***
+Start Time : 8590265.8165
+End Time : 8600332.0797
+Delta Time : 10066.2632
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0993
+Fix Rate : 0.0000
+
+*** Window Number 835 ***
+Start Time : 8600332.0797
+End Time : 8609963.6302
+Delta Time : 9631.5505
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1038
+Fix Rate : -0.0002
+
+*** Window Number 836 ***
+Start Time : 8609963.6302
+End Time : 8620056.7738
+Delta Time : 10093.1436
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0991
+Fix Rate : 0.0001
+
+*** Window Number 837 ***
+Start Time : 8620056.7738
+End Time : 8630024.4548
+Delta Time : 9967.6810
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1003
+Fix Rate : -0.0000
+
+*** Window Number 838 ***
+Start Time : 8630024.4548
+End Time : 8640338.9074
+Delta Time : 10314.4526
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0970
+Fix Rate : 0.0002
+
+*** Window Number 839 ***
+Start Time : 8640338.9074
+End Time : 8650004.9696
+Delta Time : 9666.0622
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1035
+Fix Rate : -0.0002
+
+*** Window Number 840 ***
+Start Time : 8650004.9696
+End Time : 8659935.5934
+Delta Time : 9930.6238
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1007
+Fix Rate : -0.0000
+
+*** Window Number 841 ***
+Start Time : 8659935.5934
+End Time : 8670103.9122
+Delta Time : 10168.3187
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0983
+Fix Rate : 0.0001
+
+*** Window Number 842 ***
+Start Time : 8670103.9122
+End Time : 8680504.3099
+Delta Time : 10400.3977
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0962
+Fix Rate : 0.0003
+
+*** Window Number 843 ***
+Start Time : 8680504.3099
+End Time : 8690492.4551
+Delta Time : 9988.1452
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1001
+Fix Rate : -0.0000
+
+*** Window Number 844 ***
+Start Time : 8690492.4551
+End Time : 8700382.9637
+Delta Time : 9890.5086
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1011
+Fix Rate : -0.0001
+
+*** Window Number 845 ***
+Start Time : 8700382.9637
+End Time : 8710256.6315
+Delta Time : 9873.6678
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1013
+Fix Rate : -0.0001
+
+*** Window Number 846 ***
+Start Time : 8710256.6315
+End Time : 8720808.5391
+Delta Time : 10551.9076
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0948
+Fix Rate : 0.0004
+
+*** Window Number 847 ***
+Start Time : 8720808.5391
+End Time : 8731356.8986
+Delta Time : 10548.3594
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0948
+Fix Rate : 0.0004
+
+*** Window Number 848 ***
+Start Time : 8731356.8986
+End Time : 8740423.0297
+Delta Time : 9066.1311
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1103
+Fix Rate : -0.0006
+
+*** Window Number 849 ***
+Start Time : 8740423.0297
+End Time : 8750428.0826
+Delta Time : 10005.0530
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0999
+Fix Rate : 0.0000
+
+*** Window Number 850 ***
+Start Time : 8750428.0826
+End Time : 8759970.6147
+Delta Time : 9542.5321
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1048
+Fix Rate : -0.0003
+
+*** Window Number 851 ***
+Start Time : 8759970.6147
+End Time : 8770186.1908
+Delta Time : 10215.5760
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0979
+Fix Rate : 0.0001
+
+*** Window Number 852 ***
+Start Time : 8770186.1908
+End Time : 8780572.6972
+Delta Time : 10386.5064
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0963
+Fix Rate : 0.0003
+
+*** Window Number 853 ***
+Start Time : 8780572.6972
+End Time : 8790262.4052
+Delta Time : 9689.7080
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1032
+Fix Rate : -0.0002
+
+*** Window Number 854 ***
+Start Time : 8790262.4052
+End Time : 8800205.7071
+Delta Time : 9943.3020
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1006
+Fix Rate : -0.0000
+
+*** Window Number 855 ***
+Start Time : 8800205.7071
+End Time : 8809880.5662
+Delta Time : 9674.8591
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1034
+Fix Rate : -0.0002
+
+*** Window Number 856 ***
+Start Time : 8809880.5662
+End Time : 8819918.2052
+Delta Time : 10037.6390
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0996
+Fix Rate : 0.0000
+
+*** Window Number 857 ***
+Start Time : 8819918.2052
+End Time : 8829857.1734
+Delta Time : 9938.9682
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1006
+Fix Rate : -0.0000
+
+*** Window Number 858 ***
+Start Time : 8829857.1734
+End Time : 8839735.6729
+Delta Time : 9878.4995
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1012
+Fix Rate : -0.0001
+
+*** Window Number 859 ***
+Start Time : 8839735.6729
+End Time : 8849328.7361
+Delta Time : 9593.0632
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1042
+Fix Rate : -0.0003
+
+*** Window Number 860 ***
+Start Time : 8849328.7361
+End Time : 8859087.9419
+Delta Time : 9759.2058
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1025
+Fix Rate : -0.0002
+
+*** Window Number 861 ***
+Start Time : 8859087.9419
+End Time : 8868697.6840
+Delta Time : 9609.7422
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1041
+Fix Rate : -0.0003
+
+*** Window Number 862 ***
+Start Time : 8868697.6840
+End Time : 8879448.0474
+Delta Time : 10750.3634
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0930
+Fix Rate : 0.0005
+
+*** Window Number 863 ***
+Start Time : 8879448.0474
+End Time : 8889318.9881
+Delta Time : 9870.9407
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1013
+Fix Rate : -0.0001
+
+*** Window Number 864 ***
+Start Time : 8889318.9881
+End Time : 8899150.1798
+Delta Time : 9831.1917
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1017
+Fix Rate : -0.0001
+
+*** Window Number 865 ***
+Start Time : 8899150.1798
+End Time : 8909107.6075
+Delta Time : 9957.4277
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1004
+Fix Rate : -0.0000
+
+*** Window Number 866 ***
+Start Time : 8909107.6075
+End Time : 8919348.7435
+Delta Time : 10241.1360
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0976
+Fix Rate : 0.0002
+
+*** Window Number 867 ***
+Start Time : 8919348.7435
+End Time : 8929607.9869
+Delta Time : 10259.2434
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0975
+Fix Rate : 0.0002
+
+*** Window Number 868 ***
+Start Time : 8929607.9869
+End Time : 8939496.1763
+Delta Time : 9888.1894
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1011
+Fix Rate : -0.0001
+
+*** Window Number 869 ***
+Start Time : 8939496.1763
+End Time : 8949554.7739
+Delta Time : 10058.5976
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0994
+Fix Rate : 0.0000
+
+*** Window Number 870 ***
+Start Time : 8949554.7739
+End Time : 8960120.0770
+Delta Time : 10565.3032
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0946
+Fix Rate : 0.0004
+
+*** Window Number 871 ***
+Start Time : 8960120.0770
+End Time : 8970138.0634
+Delta Time : 10017.9864
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0998
+Fix Rate : 0.0000
+
+*** Window Number 872 ***
+Start Time : 8970138.0634
+End Time : 8980293.6323
+Delta Time : 10155.5689
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0985
+Fix Rate : 0.0001
+
+*** Window Number 873 ***
+Start Time : 8980293.6323
+End Time : 8989981.3271
+Delta Time : 9687.6948
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1032
+Fix Rate : -0.0002
+
+*** Window Number 874 ***
+Start Time : 8989981.3271
+End Time : 8999977.8733
+Delta Time : 9996.5462
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1000
+Fix Rate : -0.0000
+
+*** Window Number 875 ***
+Start Time : 8999977.8733
+End Time : 9009629.8955
+Delta Time : 9652.0222
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1036
+Fix Rate : -0.0002
+
+*** Window Number 876 ***
+Start Time : 9009629.8955
+End Time : 9019740.0896
+Delta Time : 10110.1942
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0989
+Fix Rate : 0.0001
+
+*** Window Number 877 ***
+Start Time : 9019740.0896
+End Time : 9030140.6785
+Delta Time : 10400.5889
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0961
+Fix Rate : 0.0003
+
+*** Window Number 878 ***
+Start Time : 9030140.6785
+End Time : 9040137.4940
+Delta Time : 9996.8154
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1000
+Fix Rate : -0.0000
+
+*** Window Number 879 ***
+Start Time : 9040137.4940
+End Time : 9050211.3987
+Delta Time : 10073.9048
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0993
+Fix Rate : 0.0000
+
+*** Window Number 880 ***
+Start Time : 9050211.3987
+End Time : 9060021.4136
+Delta Time : 9810.0149
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1019
+Fix Rate : -0.0001
+
+*** Window Number 881 ***
+Start Time : 9060021.4136
+End Time : 9070522.7548
+Delta Time : 10501.3413
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0952
+Fix Rate : 0.0003
+
+*** Window Number 882 ***
+Start Time : 9070522.7548
+End Time : 9080772.7917
+Delta Time : 10250.0369
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0976
+Fix Rate : 0.0002
+
+*** Window Number 883 ***
+Start Time : 9080772.7917
+End Time : 9091168.3921
+Delta Time : 10395.6004
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0962
+Fix Rate : 0.0003
+
+*** Window Number 884 ***
+Start Time : 9091168.3921
+End Time : 9101100.6184
+Delta Time : 9932.2263
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1007
+Fix Rate : -0.0000
+
+*** Window Number 885 ***
+Start Time : 9101100.6184
+End Time : 9111469.5196
+Delta Time : 10368.9013
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.0964
+Fix Rate : 0.0002
+
+*** Window Number 886 ***
+Start Time : 9111469.5196
+End Time : 9120881.7179
+Delta Time : 9412.1982
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1062
+Fix Rate : -0.0004
+
+*** Window Number 887 ***
+Start Time : 9120881.7179
+End Time : 9130741.7559
+Delta Time : 9860.0381
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1014
+Fix Rate : -0.0001
+
+*** Window Number 888 ***
+Start Time : 9130741.7559
+End Time : 9141081.6511
+Delta Time : 10339.8952
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0967
+Fix Rate : 0.0002
+
+*** Window Number 889 ***
+Start Time : 9141081.6511
+End Time : 9150665.7426
+Delta Time : 9584.0914
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1043
+Fix Rate : -0.0003
+
+*** Window Number 890 ***
+Start Time : 9150665.7426
+End Time : 9160738.8849
+Delta Time : 10073.1423
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0993
+Fix Rate : 0.0000
+
+*** Window Number 891 ***
+Start Time : 9160738.8849
+End Time : 9171551.1949
+Delta Time : 10812.3100
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0925
+Fix Rate : 0.0005
+
+*** Window Number 892 ***
+Start Time : 9171551.1949
+End Time : 9181554.8588
+Delta Time : 10003.6639
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1000
+Fix Rate : 0.0000
+
+*** Window Number 893 ***
+Start Time : 9181554.8588
+End Time : 9191496.1885
+Delta Time : 9941.3297
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1006
+Fix Rate : -0.0000
+
+*** Window Number 894 ***
+Start Time : 9191496.1885
+End Time : 9201763.1093
+Delta Time : 10266.9208
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.0974
+Fix Rate : 0.0002
+
+*** Window Number 895 ***
+Start Time : 9201763.1093
+End Time : 9211663.5623
+Delta Time : 9900.4530
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1010
+Fix Rate : -0.0001
+
+*** Window Number 896 ***
+Start Time : 9211663.5623
+End Time : 9221906.7756
+Delta Time : 10243.2133
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.0976
+Fix Rate : 0.0002
+
+*** Window Number 897 ***
+Start Time : 9221906.7756
+End Time : 9231927.1388
+Delta Time : 10020.3632
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.0998
+Fix Rate : 0.0000
+
+*** Window Number 898 ***
+Start Time : 9231927.1388
+End Time : 9241615.7175
+Delta Time : 9688.5787
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1032
+Fix Rate : -0.0002
+
+*** Window Number 899 ***
+Start Time : 9241615.7175
+End Time : 9251133.1841
+Delta Time : 9517.4666
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1051
+Fix Rate : -0.0003
+
+*** Window Number 900 ***
+Start Time : 9251133.1841
+End Time : 9261566.6765
+Delta Time : 10433.4924
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.0958
+Fix Rate : 0.0003
+
+*** Window Number 901 ***
+Start Time : 9261566.6765
+End Time : 9271944.7676
+Delta Time : 10378.0911
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.0964
+Fix Rate : 0.0003
+
+*** Window Number 902 ***
+Start Time : 9271944.7676
+End Time : 9281814.1645
+Delta Time : 9869.3969
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1013
+Fix Rate : -0.0001
+
+*** Window Number 903 ***
+Start Time : 9281814.1645
+End Time : 9291698.4029
+Delta Time : 9884.2384
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1012
+Fix Rate : -0.0001
+
+*** Window Number 904 ***
+Start Time : 9291698.4029
+End Time : 9301802.3708
+Delta Time : 10103.9679
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.0990
+Fix Rate : 0.0001
+
+*** Window Number 905 ***
+Start Time : 9301802.3708
+End Time : 9311151.2821
+Delta Time : 9348.9113
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1070
+Fix Rate : -0.0004
+
+*** Window Number 906 ***
+Start Time : 9311151.2821
+End Time : 9321031.4988
+Delta Time : 9880.2167
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1012
+Fix Rate : -0.0001
+
+*** Window Number 907 ***
+Start Time : 9321031.4988
+End Time : 9330857.7248
+Delta Time : 9826.2259
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1018
+Fix Rate : -0.0001
+
+*** Window Number 908 ***
+Start Time : 9330857.7248
+End Time : 9341505.9390
+Delta Time : 10648.2142
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0939
+Fix Rate : 0.0004
+
+*** Window Number 909 ***
+Start Time : 9341505.9390
+End Time : 9351439.3697
+Delta Time : 9933.4308
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1007
+Fix Rate : -0.0000
+
+*** Window Number 910 ***
+Start Time : 9351439.3697
+End Time : 9361631.0856
+Delta Time : 10191.7159
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.0981
+Fix Rate : 0.0001
+
+*** Window Number 911 ***
+Start Time : 9361631.0856
+End Time : 9371545.3187
+Delta Time : 9914.2331
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1009
+Fix Rate : -0.0001
+
+*** Window Number 912 ***
+Start Time : 9371545.3187
+End Time : 9381614.0983
+Delta Time : 10068.7796
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.0993
+Fix Rate : 0.0000
+
+*** Window Number 913 ***
+Start Time : 9381614.0983
+End Time : 9392277.3861
+Delta Time : 10663.2877
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.0938
+Fix Rate : 0.0004
+
+*** Window Number 914 ***
+Start Time : 9392277.3861
+End Time : 9401823.6999
+Delta Time : 9546.3138
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1048
+Fix Rate : -0.0003
+
+*** Window Number 915 ***
+Start Time : 9401823.6999
+End Time : 9411670.0263
+Delta Time : 9846.3264
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1016
+Fix Rate : -0.0001
+
+*** Window Number 916 ***
+Start Time : 9411670.0263
+End Time : 9422220.9800
+Delta Time : 10550.9538
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.0948
+Fix Rate : 0.0004
+
+*** Window Number 917 ***
+Start Time : 9422220.9800
+End Time : 9432587.6044
+Delta Time : 10366.6244
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.0965
+Fix Rate : 0.0002
+
+*** Window Number 918 ***
+Start Time : 9432587.6044
+End Time : 9442569.4584
+Delta Time : 9981.8540
+Delta Blocks : 1000
+Actual Lambda : 0.0973
+Estimated Lambda : 0.1002
+Fix Rate : -0.0000
+
+*** Window Number 919 ***
+Start Time : 9442569.4584
+End Time : 9452839.4497
+Delta Time : 10269.9913
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.0974
+Fix Rate : 0.0002
+
+*** Window Number 920 ***
+Start Time : 9452839.4497
+End Time : 9462787.9008
+Delta Time : 9948.4511
+Delta Blocks : 1000
+Actual Lambda : 0.0973
+Estimated Lambda : 0.1005
+Fix Rate : -0.0000
+
+*** Window Number 921 ***
+Start Time : 9462787.9008
+End Time : 9472550.1609
+Delta Time : 9762.2601
+Delta Blocks : 1000
+Actual Lambda : 0.0973
+Estimated Lambda : 0.1024
+Fix Rate : -0.0002
+
+*** Window Number 922 ***
+Start Time : 9472550.1609
+End Time : 9482930.6470
+Delta Time : 10380.4860
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.0963
+Fix Rate : 0.0003
+
+*** Window Number 923 ***
+Start Time : 9482930.6470
+End Time : 9492989.5251
+Delta Time : 10058.8781
+Delta Blocks : 1000
+Actual Lambda : 0.0973
+Estimated Lambda : 0.0994
+Fix Rate : 0.0000
+
+*** Window Number 924 ***
+Start Time : 9492989.5251
+End Time : 9502699.3477
+Delta Time : 9709.8226
+Delta Blocks : 1000
+Actual Lambda : 0.0973
+Estimated Lambda : 0.1030
+Fix Rate : -0.0002
+
+*** Window Number 925 ***
+Start Time : 9502699.3477
+End Time : 9512184.0771
+Delta Time : 9484.7294
+Delta Blocks : 1000
+Actual Lambda : 0.0973
+Estimated Lambda : 0.1054
+Fix Rate : -0.0003
+
+*** Window Number 926 ***
+Start Time : 9512184.0771
+End Time : 9521844.9439
+Delta Time : 9660.8668
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1035
+Fix Rate : -0.0002
+
+*** Window Number 927 ***
+Start Time : 9521844.9439
+End Time : 9531681.1874
+Delta Time : 9836.2435
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1017
+Fix Rate : -0.0001
+
+*** Window Number 928 ***
+Start Time : 9531681.1874
+End Time : 9541943.5800
+Delta Time : 10262.3926
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.0974
+Fix Rate : 0.0002
+
+*** Window Number 929 ***
+Start Time : 9541943.5800
+End Time : 9552188.3370
+Delta Time : 10244.7569
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.0976
+Fix Rate : 0.0002
+
+*** Window Number 930 ***
+Start Time : 9552188.3370
+End Time : 9562467.2102
+Delta Time : 10278.8733
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.0973
+Fix Rate : 0.0002
+
+*** Window Number 931 ***
+Start Time : 9562467.2102
+End Time : 9572458.6989
+Delta Time : 9991.4887
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1001
+Fix Rate : -0.0000
+
+*** Window Number 932 ***
+Start Time : 9572458.6989
+End Time : 9582652.7247
+Delta Time : 10194.0258
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.0981
+Fix Rate : 0.0001
+
+*** Window Number 933 ***
+Start Time : 9582652.7247
+End Time : 9592263.9337
+Delta Time : 9611.2089
+Delta Blocks : 1000
+Actual Lambda : 0.0973
+Estimated Lambda : 0.1040
+Fix Rate : -0.0003
+
+*** Window Number 934 ***
+Start Time : 9592263.9337
+End Time : 9602518.5531
+Delta Time : 10254.6195
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.0975
+Fix Rate : 0.0002
+
+*** Window Number 935 ***
+Start Time : 9602518.5531
+End Time : 9612270.2517
+Delta Time : 9751.6986
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1025
+Fix Rate : -0.0002
+
+*** Window Number 936 ***
+Start Time : 9612270.2517
+End Time : 9622141.3392
+Delta Time : 9871.0875
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1013
+Fix Rate : -0.0001
+
+*** Window Number 937 ***
+Start Time : 9622141.3392
+End Time : 9631873.7458
+Delta Time : 9732.4066
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1027
+Fix Rate : -0.0002
+
+*** Window Number 938 ***
+Start Time : 9631873.7458
+End Time : 9641684.8292
+Delta Time : 9811.0833
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1019
+Fix Rate : -0.0001
+
+*** Window Number 939 ***
+Start Time : 9641684.8292
+End Time : 9651594.1515
+Delta Time : 9909.3224
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1009
+Fix Rate : -0.0001
+
+*** Window Number 940 ***
+Start Time : 9651594.1515
+End Time : 9660982.5054
+Delta Time : 9388.3538
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1065
+Fix Rate : -0.0004
+
+*** Window Number 941 ***
+Start Time : 9660982.5054
+End Time : 9670417.1885
+Delta Time : 9434.6831
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1060
+Fix Rate : -0.0004
+
+*** Window Number 942 ***
+Start Time : 9670417.1885
+End Time : 9680494.0837
+Delta Time : 10076.8952
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0992
+Fix Rate : 0.0001
+
+*** Window Number 943 ***
+Start Time : 9680494.0837
+End Time : 9690754.8350
+Delta Time : 10260.7513
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0975
+Fix Rate : 0.0002
+
+*** Window Number 944 ***
+Start Time : 9690754.8350
+End Time : 9700689.6281
+Delta Time : 9934.7930
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1007
+Fix Rate : -0.0000
+
+*** Window Number 945 ***
+Start Time : 9700689.6281
+End Time : 9710298.0055
+Delta Time : 9608.3774
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1041
+Fix Rate : -0.0003
+
+*** Window Number 946 ***
+Start Time : 9710298.0055
+End Time : 9720157.1137
+Delta Time : 9859.1083
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1014
+Fix Rate : -0.0001
+
+*** Window Number 947 ***
+Start Time : 9720157.1137
+End Time : 9730291.4493
+Delta Time : 10134.3356
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0987
+Fix Rate : 0.0001
+
+*** Window Number 948 ***
+Start Time : 9730291.4493
+End Time : 9740170.2734
+Delta Time : 9878.8241
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1012
+Fix Rate : -0.0001
+
+*** Window Number 949 ***
+Start Time : 9740170.2734
+End Time : 9750083.2892
+Delta Time : 9913.0159
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1009
+Fix Rate : -0.0001
+
+*** Window Number 950 ***
+Start Time : 9750083.2892
+End Time : 9760289.0529
+Delta Time : 10205.7637
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0980
+Fix Rate : 0.0001
+
+*** Window Number 951 ***
+Start Time : 9760289.0529
+End Time : 9770751.1178
+Delta Time : 10462.0649
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0956
+Fix Rate : 0.0003
+
+*** Window Number 952 ***
+Start Time : 9770751.1178
+End Time : 9781172.2883
+Delta Time : 10421.1705
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0960
+Fix Rate : 0.0003
+
+*** Window Number 953 ***
+Start Time : 9781172.2883
+End Time : 9790971.7590
+Delta Time : 9799.4707
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1020
+Fix Rate : -0.0001
+
+*** Window Number 954 ***
+Start Time : 9790971.7590
+End Time : 9801008.2009
+Delta Time : 10036.4419
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0996
+Fix Rate : 0.0000
+
+*** Window Number 955 ***
+Start Time : 9801008.2009
+End Time : 9810996.0269
+Delta Time : 9987.8260
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1001
+Fix Rate : -0.0000
+
+*** Window Number 956 ***
+Start Time : 9810996.0269
+End Time : 9820371.0619
+Delta Time : 9375.0350
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1067
+Fix Rate : -0.0004
+
+*** Window Number 957 ***
+Start Time : 9820371.0619
+End Time : 9830490.9773
+Delta Time : 10119.9153
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0988
+Fix Rate : 0.0001
+
+*** Window Number 958 ***
+Start Time : 9830490.9773
+End Time : 9840714.3412
+Delta Time : 10223.3640
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0978
+Fix Rate : 0.0001
+
+*** Window Number 959 ***
+Start Time : 9840714.3412
+End Time : 9850269.0391
+Delta Time : 9554.6978
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1047
+Fix Rate : -0.0003
+
+*** Window Number 960 ***
+Start Time : 9850269.0391
+End Time : 9859568.7346
+Delta Time : 9299.6955
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1075
+Fix Rate : -0.0005
+
+*** Window Number 961 ***
+Start Time : 9859568.7346
+End Time : 9869908.3202
+Delta Time : 10339.5856
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0967
+Fix Rate : 0.0002
+
+*** Window Number 962 ***
+Start Time : 9869908.3202
+End Time : 9880050.7792
+Delta Time : 10142.4590
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0986
+Fix Rate : 0.0001
+
+*** Window Number 963 ***
+Start Time : 9880050.7792
+End Time : 9890043.5559
+Delta Time : 9992.7768
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1001
+Fix Rate : -0.0000
+
+*** Window Number 964 ***
+Start Time : 9890043.5559
+End Time : 9900230.4970
+Delta Time : 10186.9410
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0982
+Fix Rate : 0.0001
+
+*** Window Number 965 ***
+Start Time : 9900230.4970
+End Time : 9911156.7304
+Delta Time : 10926.2334
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0915
+Fix Rate : 0.0006
+
+*** Window Number 966 ***
+Start Time : 9911156.7304
+End Time : 9919987.8624
+Delta Time : 8831.1320
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1132
+Fix Rate : -0.0008
+
+*** Window Number 967 ***
+Start Time : 9919987.8624
+End Time : 9930333.5254
+Delta Time : 10345.6630
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0967
+Fix Rate : 0.0002
+
+*** Window Number 968 ***
+Start Time : 9930333.5254
+End Time : 9940868.2442
+Delta Time : 10534.7188
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0949
+Fix Rate : 0.0004
+
+*** Window Number 969 ***
+Start Time : 9940868.2442
+End Time : 9950941.2788
+Delta Time : 10073.0346
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0993
+Fix Rate : 0.0000
+
+*** Window Number 970 ***
+Start Time : 9950941.2788
+End Time : 9960846.8099
+Delta Time : 9905.5311
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1010
+Fix Rate : -0.0001
+
+*** Window Number 971 ***
+Start Time : 9960846.8099
+End Time : 9970929.9625
+Delta Time : 10083.1526
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0992
+Fix Rate : 0.0001
+
+*** Window Number 972 ***
+Start Time : 9970929.9625
+End Time : 9981162.7372
+Delta Time : 10232.7747
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.0977
+Fix Rate : 0.0002
+
+*** Window Number 973 ***
+Start Time : 9981162.7372
+End Time : 9991473.7707
+Delta Time : 10311.0334
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.0970
+Fix Rate : 0.0002
+
+*** Window Number 974 ***
+Start Time : 9991473.7707
+End Time : 10001218.4913
+Delta Time : 9744.7207
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1026
+Fix Rate : -0.0002
+
+*** Window Number 975 ***
+Start Time : 10001218.4913
+End Time : 10011035.5886
+Delta Time : 9817.0972
+Delta Blocks : 1000
+Actual Lambda : 0.0972
+Estimated Lambda : 0.1019
+Fix Rate : -0.0001
+
+*** Window Number 976 ***
+Start Time : 10011035.5886
+End Time : 10020709.0283
+Delta Time : 9673.4397
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1034
+Fix Rate : -0.0002
+
+*** Window Number 977 ***
+Start Time : 10020709.0283
+End Time : 10030419.2454
+Delta Time : 9710.2171
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1030
+Fix Rate : -0.0002
+
+*** Window Number 978 ***
+Start Time : 10030419.2454
+End Time : 10039716.3720
+Delta Time : 9297.1266
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1076
+Fix Rate : -0.0005
+
+*** Window Number 979 ***
+Start Time : 10039716.3720
+End Time : 10049407.7477
+Delta Time : 9691.3757
+Delta Blocks : 1000
+Actual Lambda : 0.0971
+Estimated Lambda : 0.1032
+Fix Rate : -0.0002
+
+*** Window Number 980 ***
+Start Time : 10049407.7477
+End Time : 10059402.0642
+Delta Time : 9994.3165
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1001
+Fix Rate : -0.0000
+
+*** Window Number 981 ***
+Start Time : 10059402.0642
+End Time : 10069294.2951
+Delta Time : 9892.2309
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1011
+Fix Rate : -0.0001
+
+*** Window Number 982 ***
+Start Time : 10069294.2951
+End Time : 10079080.4616
+Delta Time : 9786.1665
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1022
+Fix Rate : -0.0001
+
+*** Window Number 983 ***
+Start Time : 10079080.4616
+End Time : 10089226.3852
+Delta Time : 10145.9236
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.0986
+Fix Rate : 0.0001
+
+*** Window Number 984 ***
+Start Time : 10089226.3852
+End Time : 10098379.6223
+Delta Time : 9153.2371
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1093
+Fix Rate : -0.0006
+
+*** Window Number 985 ***
+Start Time : 10098379.6223
+End Time : 10107909.9996
+Delta Time : 9530.3772
+Delta Blocks : 1000
+Actual Lambda : 0.0970
+Estimated Lambda : 0.1049
+Fix Rate : -0.0003
+
+*** Window Number 986 ***
+Start Time : 10107909.9996
+End Time : 10117552.2519
+Delta Time : 9642.2524
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.1037
+Fix Rate : -0.0002
+
+*** Window Number 987 ***
+Start Time : 10117552.2519
+End Time : 10127414.9009
+Delta Time : 9862.6490
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.1014
+Fix Rate : -0.0001
+
+*** Window Number 988 ***
+Start Time : 10127414.9009
+End Time : 10137351.1277
+Delta Time : 9936.2267
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.1006
+Fix Rate : -0.0000
+
+*** Window Number 989 ***
+Start Time : 10137351.1277
+End Time : 10147433.6953
+Delta Time : 10082.5677
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.0992
+Fix Rate : 0.0001
+
+*** Window Number 990 ***
+Start Time : 10147433.6953
+End Time : 10157054.1560
+Delta Time : 9620.4606
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.1039
+Fix Rate : -0.0003
+
+*** Window Number 991 ***
+Start Time : 10157054.1560
+End Time : 10166500.6972
+Delta Time : 9446.5412
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.1059
+Fix Rate : -0.0004
+
+*** Window Number 992 ***
+Start Time : 10166500.6972
+End Time : 10176655.1015
+Delta Time : 10154.4044
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.0985
+Fix Rate : 0.0001
+
+*** Window Number 993 ***
+Start Time : 10176655.1015
+End Time : 10186414.3289
+Delta Time : 9759.2273
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.1025
+Fix Rate : -0.0002
+
+*** Window Number 994 ***
+Start Time : 10186414.3289
+End Time : 10196069.8449
+Delta Time : 9655.5161
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.1036
+Fix Rate : -0.0002
+
+*** Window Number 995 ***
+Start Time : 10196069.8449
+End Time : 10206744.2261
+Delta Time : 10674.3812
+Delta Blocks : 1000
+Actual Lambda : 0.0968
+Estimated Lambda : 0.0937
+Fix Rate : 0.0004
+
+*** Window Number 996 ***
+Start Time : 10206744.2261
+End Time : 10216793.4562
+Delta Time : 10049.2301
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.0995
+Fix Rate : 0.0000
+
+*** Window Number 997 ***
+Start Time : 10216793.4562
+End Time : 10226799.5110
+Delta Time : 10006.0548
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.0999
+Fix Rate : 0.0000
+
+*** Window Number 998 ***
+Start Time : 10226799.5110
+End Time : 10237143.7367
+Delta Time : 10344.2258
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.0967
+Fix Rate : 0.0002
+
+*** Window Number 999 ***
+Start Time : 10237143.7367
+End Time : 10246957.9714
+Delta Time : 9814.2347
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.1019
+Fix Rate : -0.0001
+
+*** Window Number 1000 ***
+Start Time : 10246957.9714
+End Time : 10257132.6385
+Delta Time : 10174.6671
+Delta Blocks : 1000
+Actual Lambda : 0.0969
+Estimated Lambda : 0.0983
+Fix Rate : 0.0001
+

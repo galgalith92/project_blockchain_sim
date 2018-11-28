@@ -10,30 +10,18 @@ public class Miner {
 	
 	private String uniqueID; //Miner unique ID
 	private Random rand;
-	private int computationalPower;
+	private int machineNumber;
 	
 	/*
 	 * @requires none
 	 * @modifies this
 	 * @effects Create and initiate a new Miner object
 	 */
-	public Miner(long seed)
+	public Miner(long seed, int machineNumber)
 	{
 		this.uniqueID = UUID.randomUUID().toString();
 		this.rand = new Random(seed);
-		this.computationalPower = 1;
-	}
-	
-	/*
-	 * @requires none
-	 * @modifies this
-	 * @effects Create and initiate a new Miner object
-	 */
-	public Miner(long seed, int computationalPower)
-	{
-		this.uniqueID = UUID.randomUUID().toString();
-		this.rand = new Random(seed);
-		this.computationalPower = computationalPower;
+		this.machineNumber = machineNumber;
 	}
 	
 	/*
@@ -43,7 +31,7 @@ public class Miner {
 	 */
 	public double mineBlock()
 	{
-		double difficulty = Blockchain.getDifficulty() * this.computationalPower;
+		double difficulty = Blockchain.getDifficulty() * this.machineNumber;
         return -(Math.log(this.rand.nextDouble()) / difficulty);
 	}
 	
@@ -57,8 +45,13 @@ public class Miner {
 		return this.uniqueID;
 	}
 	
-	public int getComputationalPower()
+	public int getMachineNumber()
 	{
-		return this.computationalPower;
+		return this.machineNumber;
+	}
+	
+	public void changeMachineAmount(int deltaMachines)
+	{
+		this.machineNumber+= deltaMachines;
 	}
 }

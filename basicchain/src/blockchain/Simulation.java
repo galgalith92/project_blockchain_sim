@@ -11,6 +11,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Queue;
+
+import blockchain.ChangeMachineAmountEvent.NonValidDeltaMachineException;
 /*
  * Simulation is a class which provides the structure for the simulation activities.
  */
@@ -60,40 +62,45 @@ class Simulation {
 		logFile.newLine();
 		
 		List<Double> createdBlocksNumber = new ArrayList<Double>(); // ??how many blocks were at the blockchain in each window
-		List<Double> actualLambdaList = new ArrayList<Double>(); // ??what was the actual lambda in each window
+		List<Double> blockRateList = new ArrayList<Double>(); // ??what was the block rate in each window
 		List<SimulationWindow> simulationWindows = new ArrayList<SimulationWindow>();
 		
 		
 		int windowStartNumOfBlocks = 0;
 		double windowStartTime = this.time;
-		double estimatedCurrWindowLambda = Double.MAX_VALUE;
+		double currWindowBlockRate = Double.MAX_VALUE;
 		
 		/*Math.abs(estimatedWindowLambda - OPTIMAL_BLOCKS_LAMBDA)>MAX_LAMBDA_ACCURACY */
 		while (!this.eventsQueue.isEmpty() && Blockchain.getBlockchainSize() < Blockchain.MAX_BLOCK_NUM) 
 		{
 			Event nextEvent = this.eventsQueue.poll();
 			time = nextEvent.time;
-			nextEvent.processEvent();
+			try {
+				nextEvent.processEvent();
+			} catch (NonValidDeltaMachineException e) {
+				e.printStackTrace();
+			}
 			if((Blockchain.getBlockchainSize() - windowStartNumOfBlocks) == Blockchain.BLOCKS_WINDOW_SIZE)
 			{
-				double minerLambda = Blockchain.getDifficulty();
+				double mineBlockRate = Blockchain.getDifficulty();
 				double windowEndTime = this.time;
 				double deltaTime = windowEndTime - windowStartTime;
-				double actualLambda = minerLambda * Blockchain.getTotalMinersComputationalPower(); // minimum of exponential random variables
-				estimatedCurrWindowLambda = Blockchain.BLOCKS_WINDOW_SIZE/deltaTime;
-				double fixRate = Blockchain.calculateFixRate(estimatedCurrWindowLambda);
-				Blockchain.setDifficulty(minerLambda + minerLambda * fixRate);
+				double actualBlockRate = mineBlockRate * Blockchain.getTotalMinersMachineNumber(); // minimum of exponential random variables
+				currWindowBlockRate = Blockchain.BLOCKS_WINDOW_SIZE/deltaTime;
+				double fixRate = Blockchain.calculateFixRate(currWindowBlockRate);
+				Blockchain.setDifficulty(mineBlockRate + mineBlockRate * fixRate);
 
 				//debug
 				SimulationWindow currWindow = new SimulationWindow(simulationWindows.size() + 1,
-						windowStartTime, windowEndTime, deltaTime,  Blockchain.BLOCKS_WINDOW_SIZE, actualLambda, 
-						estimatedCurrWindowLambda, fixRate);
+						windowStartTime, windowEndTime, deltaTime,  Blockchain.BLOCKS_WINDOW_SIZE, actualBlockRate, 
+						currWindowBlockRate, fixRate);
 				simulationWindows.add(currWindow);
 				deltaTime = 0;
 				windowStartNumOfBlocks =Blockchain.getBlockchainSize();
 				windowStartTime = this.time;
-				createdBlocksNumber.add((double)Blockchain.getBlockchainSize());
-				actualLambdaList.add(actualLambda);
+//				createdBlocksNumber.add((double)Blockchain.getBlockchainSize());
+				createdBlocksNumber.add((double)simulationWindows.size());
+				blockRateList.add(actualBlockRate);
 			}
 		}
 
@@ -105,13 +112,13 @@ class Simulation {
 		logFile.close();
 		
 		Plot plot = Plot.plot(Plot.plotOpts().
-		        title("Estimated Lambda vs Number of Blocks").
+		        title("Blocks Creation Rate vs Number of Blocks").
 		        legend(Plot.LegendFormat.BOTTOM)).
-		    xAxis("Blocks", Plot.axisOpts().
-		        range(0, Blockchain.getBlockchainSize())).
-		    yAxis("Estimated Lambda", Plot.axisOpts().
-		        range(0, Collections.max(actualLambdaList))).
-		    series("Data", Plot.data().xy(createdBlocksNumber,actualLambdaList),
+		    xAxis("Window Number", Plot.axisOpts().
+		        range(0, simulationWindows.size())). /* Blockchain.getBlockchainSize() */
+		    yAxis("Blocks/Minute", Plot.axisOpts().
+		        range(0, 1)). /* Collections.max(blockRateList)) */
+		    series("Data", Plot.data().xy(createdBlocksNumber,blockRateList),
 		        Plot.seriesOpts().
 		            marker(Plot.Marker.CIRCLE).
 		            markerColor(Color.BLUE).
@@ -119,8 +126,9 @@ class Simulation {
 		plot.save("blocks_graph", "png");
 	}
 	
-	public void removeMinerEvent(String minerID)
+	public boolean removeMinerEvent(String minerID)
 	{
+		boolean isEventRemoved = false;
 		Iterator<Event> iter = this.eventsQueue.iterator();
 		while (iter.hasNext())
 		{
@@ -131,9 +139,11 @@ class Simulation {
 				if(currInsertBlockEvent.getCreatorID() == minerID)
 				{
 					this.eventsQueue.remove(currEvent);
+					isEventRemoved = true;
 				}
 			}
 		}
+		return isEventRemoved;
 	}
 	
 	public int getEventsQueueSize()

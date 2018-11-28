@@ -1,6 +1,8 @@
 
 package blockchain;
 
+import blockchain.ChangeMachineAmountEvent.NonValidDeltaMachineException;
+
 /*
  * Event is an abstract class that represents event, records the time 
  * at which the event will take place, contains an abstract function 
@@ -25,7 +27,7 @@ public abstract class Event implements Comparable<Event> {
 	 * @effects Executes the event (abstract function)
 	 * @throws InterruptedException
 	 */
-	public abstract void processEvent() throws InterruptedException;
+	public abstract void processEvent() throws InterruptedException, NonValidDeltaMachineException;
 
 	/*
 	 * @requires event is not null
