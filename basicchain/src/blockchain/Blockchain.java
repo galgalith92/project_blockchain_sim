@@ -19,11 +19,12 @@ public class Blockchain {
 	private static Map<String, Miner> minersMap = new HashMap<String, Miner>();
 	private static Simulation Sim = new Simulation();
 	private static int minerNum = 0;
-	private static double mineBlockRate = (0.3/100); //lambda in exponential distribution of one miner
-	
-	public static final int BLOCKS_WINDOW_SIZE = 100;
-	public static final double MAX_FIX_RATE = 0.2;
-	public static final double OPTIMAL_BLOCKS_RATE = (1.0/10);
+	private static double mineBlockTime = (10); //1/lambda in exponential distribution of one machine
+	private static int initialMinersNumber = 10;
+	private static int minerInitialMachinesAmount = 1;
+	public static final int BLOCKS_WINDOW_SIZE = 2000;
+	public static final double MAX_FIX_RATE = 0.05;
+	public static final double OPTIMAL_BLOCKS_MINE_TIME = (10);
 	public static final double MAX_BLOCK_NUM = 1000000;
 
 	public static void main(String[] args) throws InterruptedException, IOException 
@@ -35,13 +36,18 @@ public class Blockchain {
 		Blockchain.addBlock(firstBlockData, firstBlockTimeStamp, null);
 
 		// Create miners
-		int initialMinersNumber = 100;
-		int minerInitialMachinesAmount = 1;
 		Blockchain.addMiners(initialMinersNumber,minerInitialMachinesAmount);
 		
 		// Simulation events
-		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(903889,-80));
-		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(3554186,150));
+		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(1505446,25));
+		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(2927383,-25));
+//		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(4765600,-25));
+//		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(6923238,-500));
+//		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(8823253,2000));
+//		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(6823253,-500));
+		
+		
+		
 		String transaction = "Transaction Number " + Blockchain.getBlockchainSize();
 		scheduleEvent(new ProofOfWorkEvent(0, transaction));
 		Sim.run();
@@ -70,13 +76,13 @@ public class Blockchain {
 		return true;
 	}
 
-	public static double getDifficulty() {
-		return Blockchain.mineBlockRate;
+	public static double getMineBlockTime() {
+		return Blockchain.mineBlockTime;
 	}
 	
-	public static void setDifficulty(double mineBlockRate)
+	public static void setMineBlockTime(double mineBlockTime)
 	{
-		Blockchain.mineBlockRate = mineBlockRate;
+		Blockchain.mineBlockTime = mineBlockTime;
 	}
 	
 	public static int getBlockchainSize() {
@@ -156,6 +162,7 @@ public class Blockchain {
 			{
 				String deleteMinerID = miner.getKey();
 				it.remove();
+				Blockchain.minerNum--;
 				isEventRemoved = isEventRemoved || Sim.removeMinerEvent(deleteMinerID);
 			}
 		}
@@ -167,27 +174,29 @@ public class Blockchain {
 		}
 	}
 
-	public static double calculateFixRate(double windowBlockRate)
+	public static double calculateFixRate(double empiricAvgMineTime)
 	{
-		if(windowBlockRate == OPTIMAL_BLOCKS_RATE)
+		if(empiricAvgMineTime == OPTIMAL_BLOCKS_MINE_TIME)
 		{
 			return 0;
 		}
-		double blocksRateDiffRatio = Math.abs(windowBlockRate - OPTIMAL_BLOCKS_RATE)/windowBlockRate;
-		double fixRate = (blocksRateDiffRatio > MAX_FIX_RATE)? MAX_FIX_RATE : blocksRateDiffRatio;
-		fixRate = (windowBlockRate > OPTIMAL_BLOCKS_RATE) ? (-fixRate) : fixRate;
-		return fixRate/minerNum;
+		double fixRate =  (OPTIMAL_BLOCKS_MINE_TIME - empiricAvgMineTime)/empiricAvgMineTime;
+		fixRate = (fixRate > MAX_FIX_RATE)? MAX_FIX_RATE : fixRate;
+		fixRate = (fixRate < -MAX_FIX_RATE)? -MAX_FIX_RATE : fixRate;
+		return fixRate;
 	}
 	
 	public static String getSimulationDetails()
 	{
 		String simulationDetails = "***** SIMULATION DETAILS *****" + "\n" +
 //				"Exponential distribution is specified by a single parameter Lambda" + "\n" +
-				"Number of Miners : " + Blockchain.minerNum + "\n" +
-				"Initial Creation Block Rate of one Miner : " + String.format("%.4f", Blockchain.mineBlockRate) + "\n" +
+				"Number of Miners : " + Blockchain.initialMinersNumber + "\n" +
+				"Number of Machines per Miner : " + Blockchain.minerInitialMachinesAmount + "\n" +
+				"Initial Creation Block Time of one Machine : " + String.format("%.4f", Blockchain.mineBlockTime) + "\n" +
 				"Number of Blocks in one Window : " + Blockchain.BLOCKS_WINDOW_SIZE + "\n" +
 				"Maximal Fix Rate : " + String.format("%.4f",Blockchain.MAX_FIX_RATE) + "\n" +
-				"Optimal Creation Block Rate of the System : " + String.format("%.4f",Blockchain.OPTIMAL_BLOCKS_RATE) + "\n";
+				"Optimal Creation Block Rate of the System : " + String.format("%.4f",Blockchain.OPTIMAL_BLOCKS_MINE_TIME) + "\n";
 		return simulationDetails;
+		
 	}
 }

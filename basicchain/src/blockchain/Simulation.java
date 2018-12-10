@@ -1,11 +1,12 @@
 package blockchain;
 
-import java.awt.Color;
+//import java.awt.Color;
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
@@ -60,15 +61,17 @@ class Simulation {
 		BufferedWriter logFile = new BufferedWriter(new FileWriter("simulation_log.txt"));
 		logFile.write(Blockchain.getSimulationDetails());
 		logFile.newLine();
+		PrintWriter pw = new PrintWriter(new File("results.csv"));
+        StringBuilder sb = new StringBuilder();
+        sb.append("Window Number,Start Time,End Time,Delta Time,Delta Blocks,Theory Block Creation Time,"
+        		+ "Window Block Creation Time,Fix Rate\n");
 		
-		List<Double> createdBlocksNumber = new ArrayList<Double>(); // ??how many blocks were at the blockchain in each window
-		List<Double> blockRateList = new ArrayList<Double>(); // ??what was the block rate in each window
 		List<SimulationWindow> simulationWindows = new ArrayList<SimulationWindow>();
 		
 		
 		int windowStartNumOfBlocks = 0;
 		double windowStartTime = this.time;
-		double currWindowBlockRate = Double.MAX_VALUE;
+		double empiricAvgMineTime = Double.MAX_VALUE;
 		
 		/*Math.abs(estimatedWindowLambda - OPTIMAL_BLOCKS_LAMBDA)>MAX_LAMBDA_ACCURACY */
 		while (!this.eventsQueue.isEmpty() && Blockchain.getBlockchainSize() < Blockchain.MAX_BLOCK_NUM) 
@@ -82,25 +85,24 @@ class Simulation {
 			}
 			if((Blockchain.getBlockchainSize() - windowStartNumOfBlocks) == Blockchain.BLOCKS_WINDOW_SIZE)
 			{
-				double mineBlockRate = Blockchain.getDifficulty();
+				double mineBlockTime = Blockchain.getMineBlockTime();
 				double windowEndTime = this.time;
 				double deltaTime = windowEndTime - windowStartTime;
-				double actualBlockRate = mineBlockRate * Blockchain.getTotalMinersMachineNumber(); // minimum of exponential random variables
-				currWindowBlockRate = Blockchain.BLOCKS_WINDOW_SIZE/deltaTime;
-				double fixRate = Blockchain.calculateFixRate(currWindowBlockRate);
-				Blockchain.setDifficulty(mineBlockRate + mineBlockRate * fixRate);
+				double theorAvgMineTime = 1.0*mineBlockTime/Blockchain.getTotalMinersMachineNumber(); // minimum of exponential random variables
+				empiricAvgMineTime = deltaTime/Blockchain.BLOCKS_WINDOW_SIZE;
+				double fixRate = Blockchain.calculateFixRate(empiricAvgMineTime);
+				Blockchain.setMineBlockTime(mineBlockTime + mineBlockTime * fixRate);
 
 				//debug
 				SimulationWindow currWindow = new SimulationWindow(simulationWindows.size() + 1,
-						windowStartTime, windowEndTime, deltaTime,  Blockchain.BLOCKS_WINDOW_SIZE, actualBlockRate, 
-						currWindowBlockRate, fixRate);
+						windowStartTime, windowEndTime, deltaTime,  Blockchain.BLOCKS_WINDOW_SIZE, theorAvgMineTime, 
+						empiricAvgMineTime, fixRate);
 				simulationWindows.add(currWindow);
+				sb.append(currWindow.csvString());
+				
 				deltaTime = 0;
 				windowStartNumOfBlocks =Blockchain.getBlockchainSize();
 				windowStartTime = this.time;
-//				createdBlocksNumber.add((double)Blockchain.getBlockchainSize());
-				createdBlocksNumber.add((double)simulationWindows.size());
-				blockRateList.add(actualBlockRate);
 			}
 		}
 
@@ -110,38 +112,27 @@ class Simulation {
 			logFile.newLine();
 		}
 		logFile.close();
-		
-		Plot plot = Plot.plot(Plot.plotOpts().
-		        title("Blocks Creation Rate vs Number of Blocks").
-		        legend(Plot.LegendFormat.BOTTOM)).
-		    xAxis("Window Number", Plot.axisOpts().
-		        range(0, simulationWindows.size())). /* Blockchain.getBlockchainSize() */
-		    yAxis("Blocks/Minute", Plot.axisOpts().
-		        range(0, 1)). /* Collections.max(blockRateList)) */
-		    series("Data", Plot.data().xy(createdBlocksNumber,blockRateList),
-		        Plot.seriesOpts().
-		            marker(Plot.Marker.CIRCLE).
-		            markerColor(Color.BLUE).
-		            color(Color.BLACK));
-		plot.save("blocks_graph", "png");
+		pw.write(sb.toString());
+        pw.close();
+        System.out.println("done!");
 	}
 	
 	public boolean removeMinerEvent(String minerID)
 	{
 		boolean isEventRemoved = false;
-		Iterator<Event> iter = this.eventsQueue.iterator();
-		while (iter.hasNext())
+		for(Iterator<Event> it = this.eventsQueue.iterator(); it.hasNext(); ) 
 		{
-			Object currEvent = iter.next();
+			Object currEvent = it.next();
 			if (currEvent instanceof InsertBlockEvent)
 			{
 				InsertBlockEvent currInsertBlockEvent = (InsertBlockEvent)currEvent;
 				if(currInsertBlockEvent.getCreatorID() == minerID)
 				{
-					this.eventsQueue.remove(currEvent);
+					it.remove();
 					isEventRemoved = true;
 				}
 			}
+
 		}
 		return isEventRemoved;
 	}

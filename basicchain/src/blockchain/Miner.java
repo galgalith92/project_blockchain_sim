@@ -31,8 +31,8 @@ public class Miner {
 	 */
 	public double mineBlock()
 	{
-		double difficulty = Blockchain.getDifficulty() * this.machineNumber;
-        return -(Math.log(this.rand.nextDouble()) / difficulty);
+		double lambda =  this.machineNumber*1.0/Blockchain.getMineBlockTime();
+        return  (-1 / lambda) * Math.log(1-this.rand.nextDouble()); // random!
 	}
 	
 	/*

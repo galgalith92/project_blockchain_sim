@@ -6,12 +6,12 @@ public class SimulationWindow {
 	private double endTime;
 	private double deltaTime;
 	private int deltaBlocks;
-	private double actualBlockRate;
-	private double windowBlockRate;
+	private double avarageMineTimeTheory;
+	private double averageMineTimeEmpirical;
 	private double fixRate;
 	
 	public SimulationWindow(int windowNumber, double startTime, double endTime, double deltaTime,
-							int deltaBlocks, double actualBlockRate, double windowBlockRate, 
+							int deltaBlocks, double avarageMineTimeTheory, double averageMineTimeEmpirical, 
 							double fixRate)
 	{
 		this.windowNumber = windowNumber;
@@ -19,8 +19,8 @@ public class SimulationWindow {
 		this.endTime = endTime;
 		this.deltaTime = deltaTime;
 		this.deltaBlocks = deltaBlocks;
-		this.actualBlockRate = actualBlockRate;
-		this.windowBlockRate = windowBlockRate;
+		this.avarageMineTimeTheory = avarageMineTimeTheory;
+		this.averageMineTimeEmpirical = averageMineTimeEmpirical;
 		this.fixRate = fixRate;
 	}
 	
@@ -32,11 +32,23 @@ public class SimulationWindow {
 				"End Time : " + String.format("%.4f",this.endTime) + "\n" +
 				"Delta Time : " + String.format("%.4f",this.deltaTime) + "\n" +
 				"Delta Blocks : " + this.deltaBlocks + "\n" +
-				"Actual Block Rate : " + String.format("%.4f",this.actualBlockRate) + "\n" +
-				"Window Block Rate : " + String.format("%.4f",this.windowBlockRate) + "\n" +
+				"Theory Block Creation Time : " + String.format("%.4f",this.avarageMineTimeTheory) + "\n" +
+				"Window Block Creation Time : " + String.format("%.4f",this.averageMineTimeEmpirical) + "\n" +
 				"Fix Rate : " + String.format("%.4f",this.fixRate) + "\n";
 		return res;
 	}
 	
+	public String csvString()
+	{
+		String res = this.windowNumber + "," +
+				String.format("%.4f",this.startTime) + "," +
+				String.format("%.4f",this.endTime) + "," +
+				String.format("%.4f",this.deltaTime) + "," +
+				this.deltaBlocks + "," +
+				String.format("%.4f",this.avarageMineTimeTheory) + "," +
+				String.format("%.4f",this.averageMineTimeEmpirical) + "," +
+				String.format("%.4f",this.fixRate) + "\n";
+		return res;
+	}
 	
 }
