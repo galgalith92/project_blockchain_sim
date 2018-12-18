@@ -12,6 +12,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Queue;
+import java.util.Random;
 
 import blockchain.ChangeMachineAmountEvent.NonValidDeltaMachineException;
 /*
@@ -21,7 +22,7 @@ class Simulation {
 	public double time; // the current simulation time
 	private Queue<Event> eventsQueue;
 	private static final int MAXIMAL_NUMBER_OF_EVENTS_IN_QUEUE = 100;
-	
+	Random rand;
 	
 	// Comparator Event class implementation
 	private static Comparator<Event> eventComparator = new Comparator<Event>() {
@@ -40,6 +41,7 @@ class Simulation {
 	public Simulation() {
 		this.time = 0;
 		this.eventsQueue = new PriorityQueue<Event>(MAXIMAL_NUMBER_OF_EVENTS_IN_QUEUE, eventComparator);
+		this.rand = new Random();
 	}
 
 	/*
@@ -72,7 +74,7 @@ class Simulation {
 		int windowStartNumOfBlocks = 0;
 		double windowStartTime = this.time;
 		double empiricAvgMineTime = Double.MAX_VALUE;
-		
+		int sign = 1;
 		/*Math.abs(estimatedWindowLambda - OPTIMAL_BLOCKS_LAMBDA)>MAX_LAMBDA_ACCURACY */
 		while (!this.eventsQueue.isEmpty() && Blockchain.getBlockchainSize() < Blockchain.MAX_BLOCK_NUM) 
 		{
@@ -103,6 +105,9 @@ class Simulation {
 				deltaTime = 0;
 				windowStartNumOfBlocks =Blockchain.getBlockchainSize();
 				windowStartTime = this.time;
+				
+				sign = (sign > 0)? -1:1;
+				Blockchain.scheduleEvent(new ChangeMachineAmountEvent(this.time + rand.nextDouble()*60,sign*rand.nextInt(2)));
 			}
 		}
 
@@ -114,7 +119,7 @@ class Simulation {
 		logFile.close();
 		pw.write(sb.toString());
         pw.close();
-        System.out.println("done!");
+        System.out.println("Done!");
 	}
 	
 	public boolean removeMinerEvent(String minerID)
@@ -135,11 +140,6 @@ class Simulation {
 
 		}
 		return isEventRemoved;
-	}
-	
-	public int getEventsQueueSize()
-	{
-		return this.eventsQueue.size();
 	}
 	
 	public double getCurrTime()

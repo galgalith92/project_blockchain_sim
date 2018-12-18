@@ -19,17 +19,16 @@ public class Blockchain {
 	private static Map<String, Miner> minersMap = new HashMap<String, Miner>();
 	private static Simulation Sim = new Simulation();
 	private static int minerNum = 0;
-	private static double mineBlockTime = (10); //1/lambda in exponential distribution of one machine
+	private static double mineBlockTime = (100); //1/lambda in exponential distribution of one machine
 	private static int initialMinersNumber = 10;
-	private static int minerInitialMachinesAmount = 1;
+	private static int minerInitialMachinesAmount = 1000;
 	public static final int BLOCKS_WINDOW_SIZE = 2000;
 	public static final double MAX_FIX_RATE = 0.05;
-	public static final double OPTIMAL_BLOCKS_MINE_TIME = (10);
+	public static final double OPTIMAL_BLOCK_CREATION_TIME = (10);
 	public static final double MAX_BLOCK_NUM = 1000000;
 
 	public static void main(String[] args) throws InterruptedException, IOException 
 	{
-		
 		// Create the first block in the blockchain
 		String firstBlockData = "first block";
 		long firstBlockTimeStamp = 0;
@@ -39,12 +38,14 @@ public class Blockchain {
 		Blockchain.addMiners(initialMinersNumber,minerInitialMachinesAmount);
 		
 		// Simulation events
-		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(1505446,25));
-		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(2927383,-25));
-//		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(4765600,-25));
-//		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(6923238,-500));
-//		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(8823253,2000));
+//		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(1505446,25));
+//		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(2927383,-25));
+//		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(4834876,50));
+//		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(6435882,-50));
+//		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(9722968,100));
 //		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(6823253,-500));
+		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(1505446,-8000));
+//		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(6435882,-1500));
 		
 		
 		
@@ -176,11 +177,11 @@ public class Blockchain {
 
 	public static double calculateFixRate(double empiricAvgMineTime)
 	{
-		if(empiricAvgMineTime == OPTIMAL_BLOCKS_MINE_TIME)
+		if(empiricAvgMineTime == OPTIMAL_BLOCK_CREATION_TIME)
 		{
 			return 0;
 		}
-		double fixRate =  (OPTIMAL_BLOCKS_MINE_TIME - empiricAvgMineTime)/empiricAvgMineTime;
+		double fixRate =  (OPTIMAL_BLOCK_CREATION_TIME - empiricAvgMineTime)/empiricAvgMineTime;
 		fixRate = (fixRate > MAX_FIX_RATE)? MAX_FIX_RATE : fixRate;
 		fixRate = (fixRate < -MAX_FIX_RATE)? -MAX_FIX_RATE : fixRate;
 		return fixRate;
@@ -190,12 +191,12 @@ public class Blockchain {
 	{
 		String simulationDetails = "***** SIMULATION DETAILS *****" + "\n" +
 //				"Exponential distribution is specified by a single parameter Lambda" + "\n" +
-				"Number of Miners : " + Blockchain.initialMinersNumber + "\n" +
-				"Number of Machines per Miner : " + Blockchain.minerInitialMachinesAmount + "\n" +
-				"Initial Creation Block Time of one Machine : " + String.format("%.4f", Blockchain.mineBlockTime) + "\n" +
+				"Initial Number of Miners : " + Blockchain.initialMinersNumber + "\n" +
+				"Initial Number of Machines per Miner : " + Blockchain.minerInitialMachinesAmount + "\n" +
+				"Initial Block Creation Time of one Machine : " + String.format("%.4f", Blockchain.mineBlockTime) + "\n" +
 				"Number of Blocks in one Window : " + Blockchain.BLOCKS_WINDOW_SIZE + "\n" +
 				"Maximal Fix Rate : " + String.format("%.4f",Blockchain.MAX_FIX_RATE) + "\n" +
-				"Optimal Creation Block Rate of the System : " + String.format("%.4f",Blockchain.OPTIMAL_BLOCKS_MINE_TIME) + "\n";
+				"Optimal Block Creation Time of the System : " + String.format("%.4f",Blockchain.OPTIMAL_BLOCK_CREATION_TIME) + "\n";
 		return simulationDetails;
 		
 	}
