@@ -41,7 +41,7 @@ class Simulation {
 	public Simulation() {
 		this.time = 0;
 		this.eventsQueue = new PriorityQueue<Event>(MAXIMAL_NUMBER_OF_EVENTS_IN_QUEUE, eventComparator);
-		this.rand = new Random();
+		this.rand = new Random(1);
 	}
 
 	/*
@@ -60,13 +60,13 @@ class Simulation {
 	 */
 	public void run() throws InterruptedException, IOException {
 		/// debug 
-		BufferedWriter logFile = new BufferedWriter(new FileWriter("simulation_log.txt"));
+		BufferedWriter logFile = new BufferedWriter(new FileWriter("simulation_log3.txt"));
 		logFile.write(Blockchain.getSimulationDetails());
 		logFile.newLine();
-		PrintWriter pw = new PrintWriter(new File("results.csv"));
+		PrintWriter pw = new PrintWriter(new File("results1.csv"));
         StringBuilder sb = new StringBuilder();
         sb.append("Window Number,Start Time,End Time,Delta Time,Delta Blocks,Theory Block Creation Time,"
-        		+ "Window Block Creation Time,Fix Rate\n");
+        		+ "Window Block Creation Time,Fix Rate, Machine Amount\n");
 		
 		List<SimulationWindow> simulationWindows = new ArrayList<SimulationWindow>();
 		
@@ -75,7 +75,7 @@ class Simulation {
 		double windowStartTime = this.time;
 		double empiricAvgMineTime = Double.MAX_VALUE;
 		int sign = 1;
-		/*Math.abs(estimatedWindowLambda - OPTIMAL_BLOCKS_LAMBDA)>MAX_LAMBDA_ACCURACY */
+
 		while (!this.eventsQueue.isEmpty() && Blockchain.getBlockchainSize() < Blockchain.MAX_BLOCK_NUM) 
 		{
 			Event nextEvent = this.eventsQueue.poll();
@@ -93,7 +93,7 @@ class Simulation {
 				double theorAvgMineTime = 1.0*mineBlockTime/Blockchain.getTotalMinersMachineNumber(); // minimum of exponential random variables
 				empiricAvgMineTime = deltaTime/Blockchain.BLOCKS_WINDOW_SIZE;
 				double fixRate = Blockchain.calculateFixRate(empiricAvgMineTime);
-				Blockchain.setMineBlockTime(mineBlockTime + mineBlockTime * fixRate);
+//				Blockchain.setMineBlockTime(mineBlockTime + mineBlockTime * fixRate);
 
 				//debug
 				SimulationWindow currWindow = new SimulationWindow(simulationWindows.size() + 1,
@@ -106,8 +106,8 @@ class Simulation {
 				windowStartNumOfBlocks =Blockchain.getBlockchainSize();
 				windowStartTime = this.time;
 				
-				sign = (sign > 0)? -1:1;
-				Blockchain.scheduleEvent(new ChangeMachineAmountEvent(this.time + rand.nextDouble()*60,sign*rand.nextInt(2)));
+//				sign = (sign > 0)? -1:1;
+//				Blockchain.scheduleEvent(new ChangeMachineAmountEvent(this.time + rand.nextDouble()*60,sign*rand.nextInt(2)));
 			}
 		}
 

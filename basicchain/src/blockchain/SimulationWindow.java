@@ -47,7 +47,8 @@ public class SimulationWindow {
 				this.deltaBlocks + "," +
 				String.format("%.4f",this.avarageMineTimeTheory) + "," +
 				String.format("%.4f",this.averageMineTimeEmpirical) + "," +
-				String.format("%.4f",this.fixRate) + "\n";
+				String.format("%.4f",this.fixRate) + "," +
+				Blockchain.getTotalMinersMachineNumber() + "\n";
 		return res;
 	}
 	

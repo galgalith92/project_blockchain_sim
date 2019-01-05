@@ -1,0 +1,6002 @@
+***** SIMULATION DETAILS *****
+Initial Number of Miners : 10000
+Initial Number of Machines per Miner : 1
+Initial Block Creation Time of one Machine : 100.0000
+Number of Blocks in one Window : 3000
+Maximal Fix Rate : 0.0500
+Optimal Block Creation Time of the System : 10.0000
+
+*** Window Number 1 ***
+Start Time : 0.0000
+End Time : 90.5589
+Delta Time : 90.5589
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0100
+Window Block Creation Time : 0.0302
+Fix Rate : 0.0500
+
+*** Window Number 2 ***
+Start Time : 90.5589
+End Time : 158.8601
+Delta Time : 68.3012
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0105
+Window Block Creation Time : 0.0228
+Fix Rate : 0.0500
+
+*** Window Number 3 ***
+Start Time : 158.8601
+End Time : 242.5701
+Delta Time : 83.7100
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0110
+Window Block Creation Time : 0.0279
+Fix Rate : 0.0500
+
+*** Window Number 4 ***
+Start Time : 242.5701
+End Time : 330.6174
+Delta Time : 88.0473
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0116
+Window Block Creation Time : 0.0293
+Fix Rate : 0.0500
+
+*** Window Number 5 ***
+Start Time : 330.6174
+End Time : 399.1107
+Delta Time : 68.4933
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0122
+Window Block Creation Time : 0.0228
+Fix Rate : 0.0500
+
+*** Window Number 6 ***
+Start Time : 399.1107
+End Time : 565.8915
+Delta Time : 166.7808
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0128
+Window Block Creation Time : 0.0556
+Fix Rate : 0.0500
+
+*** Window Number 7 ***
+Start Time : 565.8915
+End Time : 643.5365
+Delta Time : 77.6450
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0134
+Window Block Creation Time : 0.0259
+Fix Rate : 0.0500
+
+*** Window Number 8 ***
+Start Time : 643.5365
+End Time : 721.6514
+Delta Time : 78.1149
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0141
+Window Block Creation Time : 0.0260
+Fix Rate : 0.0500
+
+*** Window Number 9 ***
+Start Time : 721.6514
+End Time : 812.8705
+Delta Time : 91.2191
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0148
+Window Block Creation Time : 0.0304
+Fix Rate : 0.0500
+
+*** Window Number 10 ***
+Start Time : 812.8705
+End Time : 893.7758
+Delta Time : 80.9054
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0155
+Window Block Creation Time : 0.0270
+Fix Rate : 0.0500
+
+*** Window Number 11 ***
+Start Time : 893.7758
+End Time : 1014.0693
+Delta Time : 120.2935
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0163
+Window Block Creation Time : 0.0401
+Fix Rate : 0.0500
+
+*** Window Number 12 ***
+Start Time : 1014.0693
+End Time : 1094.6125
+Delta Time : 80.5432
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0171
+Window Block Creation Time : 0.0268
+Fix Rate : 0.0500
+
+*** Window Number 13 ***
+Start Time : 1094.6125
+End Time : 1222.8012
+Delta Time : 128.1887
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0180
+Window Block Creation Time : 0.0427
+Fix Rate : 0.0500
+
+*** Window Number 14 ***
+Start Time : 1222.8012
+End Time : 1415.0309
+Delta Time : 192.2297
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0189
+Window Block Creation Time : 0.0641
+Fix Rate : 0.0500
+
+*** Window Number 15 ***
+Start Time : 1415.0309
+End Time : 1508.6304
+Delta Time : 93.5995
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0198
+Window Block Creation Time : 0.0312
+Fix Rate : 0.0500
+
+*** Window Number 16 ***
+Start Time : 1508.6304
+End Time : 1624.2006
+Delta Time : 115.5702
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0208
+Window Block Creation Time : 0.0385
+Fix Rate : 0.0500
+
+*** Window Number 17 ***
+Start Time : 1624.2006
+End Time : 1827.5805
+Delta Time : 203.3799
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0218
+Window Block Creation Time : 0.0678
+Fix Rate : 0.0500
+
+*** Window Number 18 ***
+Start Time : 1827.5805
+End Time : 1923.9965
+Delta Time : 96.4160
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0229
+Window Block Creation Time : 0.0321
+Fix Rate : 0.0500
+
+*** Window Number 19 ***
+Start Time : 1923.9965
+End Time : 2032.8899
+Delta Time : 108.8934
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0241
+Window Block Creation Time : 0.0363
+Fix Rate : 0.0500
+
+*** Window Number 20 ***
+Start Time : 2032.8899
+End Time : 2148.5711
+Delta Time : 115.6813
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0253
+Window Block Creation Time : 0.0386
+Fix Rate : 0.0500
+
+*** Window Number 21 ***
+Start Time : 2148.5711
+End Time : 2317.6689
+Delta Time : 169.0978
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0265
+Window Block Creation Time : 0.0564
+Fix Rate : 0.0500
+
+*** Window Number 22 ***
+Start Time : 2317.6689
+End Time : 2625.3996
+Delta Time : 307.7307
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0279
+Window Block Creation Time : 0.1026
+Fix Rate : 0.0500
+
+*** Window Number 23 ***
+Start Time : 2625.3996
+End Time : 3116.4807
+Delta Time : 491.0811
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0293
+Window Block Creation Time : 0.1637
+Fix Rate : 0.0500
+
+*** Window Number 24 ***
+Start Time : 3116.4807
+End Time : 3424.4861
+Delta Time : 308.0054
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0307
+Window Block Creation Time : 0.1027
+Fix Rate : 0.0500
+
+*** Window Number 25 ***
+Start Time : 3424.4861
+End Time : 4262.9076
+Delta Time : 838.4215
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0323
+Window Block Creation Time : 0.2795
+Fix Rate : 0.0500
+
+*** Window Number 26 ***
+Start Time : 4262.9076
+End Time : 4426.8699
+Delta Time : 163.9623
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0339
+Window Block Creation Time : 0.0547
+Fix Rate : 0.0500
+
+*** Window Number 27 ***
+Start Time : 4426.8699
+End Time : 4721.0491
+Delta Time : 294.1792
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0356
+Window Block Creation Time : 0.0981
+Fix Rate : 0.0500
+
+*** Window Number 28 ***
+Start Time : 4721.0491
+End Time : 4939.0685
+Delta Time : 218.0194
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0373
+Window Block Creation Time : 0.0727
+Fix Rate : 0.0500
+
+*** Window Number 29 ***
+Start Time : 4939.0685
+End Time : 5152.6583
+Delta Time : 213.5897
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0392
+Window Block Creation Time : 0.0712
+Fix Rate : 0.0500
+
+*** Window Number 30 ***
+Start Time : 5152.6583
+End Time : 5547.2044
+Delta Time : 394.5461
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0412
+Window Block Creation Time : 0.1315
+Fix Rate : 0.0500
+
+*** Window Number 31 ***
+Start Time : 5547.2044
+End Time : 5994.5446
+Delta Time : 447.3403
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0432
+Window Block Creation Time : 0.1491
+Fix Rate : 0.0500
+
+*** Window Number 32 ***
+Start Time : 5994.5446
+End Time : 6216.2996
+Delta Time : 221.7550
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0454
+Window Block Creation Time : 0.0739
+Fix Rate : 0.0500
+
+*** Window Number 33 ***
+Start Time : 6216.2996
+End Time : 6511.1358
+Delta Time : 294.8362
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0476
+Window Block Creation Time : 0.0983
+Fix Rate : 0.0500
+
+*** Window Number 34 ***
+Start Time : 6511.1358
+End Time : 6728.4560
+Delta Time : 217.3202
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0500
+Window Block Creation Time : 0.0724
+Fix Rate : 0.0500
+
+*** Window Number 35 ***
+Start Time : 6728.4560
+End Time : 7055.2699
+Delta Time : 326.8139
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0525
+Window Block Creation Time : 0.1089
+Fix Rate : 0.0500
+
+*** Window Number 36 ***
+Start Time : 7055.2699
+End Time : 7451.3966
+Delta Time : 396.1267
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0552
+Window Block Creation Time : 0.1320
+Fix Rate : 0.0500
+
+*** Window Number 37 ***
+Start Time : 7451.3966
+End Time : 7762.2472
+Delta Time : 310.8506
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0579
+Window Block Creation Time : 0.1036
+Fix Rate : 0.0500
+
+*** Window Number 38 ***
+Start Time : 7762.2472
+End Time : 8139.0806
+Delta Time : 376.8335
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0608
+Window Block Creation Time : 0.1256
+Fix Rate : 0.0500
+
+*** Window Number 39 ***
+Start Time : 8139.0806
+End Time : 8631.4777
+Delta Time : 492.3970
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0639
+Window Block Creation Time : 0.1641
+Fix Rate : 0.0500
+
+*** Window Number 40 ***
+Start Time : 8631.4777
+End Time : 9016.8870
+Delta Time : 385.4094
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0670
+Window Block Creation Time : 0.1285
+Fix Rate : 0.0500
+
+*** Window Number 41 ***
+Start Time : 9016.8870
+End Time : 9676.9959
+Delta Time : 660.1088
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0704
+Window Block Creation Time : 0.2200
+Fix Rate : 0.0500
+
+*** Window Number 42 ***
+Start Time : 9676.9959
+End Time : 10155.2603
+Delta Time : 478.2645
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0739
+Window Block Creation Time : 0.1594
+Fix Rate : 0.0500
+
+*** Window Number 43 ***
+Start Time : 10155.2603
+End Time : 10550.6884
+Delta Time : 395.4281
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0776
+Window Block Creation Time : 0.1318
+Fix Rate : 0.0500
+
+*** Window Number 44 ***
+Start Time : 10550.6884
+End Time : 10965.1053
+Delta Time : 414.4168
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0815
+Window Block Creation Time : 0.1381
+Fix Rate : 0.0500
+
+*** Window Number 45 ***
+Start Time : 10965.1053
+End Time : 11415.7015
+Delta Time : 450.5962
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0856
+Window Block Creation Time : 0.1502
+Fix Rate : 0.0500
+
+*** Window Number 46 ***
+Start Time : 11415.7015
+End Time : 11882.3211
+Delta Time : 466.6196
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0899
+Window Block Creation Time : 0.1555
+Fix Rate : 0.0500
+
+*** Window Number 47 ***
+Start Time : 11882.3211
+End Time : 13677.4551
+Delta Time : 1795.1340
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0943
+Window Block Creation Time : 0.5984
+Fix Rate : 0.0500
+
+*** Window Number 48 ***
+Start Time : 13677.4551
+End Time : 14362.7898
+Delta Time : 685.3347
+Delta Blocks : 3000
+Theory Block Creation Time : 0.0991
+Window Block Creation Time : 0.2284
+Fix Rate : 0.0500
+
+*** Window Number 49 ***
+Start Time : 14362.7898
+End Time : 15370.7436
+Delta Time : 1007.9538
+Delta Blocks : 3000
+Theory Block Creation Time : 0.1040
+Window Block Creation Time : 0.3360
+Fix Rate : 0.0500
+
+*** Window Number 50 ***
+Start Time : 15370.7436
+End Time : 15976.5755
+Delta Time : 605.8319
+Delta Blocks : 3000
+Theory Block Creation Time : 0.1092
+Window Block Creation Time : 0.2019
+Fix Rate : 0.0500
+
+*** Window Number 51 ***
+Start Time : 15976.5755
+End Time : 17210.9199
+Delta Time : 1234.3444
+Delta Blocks : 3000
+Theory Block Creation Time : 0.1147
+Window Block Creation Time : 0.4114
+Fix Rate : 0.0500
+
+*** Window Number 52 ***
+Start Time : 17210.9199
+End Time : 17775.7826
+Delta Time : 564.8627
+Delta Blocks : 3000
+Theory Block Creation Time : 0.1204
+Window Block Creation Time : 0.1883
+Fix Rate : 0.0500
+
+*** Window Number 53 ***
+Start Time : 17775.7826
+End Time : 21073.8118
+Delta Time : 3298.0292
+Delta Blocks : 3000
+Theory Block Creation Time : 0.1264
+Window Block Creation Time : 1.0993
+Fix Rate : 0.0500
+
+*** Window Number 54 ***
+Start Time : 21073.8118
+End Time : 21963.2257
+Delta Time : 889.4139
+Delta Blocks : 3000
+Theory Block Creation Time : 0.1327
+Window Block Creation Time : 0.2965
+Fix Rate : 0.0500
+
+*** Window Number 55 ***
+Start Time : 21963.2257
+End Time : 22587.2279
+Delta Time : 624.0022
+Delta Blocks : 3000
+Theory Block Creation Time : 0.1394
+Window Block Creation Time : 0.2080
+Fix Rate : 0.0500
+
+*** Window Number 56 ***
+Start Time : 22587.2279
+End Time : 23461.0890
+Delta Time : 873.8612
+Delta Blocks : 3000
+Theory Block Creation Time : 0.1464
+Window Block Creation Time : 0.2913
+Fix Rate : 0.0500
+
+*** Window Number 57 ***
+Start Time : 23461.0890
+End Time : 24192.4008
+Delta Time : 731.3117
+Delta Blocks : 3000
+Theory Block Creation Time : 0.1537
+Window Block Creation Time : 0.2438
+Fix Rate : 0.0500
+
+*** Window Number 58 ***
+Start Time : 24192.4008
+End Time : 24963.2390
+Delta Time : 770.8382
+Delta Blocks : 3000
+Theory Block Creation Time : 0.1614
+Window Block Creation Time : 0.2569
+Fix Rate : 0.0500
+
+*** Window Number 59 ***
+Start Time : 24963.2390
+End Time : 25849.1385
+Delta Time : 885.8995
+Delta Blocks : 3000
+Theory Block Creation Time : 0.1694
+Window Block Creation Time : 0.2953
+Fix Rate : 0.0500
+
+*** Window Number 60 ***
+Start Time : 25849.1385
+End Time : 26544.4401
+Delta Time : 695.3016
+Delta Blocks : 3000
+Theory Block Creation Time : 0.1779
+Window Block Creation Time : 0.2318
+Fix Rate : 0.0500
+
+*** Window Number 61 ***
+Start Time : 26544.4401
+End Time : 33465.8993
+Delta Time : 6921.4593
+Delta Blocks : 3000
+Theory Block Creation Time : 0.1868
+Window Block Creation Time : 2.3072
+Fix Rate : 0.0500
+
+*** Window Number 62 ***
+Start Time : 33465.8993
+End Time : 34842.4704
+Delta Time : 1376.5711
+Delta Blocks : 3000
+Theory Block Creation Time : 0.1961
+Window Block Creation Time : 0.4589
+Fix Rate : 0.0500
+
+*** Window Number 63 ***
+Start Time : 34842.4704
+End Time : 35930.0256
+Delta Time : 1087.5552
+Delta Blocks : 3000
+Theory Block Creation Time : 0.2059
+Window Block Creation Time : 0.3625
+Fix Rate : 0.0500
+
+*** Window Number 64 ***
+Start Time : 35930.0256
+End Time : 36906.7839
+Delta Time : 976.7584
+Delta Blocks : 3000
+Theory Block Creation Time : 0.2162
+Window Block Creation Time : 0.3256
+Fix Rate : 0.0500
+
+*** Window Number 65 ***
+Start Time : 36906.7839
+End Time : 38455.0443
+Delta Time : 1548.2604
+Delta Blocks : 3000
+Theory Block Creation Time : 0.2270
+Window Block Creation Time : 0.5161
+Fix Rate : 0.0500
+
+*** Window Number 66 ***
+Start Time : 38455.0443
+End Time : 40237.2000
+Delta Time : 1782.1557
+Delta Blocks : 3000
+Theory Block Creation Time : 0.2384
+Window Block Creation Time : 0.5941
+Fix Rate : 0.0500
+
+*** Window Number 67 ***
+Start Time : 40237.2000
+End Time : 41411.3292
+Delta Time : 1174.1291
+Delta Blocks : 3000
+Theory Block Creation Time : 0.2503
+Window Block Creation Time : 0.3914
+Fix Rate : 0.0500
+
+*** Window Number 68 ***
+Start Time : 41411.3292
+End Time : 42805.1621
+Delta Time : 1393.8329
+Delta Blocks : 3000
+Theory Block Creation Time : 0.2628
+Window Block Creation Time : 0.4646
+Fix Rate : 0.0500
+
+*** Window Number 69 ***
+Start Time : 42805.1621
+End Time : 44928.1095
+Delta Time : 2122.9474
+Delta Blocks : 3000
+Theory Block Creation Time : 0.2760
+Window Block Creation Time : 0.7076
+Fix Rate : 0.0500
+
+*** Window Number 70 ***
+Start Time : 44928.1095
+End Time : 46117.1103
+Delta Time : 1189.0008
+Delta Blocks : 3000
+Theory Block Creation Time : 0.2898
+Window Block Creation Time : 0.3963
+Fix Rate : 0.0500
+
+*** Window Number 71 ***
+Start Time : 46117.1103
+End Time : 47703.5809
+Delta Time : 1586.4706
+Delta Blocks : 3000
+Theory Block Creation Time : 0.3043
+Window Block Creation Time : 0.5288
+Fix Rate : 0.0500
+
+*** Window Number 72 ***
+Start Time : 47703.5809
+End Time : 53023.4223
+Delta Time : 5319.8414
+Delta Blocks : 3000
+Theory Block Creation Time : 0.3195
+Window Block Creation Time : 1.7733
+Fix Rate : 0.0500
+
+*** Window Number 73 ***
+Start Time : 53023.4223
+End Time : 55381.0773
+Delta Time : 2357.6550
+Delta Blocks : 3000
+Theory Block Creation Time : 0.3355
+Window Block Creation Time : 0.7859
+Fix Rate : 0.0500
+
+*** Window Number 74 ***
+Start Time : 55381.0773
+End Time : 57594.7093
+Delta Time : 2213.6319
+Delta Blocks : 3000
+Theory Block Creation Time : 0.3522
+Window Block Creation Time : 0.7379
+Fix Rate : 0.0500
+
+*** Window Number 75 ***
+Start Time : 57594.7093
+End Time : 60130.8669
+Delta Time : 2536.1576
+Delta Blocks : 3000
+Theory Block Creation Time : 0.3698
+Window Block Creation Time : 0.8454
+Fix Rate : 0.0500
+
+*** Window Number 76 ***
+Start Time : 60130.8669
+End Time : 62886.2503
+Delta Time : 2755.3834
+Delta Blocks : 3000
+Theory Block Creation Time : 0.3883
+Window Block Creation Time : 0.9185
+Fix Rate : 0.0500
+
+*** Window Number 77 ***
+Start Time : 62886.2503
+End Time : 69436.2565
+Delta Time : 6550.0062
+Delta Blocks : 3000
+Theory Block Creation Time : 0.4077
+Window Block Creation Time : 2.1833
+Fix Rate : 0.0500
+
+*** Window Number 78 ***
+Start Time : 69436.2565
+End Time : 71576.2825
+Delta Time : 2140.0260
+Delta Blocks : 3000
+Theory Block Creation Time : 0.4281
+Window Block Creation Time : 0.7133
+Fix Rate : 0.0500
+
+*** Window Number 79 ***
+Start Time : 71576.2825
+End Time : 73807.6853
+Delta Time : 2231.4028
+Delta Blocks : 3000
+Theory Block Creation Time : 0.4495
+Window Block Creation Time : 0.7438
+Fix Rate : 0.0500
+
+*** Window Number 80 ***
+Start Time : 73807.6853
+End Time : 79043.7651
+Delta Time : 5236.0798
+Delta Blocks : 3000
+Theory Block Creation Time : 0.4720
+Window Block Creation Time : 1.7454
+Fix Rate : 0.0500
+
+*** Window Number 81 ***
+Start Time : 79043.7651
+End Time : 82735.6238
+Delta Time : 3691.8587
+Delta Blocks : 3000
+Theory Block Creation Time : 0.4956
+Window Block Creation Time : 1.2306
+Fix Rate : 0.0500
+
+*** Window Number 82 ***
+Start Time : 82735.6238
+End Time : 86130.9007
+Delta Time : 3395.2769
+Delta Blocks : 3000
+Theory Block Creation Time : 0.5204
+Window Block Creation Time : 1.1318
+Fix Rate : 0.0500
+
+*** Window Number 83 ***
+Start Time : 86130.9007
+End Time : 90584.9166
+Delta Time : 4454.0159
+Delta Blocks : 3000
+Theory Block Creation Time : 0.5464
+Window Block Creation Time : 1.4847
+Fix Rate : 0.0500
+
+*** Window Number 84 ***
+Start Time : 90584.9166
+End Time : 93121.9876
+Delta Time : 2537.0710
+Delta Blocks : 3000
+Theory Block Creation Time : 0.5737
+Window Block Creation Time : 0.8457
+Fix Rate : 0.0500
+
+*** Window Number 85 ***
+Start Time : 93121.9876
+End Time : 98259.5780
+Delta Time : 5137.5904
+Delta Blocks : 3000
+Theory Block Creation Time : 0.6024
+Window Block Creation Time : 1.7125
+Fix Rate : 0.0500
+
+*** Window Number 86 ***
+Start Time : 98259.5780
+End Time : 101058.9334
+Delta Time : 2799.3554
+Delta Blocks : 3000
+Theory Block Creation Time : 0.6325
+Window Block Creation Time : 0.9331
+Fix Rate : 0.0500
+
+*** Window Number 87 ***
+Start Time : 101058.9334
+End Time : 104170.3698
+Delta Time : 3111.4364
+Delta Blocks : 3000
+Theory Block Creation Time : 0.6642
+Window Block Creation Time : 1.0371
+Fix Rate : 0.0500
+
+*** Window Number 88 ***
+Start Time : 104170.3698
+End Time : 108112.5950
+Delta Time : 3942.2252
+Delta Blocks : 3000
+Theory Block Creation Time : 0.6974
+Window Block Creation Time : 1.3141
+Fix Rate : 0.0500
+
+*** Window Number 89 ***
+Start Time : 108112.5950
+End Time : 113555.7362
+Delta Time : 5443.1413
+Delta Blocks : 3000
+Theory Block Creation Time : 0.7322
+Window Block Creation Time : 1.8144
+Fix Rate : 0.0500
+
+*** Window Number 90 ***
+Start Time : 113555.7362
+End Time : 117468.3375
+Delta Time : 3912.6012
+Delta Blocks : 3000
+Theory Block Creation Time : 0.7689
+Window Block Creation Time : 1.3042
+Fix Rate : 0.0500
+
+*** Window Number 91 ***
+Start Time : 117468.3375
+End Time : 121179.9480
+Delta Time : 3711.6106
+Delta Blocks : 3000
+Theory Block Creation Time : 0.8073
+Window Block Creation Time : 1.2372
+Fix Rate : 0.0500
+
+*** Window Number 92 ***
+Start Time : 121179.9480
+End Time : 126180.3782
+Delta Time : 5000.4302
+Delta Blocks : 3000
+Theory Block Creation Time : 0.8477
+Window Block Creation Time : 1.6668
+Fix Rate : 0.0500
+
+*** Window Number 93 ***
+Start Time : 126180.3782
+End Time : 135358.5882
+Delta Time : 9178.2100
+Delta Blocks : 3000
+Theory Block Creation Time : 0.8901
+Window Block Creation Time : 3.0594
+Fix Rate : 0.0500
+
+*** Window Number 94 ***
+Start Time : 135358.5882
+End Time : 139321.5726
+Delta Time : 3962.9844
+Delta Blocks : 3000
+Theory Block Creation Time : 0.9346
+Window Block Creation Time : 1.3210
+Fix Rate : 0.0500
+
+*** Window Number 95 ***
+Start Time : 139321.5726
+End Time : 144326.2140
+Delta Time : 5004.6415
+Delta Blocks : 3000
+Theory Block Creation Time : 0.9813
+Window Block Creation Time : 1.6682
+Fix Rate : 0.0500
+
+*** Window Number 96 ***
+Start Time : 144326.2140
+End Time : 149895.6609
+Delta Time : 5569.4469
+Delta Blocks : 3000
+Theory Block Creation Time : 1.0303
+Window Block Creation Time : 1.8565
+Fix Rate : 0.0500
+
+*** Window Number 97 ***
+Start Time : 149895.6609
+End Time : 155283.4049
+Delta Time : 5387.7439
+Delta Blocks : 3000
+Theory Block Creation Time : 1.0819
+Window Block Creation Time : 1.7959
+Fix Rate : 0.0500
+
+*** Window Number 98 ***
+Start Time : 155283.4049
+End Time : 170451.4641
+Delta Time : 15168.0592
+Delta Blocks : 3000
+Theory Block Creation Time : 1.1360
+Window Block Creation Time : 5.0560
+Fix Rate : 0.0500
+
+*** Window Number 99 ***
+Start Time : 170451.4641
+End Time : 175279.7142
+Delta Time : 4828.2501
+Delta Blocks : 3000
+Theory Block Creation Time : 1.1928
+Window Block Creation Time : 1.6094
+Fix Rate : 0.0500
+
+*** Window Number 100 ***
+Start Time : 175279.7142
+End Time : 182791.1427
+Delta Time : 7511.4285
+Delta Blocks : 3000
+Theory Block Creation Time : 1.2524
+Window Block Creation Time : 2.5038
+Fix Rate : 0.0500
+
+*** Window Number 101 ***
+Start Time : 182791.1427
+End Time : 199078.1029
+Delta Time : 16286.9601
+Delta Blocks : 3000
+Theory Block Creation Time : 1.3150
+Window Block Creation Time : 5.4290
+Fix Rate : 0.0500
+
+*** Window Number 102 ***
+Start Time : 199078.1029
+End Time : 206126.2446
+Delta Time : 7048.1418
+Delta Blocks : 3000
+Theory Block Creation Time : 1.3808
+Window Block Creation Time : 2.3494
+Fix Rate : 0.0500
+
+*** Window Number 103 ***
+Start Time : 206126.2446
+End Time : 216141.2438
+Delta Time : 10014.9992
+Delta Blocks : 3000
+Theory Block Creation Time : 1.4498
+Window Block Creation Time : 3.3383
+Fix Rate : 0.0500
+
+*** Window Number 104 ***
+Start Time : 216141.2438
+End Time : 225075.1258
+Delta Time : 8933.8820
+Delta Blocks : 3000
+Theory Block Creation Time : 1.5223
+Window Block Creation Time : 2.9780
+Fix Rate : 0.0500
+
+*** Window Number 105 ***
+Start Time : 225075.1258
+End Time : 233252.4854
+Delta Time : 8177.3596
+Delta Blocks : 3000
+Theory Block Creation Time : 1.5984
+Window Block Creation Time : 2.7258
+Fix Rate : 0.0500
+
+*** Window Number 106 ***
+Start Time : 233252.4854
+End Time : 247663.5094
+Delta Time : 14411.0241
+Delta Blocks : 3000
+Theory Block Creation Time : 1.6783
+Window Block Creation Time : 4.8037
+Fix Rate : 0.0500
+
+*** Window Number 107 ***
+Start Time : 247663.5094
+End Time : 256369.2770
+Delta Time : 8705.7676
+Delta Blocks : 3000
+Theory Block Creation Time : 1.7622
+Window Block Creation Time : 2.9019
+Fix Rate : 0.0500
+
+*** Window Number 108 ***
+Start Time : 256369.2770
+End Time : 267458.2338
+Delta Time : 11088.9568
+Delta Blocks : 3000
+Theory Block Creation Time : 1.8504
+Window Block Creation Time : 3.6963
+Fix Rate : 0.0500
+
+*** Window Number 109 ***
+Start Time : 267458.2338
+End Time : 295066.7213
+Delta Time : 27608.4875
+Delta Blocks : 3000
+Theory Block Creation Time : 1.9429
+Window Block Creation Time : 9.2028
+Fix Rate : 0.0500
+
+*** Window Number 110 ***
+Start Time : 295066.7213
+End Time : 308222.5641
+Delta Time : 13155.8428
+Delta Blocks : 3000
+Theory Block Creation Time : 2.0400
+Window Block Creation Time : 4.3853
+Fix Rate : 0.0500
+
+*** Window Number 111 ***
+Start Time : 308222.5641
+End Time : 322869.4018
+Delta Time : 14646.8377
+Delta Blocks : 3000
+Theory Block Creation Time : 2.1420
+Window Block Creation Time : 4.8823
+Fix Rate : 0.0500
+
+*** Window Number 112 ***
+Start Time : 322869.4018
+End Time : 332250.2701
+Delta Time : 9380.8683
+Delta Blocks : 3000
+Theory Block Creation Time : 2.2491
+Window Block Creation Time : 3.1270
+Fix Rate : 0.0500
+
+*** Window Number 113 ***
+Start Time : 332250.2701
+End Time : 349024.1359
+Delta Time : 16773.8658
+Delta Blocks : 3000
+Theory Block Creation Time : 2.3616
+Window Block Creation Time : 5.5913
+Fix Rate : 0.0500
+
+*** Window Number 114 ***
+Start Time : 349024.1359
+End Time : 359759.1126
+Delta Time : 10734.9767
+Delta Blocks : 3000
+Theory Block Creation Time : 2.4797
+Window Block Creation Time : 3.5783
+Fix Rate : 0.0500
+
+*** Window Number 115 ***
+Start Time : 359759.1126
+End Time : 372862.1911
+Delta Time : 13103.0785
+Delta Blocks : 3000
+Theory Block Creation Time : 2.6036
+Window Block Creation Time : 4.3677
+Fix Rate : 0.0500
+
+*** Window Number 116 ***
+Start Time : 372862.1911
+End Time : 388607.8617
+Delta Time : 15745.6706
+Delta Blocks : 3000
+Theory Block Creation Time : 2.7338
+Window Block Creation Time : 5.2486
+Fix Rate : 0.0500
+
+*** Window Number 117 ***
+Start Time : 388607.8617
+End Time : 403542.2482
+Delta Time : 14934.3865
+Delta Blocks : 3000
+Theory Block Creation Time : 2.8705
+Window Block Creation Time : 4.9781
+Fix Rate : 0.0500
+
+*** Window Number 118 ***
+Start Time : 403542.2482
+End Time : 416012.1171
+Delta Time : 12469.8689
+Delta Blocks : 3000
+Theory Block Creation Time : 3.0140
+Window Block Creation Time : 4.1566
+Fix Rate : 0.0500
+
+*** Window Number 119 ***
+Start Time : 416012.1171
+End Time : 428492.6090
+Delta Time : 12480.4919
+Delta Blocks : 3000
+Theory Block Creation Time : 3.1647
+Window Block Creation Time : 4.1602
+Fix Rate : 0.0500
+
+*** Window Number 120 ***
+Start Time : 428492.6090
+End Time : 446928.3150
+Delta Time : 18435.7059
+Delta Blocks : 3000
+Theory Block Creation Time : 3.3230
+Window Block Creation Time : 6.1452
+Fix Rate : 0.0500
+
+*** Window Number 121 ***
+Start Time : 446928.3150
+End Time : 464545.6146
+Delta Time : 17617.2996
+Delta Blocks : 3000
+Theory Block Creation Time : 3.4891
+Window Block Creation Time : 5.8724
+Fix Rate : 0.0500
+
+*** Window Number 122 ***
+Start Time : 464545.6146
+End Time : 504423.3897
+Delta Time : 39877.7751
+Delta Blocks : 3000
+Theory Block Creation Time : 3.6636
+Window Block Creation Time : 13.2926
+Fix Rate : -0.0500
+
+*** Window Number 123 ***
+Start Time : 504423.3897
+End Time : 557336.8292
+Delta Time : 52913.4394
+Delta Blocks : 3000
+Theory Block Creation Time : 3.4804
+Window Block Creation Time : 17.6378
+Fix Rate : -0.0500
+
+*** Window Number 124 ***
+Start Time : 557336.8292
+End Time : 574399.6774
+Delta Time : 17062.8482
+Delta Blocks : 3000
+Theory Block Creation Time : 3.3064
+Window Block Creation Time : 5.6876
+Fix Rate : 0.0500
+
+*** Window Number 125 ***
+Start Time : 574399.6774
+End Time : 592057.7283
+Delta Time : 17658.0510
+Delta Blocks : 3000
+Theory Block Creation Time : 3.4717
+Window Block Creation Time : 5.8860
+Fix Rate : 0.0500
+
+*** Window Number 126 ***
+Start Time : 592057.7283
+End Time : 620489.3282
+Delta Time : 28431.5998
+Delta Blocks : 3000
+Theory Block Creation Time : 3.6453
+Window Block Creation Time : 9.4772
+Fix Rate : 0.0500
+
+*** Window Number 127 ***
+Start Time : 620489.3282
+End Time : 640137.4880
+Delta Time : 19648.1598
+Delta Blocks : 3000
+Theory Block Creation Time : 3.8275
+Window Block Creation Time : 6.5494
+Fix Rate : 0.0500
+
+*** Window Number 128 ***
+Start Time : 640137.4880
+End Time : 665356.4871
+Delta Time : 25218.9991
+Delta Blocks : 3000
+Theory Block Creation Time : 4.0189
+Window Block Creation Time : 8.4063
+Fix Rate : 0.0500
+
+*** Window Number 129 ***
+Start Time : 665356.4871
+End Time : 743787.0938
+Delta Time : 78430.6067
+Delta Blocks : 3000
+Theory Block Creation Time : 4.2199
+Window Block Creation Time : 26.1435
+Fix Rate : -0.0500
+
+*** Window Number 130 ***
+Start Time : 743787.0938
+End Time : 763993.4961
+Delta Time : 20206.4023
+Delta Blocks : 3000
+Theory Block Creation Time : 4.0089
+Window Block Creation Time : 6.7355
+Fix Rate : 0.0500
+
+*** Window Number 131 ***
+Start Time : 763993.4961
+End Time : 802637.7710
+Delta Time : 38644.2750
+Delta Blocks : 3000
+Theory Block Creation Time : 4.2093
+Window Block Creation Time : 12.8814
+Fix Rate : -0.0500
+
+*** Window Number 132 ***
+Start Time : 802637.7710
+End Time : 860187.0914
+Delta Time : 57549.3204
+Delta Blocks : 3000
+Theory Block Creation Time : 3.9989
+Window Block Creation Time : 19.1831
+Fix Rate : -0.0500
+
+*** Window Number 133 ***
+Start Time : 860187.0914
+End Time : 876793.3640
+Delta Time : 16606.2725
+Delta Blocks : 3000
+Theory Block Creation Time : 3.7989
+Window Block Creation Time : 5.5354
+Fix Rate : 0.0500
+
+*** Window Number 134 ***
+Start Time : 876793.3640
+End Time : 899635.8040
+Delta Time : 22842.4401
+Delta Blocks : 3000
+Theory Block Creation Time : 3.9889
+Window Block Creation Time : 7.6141
+Fix Rate : 0.0500
+
+*** Window Number 135 ***
+Start Time : 899635.8040
+End Time : 923900.3705
+Delta Time : 24264.5664
+Delta Blocks : 3000
+Theory Block Creation Time : 4.1883
+Window Block Creation Time : 8.0882
+Fix Rate : 0.0500
+
+*** Window Number 136 ***
+Start Time : 923900.3705
+End Time : 951515.5613
+Delta Time : 27615.1909
+Delta Blocks : 3000
+Theory Block Creation Time : 4.3977
+Window Block Creation Time : 9.2051
+Fix Rate : 0.0500
+
+*** Window Number 137 ***
+Start Time : 951515.5613
+End Time : 973544.0923
+Delta Time : 22028.5309
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6176
+Window Block Creation Time : 7.3428
+Fix Rate : 0.0500
+
+*** Window Number 138 ***
+Start Time : 973544.0923
+End Time : 1010668.8347
+Delta Time : 37124.7425
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8485
+Window Block Creation Time : 12.3749
+Fix Rate : -0.0500
+
+*** Window Number 139 ***
+Start Time : 1010668.8347
+End Time : 1036153.9117
+Delta Time : 25485.0770
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6061
+Window Block Creation Time : 8.4950
+Fix Rate : 0.0500
+
+*** Window Number 140 ***
+Start Time : 1036153.9117
+End Time : 1058505.5663
+Delta Time : 22351.6546
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8364
+Window Block Creation Time : 7.4506
+Fix Rate : 0.0500
+
+*** Window Number 141 ***
+Start Time : 1058505.5663
+End Time : 1304057.6266
+Delta Time : 245552.0604
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0782
+Window Block Creation Time : 81.8507
+Fix Rate : -0.0500
+
+*** Window Number 142 ***
+Start Time : 1304057.6266
+End Time : 1326554.5623
+Delta Time : 22496.9357
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8243
+Window Block Creation Time : 7.4990
+Fix Rate : 0.0500
+
+*** Window Number 143 ***
+Start Time : 1326554.5623
+End Time : 1351547.5861
+Delta Time : 24993.0238
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0655
+Window Block Creation Time : 8.3310
+Fix Rate : 0.0500
+
+*** Window Number 144 ***
+Start Time : 1351547.5861
+End Time : 1395732.4398
+Delta Time : 44184.8538
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3188
+Window Block Creation Time : 14.7283
+Fix Rate : -0.0500
+
+*** Window Number 145 ***
+Start Time : 1395732.4398
+End Time : 1441983.8265
+Delta Time : 46251.3867
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0528
+Window Block Creation Time : 15.4171
+Fix Rate : -0.0500
+
+*** Window Number 146 ***
+Start Time : 1441983.8265
+End Time : 1466695.5795
+Delta Time : 24711.7530
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8002
+Window Block Creation Time : 8.2373
+Fix Rate : 0.0500
+
+*** Window Number 147 ***
+Start Time : 1466695.5795
+End Time : 1506286.8989
+Delta Time : 39591.3193
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0402
+Window Block Creation Time : 13.1971
+Fix Rate : -0.0500
+
+*** Window Number 148 ***
+Start Time : 1506286.8989
+End Time : 1532687.8737
+Delta Time : 26400.9748
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7882
+Window Block Creation Time : 8.8003
+Fix Rate : 0.0500
+
+*** Window Number 149 ***
+Start Time : 1532687.8737
+End Time : 1561629.2733
+Delta Time : 28941.3996
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0276
+Window Block Creation Time : 9.6471
+Fix Rate : 0.0366
+
+*** Window Number 150 ***
+Start Time : 1561629.2733
+End Time : 1593722.4426
+Delta Time : 32093.1693
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2115
+Window Block Creation Time : 10.6977
+Fix Rate : -0.0500
+
+*** Window Number 151 ***
+Start Time : 1593722.4426
+End Time : 1647771.0675
+Delta Time : 54048.6249
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9509
+Window Block Creation Time : 18.0162
+Fix Rate : -0.0500
+
+*** Window Number 152 ***
+Start Time : 1647771.0675
+End Time : 1668800.0783
+Delta Time : 21029.0109
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7034
+Window Block Creation Time : 7.0097
+Fix Rate : 0.0500
+
+*** Window Number 153 ***
+Start Time : 1668800.0783
+End Time : 1704967.4804
+Delta Time : 36167.4020
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9385
+Window Block Creation Time : 12.0558
+Fix Rate : -0.0500
+
+*** Window Number 154 ***
+Start Time : 1704967.4804
+End Time : 1727158.6512
+Delta Time : 22191.1709
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6916
+Window Block Creation Time : 7.3971
+Fix Rate : 0.0500
+
+*** Window Number 155 ***
+Start Time : 1727158.6512
+End Time : 1760876.7421
+Delta Time : 33718.0909
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9262
+Window Block Creation Time : 11.2394
+Fix Rate : -0.0500
+
+*** Window Number 156 ***
+Start Time : 1760876.7421
+End Time : 1789457.0145
+Delta Time : 28580.2724
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6799
+Window Block Creation Time : 9.5268
+Fix Rate : 0.0497
+
+*** Window Number 157 ***
+Start Time : 1789457.0145
+End Time : 1819926.8247
+Delta Time : 30469.8102
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9123
+Window Block Creation Time : 10.1566
+Fix Rate : -0.0154
+
+*** Window Number 158 ***
+Start Time : 1819926.8247
+End Time : 1853115.2683
+Delta Time : 33188.4437
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8366
+Window Block Creation Time : 11.0628
+Fix Rate : -0.0500
+
+*** Window Number 159 ***
+Start Time : 1853115.2683
+End Time : 1887384.7226
+Delta Time : 34269.4543
+Delta Blocks : 3000
+Theory Block Creation Time : 4.5948
+Window Block Creation Time : 11.4232
+Fix Rate : -0.0500
+
+*** Window Number 160 ***
+Start Time : 1887384.7226
+End Time : 1918683.0860
+Delta Time : 31298.3634
+Delta Blocks : 3000
+Theory Block Creation Time : 4.3650
+Window Block Creation Time : 10.4328
+Fix Rate : -0.0415
+
+*** Window Number 161 ***
+Start Time : 1918683.0860
+End Time : 1944939.5083
+Delta Time : 26256.4222
+Delta Blocks : 3000
+Theory Block Creation Time : 4.1840
+Window Block Creation Time : 8.7521
+Fix Rate : 0.0500
+
+*** Window Number 162 ***
+Start Time : 1944939.5083
+End Time : 1983537.2783
+Delta Time : 38597.7700
+Delta Blocks : 3000
+Theory Block Creation Time : 4.3932
+Window Block Creation Time : 12.8659
+Fix Rate : -0.0500
+
+*** Window Number 163 ***
+Start Time : 1983537.2783
+End Time : 2029597.6257
+Delta Time : 46060.3474
+Delta Blocks : 3000
+Theory Block Creation Time : 4.1735
+Window Block Creation Time : 15.3534
+Fix Rate : -0.0500
+
+*** Window Number 164 ***
+Start Time : 2029597.6257
+End Time : 2051923.9347
+Delta Time : 22326.3090
+Delta Blocks : 3000
+Theory Block Creation Time : 3.9648
+Window Block Creation Time : 7.4421
+Fix Rate : 0.0500
+
+*** Window Number 165 ***
+Start Time : 2051923.9347
+End Time : 2079143.4146
+Delta Time : 27219.4799
+Delta Blocks : 3000
+Theory Block Creation Time : 4.1631
+Window Block Creation Time : 9.0732
+Fix Rate : 0.0500
+
+*** Window Number 166 ***
+Start Time : 2079143.4146
+End Time : 2106923.4475
+Delta Time : 27780.0328
+Delta Blocks : 3000
+Theory Block Creation Time : 4.3712
+Window Block Creation Time : 9.2600
+Fix Rate : 0.0500
+
+*** Window Number 167 ***
+Start Time : 2106923.4475
+End Time : 2132356.9105
+Delta Time : 25433.4630
+Delta Blocks : 3000
+Theory Block Creation Time : 4.5898
+Window Block Creation Time : 8.4778
+Fix Rate : 0.0500
+
+*** Window Number 168 ***
+Start Time : 2132356.9105
+End Time : 2187443.0561
+Delta Time : 55086.1456
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8193
+Window Block Creation Time : 18.3620
+Fix Rate : -0.0500
+
+*** Window Number 169 ***
+Start Time : 2187443.0561
+End Time : 2220902.1680
+Delta Time : 33459.1119
+Delta Blocks : 3000
+Theory Block Creation Time : 4.5783
+Window Block Creation Time : 11.1530
+Fix Rate : -0.0500
+
+*** Window Number 170 ***
+Start Time : 2220902.1680
+End Time : 2240329.1995
+Delta Time : 19427.0315
+Delta Blocks : 3000
+Theory Block Creation Time : 4.3494
+Window Block Creation Time : 6.4757
+Fix Rate : 0.0500
+
+*** Window Number 171 ***
+Start Time : 2240329.1995
+End Time : 2266353.4610
+Delta Time : 26024.2614
+Delta Blocks : 3000
+Theory Block Creation Time : 4.5669
+Window Block Creation Time : 8.6748
+Fix Rate : 0.0500
+
+*** Window Number 172 ***
+Start Time : 2266353.4610
+End Time : 2289111.5310
+Delta Time : 22758.0701
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7952
+Window Block Creation Time : 7.5860
+Fix Rate : 0.0500
+
+*** Window Number 173 ***
+Start Time : 2289111.5310
+End Time : 2389353.8100
+Delta Time : 100242.2790
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0350
+Window Block Creation Time : 33.4141
+Fix Rate : -0.0500
+
+*** Window Number 174 ***
+Start Time : 2389353.8100
+End Time : 2417082.6953
+Delta Time : 27728.8853
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7832
+Window Block Creation Time : 9.2430
+Fix Rate : 0.0500
+
+*** Window Number 175 ***
+Start Time : 2417082.6953
+End Time : 2462689.3264
+Delta Time : 45606.6311
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0224
+Window Block Creation Time : 15.2022
+Fix Rate : -0.0500
+
+*** Window Number 176 ***
+Start Time : 2462689.3264
+End Time : 2487460.8413
+Delta Time : 24771.5149
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7713
+Window Block Creation Time : 8.2572
+Fix Rate : 0.0500
+
+*** Window Number 177 ***
+Start Time : 2487460.8413
+End Time : 2533962.8284
+Delta Time : 46501.9871
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0098
+Window Block Creation Time : 15.5007
+Fix Rate : -0.0500
+
+*** Window Number 178 ***
+Start Time : 2533962.8284
+End Time : 2570304.5310
+Delta Time : 36341.7026
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7593
+Window Block Creation Time : 12.1139
+Fix Rate : -0.0500
+
+*** Window Number 179 ***
+Start Time : 2570304.5310
+End Time : 2601121.6681
+Delta Time : 30817.1372
+Delta Blocks : 3000
+Theory Block Creation Time : 4.5214
+Window Block Creation Time : 10.2724
+Fix Rate : -0.0265
+
+*** Window Number 180 ***
+Start Time : 2601121.6681
+End Time : 2626149.0034
+Delta Time : 25027.3353
+Delta Blocks : 3000
+Theory Block Creation Time : 4.4015
+Window Block Creation Time : 8.3424
+Fix Rate : 0.0500
+
+*** Window Number 181 ***
+Start Time : 2626149.0034
+End Time : 2662242.5997
+Delta Time : 36093.5963
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6215
+Window Block Creation Time : 12.0312
+Fix Rate : -0.0500
+
+*** Window Number 182 ***
+Start Time : 2662242.5997
+End Time : 2690023.8925
+Delta Time : 27781.2928
+Delta Blocks : 3000
+Theory Block Creation Time : 4.3905
+Window Block Creation Time : 9.2604
+Fix Rate : 0.0500
+
+*** Window Number 183 ***
+Start Time : 2690023.8925
+End Time : 2711887.4406
+Delta Time : 21863.5481
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6100
+Window Block Creation Time : 7.2878
+Fix Rate : 0.0500
+
+*** Window Number 184 ***
+Start Time : 2711887.4406
+End Time : 2741360.6303
+Delta Time : 29473.1897
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8405
+Window Block Creation Time : 9.8244
+Fix Rate : 0.0179
+
+*** Window Number 185 ***
+Start Time : 2741360.6303
+End Time : 2766858.6575
+Delta Time : 25498.0271
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9270
+Window Block Creation Time : 8.4993
+Fix Rate : 0.0500
+
+*** Window Number 186 ***
+Start Time : 2766858.6575
+End Time : 2793502.1484
+Delta Time : 26643.4909
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1734
+Window Block Creation Time : 8.8812
+Fix Rate : 0.0500
+
+*** Window Number 187 ***
+Start Time : 2793502.1484
+End Time : 2820304.1625
+Delta Time : 26802.0142
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4320
+Window Block Creation Time : 8.9340
+Fix Rate : 0.0500
+
+*** Window Number 188 ***
+Start Time : 2820304.1625
+End Time : 2848037.1809
+Delta Time : 27733.0183
+Delta Blocks : 3000
+Theory Block Creation Time : 5.7036
+Window Block Creation Time : 9.2443
+Fix Rate : 0.0500
+
+*** Window Number 189 ***
+Start Time : 2848037.1809
+End Time : 2873964.6639
+Delta Time : 25927.4831
+Delta Blocks : 3000
+Theory Block Creation Time : 5.9888
+Window Block Creation Time : 8.6425
+Fix Rate : 0.0500
+
+*** Window Number 190 ***
+Start Time : 2873964.6639
+End Time : 2903373.7879
+Delta Time : 29409.1240
+Delta Blocks : 3000
+Theory Block Creation Time : 6.2883
+Window Block Creation Time : 9.8030
+Fix Rate : 0.0201
+
+*** Window Number 191 ***
+Start Time : 2903373.7879
+End Time : 2938164.3041
+Delta Time : 34790.5163
+Delta Blocks : 3000
+Theory Block Creation Time : 6.4146
+Window Block Creation Time : 11.5968
+Fix Rate : -0.0500
+
+*** Window Number 192 ***
+Start Time : 2938164.3041
+End Time : 2971916.1844
+Delta Time : 33751.8803
+Delta Blocks : 3000
+Theory Block Creation Time : 6.0939
+Window Block Creation Time : 11.2506
+Fix Rate : -0.0500
+
+*** Window Number 193 ***
+Start Time : 2971916.1844
+End Time : 3011997.7746
+Delta Time : 40081.5902
+Delta Blocks : 3000
+Theory Block Creation Time : 5.7892
+Window Block Creation Time : 13.3605
+Fix Rate : -0.0500
+
+*** Window Number 194 ***
+Start Time : 3011997.7746
+End Time : 3078579.1894
+Delta Time : 66581.4148
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4997
+Window Block Creation Time : 22.1938
+Fix Rate : -0.0500
+
+*** Window Number 195 ***
+Start Time : 3078579.1894
+End Time : 3113349.8211
+Delta Time : 34770.6317
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2247
+Window Block Creation Time : 11.5902
+Fix Rate : -0.0500
+
+*** Window Number 196 ***
+Start Time : 3113349.8211
+End Time : 3144214.5880
+Delta Time : 30864.7669
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9635
+Window Block Creation Time : 10.2883
+Fix Rate : -0.0280
+
+*** Window Number 197 ***
+Start Time : 3144214.5880
+End Time : 3165379.9057
+Delta Time : 21165.3177
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8244
+Window Block Creation Time : 7.0551
+Fix Rate : 0.0500
+
+*** Window Number 198 ***
+Start Time : 3165379.9057
+End Time : 3199622.2322
+Delta Time : 34242.3265
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0656
+Window Block Creation Time : 11.4141
+Fix Rate : -0.0500
+
+*** Window Number 199 ***
+Start Time : 3199622.2322
+End Time : 3235125.4319
+Delta Time : 35503.1996
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8124
+Window Block Creation Time : 11.8344
+Fix Rate : -0.0500
+
+*** Window Number 200 ***
+Start Time : 3235125.4319
+End Time : 3333531.9141
+Delta Time : 98406.4822
+Delta Blocks : 3000
+Theory Block Creation Time : 4.5717
+Window Block Creation Time : 32.8022
+Fix Rate : -0.0500
+
+*** Window Number 201 ***
+Start Time : 3333531.9141
+End Time : 3394637.8970
+Delta Time : 61105.9830
+Delta Blocks : 3000
+Theory Block Creation Time : 4.3432
+Window Block Creation Time : 20.3687
+Fix Rate : -0.0500
+
+*** Window Number 202 ***
+Start Time : 3394637.8970
+End Time : 3413928.7240
+Delta Time : 19290.8270
+Delta Blocks : 3000
+Theory Block Creation Time : 4.1260
+Window Block Creation Time : 6.4303
+Fix Rate : 0.0500
+
+*** Window Number 203 ***
+Start Time : 3413928.7240
+End Time : 3436453.5789
+Delta Time : 22524.8549
+Delta Blocks : 3000
+Theory Block Creation Time : 4.3323
+Window Block Creation Time : 7.5083
+Fix Rate : 0.0500
+
+*** Window Number 204 ***
+Start Time : 3436453.5789
+End Time : 3457343.8105
+Delta Time : 20890.2316
+Delta Blocks : 3000
+Theory Block Creation Time : 4.5489
+Window Block Creation Time : 6.9634
+Fix Rate : 0.0500
+
+*** Window Number 205 ***
+Start Time : 3457343.8105
+End Time : 3520410.9052
+Delta Time : 63067.0947
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7764
+Window Block Creation Time : 21.0224
+Fix Rate : -0.0500
+
+*** Window Number 206 ***
+Start Time : 3520410.9052
+End Time : 3626355.5852
+Delta Time : 105944.6800
+Delta Blocks : 3000
+Theory Block Creation Time : 4.5375
+Window Block Creation Time : 35.3149
+Fix Rate : -0.0500
+
+*** Window Number 207 ***
+Start Time : 3626355.5852
+End Time : 3667679.5945
+Delta Time : 41324.0093
+Delta Blocks : 3000
+Theory Block Creation Time : 4.3107
+Window Block Creation Time : 13.7747
+Fix Rate : -0.0500
+
+*** Window Number 208 ***
+Start Time : 3667679.5945
+End Time : 3717976.3782
+Delta Time : 50296.7837
+Delta Blocks : 3000
+Theory Block Creation Time : 4.0951
+Window Block Creation Time : 16.7656
+Fix Rate : -0.0500
+
+*** Window Number 209 ***
+Start Time : 3717976.3782
+End Time : 3736999.3235
+Delta Time : 19022.9453
+Delta Blocks : 3000
+Theory Block Creation Time : 3.8904
+Window Block Creation Time : 6.3410
+Fix Rate : 0.0500
+
+*** Window Number 210 ***
+Start Time : 3736999.3235
+End Time : 3758436.8089
+Delta Time : 21437.4853
+Delta Blocks : 3000
+Theory Block Creation Time : 4.0849
+Window Block Creation Time : 7.1458
+Fix Rate : 0.0500
+
+*** Window Number 211 ***
+Start Time : 3758436.8089
+End Time : 3784161.7963
+Delta Time : 25724.9874
+Delta Blocks : 3000
+Theory Block Creation Time : 4.2891
+Window Block Creation Time : 8.5750
+Fix Rate : 0.0500
+
+*** Window Number 212 ***
+Start Time : 3784161.7963
+End Time : 3808614.5196
+Delta Time : 24452.7234
+Delta Blocks : 3000
+Theory Block Creation Time : 4.5036
+Window Block Creation Time : 8.1509
+Fix Rate : 0.0500
+
+*** Window Number 213 ***
+Start Time : 3808614.5196
+End Time : 3842041.3511
+Delta Time : 33426.8315
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7288
+Window Block Creation Time : 11.1423
+Fix Rate : -0.0500
+
+*** Window Number 214 ***
+Start Time : 3842041.3511
+End Time : 3867200.6390
+Delta Time : 25159.2879
+Delta Blocks : 3000
+Theory Block Creation Time : 4.4923
+Window Block Creation Time : 8.3864
+Fix Rate : 0.0500
+
+*** Window Number 215 ***
+Start Time : 3867200.6390
+End Time : 3892852.4320
+Delta Time : 25651.7930
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7170
+Window Block Creation Time : 8.5506
+Fix Rate : 0.0500
+
+*** Window Number 216 ***
+Start Time : 3892852.4320
+End Time : 3931346.2707
+Delta Time : 38493.8387
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9528
+Window Block Creation Time : 12.8313
+Fix Rate : -0.0500
+
+*** Window Number 217 ***
+Start Time : 3931346.2707
+End Time : 3960459.1417
+Delta Time : 29112.8710
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7052
+Window Block Creation Time : 9.7043
+Fix Rate : 0.0305
+
+*** Window Number 218 ***
+Start Time : 3960459.1417
+End Time : 3987794.3280
+Delta Time : 27335.1863
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8485
+Window Block Creation Time : 9.1117
+Fix Rate : 0.0500
+
+*** Window Number 219 ***
+Start Time : 3987794.3280
+End Time : 4011960.6333
+Delta Time : 24166.3053
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0910
+Window Block Creation Time : 8.0554
+Fix Rate : 0.0500
+
+*** Window Number 220 ***
+Start Time : 4011960.6333
+End Time : 4035718.0698
+Delta Time : 23757.4365
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3455
+Window Block Creation Time : 7.9191
+Fix Rate : 0.0500
+
+*** Window Number 221 ***
+Start Time : 4035718.0698
+End Time : 4062842.3184
+Delta Time : 27124.2486
+Delta Blocks : 3000
+Theory Block Creation Time : 5.6128
+Window Block Creation Time : 9.0414
+Fix Rate : 0.0500
+
+*** Window Number 222 ***
+Start Time : 4062842.3184
+End Time : 4093020.0704
+Delta Time : 30177.7519
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8934
+Window Block Creation Time : 10.0593
+Fix Rate : -0.0059
+
+*** Window Number 223 ***
+Start Time : 4093020.0704
+End Time : 4135494.7345
+Delta Time : 42474.6642
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8587
+Window Block Creation Time : 14.1582
+Fix Rate : -0.0500
+
+*** Window Number 224 ***
+Start Time : 4135494.7345
+End Time : 4172768.9856
+Delta Time : 37274.2511
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5658
+Window Block Creation Time : 12.4248
+Fix Rate : -0.0500
+
+*** Window Number 225 ***
+Start Time : 4172768.9856
+End Time : 4244594.7192
+Delta Time : 71825.7337
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2875
+Window Block Creation Time : 23.9419
+Fix Rate : -0.0500
+
+*** Window Number 226 ***
+Start Time : 4244594.7192
+End Time : 4278373.8588
+Delta Time : 33779.1396
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0231
+Window Block Creation Time : 11.2597
+Fix Rate : -0.0500
+
+*** Window Number 227 ***
+Start Time : 4278373.8588
+End Time : 4304731.0248
+Delta Time : 26357.1660
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7720
+Window Block Creation Time : 8.7857
+Fix Rate : 0.0500
+
+*** Window Number 228 ***
+Start Time : 4304731.0248
+End Time : 4365994.0318
+Delta Time : 61263.0070
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0106
+Window Block Creation Time : 20.4210
+Fix Rate : -0.0500
+
+*** Window Number 229 ***
+Start Time : 4365994.0318
+End Time : 4391460.2514
+Delta Time : 25466.2196
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7600
+Window Block Creation Time : 8.4887
+Fix Rate : 0.0500
+
+*** Window Number 230 ***
+Start Time : 4391460.2514
+End Time : 4418393.1534
+Delta Time : 26932.9020
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9980
+Window Block Creation Time : 8.9776
+Fix Rate : 0.0500
+
+*** Window Number 231 ***
+Start Time : 4418393.1534
+End Time : 4442224.9816
+Delta Time : 23831.8282
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2479
+Window Block Creation Time : 7.9439
+Fix Rate : 0.0500
+
+*** Window Number 232 ***
+Start Time : 4442224.9816
+End Time : 4475902.9148
+Delta Time : 33677.9332
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5103
+Window Block Creation Time : 11.2260
+Fix Rate : -0.0500
+
+*** Window Number 233 ***
+Start Time : 4475902.9148
+End Time : 4512790.3482
+Delta Time : 36887.4334
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2348
+Window Block Creation Time : 12.2958
+Fix Rate : -0.0500
+
+*** Window Number 234 ***
+Start Time : 4512790.3482
+End Time : 4550708.7753
+Delta Time : 37918.4271
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9731
+Window Block Creation Time : 12.6395
+Fix Rate : -0.0500
+
+*** Window Number 235 ***
+Start Time : 4550708.7753
+End Time : 4568879.8415
+Delta Time : 18171.0662
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7244
+Window Block Creation Time : 6.0570
+Fix Rate : 0.0500
+
+*** Window Number 236 ***
+Start Time : 4568879.8415
+End Time : 4596763.0353
+Delta Time : 27883.1937
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9606
+Window Block Creation Time : 9.2944
+Fix Rate : 0.0500
+
+*** Window Number 237 ***
+Start Time : 4596763.0353
+End Time : 4632753.4774
+Delta Time : 35990.4421
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2087
+Window Block Creation Time : 11.9968
+Fix Rate : -0.0500
+
+*** Window Number 238 ***
+Start Time : 4632753.4774
+End Time : 4688541.1255
+Delta Time : 55787.6481
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9482
+Window Block Creation Time : 18.5959
+Fix Rate : -0.0500
+
+*** Window Number 239 ***
+Start Time : 4688541.1255
+End Time : 4727503.3516
+Delta Time : 38962.2261
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7008
+Window Block Creation Time : 12.9874
+Fix Rate : -0.0500
+
+*** Window Number 240 ***
+Start Time : 4727503.3516
+End Time : 4774215.8576
+Delta Time : 46712.5060
+Delta Blocks : 3000
+Theory Block Creation Time : 4.4658
+Window Block Creation Time : 15.5708
+Fix Rate : -0.0500
+
+*** Window Number 241 ***
+Start Time : 4774215.8576
+End Time : 4790779.2574
+Delta Time : 16563.3998
+Delta Blocks : 3000
+Theory Block Creation Time : 4.2425
+Window Block Creation Time : 5.5211
+Fix Rate : 0.0500
+
+*** Window Number 242 ***
+Start Time : 4790779.2574
+End Time : 4817822.7615
+Delta Time : 27043.5041
+Delta Blocks : 3000
+Theory Block Creation Time : 4.4546
+Window Block Creation Time : 9.0145
+Fix Rate : 0.0500
+
+*** Window Number 243 ***
+Start Time : 4817822.7615
+End Time : 4851279.8741
+Delta Time : 33457.1126
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6774
+Window Block Creation Time : 11.1524
+Fix Rate : -0.0500
+
+*** Window Number 244 ***
+Start Time : 4851279.8741
+End Time : 4877361.7163
+Delta Time : 26081.8422
+Delta Blocks : 3000
+Theory Block Creation Time : 4.4435
+Window Block Creation Time : 8.6939
+Fix Rate : 0.0500
+
+*** Window Number 245 ***
+Start Time : 4877361.7163
+End Time : 4905998.2758
+Delta Time : 28636.5595
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6657
+Window Block Creation Time : 9.5455
+Fix Rate : 0.0476
+
+*** Window Number 246 ***
+Start Time : 4905998.2758
+End Time : 4940380.7485
+Delta Time : 34382.4727
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8878
+Window Block Creation Time : 11.4608
+Fix Rate : -0.0500
+
+*** Window Number 247 ***
+Start Time : 4940380.7485
+End Time : 4963092.1711
+Delta Time : 22711.4227
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6434
+Window Block Creation Time : 7.5705
+Fix Rate : 0.0500
+
+*** Window Number 248 ***
+Start Time : 4963092.1711
+End Time : 4997123.6230
+Delta Time : 34031.4518
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8756
+Window Block Creation Time : 11.3438
+Fix Rate : -0.0500
+
+*** Window Number 249 ***
+Start Time : 4997123.6230
+End Time : 5099568.8268
+Delta Time : 102445.2039
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6318
+Window Block Creation Time : 34.1484
+Fix Rate : -0.0500
+
+*** Window Number 250 ***
+Start Time : 5099568.8268
+End Time : 5123376.2108
+Delta Time : 23807.3840
+Delta Blocks : 3000
+Theory Block Creation Time : 4.4002
+Window Block Creation Time : 7.9358
+Fix Rate : 0.0500
+
+*** Window Number 251 ***
+Start Time : 5123376.2108
+End Time : 5149416.6949
+Delta Time : 26040.4841
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6202
+Window Block Creation Time : 8.6802
+Fix Rate : 0.0500
+
+*** Window Number 252 ***
+Start Time : 5149416.6949
+End Time : 5171534.0498
+Delta Time : 22117.3549
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8512
+Window Block Creation Time : 7.3725
+Fix Rate : 0.0500
+
+*** Window Number 253 ***
+Start Time : 5171534.0498
+End Time : 5227718.2732
+Delta Time : 56184.2235
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0938
+Window Block Creation Time : 18.7281
+Fix Rate : -0.0500
+
+*** Window Number 254 ***
+Start Time : 5227718.2732
+End Time : 5316541.9212
+Delta Time : 88823.6480
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8391
+Window Block Creation Time : 29.6079
+Fix Rate : -0.0500
+
+*** Window Number 255 ***
+Start Time : 5316541.9212
+End Time : 5339267.8985
+Delta Time : 22725.9773
+Delta Blocks : 3000
+Theory Block Creation Time : 4.5972
+Window Block Creation Time : 7.5753
+Fix Rate : 0.0500
+
+*** Window Number 256 ***
+Start Time : 5339267.8985
+End Time : 5364599.4493
+Delta Time : 25331.5508
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8270
+Window Block Creation Time : 8.4439
+Fix Rate : 0.0500
+
+*** Window Number 257 ***
+Start Time : 5364599.4493
+End Time : 5399486.3966
+Delta Time : 34886.9474
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0684
+Window Block Creation Time : 11.6290
+Fix Rate : -0.0500
+
+*** Window Number 258 ***
+Start Time : 5399486.3966
+End Time : 5426116.0284
+Delta Time : 26629.6318
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8149
+Window Block Creation Time : 8.8765
+Fix Rate : 0.0500
+
+*** Window Number 259 ***
+Start Time : 5426116.0284
+End Time : 5458902.3096
+Delta Time : 32786.2812
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0557
+Window Block Creation Time : 10.9288
+Fix Rate : -0.0500
+
+*** Window Number 260 ***
+Start Time : 5458902.3096
+End Time : 5515975.7295
+Delta Time : 57073.4198
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8029
+Window Block Creation Time : 19.0245
+Fix Rate : -0.0500
+
+*** Window Number 261 ***
+Start Time : 5515975.7295
+End Time : 5539116.3429
+Delta Time : 23140.6134
+Delta Blocks : 3000
+Theory Block Creation Time : 4.5628
+Window Block Creation Time : 7.7135
+Fix Rate : 0.0500
+
+*** Window Number 262 ***
+Start Time : 5539116.3429
+End Time : 5600460.8091
+Delta Time : 61344.4662
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7909
+Window Block Creation Time : 20.4482
+Fix Rate : -0.0500
+
+*** Window Number 263 ***
+Start Time : 5600460.8091
+End Time : 5625716.0499
+Delta Time : 25255.2408
+Delta Blocks : 3000
+Theory Block Creation Time : 4.5514
+Window Block Creation Time : 8.4184
+Fix Rate : 0.0500
+
+*** Window Number 264 ***
+Start Time : 5625716.0499
+End Time : 5647337.5179
+Delta Time : 21621.4680
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7789
+Window Block Creation Time : 7.2072
+Fix Rate : 0.0500
+
+*** Window Number 265 ***
+Start Time : 5647337.5179
+End Time : 5670469.2285
+Delta Time : 23131.7106
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0179
+Window Block Creation Time : 7.7106
+Fix Rate : 0.0500
+
+*** Window Number 266 ***
+Start Time : 5670469.2285
+End Time : 5709908.1060
+Delta Time : 39438.8775
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2688
+Window Block Creation Time : 13.1463
+Fix Rate : -0.0500
+
+*** Window Number 267 ***
+Start Time : 5709908.1060
+End Time : 5755466.9438
+Delta Time : 45558.8378
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0053
+Window Block Creation Time : 15.1863
+Fix Rate : -0.0500
+
+*** Window Number 268 ***
+Start Time : 5755466.9438
+End Time : 5799088.9534
+Delta Time : 43622.0096
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7551
+Window Block Creation Time : 14.5407
+Fix Rate : -0.0500
+
+*** Window Number 269 ***
+Start Time : 5799088.9534
+End Time : 5818823.1493
+Delta Time : 19734.1959
+Delta Blocks : 3000
+Theory Block Creation Time : 4.5173
+Window Block Creation Time : 6.5781
+Fix Rate : 0.0500
+
+*** Window Number 270 ***
+Start Time : 5818823.1493
+End Time : 5856497.4791
+Delta Time : 37674.3298
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7432
+Window Block Creation Time : 12.5581
+Fix Rate : -0.0500
+
+*** Window Number 271 ***
+Start Time : 5856497.4791
+End Time : 5883210.3522
+Delta Time : 26712.8731
+Delta Blocks : 3000
+Theory Block Creation Time : 4.5060
+Window Block Creation Time : 8.9043
+Fix Rate : 0.0500
+
+*** Window Number 272 ***
+Start Time : 5883210.3522
+End Time : 5904100.8889
+Delta Time : 20890.5367
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7313
+Window Block Creation Time : 6.9635
+Fix Rate : 0.0500
+
+*** Window Number 273 ***
+Start Time : 5904100.8889
+End Time : 5935407.2824
+Delta Time : 31306.3935
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9679
+Window Block Creation Time : 10.4355
+Fix Rate : -0.0417
+
+*** Window Number 274 ***
+Start Time : 5935407.2824
+End Time : 5960319.8625
+Delta Time : 24912.5801
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7606
+Window Block Creation Time : 8.3042
+Fix Rate : 0.0500
+
+*** Window Number 275 ***
+Start Time : 5960319.8625
+End Time : 6075644.7684
+Delta Time : 115324.9058
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9986
+Window Block Creation Time : 38.4416
+Fix Rate : -0.0500
+
+*** Window Number 276 ***
+Start Time : 6075644.7684
+End Time : 6111571.8406
+Delta Time : 35927.0723
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7487
+Window Block Creation Time : 11.9757
+Fix Rate : -0.0500
+
+*** Window Number 277 ***
+Start Time : 6111571.8406
+End Time : 6139573.0250
+Delta Time : 28001.1843
+Delta Blocks : 3000
+Theory Block Creation Time : 4.5112
+Window Block Creation Time : 9.3337
+Fix Rate : 0.0500
+
+*** Window Number 278 ***
+Start Time : 6139573.0250
+End Time : 6177632.9105
+Delta Time : 38059.8855
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7368
+Window Block Creation Time : 12.6866
+Fix Rate : -0.0500
+
+*** Window Number 279 ***
+Start Time : 6177632.9105
+End Time : 6206330.7961
+Delta Time : 28697.8856
+Delta Blocks : 3000
+Theory Block Creation Time : 4.5000
+Window Block Creation Time : 9.5660
+Fix Rate : 0.0454
+
+*** Window Number 280 ***
+Start Time : 6206330.7961
+End Time : 6244465.7280
+Delta Time : 38134.9319
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7041
+Window Block Creation Time : 12.7116
+Fix Rate : -0.0500
+
+*** Window Number 281 ***
+Start Time : 6244465.7280
+End Time : 6279199.6384
+Delta Time : 34733.9104
+Delta Blocks : 3000
+Theory Block Creation Time : 4.4689
+Window Block Creation Time : 11.5780
+Fix Rate : -0.0500
+
+*** Window Number 282 ***
+Start Time : 6279199.6384
+End Time : 6303920.4265
+Delta Time : 24720.7881
+Delta Blocks : 3000
+Theory Block Creation Time : 4.2455
+Window Block Creation Time : 8.2403
+Fix Rate : 0.0500
+
+*** Window Number 283 ***
+Start Time : 6303920.4265
+End Time : 6331272.0977
+Delta Time : 27351.6712
+Delta Blocks : 3000
+Theory Block Creation Time : 4.4578
+Window Block Creation Time : 9.1172
+Fix Rate : 0.0500
+
+*** Window Number 284 ***
+Start Time : 6331272.0977
+End Time : 6355134.0868
+Delta Time : 23861.9890
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6806
+Window Block Creation Time : 7.9540
+Fix Rate : 0.0500
+
+*** Window Number 285 ***
+Start Time : 6355134.0868
+End Time : 6381107.6990
+Delta Time : 25973.6122
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9147
+Window Block Creation Time : 8.6579
+Fix Rate : 0.0500
+
+*** Window Number 286 ***
+Start Time : 6381107.6990
+End Time : 6411123.5615
+Delta Time : 30015.8625
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1604
+Window Block Creation Time : 10.0053
+Fix Rate : -0.0005
+
+*** Window Number 287 ***
+Start Time : 6411123.5615
+End Time : 6440679.0635
+Delta Time : 29555.5020
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1577
+Window Block Creation Time : 9.8518
+Fix Rate : 0.0150
+
+*** Window Number 288 ***
+Start Time : 6440679.0635
+End Time : 6471981.9938
+Delta Time : 31302.9303
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2352
+Window Block Creation Time : 10.4343
+Fix Rate : -0.0416
+
+*** Window Number 289 ***
+Start Time : 6471981.9938
+End Time : 6494364.9632
+Delta Time : 22382.9695
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0173
+Window Block Creation Time : 7.4610
+Fix Rate : 0.0500
+
+*** Window Number 290 ***
+Start Time : 6494364.9632
+End Time : 6523160.3861
+Delta Time : 28795.4228
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2682
+Window Block Creation Time : 9.5985
+Fix Rate : 0.0418
+
+*** Window Number 291 ***
+Start Time : 6523160.3861
+End Time : 6603243.1979
+Delta Time : 80082.8118
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4886
+Window Block Creation Time : 26.6943
+Fix Rate : -0.0500
+
+*** Window Number 292 ***
+Start Time : 6603243.1979
+End Time : 6627328.2985
+Delta Time : 24085.1006
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2142
+Window Block Creation Time : 8.0284
+Fix Rate : 0.0500
+
+*** Window Number 293 ***
+Start Time : 6627328.2985
+End Time : 6657707.8614
+Delta Time : 30379.5629
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4749
+Window Block Creation Time : 10.1265
+Fix Rate : -0.0125
+
+*** Window Number 294 ***
+Start Time : 6657707.8614
+End Time : 6697177.8116
+Delta Time : 39469.9502
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4065
+Window Block Creation Time : 13.1567
+Fix Rate : -0.0500
+
+*** Window Number 295 ***
+Start Time : 6697177.8116
+End Time : 6721289.4065
+Delta Time : 24111.5949
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1361
+Window Block Creation Time : 8.0372
+Fix Rate : 0.0500
+
+*** Window Number 296 ***
+Start Time : 6721289.4065
+End Time : 6752330.3598
+Delta Time : 31040.9533
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3929
+Window Block Creation Time : 10.3470
+Fix Rate : -0.0335
+
+*** Window Number 297 ***
+Start Time : 6752330.3598
+End Time : 6781946.3702
+Delta Time : 29616.0104
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2121
+Window Block Creation Time : 9.8720
+Fix Rate : 0.0130
+
+*** Window Number 298 ***
+Start Time : 6781946.3702
+End Time : 6807689.0478
+Delta Time : 25742.6775
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2797
+Window Block Creation Time : 8.5809
+Fix Rate : 0.0500
+
+*** Window Number 299 ***
+Start Time : 6807689.0478
+End Time : 6830765.4902
+Delta Time : 23076.4424
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5437
+Window Block Creation Time : 7.6921
+Fix Rate : 0.0500
+
+*** Window Number 300 ***
+Start Time : 6830765.4902
+End Time : 6857835.0936
+Delta Time : 27069.6034
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8208
+Window Block Creation Time : 9.0232
+Fix Rate : 0.0500
+
+*** Window Number 301 ***
+Start Time : 6857835.0936
+End Time : 6893820.0220
+Delta Time : 35984.9285
+Delta Blocks : 3000
+Theory Block Creation Time : 6.1119
+Window Block Creation Time : 11.9950
+Fix Rate : -0.0500
+
+*** Window Number 302 ***
+Start Time : 6893820.0220
+End Time : 6925823.0471
+Delta Time : 32003.0250
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8063
+Window Block Creation Time : 10.6677
+Fix Rate : -0.0500
+
+*** Window Number 303 ***
+Start Time : 6925823.0471
+End Time : 7075451.6208
+Delta Time : 149628.5738
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5160
+Window Block Creation Time : 49.8762
+Fix Rate : -0.0500
+
+*** Window Number 304 ***
+Start Time : 7075451.6208
+End Time : 7111575.2237
+Delta Time : 36123.6029
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2402
+Window Block Creation Time : 12.0412
+Fix Rate : -0.0500
+
+*** Window Number 305 ***
+Start Time : 7111575.2237
+End Time : 7162636.2429
+Delta Time : 51061.0192
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9782
+Window Block Creation Time : 17.0203
+Fix Rate : -0.0500
+
+*** Window Number 306 ***
+Start Time : 7162636.2429
+End Time : 7190059.6940
+Delta Time : 27423.4511
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7293
+Window Block Creation Time : 9.1412
+Fix Rate : 0.0500
+
+*** Window Number 307 ***
+Start Time : 7190059.6940
+End Time : 7223372.0965
+Delta Time : 33312.4025
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9657
+Window Block Creation Time : 11.1041
+Fix Rate : -0.0500
+
+*** Window Number 308 ***
+Start Time : 7223372.0965
+End Time : 7298032.8178
+Delta Time : 74660.7212
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7174
+Window Block Creation Time : 24.8869
+Fix Rate : -0.0500
+
+*** Window Number 309 ***
+Start Time : 7298032.8178
+End Time : 7320467.8848
+Delta Time : 22435.0671
+Delta Blocks : 3000
+Theory Block Creation Time : 4.4816
+Window Block Creation Time : 7.4784
+Fix Rate : 0.0500
+
+*** Window Number 310 ***
+Start Time : 7320467.8848
+End Time : 7365892.5733
+Delta Time : 45424.6885
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7056
+Window Block Creation Time : 15.1416
+Fix Rate : -0.0500
+
+*** Window Number 311 ***
+Start Time : 7365892.5733
+End Time : 7392399.9999
+Delta Time : 26507.4266
+Delta Blocks : 3000
+Theory Block Creation Time : 4.4704
+Window Block Creation Time : 8.8358
+Fix Rate : 0.0500
+
+*** Window Number 312 ***
+Start Time : 7392399.9999
+End Time : 7423313.0463
+Delta Time : 30913.0465
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6939
+Window Block Creation Time : 10.3043
+Fix Rate : -0.0295
+
+*** Window Number 313 ***
+Start Time : 7423313.0463
+End Time : 7446121.0038
+Delta Time : 22807.9575
+Delta Blocks : 3000
+Theory Block Creation Time : 4.5552
+Window Block Creation Time : 7.6027
+Fix Rate : 0.0500
+
+*** Window Number 314 ***
+Start Time : 7446121.0038
+End Time : 7481171.4584
+Delta Time : 35050.4546
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7830
+Window Block Creation Time : 11.6835
+Fix Rate : -0.0500
+
+*** Window Number 315 ***
+Start Time : 7481171.4584
+End Time : 7507951.5032
+Delta Time : 26780.0449
+Delta Blocks : 3000
+Theory Block Creation Time : 4.5439
+Window Block Creation Time : 8.9267
+Fix Rate : 0.0500
+
+*** Window Number 316 ***
+Start Time : 7507951.5032
+End Time : 7532287.9420
+Delta Time : 24336.4387
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7710
+Window Block Creation Time : 8.1121
+Fix Rate : 0.0500
+
+*** Window Number 317 ***
+Start Time : 7532287.9420
+End Time : 7557357.1376
+Delta Time : 25069.1957
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0096
+Window Block Creation Time : 8.3564
+Fix Rate : 0.0500
+
+*** Window Number 318 ***
+Start Time : 7557357.1376
+End Time : 7582592.2650
+Delta Time : 25235.1274
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2601
+Window Block Creation Time : 8.4117
+Fix Rate : 0.0500
+
+*** Window Number 319 ***
+Start Time : 7582592.2650
+End Time : 7612509.5954
+Delta Time : 29917.3303
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5231
+Window Block Creation Time : 9.9724
+Fix Rate : 0.0028
+
+*** Window Number 320 ***
+Start Time : 7612509.5954
+End Time : 7650542.0324
+Delta Time : 38032.4371
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5383
+Window Block Creation Time : 12.6775
+Fix Rate : -0.0500
+
+*** Window Number 321 ***
+Start Time : 7650542.0324
+End Time : 7676103.9929
+Delta Time : 25561.9605
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2614
+Window Block Creation Time : 8.5207
+Fix Rate : 0.0500
+
+*** Window Number 322 ***
+Start Time : 7676103.9929
+End Time : 7701062.6774
+Delta Time : 24958.6844
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5245
+Window Block Creation Time : 8.3196
+Fix Rate : 0.0500
+
+*** Window Number 323 ***
+Start Time : 7701062.6774
+End Time : 7730691.8964
+Delta Time : 29629.2191
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8007
+Window Block Creation Time : 9.8764
+Fix Rate : 0.0125
+
+*** Window Number 324 ***
+Start Time : 7730691.8964
+End Time : 7766336.9308
+Delta Time : 35645.0344
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8733
+Window Block Creation Time : 11.8817
+Fix Rate : -0.0500
+
+*** Window Number 325 ***
+Start Time : 7766336.9308
+End Time : 7790473.6870
+Delta Time : 24136.7562
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5796
+Window Block Creation Time : 8.0456
+Fix Rate : 0.0500
+
+*** Window Number 326 ***
+Start Time : 7790473.6870
+End Time : 7823190.2815
+Delta Time : 32716.5945
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8586
+Window Block Creation Time : 10.9055
+Fix Rate : -0.0500
+
+*** Window Number 327 ***
+Start Time : 7823190.2815
+End Time : 7850021.1623
+Delta Time : 26830.8808
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5657
+Window Block Creation Time : 8.9436
+Fix Rate : 0.0500
+
+*** Window Number 328 ***
+Start Time : 7850021.1623
+End Time : 7894391.8701
+Delta Time : 44370.7078
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8440
+Window Block Creation Time : 14.7902
+Fix Rate : -0.0500
+
+*** Window Number 329 ***
+Start Time : 7894391.8701
+End Time : 7946899.7387
+Delta Time : 52507.8686
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5518
+Window Block Creation Time : 17.5026
+Fix Rate : -0.0500
+
+*** Window Number 330 ***
+Start Time : 7946899.7387
+End Time : 7977998.1043
+Delta Time : 31098.3656
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2742
+Window Block Creation Time : 10.3661
+Fix Rate : -0.0353
+
+*** Window Number 331 ***
+Start Time : 7977998.1043
+End Time : 8008433.9982
+Delta Time : 30435.8938
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0879
+Window Block Creation Time : 10.1453
+Fix Rate : -0.0143
+
+*** Window Number 332 ***
+Start Time : 8008433.9982
+End Time : 8054530.5416
+Delta Time : 46096.5435
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0150
+Window Block Creation Time : 15.3655
+Fix Rate : -0.0500
+
+*** Window Number 333 ***
+Start Time : 8054530.5416
+End Time : 8141274.9588
+Delta Time : 86744.4172
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7643
+Window Block Creation Time : 28.9148
+Fix Rate : -0.0500
+
+*** Window Number 334 ***
+Start Time : 8141274.9588
+End Time : 8164441.0896
+Delta Time : 23166.1308
+Delta Blocks : 3000
+Theory Block Creation Time : 4.5261
+Window Block Creation Time : 7.7220
+Fix Rate : 0.0500
+
+*** Window Number 335 ***
+Start Time : 8164441.0896
+End Time : 8185380.8432
+Delta Time : 20939.7536
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7524
+Window Block Creation Time : 6.9799
+Fix Rate : 0.0500
+
+*** Window Number 336 ***
+Start Time : 8185380.8432
+End Time : 8206973.4212
+Delta Time : 21592.5780
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9900
+Window Block Creation Time : 7.1975
+Fix Rate : 0.0500
+
+*** Window Number 337 ***
+Start Time : 8206973.4212
+End Time : 8236542.7296
+Delta Time : 29569.3084
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2395
+Window Block Creation Time : 9.8564
+Fix Rate : 0.0146
+
+*** Window Number 338 ***
+Start Time : 8236542.7296
+End Time : 8267539.6871
+Delta Time : 30996.9574
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3158
+Window Block Creation Time : 10.3323
+Fix Rate : -0.0322
+
+*** Window Number 339 ***
+Start Time : 8267539.6871
+End Time : 8293083.7018
+Delta Time : 25544.0147
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1448
+Window Block Creation Time : 8.5147
+Fix Rate : 0.0500
+
+*** Window Number 340 ***
+Start Time : 8293083.7018
+End Time : 8319392.0406
+Delta Time : 26308.3389
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4021
+Window Block Creation Time : 8.7694
+Fix Rate : 0.0500
+
+*** Window Number 341 ***
+Start Time : 8319392.0406
+End Time : 8353457.1255
+Delta Time : 34065.0848
+Delta Blocks : 3000
+Theory Block Creation Time : 5.6722
+Window Block Creation Time : 11.3550
+Fix Rate : -0.0500
+
+*** Window Number 342 ***
+Start Time : 8353457.1255
+End Time : 8401829.2791
+Delta Time : 48372.1536
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3886
+Window Block Creation Time : 16.1241
+Fix Rate : -0.0500
+
+*** Window Number 343 ***
+Start Time : 8401829.2791
+End Time : 8436509.7414
+Delta Time : 34680.4623
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1192
+Window Block Creation Time : 11.5602
+Fix Rate : -0.0500
+
+*** Window Number 344 ***
+Start Time : 8436509.7414
+End Time : 8457329.6426
+Delta Time : 20819.9012
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8632
+Window Block Creation Time : 6.9400
+Fix Rate : 0.0500
+
+*** Window Number 345 ***
+Start Time : 8457329.6426
+End Time : 8483257.3523
+Delta Time : 25927.7097
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1064
+Window Block Creation Time : 8.6426
+Fix Rate : 0.0500
+
+*** Window Number 346 ***
+Start Time : 8483257.3523
+End Time : 8557919.8077
+Delta Time : 74662.4553
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3617
+Window Block Creation Time : 24.8875
+Fix Rate : -0.0500
+
+*** Window Number 347 ***
+Start Time : 8557919.8077
+End Time : 8579945.8320
+Delta Time : 22026.0243
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0936
+Window Block Creation Time : 7.3420
+Fix Rate : 0.0500
+
+*** Window Number 348 ***
+Start Time : 8579945.8320
+End Time : 8608350.4969
+Delta Time : 28404.6649
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3483
+Window Block Creation Time : 9.4682
+Fix Rate : 0.0500
+
+*** Window Number 349 ***
+Start Time : 8608350.4969
+End Time : 8677796.8882
+Delta Time : 69446.3913
+Delta Blocks : 3000
+Theory Block Creation Time : 5.6157
+Window Block Creation Time : 23.1488
+Fix Rate : -0.0500
+
+*** Window Number 350 ***
+Start Time : 8677796.8882
+End Time : 8704399.9965
+Delta Time : 26603.1083
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3349
+Window Block Creation Time : 8.8677
+Fix Rate : 0.0500
+
+*** Window Number 351 ***
+Start Time : 8704399.9965
+End Time : 8728815.4662
+Delta Time : 24415.4698
+Delta Blocks : 3000
+Theory Block Creation Time : 5.6016
+Window Block Creation Time : 8.1385
+Fix Rate : 0.0500
+
+*** Window Number 352 ***
+Start Time : 8728815.4662
+End Time : 8972331.1589
+Delta Time : 243515.6927
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8817
+Window Block Creation Time : 81.1719
+Fix Rate : -0.0500
+
+*** Window Number 353 ***
+Start Time : 8972331.1589
+End Time : 9001022.2125
+Delta Time : 28691.0536
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5876
+Window Block Creation Time : 9.5637
+Fix Rate : 0.0456
+
+*** Window Number 354 ***
+Start Time : 9001022.2125
+End Time : 9043031.5864
+Delta Time : 42009.3739
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8426
+Window Block Creation Time : 14.0031
+Fix Rate : -0.0500
+
+*** Window Number 355 ***
+Start Time : 9043031.5864
+End Time : 9068778.8109
+Delta Time : 25747.2245
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5504
+Window Block Creation Time : 8.5824
+Fix Rate : 0.0500
+
+*** Window Number 356 ***
+Start Time : 9068778.8109
+End Time : 9101184.4104
+Delta Time : 32405.5995
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8280
+Window Block Creation Time : 10.8019
+Fix Rate : -0.0500
+
+*** Window Number 357 ***
+Start Time : 9101184.4104
+End Time : 9135056.4377
+Delta Time : 33872.0272
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5366
+Window Block Creation Time : 11.2907
+Fix Rate : -0.0500
+
+*** Window Number 358 ***
+Start Time : 9135056.4377
+End Time : 9164442.9327
+Delta Time : 29386.4950
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2597
+Window Block Creation Time : 9.7955
+Fix Rate : 0.0209
+
+*** Window Number 359 ***
+Start Time : 9164442.9327
+End Time : 9199161.1537
+Delta Time : 34718.2211
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3695
+Window Block Creation Time : 11.5727
+Fix Rate : -0.0500
+
+*** Window Number 360 ***
+Start Time : 9199161.1537
+End Time : 9227342.6829
+Delta Time : 28181.5292
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1011
+Window Block Creation Time : 9.3938
+Fix Rate : 0.0500
+
+*** Window Number 361 ***
+Start Time : 9227342.6829
+End Time : 9254400.3347
+Delta Time : 27057.6518
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3561
+Window Block Creation Time : 9.0192
+Fix Rate : 0.0500
+
+*** Window Number 362 ***
+Start Time : 9254400.3347
+End Time : 9283054.5175
+Delta Time : 28654.1828
+Delta Blocks : 3000
+Theory Block Creation Time : 5.6239
+Window Block Creation Time : 9.5514
+Fix Rate : 0.0470
+
+*** Window Number 363 ***
+Start Time : 9283054.5175
+End Time : 9316782.6110
+Delta Time : 33728.0934
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8881
+Window Block Creation Time : 11.2427
+Fix Rate : -0.0500
+
+*** Window Number 364 ***
+Start Time : 9316782.6110
+End Time : 9343920.8608
+Delta Time : 27138.2498
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5937
+Window Block Creation Time : 9.0461
+Fix Rate : 0.0500
+
+*** Window Number 365 ***
+Start Time : 9343920.8608
+End Time : 9378578.8582
+Delta Time : 34657.9974
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8733
+Window Block Creation Time : 11.5527
+Fix Rate : -0.0500
+
+*** Window Number 366 ***
+Start Time : 9378578.8582
+End Time : 9405042.0432
+Delta Time : 26463.1850
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5797
+Window Block Creation Time : 8.8211
+Fix Rate : 0.0500
+
+*** Window Number 367 ***
+Start Time : 9405042.0432
+End Time : 9438171.2044
+Delta Time : 33129.1612
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8587
+Window Block Creation Time : 11.0431
+Fix Rate : -0.0500
+
+*** Window Number 368 ***
+Start Time : 9438171.2044
+End Time : 9461545.6392
+Delta Time : 23374.4349
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5657
+Window Block Creation Time : 7.7915
+Fix Rate : 0.0500
+
+*** Window Number 369 ***
+Start Time : 9461545.6392
+End Time : 9535677.3352
+Delta Time : 74131.6959
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8440
+Window Block Creation Time : 24.7106
+Fix Rate : -0.0500
+
+*** Window Number 370 ***
+Start Time : 9535677.3352
+End Time : 9565148.1538
+Delta Time : 29470.8186
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5518
+Window Block Creation Time : 9.8236
+Fix Rate : 0.0180
+
+*** Window Number 371 ***
+Start Time : 9565148.1538
+End Time : 9596152.2499
+Delta Time : 31004.0961
+Delta Blocks : 3000
+Theory Block Creation Time : 5.6515
+Window Block Creation Time : 10.3347
+Fix Rate : -0.0324
+
+*** Window Number 372 ***
+Start Time : 9596152.2499
+End Time : 9619312.1297
+Delta Time : 23159.8798
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4685
+Window Block Creation Time : 7.7200
+Fix Rate : 0.0500
+
+*** Window Number 373 ***
+Start Time : 9619312.1297
+End Time : 9641848.3048
+Delta Time : 22536.1751
+Delta Blocks : 3000
+Theory Block Creation Time : 5.7419
+Window Block Creation Time : 7.5121
+Fix Rate : 0.0500
+
+*** Window Number 374 ***
+Start Time : 9641848.3048
+End Time : 9676321.8339
+Delta Time : 34473.5292
+Delta Blocks : 3000
+Theory Block Creation Time : 6.0290
+Window Block Creation Time : 11.4912
+Fix Rate : -0.0500
+
+*** Window Number 375 ***
+Start Time : 9676321.8339
+End Time : 9705016.5730
+Delta Time : 28694.7391
+Delta Blocks : 3000
+Theory Block Creation Time : 5.7275
+Window Block Creation Time : 9.5649
+Fix Rate : 0.0455
+
+*** Window Number 376 ***
+Start Time : 9705016.5730
+End Time : 9728998.2913
+Delta Time : 23981.7183
+Delta Blocks : 3000
+Theory Block Creation Time : 5.9881
+Window Block Creation Time : 7.9939
+Fix Rate : 0.0500
+
+*** Window Number 377 ***
+Start Time : 9728998.2913
+End Time : 9762364.7944
+Delta Time : 33366.5032
+Delta Blocks : 3000
+Theory Block Creation Time : 6.2875
+Window Block Creation Time : 11.1222
+Fix Rate : -0.0500
+
+*** Window Number 378 ***
+Start Time : 9762364.7944
+End Time : 9792215.0452
+Delta Time : 29850.2508
+Delta Blocks : 3000
+Theory Block Creation Time : 5.9731
+Window Block Creation Time : 9.9501
+Fix Rate : 0.0050
+
+*** Window Number 379 ***
+Start Time : 9792215.0452
+End Time : 9829952.2719
+Delta Time : 37737.2267
+Delta Blocks : 3000
+Theory Block Creation Time : 6.0031
+Window Block Creation Time : 12.5791
+Fix Rate : -0.0500
+
+*** Window Number 380 ***
+Start Time : 9829952.2719
+End Time : 9857035.2417
+Delta Time : 27082.9698
+Delta Blocks : 3000
+Theory Block Creation Time : 5.7029
+Window Block Creation Time : 9.0277
+Fix Rate : 0.0500
+
+*** Window Number 381 ***
+Start Time : 9857035.2417
+End Time : 9883447.7701
+Delta Time : 26412.5284
+Delta Blocks : 3000
+Theory Block Creation Time : 5.9881
+Window Block Creation Time : 8.8042
+Fix Rate : 0.0500
+
+*** Window Number 382 ***
+Start Time : 9883447.7701
+End Time : 9911332.1160
+Delta Time : 27884.3459
+Delta Blocks : 3000
+Theory Block Creation Time : 6.2875
+Window Block Creation Time : 9.2948
+Fix Rate : 0.0500
+
+*** Window Number 383 ***
+Start Time : 9911332.1160
+End Time : 9950355.3262
+Delta Time : 39023.2102
+Delta Blocks : 3000
+Theory Block Creation Time : 6.6018
+Window Block Creation Time : 13.0077
+Fix Rate : -0.0500
+
+*** Window Number 384 ***
+Start Time : 9950355.3262
+End Time : 9989940.4742
+Delta Time : 39585.1480
+Delta Blocks : 3000
+Theory Block Creation Time : 6.2717
+Window Block Creation Time : 13.1950
+Fix Rate : -0.0500
+
+*** Window Number 385 ***
+Start Time : 9989940.4742
+End Time : 10022844.9282
+Delta Time : 32904.4540
+Delta Blocks : 3000
+Theory Block Creation Time : 5.9582
+Window Block Creation Time : 10.9682
+Fix Rate : -0.0500
+
+*** Window Number 386 ***
+Start Time : 10022844.9282
+End Time : 10057256.7097
+Delta Time : 34411.7815
+Delta Blocks : 3000
+Theory Block Creation Time : 5.6602
+Window Block Creation Time : 11.4706
+Fix Rate : -0.0500
+
+*** Window Number 387 ***
+Start Time : 10057256.7097
+End Time : 10081828.5188
+Delta Time : 24571.8091
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3772
+Window Block Creation Time : 8.1906
+Fix Rate : 0.0500
+
+*** Window Number 388 ***
+Start Time : 10081828.5188
+End Time : 10150929.8429
+Delta Time : 69101.3241
+Delta Blocks : 3000
+Theory Block Creation Time : 5.6461
+Window Block Creation Time : 23.0338
+Fix Rate : -0.0500
+
+*** Window Number 389 ***
+Start Time : 10150929.8429
+End Time : 10184632.0912
+Delta Time : 33702.2483
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3638
+Window Block Creation Time : 11.2341
+Fix Rate : -0.0500
+
+*** Window Number 390 ***
+Start Time : 10184632.0912
+End Time : 10227851.5564
+Delta Time : 43219.4652
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0956
+Window Block Creation Time : 14.4065
+Fix Rate : -0.0500
+
+*** Window Number 391 ***
+Start Time : 10227851.5564
+End Time : 10249788.1267
+Delta Time : 21936.5704
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8408
+Window Block Creation Time : 7.3122
+Fix Rate : 0.0500
+
+*** Window Number 392 ***
+Start Time : 10249788.1267
+End Time : 10273867.4076
+Delta Time : 24079.2809
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0829
+Window Block Creation Time : 8.0264
+Fix Rate : 0.0500
+
+*** Window Number 393 ***
+Start Time : 10273867.4076
+End Time : 10328745.1196
+Delta Time : 54877.7120
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3370
+Window Block Creation Time : 18.2926
+Fix Rate : -0.0500
+
+*** Window Number 394 ***
+Start Time : 10328745.1196
+End Time : 10351602.1392
+Delta Time : 22857.0196
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0702
+Window Block Creation Time : 7.6190
+Fix Rate : 0.0500
+
+*** Window Number 395 ***
+Start Time : 10351602.1392
+End Time : 10385103.3596
+Delta Time : 33501.2203
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3237
+Window Block Creation Time : 11.1671
+Fix Rate : -0.0500
+
+*** Window Number 396 ***
+Start Time : 10385103.3596
+End Time : 10417525.5982
+Delta Time : 32422.2386
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0575
+Window Block Creation Time : 10.8074
+Fix Rate : -0.0500
+
+*** Window Number 397 ***
+Start Time : 10417525.5982
+End Time : 10442120.3742
+Delta Time : 24594.7760
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8046
+Window Block Creation Time : 8.1983
+Fix Rate : 0.0500
+
+*** Window Number 398 ***
+Start Time : 10442120.3742
+End Time : 10463010.6173
+Delta Time : 20890.2431
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0448
+Window Block Creation Time : 6.9634
+Fix Rate : 0.0500
+
+*** Window Number 399 ***
+Start Time : 10463010.6173
+End Time : 10491174.0830
+Delta Time : 28163.4657
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2971
+Window Block Creation Time : 9.3878
+Fix Rate : 0.0500
+
+*** Window Number 400 ***
+Start Time : 10491174.0830
+End Time : 10521583.6712
+Delta Time : 30409.5882
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5619
+Window Block Creation Time : 10.1365
+Fix Rate : -0.0135
+
+*** Window Number 401 ***
+Start Time : 10521583.6712
+End Time : 10603171.7848
+Delta Time : 81588.1135
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4870
+Window Block Creation Time : 27.1960
+Fix Rate : -0.0500
+
+*** Window Number 402 ***
+Start Time : 10603171.7848
+End Time : 10640122.2151
+Delta Time : 36950.4303
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2127
+Window Block Creation Time : 12.3168
+Fix Rate : -0.0500
+
+*** Window Number 403 ***
+Start Time : 10640122.2151
+End Time : 10694284.4501
+Delta Time : 54162.2350
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9520
+Window Block Creation Time : 18.0541
+Fix Rate : -0.0500
+
+*** Window Number 404 ***
+Start Time : 10694284.4501
+End Time : 10718920.6734
+Delta Time : 24636.2233
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7044
+Window Block Creation Time : 8.2121
+Fix Rate : 0.0500
+
+*** Window Number 405 ***
+Start Time : 10718920.6734
+End Time : 10757343.1934
+Delta Time : 38422.5200
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9397
+Window Block Creation Time : 12.8075
+Fix Rate : -0.0500
+
+*** Window Number 406 ***
+Start Time : 10757343.1934
+End Time : 10779290.0638
+Delta Time : 21946.8704
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6927
+Window Block Creation Time : 7.3156
+Fix Rate : 0.0500
+
+*** Window Number 407 ***
+Start Time : 10779290.0638
+End Time : 10817473.5560
+Delta Time : 38183.4923
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9273
+Window Block Creation Time : 12.7278
+Fix Rate : -0.0500
+
+*** Window Number 408 ***
+Start Time : 10817473.5560
+End Time : 10842852.2761
+Delta Time : 25378.7200
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6809
+Window Block Creation Time : 8.4596
+Fix Rate : 0.0500
+
+*** Window Number 409 ***
+Start Time : 10842852.2761
+End Time : 10891219.5392
+Delta Time : 48367.2632
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9150
+Window Block Creation Time : 16.1224
+Fix Rate : -0.0500
+
+*** Window Number 410 ***
+Start Time : 10891219.5392
+End Time : 10917757.7801
+Delta Time : 26538.2409
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6692
+Window Block Creation Time : 8.8461
+Fix Rate : 0.0500
+
+*** Window Number 411 ***
+Start Time : 10917757.7801
+End Time : 10943468.9168
+Delta Time : 25711.1367
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9027
+Window Block Creation Time : 8.5704
+Fix Rate : 0.0500
+
+*** Window Number 412 ***
+Start Time : 10943468.9168
+End Time : 11010471.3903
+Delta Time : 67002.4734
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1478
+Window Block Creation Time : 22.3342
+Fix Rate : -0.0500
+
+*** Window Number 413 ***
+Start Time : 11010471.3903
+End Time : 11035106.8156
+Delta Time : 24635.4254
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8904
+Window Block Creation Time : 8.2118
+Fix Rate : 0.0500
+
+*** Window Number 414 ***
+Start Time : 11035106.8156
+End Time : 11059106.1212
+Delta Time : 23999.3055
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1350
+Window Block Creation Time : 7.9998
+Fix Rate : 0.0500
+
+*** Window Number 415 ***
+Start Time : 11059106.1212
+End Time : 11087672.8464
+Delta Time : 28566.7252
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3917
+Window Block Creation Time : 9.5222
+Fix Rate : 0.0500
+
+*** Window Number 416 ***
+Start Time : 11087672.8464
+End Time : 11124602.2501
+Delta Time : 36929.4038
+Delta Blocks : 3000
+Theory Block Creation Time : 5.6613
+Window Block Creation Time : 12.3098
+Fix Rate : -0.0500
+
+*** Window Number 417 ***
+Start Time : 11124602.2501
+End Time : 11159417.7805
+Delta Time : 34815.5304
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3782
+Window Block Creation Time : 11.6052
+Fix Rate : -0.0500
+
+*** Window Number 418 ***
+Start Time : 11159417.7805
+End Time : 11184006.5584
+Delta Time : 24588.7779
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1093
+Window Block Creation Time : 8.1963
+Fix Rate : 0.0500
+
+*** Window Number 419 ***
+Start Time : 11184006.5584
+End Time : 11215643.7077
+Delta Time : 31637.1493
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3648
+Window Block Creation Time : 10.5457
+Fix Rate : -0.0500
+
+*** Window Number 420 ***
+Start Time : 11215643.7077
+End Time : 11237279.8684
+Delta Time : 21636.1607
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0965
+Window Block Creation Time : 7.2121
+Fix Rate : 0.0500
+
+*** Window Number 421 ***
+Start Time : 11237279.8684
+End Time : 11336994.6036
+Delta Time : 99714.7352
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3514
+Window Block Creation Time : 33.2382
+Fix Rate : -0.0500
+
+*** Window Number 422 ***
+Start Time : 11336994.6036
+End Time : 11406157.4586
+Delta Time : 69162.8550
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0838
+Window Block Creation Time : 23.0543
+Fix Rate : -0.0500
+
+*** Window Number 423 ***
+Start Time : 11406157.4586
+End Time : 11458899.0670
+Delta Time : 52741.6085
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8296
+Window Block Creation Time : 17.5805
+Fix Rate : -0.0500
+
+*** Window Number 424 ***
+Start Time : 11458899.0670
+End Time : 11507615.1175
+Delta Time : 48716.0504
+Delta Blocks : 3000
+Theory Block Creation Time : 4.5881
+Window Block Creation Time : 16.2387
+Fix Rate : -0.0500
+
+*** Window Number 425 ***
+Start Time : 11507615.1175
+End Time : 11534333.3614
+Delta Time : 26718.2439
+Delta Blocks : 3000
+Theory Block Creation Time : 4.3587
+Window Block Creation Time : 8.9061
+Fix Rate : 0.0500
+
+*** Window Number 426 ***
+Start Time : 11534333.3614
+End Time : 11571959.0944
+Delta Time : 37625.7330
+Delta Blocks : 3000
+Theory Block Creation Time : 4.5767
+Window Block Creation Time : 12.5419
+Fix Rate : -0.0500
+
+*** Window Number 427 ***
+Start Time : 11571959.0944
+End Time : 11598919.1825
+Delta Time : 26960.0881
+Delta Blocks : 3000
+Theory Block Creation Time : 4.3478
+Window Block Creation Time : 8.9867
+Fix Rate : 0.0500
+
+*** Window Number 428 ***
+Start Time : 11598919.1825
+End Time : 11623879.1583
+Delta Time : 24959.9759
+Delta Blocks : 3000
+Theory Block Creation Time : 4.5652
+Window Block Creation Time : 8.3200
+Fix Rate : 0.0500
+
+*** Window Number 429 ***
+Start Time : 11623879.1583
+End Time : 11645513.9956
+Delta Time : 21634.8373
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7935
+Window Block Creation Time : 7.2116
+Fix Rate : 0.0500
+
+*** Window Number 430 ***
+Start Time : 11645513.9956
+End Time : 11674214.3243
+Delta Time : 28700.3287
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0332
+Window Block Creation Time : 9.5668
+Fix Rate : 0.0453
+
+*** Window Number 431 ***
+Start Time : 11674214.3243
+End Time : 11729444.7108
+Delta Time : 55230.3865
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2611
+Window Block Creation Time : 18.4101
+Fix Rate : -0.0500
+
+*** Window Number 432 ***
+Start Time : 11729444.7108
+End Time : 11759835.5598
+Delta Time : 30390.8490
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9980
+Window Block Creation Time : 10.1303
+Fix Rate : -0.0129
+
+*** Window Number 433 ***
+Start Time : 11759835.5598
+End Time : 11812581.7658
+Delta Time : 52746.2060
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9337
+Window Block Creation Time : 17.5821
+Fix Rate : -0.0500
+
+*** Window Number 434 ***
+Start Time : 11812581.7658
+End Time : 11838403.6063
+Delta Time : 25821.8405
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6871
+Window Block Creation Time : 8.6073
+Fix Rate : 0.0500
+
+*** Window Number 435 ***
+Start Time : 11838403.6063
+End Time : 11868827.3346
+Delta Time : 30423.7283
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9214
+Window Block Creation Time : 10.1412
+Fix Rate : -0.0139
+
+*** Window Number 436 ***
+Start Time : 11868827.3346
+End Time : 11891972.8020
+Delta Time : 23145.4674
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8529
+Window Block Creation Time : 7.7152
+Fix Rate : 0.0500
+
+*** Window Number 437 ***
+Start Time : 11891972.8020
+End Time : 11926838.9510
+Delta Time : 34866.1490
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0955
+Window Block Creation Time : 11.6220
+Fix Rate : -0.0500
+
+*** Window Number 438 ***
+Start Time : 11926838.9510
+End Time : 11952927.5043
+Delta Time : 26088.5533
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8407
+Window Block Creation Time : 8.6962
+Fix Rate : 0.0500
+
+*** Window Number 439 ***
+Start Time : 11952927.5043
+End Time : 11980326.9218
+Delta Time : 27399.4174
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0828
+Window Block Creation Time : 9.1331
+Fix Rate : 0.0500
+
+*** Window Number 440 ***
+Start Time : 11980326.9218
+End Time : 12006618.7759
+Delta Time : 26291.8542
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3369
+Window Block Creation Time : 8.7640
+Fix Rate : 0.0500
+
+*** Window Number 441 ***
+Start Time : 12006618.7759
+End Time : 12100756.7256
+Delta Time : 94137.9497
+Delta Blocks : 3000
+Theory Block Creation Time : 5.6038
+Window Block Creation Time : 31.3793
+Fix Rate : -0.0500
+
+*** Window Number 442 ***
+Start Time : 12100756.7256
+End Time : 12124423.1467
+Delta Time : 23666.4211
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3236
+Window Block Creation Time : 7.8888
+Fix Rate : 0.0500
+
+*** Window Number 443 ***
+Start Time : 12124423.1467
+End Time : 12158044.1687
+Delta Time : 33621.0220
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5897
+Window Block Creation Time : 11.2070
+Fix Rate : -0.0500
+
+*** Window Number 444 ***
+Start Time : 12158044.1687
+End Time : 12190635.3160
+Delta Time : 32591.1474
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3103
+Window Block Creation Time : 10.8637
+Fix Rate : -0.0500
+
+*** Window Number 445 ***
+Start Time : 12190635.3160
+End Time : 12230789.6687
+Delta Time : 40154.3526
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0447
+Window Block Creation Time : 13.3848
+Fix Rate : -0.0500
+
+*** Window Number 446 ***
+Start Time : 12230789.6687
+End Time : 12255550.7060
+Delta Time : 24761.0373
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7925
+Window Block Creation Time : 8.2537
+Fix Rate : 0.0500
+
+*** Window Number 447 ***
+Start Time : 12255550.7060
+End Time : 12286342.5817
+Delta Time : 30791.8757
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0321
+Window Block Creation Time : 10.2640
+Fix Rate : -0.0257
+
+*** Window Number 448 ***
+Start Time : 12286342.5817
+End Time : 12314094.4049
+Delta Time : 27751.8232
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9027
+Window Block Creation Time : 9.2506
+Fix Rate : 0.0500
+
+*** Window Number 449 ***
+Start Time : 12314094.4049
+End Time : 12338414.6914
+Delta Time : 24320.2865
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1479
+Window Block Creation Time : 8.1068
+Fix Rate : 0.0500
+
+*** Window Number 450 ***
+Start Time : 12338414.6914
+End Time : 12363752.7245
+Delta Time : 25338.0331
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4053
+Window Block Creation Time : 8.4460
+Fix Rate : 0.0500
+
+*** Window Number 451 ***
+Start Time : 12363752.7245
+End Time : 12405845.9491
+Delta Time : 42093.2246
+Delta Blocks : 3000
+Theory Block Creation Time : 5.6755
+Window Block Creation Time : 14.0311
+Fix Rate : -0.0500
+
+*** Window Number 452 ***
+Start Time : 12405845.9491
+End Time : 12441648.6837
+Delta Time : 35802.7346
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3917
+Window Block Creation Time : 11.9342
+Fix Rate : -0.0500
+
+*** Window Number 453 ***
+Start Time : 12441648.6837
+End Time : 12472288.6968
+Delta Time : 30640.0130
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1222
+Window Block Creation Time : 10.2133
+Fix Rate : -0.0209
+
+*** Window Number 454 ***
+Start Time : 12472288.6968
+End Time : 12495843.7586
+Delta Time : 23555.0618
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0152
+Window Block Creation Time : 7.8517
+Fix Rate : 0.0500
+
+*** Window Number 455 ***
+Start Time : 12495843.7586
+End Time : 12519075.7746
+Delta Time : 23232.0160
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2659
+Window Block Creation Time : 7.7440
+Fix Rate : 0.0500
+
+*** Window Number 456 ***
+Start Time : 12519075.7746
+End Time : 12543256.5863
+Delta Time : 24180.8117
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5292
+Window Block Creation Time : 8.0603
+Fix Rate : 0.0500
+
+*** Window Number 457 ***
+Start Time : 12543256.5863
+End Time : 12581714.2818
+Delta Time : 38457.6955
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8057
+Window Block Creation Time : 12.8192
+Fix Rate : -0.0500
+
+*** Window Number 458 ***
+Start Time : 12581714.2818
+End Time : 12621180.6979
+Delta Time : 39466.4160
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5154
+Window Block Creation Time : 13.1555
+Fix Rate : -0.0500
+
+*** Window Number 459 ***
+Start Time : 12621180.6979
+End Time : 12649791.6548
+Delta Time : 28610.9569
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2396
+Window Block Creation Time : 9.5370
+Fix Rate : 0.0485
+
+*** Window Number 460 ***
+Start Time : 12649791.6548
+End Time : 12679781.6814
+Delta Time : 29990.0266
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4940
+Window Block Creation Time : 9.9967
+Fix Rate : 0.0003
+
+*** Window Number 461 ***
+Start Time : 12679781.6814
+End Time : 12712448.1619
+Delta Time : 32666.4805
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4958
+Window Block Creation Time : 10.8888
+Fix Rate : -0.0500
+
+*** Window Number 462 ***
+Start Time : 12712448.1619
+End Time : 12736685.2175
+Delta Time : 24237.0556
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2210
+Window Block Creation Time : 8.0790
+Fix Rate : 0.0500
+
+*** Window Number 463 ***
+Start Time : 12736685.2175
+End Time : 12783077.5729
+Delta Time : 46392.3554
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4821
+Window Block Creation Time : 15.4641
+Fix Rate : -0.0500
+
+*** Window Number 464 ***
+Start Time : 12783077.5729
+End Time : 12816403.9924
+Delta Time : 33326.4195
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2080
+Window Block Creation Time : 11.1088
+Fix Rate : -0.0500
+
+*** Window Number 465 ***
+Start Time : 12816403.9924
+End Time : 12842989.3981
+Delta Time : 26585.4057
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9476
+Window Block Creation Time : 8.8618
+Fix Rate : 0.0500
+
+*** Window Number 466 ***
+Start Time : 12842989.3981
+End Time : 12868459.4849
+Delta Time : 25470.0869
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1950
+Window Block Creation Time : 8.4900
+Fix Rate : 0.0500
+
+*** Window Number 467 ***
+Start Time : 12868459.4849
+End Time : 12899109.6402
+Delta Time : 30650.1553
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4547
+Window Block Creation Time : 10.2167
+Fix Rate : -0.0212
+
+*** Window Number 468 ***
+Start Time : 12899109.6402
+End Time : 12927926.3247
+Delta Time : 28816.6845
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3390
+Window Block Creation Time : 9.6056
+Fix Rate : 0.0411
+
+*** Window Number 469 ***
+Start Time : 12927926.3247
+End Time : 12952925.4352
+Delta Time : 24999.1106
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5582
+Window Block Creation Time : 8.3330
+Fix Rate : 0.0500
+
+*** Window Number 470 ***
+Start Time : 12952925.4352
+End Time : 13029138.9365
+Delta Time : 76213.5013
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8362
+Window Block Creation Time : 25.4045
+Fix Rate : -0.0500
+
+*** Window Number 471 ***
+Start Time : 13029138.9365
+End Time : 13060636.0554
+Delta Time : 31497.1190
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5444
+Window Block Creation Time : 10.4990
+Fix Rate : -0.0475
+
+*** Window Number 472 ***
+Start Time : 13060636.0554
+End Time : 13091926.3035
+Delta Time : 31290.2480
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2808
+Window Block Creation Time : 10.4301
+Fix Rate : -0.0412
+
+*** Window Number 473 ***
+Start Time : 13091926.3035
+End Time : 13123972.5917
+Delta Time : 32046.2883
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0631
+Window Block Creation Time : 10.6821
+Fix Rate : -0.0500
+
+*** Window Number 474 ***
+Start Time : 13123972.5917
+End Time : 13146538.8553
+Delta Time : 22566.2635
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8099
+Window Block Creation Time : 7.5221
+Fix Rate : 0.0500
+
+*** Window Number 475 ***
+Start Time : 13146538.8553
+End Time : 13175789.5839
+Delta Time : 29250.7287
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0504
+Window Block Creation Time : 9.7502
+Fix Rate : 0.0256
+
+*** Window Number 476 ***
+Start Time : 13175789.5839
+End Time : 13199680.0279
+Delta Time : 23890.4440
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1798
+Window Block Creation Time : 7.9635
+Fix Rate : 0.0500
+
+*** Window Number 477 ***
+Start Time : 13199680.0279
+End Time : 13230784.1962
+Delta Time : 31104.1683
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4388
+Window Block Creation Time : 10.3681
+Fix Rate : -0.0355
+
+*** Window Number 478 ***
+Start Time : 13230784.1962
+End Time : 13257319.5243
+Delta Time : 26535.3281
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2457
+Window Block Creation Time : 8.8451
+Fix Rate : 0.0500
+
+*** Window Number 479 ***
+Start Time : 13257319.5243
+End Time : 13279459.2452
+Delta Time : 22139.7209
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5080
+Window Block Creation Time : 7.3799
+Fix Rate : 0.0500
+
+*** Window Number 480 ***
+Start Time : 13279459.2452
+End Time : 13309208.9918
+Delta Time : 29749.7467
+Delta Blocks : 3000
+Theory Block Creation Time : 5.7834
+Window Block Creation Time : 9.9166
+Fix Rate : 0.0084
+
+*** Window Number 481 ***
+Start Time : 13309208.9918
+End Time : 13371093.5767
+Delta Time : 61884.5848
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8320
+Window Block Creation Time : 20.6282
+Fix Rate : -0.0500
+
+*** Window Number 482 ***
+Start Time : 13371093.5767
+End Time : 13396386.3040
+Delta Time : 25292.7274
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5404
+Window Block Creation Time : 8.4309
+Fix Rate : 0.0500
+
+*** Window Number 483 ***
+Start Time : 13396386.3040
+End Time : 13422562.6628
+Delta Time : 26176.3588
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8174
+Window Block Creation Time : 8.7255
+Fix Rate : 0.0500
+
+*** Window Number 484 ***
+Start Time : 13422562.6628
+End Time : 13461667.0301
+Delta Time : 39104.3673
+Delta Blocks : 3000
+Theory Block Creation Time : 6.1083
+Window Block Creation Time : 13.0348
+Fix Rate : -0.0500
+
+*** Window Number 485 ***
+Start Time : 13461667.0301
+End Time : 13491927.9760
+Delta Time : 30260.9459
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8029
+Window Block Creation Time : 10.0870
+Fix Rate : -0.0086
+
+*** Window Number 486 ***
+Start Time : 13491927.9760
+End Time : 13533146.7556
+Delta Time : 41218.7796
+Delta Blocks : 3000
+Theory Block Creation Time : 5.7529
+Window Block Creation Time : 13.7396
+Fix Rate : -0.0500
+
+*** Window Number 487 ***
+Start Time : 13533146.7556
+End Time : 13562741.9027
+Delta Time : 29595.1471
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4652
+Window Block Creation Time : 9.8650
+Fix Rate : 0.0137
+
+*** Window Number 488 ***
+Start Time : 13562741.9027
+End Time : 13587917.4655
+Delta Time : 25175.5629
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5400
+Window Block Creation Time : 8.3919
+Fix Rate : 0.0500
+
+*** Window Number 489 ***
+Start Time : 13587917.4655
+End Time : 13625439.0607
+Delta Time : 37521.5952
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8170
+Window Block Creation Time : 12.5072
+Fix Rate : -0.0500
+
+*** Window Number 490 ***
+Start Time : 13625439.0607
+End Time : 13774265.6049
+Delta Time : 148826.5442
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5261
+Window Block Creation Time : 49.6088
+Fix Rate : -0.0500
+
+*** Window Number 491 ***
+Start Time : 13774265.6049
+End Time : 13845129.4520
+Delta Time : 70863.8470
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2498
+Window Block Creation Time : 23.6213
+Fix Rate : -0.0500
+
+*** Window Number 492 ***
+Start Time : 13845129.4520
+End Time : 13865618.9732
+Delta Time : 20489.5213
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9873
+Window Block Creation Time : 6.8298
+Fix Rate : 0.0500
+
+*** Window Number 493 ***
+Start Time : 13865618.9732
+End Time : 13914221.1216
+Delta Time : 48602.1483
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2367
+Window Block Creation Time : 16.2007
+Fix Rate : -0.0500
+
+*** Window Number 494 ***
+Start Time : 13914221.1216
+End Time : 13940293.0122
+Delta Time : 26071.8906
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9749
+Window Block Creation Time : 8.6906
+Fix Rate : 0.0500
+
+*** Window Number 495 ***
+Start Time : 13940293.0122
+End Time : 13964469.2118
+Delta Time : 24176.1996
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2236
+Window Block Creation Time : 8.0587
+Fix Rate : 0.0500
+
+*** Window Number 496 ***
+Start Time : 13964469.2118
+End Time : 13988880.6555
+Delta Time : 24411.4436
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4848
+Window Block Creation Time : 8.1371
+Fix Rate : 0.0500
+
+*** Window Number 497 ***
+Start Time : 13988880.6555
+End Time : 14018050.8137
+Delta Time : 29170.1583
+Delta Blocks : 3000
+Theory Block Creation Time : 5.7590
+Window Block Creation Time : 9.7234
+Fix Rate : 0.0284
+
+*** Window Number 498 ***
+Start Time : 14018050.8137
+End Time : 14072226.8505
+Delta Time : 54176.0367
+Delta Blocks : 3000
+Theory Block Creation Time : 5.9229
+Window Block Creation Time : 18.0587
+Fix Rate : -0.0500
+
+*** Window Number 499 ***
+Start Time : 14072226.8505
+End Time : 14107758.4954
+Delta Time : 35531.6449
+Delta Blocks : 3000
+Theory Block Creation Time : 5.6267
+Window Block Creation Time : 11.8439
+Fix Rate : -0.0500
+
+*** Window Number 500 ***
+Start Time : 14107758.4954
+End Time : 14166353.8604
+Delta Time : 58595.3650
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3454
+Window Block Creation Time : 19.5318
+Fix Rate : -0.0500
+
+*** Window Number 501 ***
+Start Time : 14166353.8604
+End Time : 14189257.3525
+Delta Time : 22903.4921
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0781
+Window Block Creation Time : 7.6345
+Fix Rate : 0.0500
+
+*** Window Number 502 ***
+Start Time : 14189257.3525
+End Time : 14223140.2298
+Delta Time : 33882.8773
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3320
+Window Block Creation Time : 11.2943
+Fix Rate : -0.0500
+
+*** Window Number 503 ***
+Start Time : 14223140.2298
+End Time : 14249589.4038
+Delta Time : 26449.1741
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0654
+Window Block Creation Time : 8.8164
+Fix Rate : 0.0500
+
+*** Window Number 504 ***
+Start Time : 14249589.4038
+End Time : 14269900.2214
+Delta Time : 20310.8176
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3187
+Window Block Creation Time : 6.7703
+Fix Rate : 0.0500
+
+*** Window Number 505 ***
+Start Time : 14269900.2214
+End Time : 14325835.8981
+Delta Time : 55935.6767
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5846
+Window Block Creation Time : 18.6452
+Fix Rate : -0.0500
+
+*** Window Number 506 ***
+Start Time : 14325835.8981
+End Time : 14355757.1691
+Delta Time : 29921.2709
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3054
+Window Block Creation Time : 9.9738
+Fix Rate : 0.0026
+
+*** Window Number 507 ***
+Start Time : 14355757.1691
+End Time : 14386310.5646
+Delta Time : 30553.3955
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3194
+Window Block Creation Time : 10.1845
+Fix Rate : -0.0181
+
+*** Window Number 508 ***
+Start Time : 14386310.5646
+End Time : 14427965.9808
+Delta Time : 41655.4163
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2230
+Window Block Creation Time : 13.8851
+Fix Rate : -0.0500
+
+*** Window Number 509 ***
+Start Time : 14427965.9808
+End Time : 14463815.2081
+Delta Time : 35849.2273
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9619
+Window Block Creation Time : 11.9497
+Fix Rate : -0.0500
+
+*** Window Number 510 ***
+Start Time : 14463815.2081
+End Time : 14488772.6551
+Delta Time : 24957.4469
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7138
+Window Block Creation Time : 8.3191
+Fix Rate : 0.0500
+
+*** Window Number 511 ***
+Start Time : 14488772.6551
+End Time : 14514868.7592
+Delta Time : 26096.1041
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9495
+Window Block Creation Time : 8.6987
+Fix Rate : 0.0500
+
+*** Window Number 512 ***
+Start Time : 14514868.7592
+End Time : 14541879.0886
+Delta Time : 27010.3294
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1969
+Window Block Creation Time : 9.0034
+Fix Rate : 0.0500
+
+*** Window Number 513 ***
+Start Time : 14541879.0886
+End Time : 14574045.6606
+Delta Time : 32166.5720
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4568
+Window Block Creation Time : 10.7222
+Fix Rate : -0.0500
+
+*** Window Number 514 ***
+Start Time : 14574045.6606
+End Time : 14601229.7795
+Delta Time : 27184.1189
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1839
+Window Block Creation Time : 9.0614
+Fix Rate : 0.0500
+
+*** Window Number 515 ***
+Start Time : 14601229.7795
+End Time : 14639460.0947
+Delta Time : 38230.3151
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4431
+Window Block Creation Time : 12.7434
+Fix Rate : -0.0500
+
+*** Window Number 516 ***
+Start Time : 14639460.0947
+End Time : 14669285.4284
+Delta Time : 29825.3337
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1710
+Window Block Creation Time : 9.9418
+Fix Rate : 0.0059
+
+*** Window Number 517 ***
+Start Time : 14669285.4284
+End Time : 14726741.7619
+Delta Time : 57456.3335
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2013
+Window Block Creation Time : 19.1521
+Fix Rate : -0.0500
+
+*** Window Number 518 ***
+Start Time : 14726741.7619
+End Time : 14752178.6557
+Delta Time : 25436.8939
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9412
+Window Block Creation Time : 8.4790
+Fix Rate : 0.0500
+
+*** Window Number 519 ***
+Start Time : 14752178.6557
+End Time : 14786454.8139
+Delta Time : 34276.1581
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1883
+Window Block Creation Time : 11.4254
+Fix Rate : -0.0500
+
+*** Window Number 520 ***
+Start Time : 14786454.8139
+End Time : 14808783.5664
+Delta Time : 22328.7525
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9288
+Window Block Creation Time : 7.4429
+Fix Rate : 0.0500
+
+*** Window Number 521 ***
+Start Time : 14808783.5664
+End Time : 14836746.7172
+Delta Time : 27963.1509
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1753
+Window Block Creation Time : 9.3211
+Fix Rate : 0.0500
+
+*** Window Number 522 ***
+Start Time : 14836746.7172
+End Time : 14859200.0445
+Delta Time : 22453.3273
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4340
+Window Block Creation Time : 7.4844
+Fix Rate : 0.0500
+
+*** Window Number 523 ***
+Start Time : 14859200.0445
+End Time : 14889809.1647
+Delta Time : 30609.1202
+Delta Blocks : 3000
+Theory Block Creation Time : 5.7057
+Window Block Creation Time : 10.2030
+Fix Rate : -0.0199
+
+*** Window Number 524 ***
+Start Time : 14889809.1647
+End Time : 14952025.5321
+Delta Time : 62216.3674
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5922
+Window Block Creation Time : 20.7388
+Fix Rate : -0.0500
+
+*** Window Number 525 ***
+Start Time : 14952025.5321
+End Time : 14994259.1496
+Delta Time : 42233.6175
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3126
+Window Block Creation Time : 14.0779
+Fix Rate : -0.0500
+
+*** Window Number 526 ***
+Start Time : 14994259.1496
+End Time : 15020470.8298
+Delta Time : 26211.6802
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0470
+Window Block Creation Time : 8.7372
+Fix Rate : 0.0500
+
+*** Window Number 527 ***
+Start Time : 15020470.8298
+End Time : 15044543.8582
+Delta Time : 24073.0284
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2993
+Window Block Creation Time : 8.0243
+Fix Rate : 0.0500
+
+*** Window Number 528 ***
+Start Time : 15044543.8582
+End Time : 15068923.6147
+Delta Time : 24379.7565
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5643
+Window Block Creation Time : 8.1266
+Fix Rate : 0.0500
+
+*** Window Number 529 ***
+Start Time : 15068923.6147
+End Time : 15097910.9508
+Delta Time : 28987.3361
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8425
+Window Block Creation Time : 9.6624
+Fix Rate : 0.0349
+
+*** Window Number 530 ***
+Start Time : 15097910.9508
+End Time : 15124144.1506
+Delta Time : 26233.1999
+Delta Blocks : 3000
+Theory Block Creation Time : 6.0466
+Window Block Creation Time : 8.7444
+Fix Rate : 0.0500
+
+*** Window Number 531 ***
+Start Time : 15124144.1506
+End Time : 15171223.3745
+Delta Time : 47079.2238
+Delta Blocks : 3000
+Theory Block Creation Time : 6.3489
+Window Block Creation Time : 15.6931
+Fix Rate : -0.0500
+
+*** Window Number 532 ***
+Start Time : 15171223.3745
+End Time : 15203986.5859
+Delta Time : 32763.2115
+Delta Blocks : 3000
+Theory Block Creation Time : 6.0315
+Window Block Creation Time : 10.9211
+Fix Rate : -0.0500
+
+*** Window Number 533 ***
+Start Time : 15203986.5859
+End Time : 15237334.1757
+Delta Time : 33347.5897
+Delta Blocks : 3000
+Theory Block Creation Time : 5.7299
+Window Block Creation Time : 11.1159
+Fix Rate : -0.0500
+
+*** Window Number 534 ***
+Start Time : 15237334.1757
+End Time : 15265559.9676
+Delta Time : 28225.7919
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4434
+Window Block Creation Time : 9.4086
+Fix Rate : 0.0500
+
+*** Window Number 535 ***
+Start Time : 15265559.9676
+End Time : 15386603.1984
+Delta Time : 121043.2309
+Delta Blocks : 3000
+Theory Block Creation Time : 5.7156
+Window Block Creation Time : 40.3477
+Fix Rate : -0.0500
+
+*** Window Number 536 ***
+Start Time : 15386603.1984
+End Time : 15428451.6692
+Delta Time : 41848.4708
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4298
+Window Block Creation Time : 13.9495
+Fix Rate : -0.0500
+
+*** Window Number 537 ***
+Start Time : 15428451.6692
+End Time : 15450197.8932
+Delta Time : 21746.2240
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1583
+Window Block Creation Time : 7.2487
+Fix Rate : 0.0500
+
+*** Window Number 538 ***
+Start Time : 15450197.8932
+End Time : 15477593.8135
+Delta Time : 27395.9203
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4162
+Window Block Creation Time : 9.1320
+Fix Rate : 0.0500
+
+*** Window Number 539 ***
+Start Time : 15477593.8135
+End Time : 15501649.1774
+Delta Time : 24055.3639
+Delta Blocks : 3000
+Theory Block Creation Time : 5.6870
+Window Block Creation Time : 8.0185
+Fix Rate : 0.0500
+
+*** Window Number 540 ***
+Start Time : 15501649.1774
+End Time : 15534577.9643
+Delta Time : 32928.7869
+Delta Blocks : 3000
+Theory Block Creation Time : 5.9714
+Window Block Creation Time : 10.9763
+Fix Rate : -0.0500
+
+*** Window Number 541 ***
+Start Time : 15534577.9643
+End Time : 15563059.6695
+Delta Time : 28481.7051
+Delta Blocks : 3000
+Theory Block Creation Time : 5.6728
+Window Block Creation Time : 9.4939
+Fix Rate : 0.0500
+
+*** Window Number 542 ***
+Start Time : 15563059.6695
+End Time : 15595713.9262
+Delta Time : 32654.2568
+Delta Blocks : 3000
+Theory Block Creation Time : 5.9565
+Window Block Creation Time : 10.8848
+Fix Rate : -0.0500
+
+*** Window Number 543 ***
+Start Time : 15595713.9262
+End Time : 15626484.3246
+Delta Time : 30770.3983
+Delta Blocks : 3000
+Theory Block Creation Time : 5.6586
+Window Block Creation Time : 10.2568
+Fix Rate : -0.0250
+
+*** Window Number 544 ***
+Start Time : 15626484.3246
+End Time : 15659898.0359
+Delta Time : 33413.7113
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5170
+Window Block Creation Time : 11.1379
+Fix Rate : -0.0500
+
+*** Window Number 545 ***
+Start Time : 15659898.0359
+End Time : 15695864.3140
+Delta Time : 35966.2781
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2411
+Window Block Creation Time : 11.9888
+Fix Rate : -0.0500
+
+*** Window Number 546 ***
+Start Time : 15695864.3140
+End Time : 15758184.4333
+Delta Time : 62320.1193
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9791
+Window Block Creation Time : 20.7734
+Fix Rate : -0.0500
+
+*** Window Number 547 ***
+Start Time : 15758184.4333
+End Time : 15778480.6266
+Delta Time : 20296.1932
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7301
+Window Block Creation Time : 6.7654
+Fix Rate : 0.0500
+
+*** Window Number 548 ***
+Start Time : 15778480.6266
+End Time : 15805137.3345
+Delta Time : 26656.7079
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9666
+Window Block Creation Time : 8.8856
+Fix Rate : 0.0500
+
+*** Window Number 549 ***
+Start Time : 15805137.3345
+End Time : 15899157.1389
+Delta Time : 94019.8044
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2149
+Window Block Creation Time : 31.3399
+Fix Rate : -0.0500
+
+*** Window Number 550 ***
+Start Time : 15899157.1389
+End Time : 15922736.7744
+Delta Time : 23579.6355
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9542
+Window Block Creation Time : 7.8599
+Fix Rate : 0.0500
+
+*** Window Number 551 ***
+Start Time : 15922736.7744
+End Time : 15984124.8292
+Delta Time : 61388.0548
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2019
+Window Block Creation Time : 20.4627
+Fix Rate : -0.0500
+
+*** Window Number 552 ***
+Start Time : 15984124.8292
+End Time : 16087696.1275
+Delta Time : 103571.2983
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9418
+Window Block Creation Time : 34.5238
+Fix Rate : -0.0500
+
+*** Window Number 553 ***
+Start Time : 16087696.1275
+End Time : 16113810.8827
+Delta Time : 26114.7552
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6947
+Window Block Creation Time : 8.7049
+Fix Rate : 0.0500
+
+*** Window Number 554 ***
+Start Time : 16113810.8827
+End Time : 16135471.2246
+Delta Time : 21660.3419
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9295
+Window Block Creation Time : 7.2201
+Fix Rate : 0.0500
+
+*** Window Number 555 ***
+Start Time : 16135471.2246
+End Time : 16167511.1841
+Delta Time : 32039.9595
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1759
+Window Block Creation Time : 10.6800
+Fix Rate : -0.0500
+
+*** Window Number 556 ***
+Start Time : 16167511.1841
+End Time : 16205297.1001
+Delta Time : 37785.9160
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9171
+Window Block Creation Time : 12.5953
+Fix Rate : -0.0500
+
+*** Window Number 557 ***
+Start Time : 16205297.1001
+End Time : 16227780.8402
+Delta Time : 22483.7400
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6713
+Window Block Creation Time : 7.4946
+Fix Rate : 0.0500
+
+*** Window Number 558 ***
+Start Time : 16227780.8402
+End Time : 16285877.4754
+Delta Time : 58096.6353
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9048
+Window Block Creation Time : 19.3655
+Fix Rate : -0.0500
+
+*** Window Number 559 ***
+Start Time : 16285877.4754
+End Time : 16308235.9668
+Delta Time : 22358.4914
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6596
+Window Block Creation Time : 7.4528
+Fix Rate : 0.0500
+
+*** Window Number 560 ***
+Start Time : 16308235.9668
+End Time : 16339362.5942
+Delta Time : 31126.6274
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8926
+Window Block Creation Time : 10.3755
+Fix Rate : -0.0362
+
+*** Window Number 561 ***
+Start Time : 16339362.5942
+End Time : 16379003.6403
+Delta Time : 39641.0461
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7155
+Window Block Creation Time : 13.2137
+Fix Rate : -0.0500
+
+*** Window Number 562 ***
+Start Time : 16379003.6403
+End Time : 16400460.3320
+Delta Time : 21456.6917
+Delta Blocks : 3000
+Theory Block Creation Time : 4.4797
+Window Block Creation Time : 7.1522
+Fix Rate : 0.0500
+
+*** Window Number 563 ***
+Start Time : 16400460.3320
+End Time : 16425235.8566
+Delta Time : 24775.5245
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7037
+Window Block Creation Time : 8.2585
+Fix Rate : 0.0500
+
+*** Window Number 564 ***
+Start Time : 16425235.8566
+End Time : 16446064.6394
+Delta Time : 20828.7828
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9389
+Window Block Creation Time : 6.9429
+Fix Rate : 0.0500
+
+*** Window Number 565 ***
+Start Time : 16446064.6394
+End Time : 16512270.0254
+Delta Time : 66205.3860
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1858
+Window Block Creation Time : 22.0685
+Fix Rate : -0.0500
+
+*** Window Number 566 ***
+Start Time : 16512270.0254
+End Time : 16541711.5381
+Delta Time : 29441.5127
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9265
+Window Block Creation Time : 9.8138
+Fix Rate : 0.0190
+
+*** Window Number 567 ***
+Start Time : 16541711.5381
+End Time : 16587501.1373
+Delta Time : 45789.5992
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0200
+Window Block Creation Time : 15.2632
+Fix Rate : -0.0500
+
+*** Window Number 568 ***
+Start Time : 16587501.1373
+End Time : 16610394.1967
+Delta Time : 22893.0594
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7690
+Window Block Creation Time : 7.6310
+Fix Rate : 0.0500
+
+*** Window Number 569 ***
+Start Time : 16610394.1967
+End Time : 16630836.7754
+Delta Time : 20442.5787
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0074
+Window Block Creation Time : 6.8142
+Fix Rate : 0.0500
+
+*** Window Number 570 ***
+Start Time : 16630836.7754
+End Time : 16652481.0992
+Delta Time : 21644.3238
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2578
+Window Block Creation Time : 7.2148
+Fix Rate : 0.0500
+
+*** Window Number 571 ***
+Start Time : 16652481.0992
+End Time : 16684622.4398
+Delta Time : 32141.3406
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5207
+Window Block Creation Time : 10.7138
+Fix Rate : -0.0500
+
+*** Window Number 572 ***
+Start Time : 16684622.4398
+End Time : 16708858.3468
+Delta Time : 24235.9070
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2447
+Window Block Creation Time : 8.0786
+Fix Rate : 0.0500
+
+*** Window Number 573 ***
+Start Time : 16708858.3468
+End Time : 16735010.7251
+Delta Time : 26152.3782
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5069
+Window Block Creation Time : 8.7175
+Fix Rate : 0.0500
+
+*** Window Number 574 ***
+Start Time : 16735010.7251
+End Time : 16789443.2535
+Delta Time : 54432.5284
+Delta Blocks : 3000
+Theory Block Creation Time : 5.7823
+Window Block Creation Time : 18.1442
+Fix Rate : -0.0500
+
+*** Window Number 575 ***
+Start Time : 16789443.2535
+End Time : 16821464.2143
+Delta Time : 32020.9608
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4931
+Window Block Creation Time : 10.6737
+Fix Rate : -0.0500
+
+*** Window Number 576 ***
+Start Time : 16821464.2143
+End Time : 16857451.4763
+Delta Time : 35987.2621
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2185
+Window Block Creation Time : 11.9958
+Fix Rate : -0.0500
+
+*** Window Number 577 ***
+Start Time : 16857451.4763
+End Time : 16883307.4554
+Delta Time : 25855.9790
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9576
+Window Block Creation Time : 8.6187
+Fix Rate : 0.0500
+
+*** Window Number 578 ***
+Start Time : 16883307.4554
+End Time : 16911851.6180
+Delta Time : 28544.1627
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2054
+Window Block Creation Time : 9.5147
+Fix Rate : 0.0500
+
+*** Window Number 579 ***
+Start Time : 16911851.6180
+End Time : 16959594.9584
+Delta Time : 47743.3403
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4657
+Window Block Creation Time : 15.9144
+Fix Rate : -0.0500
+
+*** Window Number 580 ***
+Start Time : 16959594.9584
+End Time : 16983892.2300
+Delta Time : 24297.2716
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1924
+Window Block Creation Time : 8.0991
+Fix Rate : 0.0500
+
+*** Window Number 581 ***
+Start Time : 16983892.2300
+End Time : 17010007.2540
+Delta Time : 26115.0240
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4520
+Window Block Creation Time : 8.7050
+Fix Rate : 0.0500
+
+*** Window Number 582 ***
+Start Time : 17010007.2540
+End Time : 17044789.6922
+Delta Time : 34782.4381
+Delta Blocks : 3000
+Theory Block Creation Time : 5.7246
+Window Block Creation Time : 11.5941
+Fix Rate : -0.0500
+
+*** Window Number 583 ***
+Start Time : 17044789.6922
+End Time : 17074511.9909
+Delta Time : 29722.2987
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4384
+Window Block Creation Time : 9.9074
+Fix Rate : 0.0093
+
+*** Window Number 584 ***
+Start Time : 17074511.9909
+End Time : 17103689.4705
+Delta Time : 29177.4796
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4892
+Window Block Creation Time : 9.7258
+Fix Rate : 0.0282
+
+*** Window Number 585 ***
+Start Time : 17103689.4705
+End Time : 17131514.5175
+Delta Time : 27825.0471
+Delta Blocks : 3000
+Theory Block Creation Time : 5.6440
+Window Block Creation Time : 9.2750
+Fix Rate : 0.0500
+
+*** Window Number 586 ***
+Start Time : 17131514.5175
+End Time : 17305339.8553
+Delta Time : 173825.3377
+Delta Blocks : 3000
+Theory Block Creation Time : 5.9262
+Window Block Creation Time : 57.9418
+Fix Rate : -0.0500
+
+*** Window Number 587 ***
+Start Time : 17305339.8553
+End Time : 17336761.6721
+Delta Time : 31421.8168
+Delta Blocks : 3000
+Theory Block Creation Time : 5.6299
+Window Block Creation Time : 10.4739
+Fix Rate : -0.0452
+
+*** Window Number 588 ***
+Start Time : 17336761.6721
+End Time : 17371505.1534
+Delta Time : 34743.4813
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3751
+Window Block Creation Time : 11.5812
+Fix Rate : -0.0500
+
+*** Window Number 589 ***
+Start Time : 17371505.1534
+End Time : 17395915.5272
+Delta Time : 24410.3738
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1064
+Window Block Creation Time : 8.1368
+Fix Rate : 0.0500
+
+*** Window Number 590 ***
+Start Time : 17395915.5272
+End Time : 17485470.0775
+Delta Time : 89554.5503
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3617
+Window Block Creation Time : 29.8515
+Fix Rate : -0.0500
+
+*** Window Number 591 ***
+Start Time : 17485470.0775
+End Time : 17511307.9477
+Delta Time : 25837.8702
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0936
+Window Block Creation Time : 8.6126
+Fix Rate : 0.0500
+
+*** Window Number 592 ***
+Start Time : 17511307.9477
+End Time : 17540230.2801
+Delta Time : 28922.3324
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3483
+Window Block Creation Time : 9.6408
+Fix Rate : 0.0373
+
+*** Window Number 593 ***
+Start Time : 17540230.2801
+End Time : 17571245.9010
+Delta Time : 31015.6210
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5475
+Window Block Creation Time : 10.3385
+Fix Rate : -0.0327
+
+*** Window Number 594 ***
+Start Time : 17571245.9010
+End Time : 17604546.3811
+Delta Time : 33300.4800
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3659
+Window Block Creation Time : 11.1002
+Fix Rate : -0.0500
+
+*** Window Number 595 ***
+Start Time : 17604546.3811
+End Time : 17631171.7927
+Delta Time : 26625.4116
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0976
+Window Block Creation Time : 8.8751
+Fix Rate : 0.0500
+
+*** Window Number 596 ***
+Start Time : 17631171.7927
+End Time : 17662504.2215
+Delta Time : 31332.4288
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3525
+Window Block Creation Time : 10.4441
+Fix Rate : -0.0425
+
+*** Window Number 597 ***
+Start Time : 17662504.2215
+End Time : 17697625.5532
+Delta Time : 35121.3316
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1249
+Window Block Creation Time : 11.7071
+Fix Rate : -0.0500
+
+*** Window Number 598 ***
+Start Time : 17697625.5532
+End Time : 17722786.0575
+Delta Time : 25160.5043
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8686
+Window Block Creation Time : 8.3868
+Fix Rate : 0.0500
+
+*** Window Number 599 ***
+Start Time : 17722786.0575
+End Time : 17749827.5672
+Delta Time : 27041.5097
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1120
+Window Block Creation Time : 9.0138
+Fix Rate : 0.0500
+
+*** Window Number 600 ***
+Start Time : 17749827.5672
+End Time : 17778292.4606
+Delta Time : 28464.8933
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3677
+Window Block Creation Time : 9.4883
+Fix Rate : 0.0500
+
+*** Window Number 601 ***
+Start Time : 17778292.4606
+End Time : 17823192.1466
+Delta Time : 44899.6860
+Delta Blocks : 3000
+Theory Block Creation Time : 5.6360
+Window Block Creation Time : 14.9666
+Fix Rate : -0.0500
+
+*** Window Number 602 ***
+Start Time : 17823192.1466
+End Time : 17848788.3865
+Delta Time : 25596.2400
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3542
+Window Block Creation Time : 8.5321
+Fix Rate : 0.0500
+
+*** Window Number 603 ***
+Start Time : 17848788.3865
+End Time : 17885493.7137
+Delta Time : 36705.3272
+Delta Blocks : 3000
+Theory Block Creation Time : 5.6219
+Window Block Creation Time : 12.2351
+Fix Rate : -0.0500
+
+*** Window Number 604 ***
+Start Time : 17885493.7137
+End Time : 17912928.6585
+Delta Time : 27434.9448
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3408
+Window Block Creation Time : 9.1450
+Fix Rate : 0.0500
+
+*** Window Number 605 ***
+Start Time : 17912928.6585
+End Time : 17998075.8237
+Delta Time : 85147.1653
+Delta Blocks : 3000
+Theory Block Creation Time : 5.6079
+Window Block Creation Time : 28.3824
+Fix Rate : -0.0500
+
+*** Window Number 606 ***
+Start Time : 17998075.8237
+End Time : 18022453.5616
+Delta Time : 24377.7378
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3275
+Window Block Creation Time : 8.1259
+Fix Rate : 0.0500
+
+*** Window Number 607 ***
+Start Time : 18022453.5616
+End Time : 18054855.0704
+Delta Time : 32401.5089
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5939
+Window Block Creation Time : 10.8005
+Fix Rate : -0.0500
+
+*** Window Number 608 ***
+Start Time : 18054855.0704
+End Time : 18084839.1603
+Delta Time : 29984.0899
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3142
+Window Block Creation Time : 9.9947
+Fix Rate : 0.0005
+
+*** Window Number 609 ***
+Start Time : 18084839.1603
+End Time : 18180397.7326
+Delta Time : 95558.5723
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3170
+Window Block Creation Time : 31.8529
+Fix Rate : -0.0500
+
+*** Window Number 610 ***
+Start Time : 18180397.7326
+End Time : 18235937.0819
+Delta Time : 55539.3493
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0511
+Window Block Creation Time : 18.5131
+Fix Rate : -0.0500
+
+*** Window Number 611 ***
+Start Time : 18235937.0819
+End Time : 18260640.2738
+Delta Time : 24703.1919
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7986
+Window Block Creation Time : 8.2344
+Fix Rate : 0.0500
+
+*** Window Number 612 ***
+Start Time : 18260640.2738
+End Time : 18285542.8272
+Delta Time : 24902.5534
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0385
+Window Block Creation Time : 8.3009
+Fix Rate : 0.0500
+
+*** Window Number 613 ***
+Start Time : 18285542.8272
+End Time : 18313480.7090
+Delta Time : 27937.8818
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2904
+Window Block Creation Time : 9.3126
+Fix Rate : 0.0500
+
+*** Window Number 614 ***
+Start Time : 18313480.7090
+End Time : 18339360.7392
+Delta Time : 25880.0302
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5550
+Window Block Creation Time : 8.6267
+Fix Rate : 0.0500
+
+*** Window Number 615 ***
+Start Time : 18339360.7392
+End Time : 18370639.8476
+Delta Time : 31279.1084
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8327
+Window Block Creation Time : 10.4264
+Fix Rate : -0.0409
+
+*** Window Number 616 ***
+Start Time : 18370639.8476
+End Time : 18398463.2660
+Delta Time : 27823.4184
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5942
+Window Block Creation Time : 9.2745
+Fix Rate : 0.0500
+
+*** Window Number 617 ***
+Start Time : 18398463.2660
+End Time : 18433391.9708
+Delta Time : 34928.7048
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8739
+Window Block Creation Time : 11.6429
+Fix Rate : -0.0500
+
+*** Window Number 618 ***
+Start Time : 18433391.9708
+End Time : 18461459.4704
+Delta Time : 28067.4995
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5802
+Window Block Creation Time : 9.3558
+Fix Rate : 0.0500
+
+*** Window Number 619 ***
+Start Time : 18461459.4704
+End Time : 18489507.1809
+Delta Time : 28047.7105
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8592
+Window Block Creation Time : 9.3492
+Fix Rate : 0.0500
+
+*** Window Number 620 ***
+Start Time : 18489507.1809
+End Time : 18532546.3392
+Delta Time : 43039.1583
+Delta Blocks : 3000
+Theory Block Creation Time : 6.1522
+Window Block Creation Time : 14.3464
+Fix Rate : -0.0500
+
+*** Window Number 621 ***
+Start Time : 18532546.3392
+End Time : 18564681.1000
+Delta Time : 32134.7608
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8446
+Window Block Creation Time : 10.7116
+Fix Rate : -0.0500
+
+*** Window Number 622 ***
+Start Time : 18564681.1000
+End Time : 18605181.6468
+Delta Time : 40500.5468
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5523
+Window Block Creation Time : 13.5002
+Fix Rate : -0.0500
+
+*** Window Number 623 ***
+Start Time : 18605181.6468
+End Time : 18649704.6864
+Delta Time : 44523.0396
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2747
+Window Block Creation Time : 14.8410
+Fix Rate : -0.0500
+
+*** Window Number 624 ***
+Start Time : 18649704.6864
+End Time : 18671054.8720
+Delta Time : 21350.1855
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0110
+Window Block Creation Time : 7.1167
+Fix Rate : 0.0500
+
+*** Window Number 625 ***
+Start Time : 18671054.8720
+End Time : 18697398.1742
+Delta Time : 26343.3022
+Delta Blocks : 3000
+Theory Block Creation Time : 5.2615
+Window Block Creation Time : 8.7811
+Fix Rate : 0.0500
+
+*** Window Number 626 ***
+Start Time : 18697398.1742
+End Time : 18723386.6965
+Delta Time : 25988.5223
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5246
+Window Block Creation Time : 8.6628
+Fix Rate : 0.0500
+
+*** Window Number 627 ***
+Start Time : 18723386.6965
+End Time : 18751465.8144
+Delta Time : 28079.1179
+Delta Blocks : 3000
+Theory Block Creation Time : 5.8008
+Window Block Creation Time : 9.3597
+Fix Rate : 0.0500
+
+*** Window Number 628 ***
+Start Time : 18751465.8144
+End Time : 18804573.3324
+Delta Time : 53107.5180
+Delta Blocks : 3000
+Theory Block Creation Time : 6.0909
+Window Block Creation Time : 17.7025
+Fix Rate : -0.0500
+
+*** Window Number 629 ***
+Start Time : 18804573.3324
+End Time : 18831955.4238
+Delta Time : 27382.0915
+Delta Blocks : 3000
+Theory Block Creation Time : 5.7863
+Window Block Creation Time : 9.1274
+Fix Rate : 0.0500
+
+*** Window Number 630 ***
+Start Time : 18831955.4238
+End Time : 18862198.3617
+Delta Time : 30242.9378
+Delta Blocks : 3000
+Theory Block Creation Time : 6.0757
+Window Block Creation Time : 10.0810
+Fix Rate : -0.0080
+
+*** Window Number 631 ***
+Start Time : 18862198.3617
+End Time : 18892024.1110
+Delta Time : 29825.7493
+Delta Blocks : 3000
+Theory Block Creation Time : 6.0269
+Window Block Creation Time : 9.9419
+Fix Rate : 0.0058
+
+*** Window Number 632 ***
+Start Time : 18892024.1110
+End Time : 18935090.1285
+Delta Time : 43066.0176
+Delta Blocks : 3000
+Theory Block Creation Time : 6.0621
+Window Block Creation Time : 14.3553
+Fix Rate : -0.0500
+
+*** Window Number 633 ***
+Start Time : 18935090.1285
+End Time : 18967514.1476
+Delta Time : 32424.0190
+Delta Blocks : 3000
+Theory Block Creation Time : 5.7590
+Window Block Creation Time : 10.8080
+Fix Rate : -0.0500
+
+*** Window Number 634 ***
+Start Time : 18967514.1476
+End Time : 18999275.4802
+Delta Time : 31761.3327
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4710
+Window Block Creation Time : 10.5871
+Fix Rate : -0.0500
+
+*** Window Number 635 ***
+Start Time : 18999275.4802
+End Time : 19037238.1021
+Delta Time : 37962.6219
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1975
+Window Block Creation Time : 12.6542
+Fix Rate : -0.0500
+
+*** Window Number 636 ***
+Start Time : 19037238.1021
+End Time : 19072330.1190
+Delta Time : 35092.0169
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9376
+Window Block Creation Time : 11.6973
+Fix Rate : -0.0500
+
+*** Window Number 637 ***
+Start Time : 19072330.1190
+End Time : 19100498.8967
+Delta Time : 28168.7777
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6907
+Window Block Creation Time : 9.3896
+Fix Rate : 0.0500
+
+*** Window Number 638 ***
+Start Time : 19100498.8967
+End Time : 19129758.0472
+Delta Time : 29259.1505
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9252
+Window Block Creation Time : 9.7531
+Fix Rate : 0.0253
+
+*** Window Number 639 ***
+Start Time : 19129758.0472
+End Time : 19157716.9366
+Delta Time : 27958.8894
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0500
+Window Block Creation Time : 9.3196
+Fix Rate : 0.0500
+
+*** Window Number 640 ***
+Start Time : 19157716.9366
+End Time : 19183882.1452
+Delta Time : 26165.2086
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3025
+Window Block Creation Time : 8.7217
+Fix Rate : 0.0500
+
+*** Window Number 641 ***
+Start Time : 19183882.1452
+End Time : 19215217.2647
+Delta Time : 31335.1194
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5676
+Window Block Creation Time : 10.4450
+Fix Rate : -0.0426
+
+*** Window Number 642 ***
+Start Time : 19215217.2647
+End Time : 19238172.5826
+Delta Time : 22955.3179
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3304
+Window Block Creation Time : 7.6518
+Fix Rate : 0.0500
+
+*** Window Number 643 ***
+Start Time : 19238172.5826
+End Time : 19276854.5143
+Delta Time : 38681.9317
+Delta Blocks : 3000
+Theory Block Creation Time : 5.5969
+Window Block Creation Time : 12.8940
+Fix Rate : -0.0500
+
+*** Window Number 644 ***
+Start Time : 19276854.5143
+End Time : 19317819.1073
+Delta Time : 40964.5930
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3170
+Window Block Creation Time : 13.6549
+Fix Rate : -0.0500
+
+*** Window Number 645 ***
+Start Time : 19317819.1073
+End Time : 19357118.1733
+Delta Time : 39299.0660
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0512
+Window Block Creation Time : 13.0997
+Fix Rate : -0.0500
+
+*** Window Number 646 ***
+Start Time : 19357118.1733
+End Time : 19385991.8142
+Delta Time : 28873.6409
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7986
+Window Block Creation Time : 9.6245
+Fix Rate : 0.0390
+
+*** Window Number 647 ***
+Start Time : 19385991.8142
+End Time : 19428941.7318
+Delta Time : 42949.9176
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9858
+Window Block Creation Time : 14.3166
+Fix Rate : -0.0500
+
+*** Window Number 648 ***
+Start Time : 19428941.7318
+End Time : 19459513.3267
+Delta Time : 30571.5949
+Delta Blocks : 3000
+Theory Block Creation Time : 4.7365
+Window Block Creation Time : 10.1905
+Fix Rate : -0.0187
+
+*** Window Number 649 ***
+Start Time : 19459513.3267
+End Time : 19478878.2289
+Delta Time : 19364.9022
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6480
+Window Block Creation Time : 6.4550
+Fix Rate : 0.0500
+
+*** Window Number 650 ***
+Start Time : 19478878.2289
+End Time : 19532407.4167
+Delta Time : 53529.1878
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8804
+Window Block Creation Time : 17.8431
+Fix Rate : -0.0500
+
+*** Window Number 651 ***
+Start Time : 19532407.4167
+End Time : 19556458.7966
+Delta Time : 24051.3799
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6363
+Window Block Creation Time : 8.0171
+Fix Rate : 0.0500
+
+*** Window Number 652 ***
+Start Time : 19556458.7966
+End Time : 19579340.3256
+Delta Time : 22881.5291
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8682
+Window Block Creation Time : 7.6272
+Fix Rate : 0.0500
+
+*** Window Number 653 ***
+Start Time : 19579340.3256
+End Time : 19604599.9283
+Delta Time : 25259.6026
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1116
+Window Block Creation Time : 8.4199
+Fix Rate : 0.0500
+
+*** Window Number 654 ***
+Start Time : 19604599.9283
+End Time : 19652008.8367
+Delta Time : 47408.9084
+Delta Blocks : 3000
+Theory Block Creation Time : 5.3671
+Window Block Creation Time : 15.8030
+Fix Rate : -0.0500
+
+*** Window Number 655 ***
+Start Time : 19652008.8367
+End Time : 19683086.0079
+Delta Time : 31077.1713
+Delta Blocks : 3000
+Theory Block Creation Time : 5.0988
+Window Block Creation Time : 10.3591
+Fix Rate : -0.0347
+
+*** Window Number 656 ***
+Start Time : 19683086.0079
+End Time : 19708985.5778
+Delta Time : 25899.5699
+Delta Blocks : 3000
+Theory Block Creation Time : 4.9221
+Window Block Creation Time : 8.6332
+Fix Rate : 0.0500
+
+*** Window Number 657 ***
+Start Time : 19708985.5778
+End Time : 19736391.4071
+Delta Time : 27405.8293
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1682
+Window Block Creation Time : 9.1353
+Fix Rate : 0.0500
+
+*** Window Number 658 ***
+Start Time : 19736391.4071
+End Time : 19779883.2668
+Delta Time : 43491.8598
+Delta Blocks : 3000
+Theory Block Creation Time : 5.4266
+Window Block Creation Time : 14.4973
+Fix Rate : -0.0500
+
+*** Window Number 659 ***
+Start Time : 19779883.2668
+End Time : 19813741.2795
+Delta Time : 33858.0127
+Delta Blocks : 3000
+Theory Block Creation Time : 5.1552
+Window Block Creation Time : 11.2860
+Fix Rate : -0.0500
+
+*** Window Number 660 ***
+Start Time : 19813741.2795
+End Time : 19853876.1586
+Delta Time : 40134.8791
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8975
+Window Block Creation Time : 13.3783
+Fix Rate : -0.0500
+
+*** Window Number 661 ***
+Start Time : 19853876.1586
+End Time : 19901134.0786
+Delta Time : 47257.9200
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6526
+Window Block Creation Time : 15.7526
+Fix Rate : -0.0500
+
+*** Window Number 662 ***
+Start Time : 19901134.0786
+End Time : 19928196.3254
+Delta Time : 27062.2468
+Delta Blocks : 3000
+Theory Block Creation Time : 4.4200
+Window Block Creation Time : 9.0207
+Fix Rate : 0.0500
+
+*** Window Number 663 ***
+Start Time : 19928196.3254
+End Time : 19954081.2104
+Delta Time : 25884.8850
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6410
+Window Block Creation Time : 8.6283
+Fix Rate : 0.0500
+
+*** Window Number 664 ***
+Start Time : 19954081.2104
+End Time : 19985496.5143
+Delta Time : 31415.3038
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8730
+Window Block Creation Time : 10.4718
+Fix Rate : -0.0451
+
+*** Window Number 665 ***
+Start Time : 19985496.5143
+End Time : 20006063.4808
+Delta Time : 20566.9665
+Delta Blocks : 3000
+Theory Block Creation Time : 4.6535
+Window Block Creation Time : 6.8557
+Fix Rate : 0.0500
+
+*** Window Number 666 ***
+Start Time : 20006063.4808
+End Time : 20051867.2031
+Delta Time : 45803.7223
+Delta Blocks : 3000
+Theory Block Creation Time : 4.8862
+Window Block Creation Time : 15.2679
+Fix Rate : -0.0500
+

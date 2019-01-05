@@ -3,55 +3,87 @@ package blockchain;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
-//import java.awt.Color;
-//import java.io.BufferedWriter;
-//import java.io.FileWriter;
+import java.io.File;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Collection;
-//import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
-//import com.google.gson.GsonBuilder;
 
 public class Blockchain {
 	private static List<Block> blockchain = new ArrayList<Block>();
 	private static Map<String, Miner> minersMap = new HashMap<String, Miner>();
 	private static Simulation Sim = new Simulation();
 	private static int minerNum = 0;
-	private static double mineBlockTime = (100); //1/lambda in exponential distribution of one machine
-	private static int initialMinersNumber = 10;
-	private static int minerInitialMachinesAmount = 1000;
-	public static final int BLOCKS_WINDOW_SIZE = 2000;
+	private static double mineBlockTime = 10.0*(100); // 1/lambda in exponential distribution of one machine
+	private static int initialMinersNumber = 1;
+	private static int minerInitialMachinesAmount = 100;
+	public static final int BLOCKS_WINDOW_SIZE = 100;
 	public static final double MAX_FIX_RATE = 0.05;
 	public static final double OPTIMAL_BLOCK_CREATION_TIME = (10);
-	public static final double MAX_BLOCK_NUM = 1000000;
+	public static final double MAX_BLOCK_NUM = 3000000;
 
 	public static void main(String[] args) throws InterruptedException, IOException 
 	{
-		// Create the first block in the blockchain
-		String firstBlockData = "first block";
-		long firstBlockTimeStamp = 0;
-		Blockchain.addBlock(firstBlockData, firstBlockTimeStamp, null);
+		List<Random> list = new ArrayList<>();
+		int randVarNum = 1000;
+		for(int i=1; i<=randVarNum ; i++)
+		{
+			list.add(new Random(3000));
+		}
 
-		// Create miners
-		Blockchain.addMiners(initialMinersNumber,minerInitialMachinesAmount);
+		PrintWriter pw = new PrintWriter(new File("results2.csv"));
+        StringBuilder sb = new StringBuilder();
+       
+		
+		double lambda =  0.1/list.size();
+		double sum=0,rand,min = Double.MAX_VALUE;
+		double avg = 0;
+		int windowSize = 100;
+		int iterNum = 1000000;
+		for(int n=1; n<iterNum;n++)
+		{
+			for(int m=0; m<list.size();m++)
+			{
+				rand =-(Math.log(list.get(1).nextDouble()) / lambda);
+				min = (rand<min) ? rand:min ;
+			}
+
+			sum+=min;
+			avg +=min;
+			if((n)%windowSize == 0)
+			{
+				 sb.append((n/windowSize) + "," + sum/windowSize + "\n");
+				 sum = 0;
+			}
+			min = Double.MAX_VALUE;
+		}
+		pw.write(sb.toString());
+        pw.close();
+        System.out.println("Average Block Creation Time : " + avg/iterNum);
+        
+//		// Create the first block in the blockchain
+//		String firstBlockData = "first block";
+//		long firstBlockTimeStamp = 0;
+//		Blockchain.addBlock(firstBlockData, firstBlockTimeStamp, null);
+//
+//		// Create miners
+//		Blockchain.addMiners(initialMinersNumber,minerInitialMachinesAmount);
 		
 		// Simulation events
-//		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(1505446,25));
-//		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(2927383,-25));
-//		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(4834876,50));
-//		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(6435882,-50));
+//		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(1505446,1000));
+//		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(2927383,-1500));
+//		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(4834876,500));
+//		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(6435882,-750));
 //		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(9722968,100));
 //		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(6823253,-500));
-		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(1505446,-8000));
-//		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(6435882,-1500));
+//		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(1505446,-8000));
+
 		
-		
-		
-		String transaction = "Transaction Number " + Blockchain.getBlockchainSize();
-		scheduleEvent(new ProofOfWorkEvent(0, transaction));
-		Sim.run();
+//		String transaction = "Transaction Number " + Blockchain.getBlockchainSize();
+//		scheduleEvent(new ProofOfWorkEvent(0, transaction));
+//		Sim.run();
 
 		return;
 	}
