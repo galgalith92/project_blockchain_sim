@@ -16,62 +16,30 @@ public class Blockchain {
 	private static Map<String, Miner> minersMap = new HashMap<String, Miner>();
 	private static Simulation Sim = new Simulation();
 	private static int minerNum = 0;
-	private static double mineBlockTime = 10.0*(100); // 1/lambda in exponential distribution of one machine
-	private static int initialMinersNumber = 1;
-	private static int minerInitialMachinesAmount = 100;
-	public static final int BLOCKS_WINDOW_SIZE = 100;
+	private static double mineBlockTime = 10.0*(90); // 1/lambda in exponential distribution of one machine
+	private static int initialMinersNumber = 20;
+	private static int minerInitialMachinesAmount = 5;
+	public static final int BLOCKS_WINDOW_SIZE = 3000;
 	public static final double MAX_FIX_RATE = 0.05;
 	public static final double OPTIMAL_BLOCK_CREATION_TIME = (10);
 	public static final double MAX_BLOCK_NUM = 3000000;
-
+	public static Random rand = new Random(1);
 	public static void main(String[] args) throws InterruptedException, IOException 
 	{
-		List<Random> list = new ArrayList<>();
-		int randVarNum = 1000;
-		for(int i=1; i<=randVarNum ; i++)
-		{
-			list.add(new Random(3000));
-		}
 
-		PrintWriter pw = new PrintWriter(new File("results2.csv"));
-        StringBuilder sb = new StringBuilder();
-       
-		
-		double lambda =  0.1/list.size();
-		double sum=0,rand,min = Double.MAX_VALUE;
-		double avg = 0;
-		int windowSize = 100;
-		int iterNum = 1000000;
-		for(int n=1; n<iterNum;n++)
-		{
-			for(int m=0; m<list.size();m++)
-			{
-				rand =-(Math.log(list.get(1).nextDouble()) / lambda);
-				min = (rand<min) ? rand:min ;
-			}
-
-			sum+=min;
-			avg +=min;
-			if((n)%windowSize == 0)
-			{
-				 sb.append((n/windowSize) + "," + sum/windowSize + "\n");
-				 sum = 0;
-			}
-			min = Double.MAX_VALUE;
-		}
-		pw.write(sb.toString());
-        pw.close();
-        System.out.println("Average Block Creation Time : " + avg/iterNum);
         
-//		// Create the first block in the blockchain
-//		String firstBlockData = "first block";
-//		long firstBlockTimeStamp = 0;
-//		Blockchain.addBlock(firstBlockData, firstBlockTimeStamp, null);
-//
-//		// Create miners
-//		Blockchain.addMiners(initialMinersNumber,minerInitialMachinesAmount);
-		
+		// Create the first block in the blockchain
+		String firstBlockData = "first block";
+		long firstBlockTimeStamp = 0;
+		Blockchain.addBlock(firstBlockData, firstBlockTimeStamp, null);
+
+		// Create miners
+		Blockchain.addMiners(initialMinersNumber,minerInitialMachinesAmount);
+
 		// Simulation events
+		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(2603678,50));
+		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(4954209,-75));
+
 //		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(1505446,1000));
 //		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(2927383,-1500));
 //		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(4834876,500));
@@ -80,10 +48,10 @@ public class Blockchain {
 //		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(6823253,-500));
 //		Blockchain.scheduleEvent(new ChangeMachineAmountEvent(1505446,-8000));
 
-		
-//		String transaction = "Transaction Number " + Blockchain.getBlockchainSize();
-//		scheduleEvent(new ProofOfWorkEvent(0, transaction));
-//		Sim.run();
+
+		String transaction = "Transaction Number " + Blockchain.getBlockchainSize();
+		scheduleEvent(new ProofOfWorkEvent(0, transaction));
+		Sim.run();
 
 		return;
 	}
@@ -109,6 +77,10 @@ public class Blockchain {
 		return true;
 	}
 
+	public static double getExpRandomTime(double lambda)
+	{
+		return (-1 / lambda) * Math.log(1-Blockchain.rand.nextDouble());
+	}
 	public static double getMineBlockTime() {
 		return Blockchain.mineBlockTime;
 	}

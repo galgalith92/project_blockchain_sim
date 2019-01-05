@@ -17,7 +17,7 @@ public class ChangeMachineAmountEvent extends Event{
 
 	@Override
 	public void processEvent() throws InterruptedException, NonValidDeltaMachineException {
-		System.out.println(Blockchain.getTotalMinersMachineNumber());
+		System.out.println("Miners Amount : " + Blockchain.getTotalMinersMachineNumber());
 		if (this.deltaMachine > 0 )
 		{
 			Blockchain.addMachines(this.deltaMachine);
@@ -30,6 +30,6 @@ public class ChangeMachineAmountEvent extends Event{
 			}
 			Blockchain.removeMachines(Math.abs(this.deltaMachine));
 		}
-		System.out.println(Blockchain.getTotalMinersMachineNumber());
+		System.out.println("Miners Amount : " + Blockchain.getTotalMinersMachineNumber());
 	}
 }

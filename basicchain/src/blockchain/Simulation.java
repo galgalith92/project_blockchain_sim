@@ -67,15 +67,22 @@ class Simulation {
         StringBuilder sb = new StringBuilder();
         sb.append("Window Number,Start Time,End Time,Delta Time,Delta Blocks,Theory Block Creation Time,"
         		+ "Window Block Creation Time,Fix Rate, Machine Amount\n");
+        
+        PrintWriter pwTheory = new PrintWriter(new File("theoretical_results1.csv"));
+        StringBuilder sbTheory = new StringBuilder();
+        sbTheory.append("Window Number,Start Time,End Time,Delta Time,Delta Blocks,Theory Block Creation Time,"
+        		+ "Fix Rate, Machine Amount\n");
 		
 		List<SimulationWindow> simulationWindows = new ArrayList<SimulationWindow>();
 		
+		double mineMachineTimeTheory = Blockchain.getMineBlockTime();
 		
 		int windowStartNumOfBlocks = 0;
 		double windowStartTime = this.time;
 		double empiricAvgMineTime = Double.MAX_VALUE;
 		int sign = 1;
-
+		
+		double windowStartTimeTheory = this.time;
 		while (!this.eventsQueue.isEmpty() && Blockchain.getBlockchainSize() < Blockchain.MAX_BLOCK_NUM) 
 		{
 			Event nextEvent = this.eventsQueue.poll();
@@ -93,7 +100,7 @@ class Simulation {
 				double theorAvgMineTime = 1.0*mineBlockTime/Blockchain.getTotalMinersMachineNumber(); // minimum of exponential random variables
 				empiricAvgMineTime = deltaTime/Blockchain.BLOCKS_WINDOW_SIZE;
 				double fixRate = Blockchain.calculateFixRate(empiricAvgMineTime);
-//				Blockchain.setMineBlockTime(mineBlockTime + mineBlockTime * fixRate);
+				Blockchain.setMineBlockTime(mineBlockTime + mineBlockTime * fixRate);
 
 				//debug
 				SimulationWindow currWindow = new SimulationWindow(simulationWindows.size() + 1,
@@ -108,6 +115,20 @@ class Simulation {
 				
 //				sign = (sign > 0)? -1:1;
 //				Blockchain.scheduleEvent(new ChangeMachineAmountEvent(this.time + rand.nextDouble()*60,sign*rand.nextInt(2)));
+				
+				//Theory
+				double AvgMineTimeTheory = 1.0*mineMachineTimeTheory/Blockchain.getTotalMinersMachineNumber(); // minimum of exponential random variables
+				double windowEndTimeTheory = windowStartTimeTheory + AvgMineTimeTheory*Blockchain.BLOCKS_WINDOW_SIZE;
+				double deltaTimeTheory = windowEndTimeTheory - windowStartTimeTheory;
+				double fixRateTheory = Blockchain.calculateFixRate(AvgMineTimeTheory);
+				mineMachineTimeTheory = mineMachineTimeTheory + mineMachineTimeTheory*fixRateTheory;
+
+//				//debug
+				TheorySimulationWindow currTheoryWindow = new TheorySimulationWindow(simulationWindows.size(), windowStartTimeTheory, 
+						windowEndTimeTheory, deltaTimeTheory, Blockchain.BLOCKS_WINDOW_SIZE,
+						AvgMineTimeTheory, fixRateTheory);
+				sbTheory.append(currTheoryWindow.csvString());			
+				windowStartTimeTheory = windowEndTimeTheory;
 			}
 		}
 
@@ -119,6 +140,8 @@ class Simulation {
 		logFile.close();
 		pw.write(sb.toString());
         pw.close();
+        pwTheory.write(sbTheory.toString());
+        pwTheory.close();
         System.out.println("Done!");
 	}
 	
